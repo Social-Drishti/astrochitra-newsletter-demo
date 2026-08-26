@@ -8,11 +8,11 @@ function back(string $redirect, bool $success): void {
 }
 
 if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') {
-    header('Location: ../newsletters/september-2026.php#share');
+    header('Location: /');
     exit;
 }
 
-$slug     = trim($_POST['slug'] ?? 'september-2026');
+$slug     = trim($_POST['slug'] ?? '');
 $email    = trim($_POST['email'] ?? '');
 $phone    = trim($_POST['phone'] ?? '');
 $message  = trim($_POST['message'] ?? '');
@@ -20,7 +20,7 @@ $redirect = $_POST['redirect'] ?? '';
 
 // Only allow same-site relative redirect targets.
 if ($redirect === '' || !str_starts_with($redirect, '/') || str_starts_with($redirect, '//')) {
-    $redirect = '/newsletters/september-2026.php';
+    $redirect = ac_newsletter_path($slug) ?: '/';
 }
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     back($redirect, false);

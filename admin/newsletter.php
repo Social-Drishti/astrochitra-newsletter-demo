@@ -11,8 +11,35 @@ $notFound = !$nl;
 $rows = [];
 $slideRows = [];
 $clickRows = [];
+$nlPath = null;
+$clearMsg = '';
+$clearErr = '';
 
 if (!$notFound) {
+    $nlPath = ac_newsletter_path($nl['slug']);
+
+    // Handle clear data POST
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['action'])) {
+        if ($_POST['action'] === 'clear_range') {
+            $from = $_POST['from_datetime'] ?? null;
+            $to   = $_POST['to_datetime'] ?? null;
+            if ($from && $to) {
+                $deleted = ac_clear_newsletter_data($pdo, $id, $from, $to);
+                $clearMsg = "Cleared $deleted records from $from to $to.";
+                // Refresh data
+                $stmt->execute([$id]);
+                $nl = $stmt->fetch(PDO::FETCH_ASSOC);
+            } else {
+                $clearErr = 'Please select both date/time values.';
+            }
+        } elseif ($_POST['action'] === 'clear_all') {
+            $deleted = ac_clear_newsletter_data($pdo, $id);
+            $clearMsg = "All tracking data cleared. $deleted records deleted.";
+            $stmt->execute([$id]);
+            $nl = $stmt->fetch(PDO::FETCH_ASSOC);
+        }
+    }
+
     $log = $pdo->prepare('SELECT * FROM interactions WHERE newsletter_id = ? ORDER BY created_at DESC, id DESC LIMIT 200');
     $log->execute([$id]);
     $rows = $log->fetchAll(PDO::FETCH_ASSOC);
@@ -98,7 +125,7 @@ if (!$notFound) {
   <p class="sub">The requested issue does not exist.</p>
 <?php else: ?>
   <h1><?= e($nl['title']) ?></h1>
-  <p class="sub">Slug: /newsletters/<?= e($nl['slug']) ?>.php &middot; Registered <?= e($nl['created_at']) ?></p>
+  <p class="sub">Path: <?= $nlPath ? e($nlPath) : '/' . e($nl['slug']) ?> &middot; Registered <?= e($nl['created_at']) ?></p>
 
   <?php
     $evStmt = $pdo->prepare("SELECT COUNT(*) c, COUNT(DISTINCT session_id) s FROM events WHERE newsletter_id = ?");
@@ -115,6 +142,36 @@ if (!$notFound) {
     <div class="stat"><div class="num"><?= number_format($svTotal) ?></div><div class="lbl">Slide Views</div></div>
     <div class="stat"><div class="num"><?= number_format($clickTotal) ?></div><div class="lbl">Button Clicks</div></div>
     <div class="stat"><div class="num"><?= number_format((int)$ev['s']) ?></div><div class="lbl">Tracked Sessions</div></div>
+  </div>
+
+  <?php if ($clearMsg): ?><div style="background:#f2efdc;border:1px solid #ddd3ac;border-radius:10px;padding:12px 16px;margin-bottom:14px;color:var(--olive);font-size:.9rem;"><?= e($clearMsg) ?></div><?php endif; ?>
+  <?php if ($clearErr): ?><div style="background:#fbeee9;border:1px solid #eec9c0;border-radius:10px;padding:12px 16px;margin-bottom:14px;color:var(--crimson);font-size:.9rem;"><?= e($clearErr) ?></div><?php endif; ?>
+
+  <div style="display:flex;gap:16px;flex-wrap:wrap;margin-bottom:24px;">
+    <div style="background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:16px 20px;flex:1;min-width:280px;">
+      <h3 style="font-size:.88rem;color:var(--cocoa);margin-bottom:10px;">Clear Views by Date Range</h3>
+      <form method="POST" style="display:flex;flex-direction:column;gap:8px;">
+        <input type="hidden" name="action" value="clear_range">
+        <div style="display:flex;gap:8px;flex-wrap:wrap;">
+          <label style="font-size:.8rem;color:var(--muted);flex:1;min-width:160px;">
+            From
+            <input type="datetime-local" name="from_datetime" required style="display:block;margin-top:3px;padding:7px 10px;border:1px solid var(--line);border-radius:8px;font-family:inherit;font-size:.85rem;width:100%;">
+          </label>
+          <label style="font-size:.8rem;color:var(--muted);flex:1;min-width:160px;">
+            To
+            <input type="datetime-local" name="to_datetime" required style="display:block;margin-top:3px;padding:7px 10px;border:1px solid var(--line);border-radius:8px;font-family:inherit;font-size:.85rem;width:100%;">
+          </label>
+        </div>
+        <button type="submit" onclick="return confirm('Delete tracking data in this range?')" class="btn" style="align-self:start;font-size:.8rem;">Clear Range</button>
+      </form>
+    </div>
+    <div style="background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:16px 20px;">
+      <h3 style="font-size:.88rem;color:var(--cocoa);margin-bottom:10px;">Clear All Data</h3>
+      <form method="POST" style="display:flex;flex-direction:column;gap:8px;">
+        <input type="hidden" name="action" value="clear_all">
+        <button type="submit" onclick="return confirm('Delete ALL tracking data for this newsletter? This cannot be undone.')" class="btn" style="background:var(--crimson);color:#fff;border-color:var(--crimson);font-size:.8rem;">Clear All Data</button>
+      </form>
+    </div>
   </div>
 
   <h2 class="sec">Views Per Slide</h2>

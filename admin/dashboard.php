@@ -2,6 +2,31 @@
 require_once __DIR__ . '/db.php';
 require_admin();
 
+// Handle clear data POST
+$clearMsg = '';
+$clearErr = '';
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['action'])) {
+    if ($_POST['action'] === 'clear_range') {
+        $nlId = (int)($_POST['newsletter_id'] ?? 0);
+        $from = $_POST['from_datetime'] ?? null;
+        $to   = $_POST['to_datetime'] ?? null;
+        if ($nlId > 0 && $from && $to) {
+            $deleted = ac_clear_newsletter_data($pdo, $nlId, $from, $to);
+            $clearMsg = "Cleared $deleted records from $from to $to.";
+        } else {
+            $clearErr = 'Please select a newsletter and both date/time values.';
+        }
+    } elseif ($_POST['action'] === 'clear_all') {
+        $nlId = (int)($_POST['newsletter_id'] ?? 0);
+        if ($nlId > 0) {
+            $deleted = ac_clear_newsletter_data($pdo, $nlId);
+            $clearMsg = "All tracking data cleared. $deleted records deleted.";
+        } else {
+            $clearErr = 'Please select a newsletter.';
+        }
+    }
+}
+
 $totals = $pdo->query("
     SELECT COUNT(*) AS nl,
            COALESCE(SUM(views),0)          AS views,
@@ -19,6 +44,12 @@ $evTotals = $pdo->query("
 ")->fetch(PDO::FETCH_ASSOC);
 
 $newsletters = $pdo->query('SELECT * FROM newsletters ORDER BY created_at DESC, id DESC')->fetchAll(PDO::FETCH_ASSOC);
+
+// Resolve /year/month path for each newsletter
+foreach ($newsletters as &$n) {
+    $n['path'] = ac_newsletter_path($n['slug']);
+}
+unset($n);
 
 $topSlides = $pdo->query("
     SELECT n.slug, n.title, e.slide_index, e.label,
@@ -117,7 +148,12 @@ $recent = $pdo->query("
 <header class="topbar">
   <span class="brand">AstroChitra &middot; Newsletter Admin</span>
   <nav>
-    <a class="btn btn-ghost" href="../newsletters/september-2026.php" target="_blank" rel="noopener">View September Issue</a>
+    <?php
+      $latestNl = $newsletters[0] ?? null;
+      $latestPath = $latestNl && $latestNl['path'] ? $latestNl['path'] : '#';
+    ?>
+    <a class="btn btn-ghost" href="<?= e($latestPath) ?>" target="_blank" rel="noopener">View Latest Issue</a>
+    <a class="btn btn-ghost" href="subscribers.php">Subscribers</a>
     <a class="btn btn-gold" href="logout.php">Logout</a>
   </nav>
 </header>
@@ -146,7 +182,7 @@ $recent = $pdo->query("
       <tr>
         <td>
           <strong><?= e($n['title']) ?></strong><br>
-          <span style="color:var(--muted);font-size:.78rem;">/newsletters/<?= e($n['slug']) ?>.php</span>
+          <span style="color:var(--muted);font-size:.78rem;"><?= $n['path'] ? e($n['path']) : '/' . e($n['slug']) ?></span>
         </td>
         <td><span class="badge <?= $n['published'] ? 'b-live' : 'b-draft' ?>"><?= $n['published'] ? 'Live' : 'Draft' ?></span></td>
         <td class="num-cell"><?= number_format((int)$n['views']) ?></td>
@@ -156,7 +192,9 @@ $recent = $pdo->query("
         <td>
           <div class="actions">
             <a class="link" href="newsletter.php?id=<?= (int)$n['id'] ?>">Details</a>
-            <a class="link" href="../newsletters/<?= e($n['slug']) ?>.php" target="_blank" rel="noopener">Open</a>
+            <?php if ($n['path']): ?>
+            <a class="link" href="<?= e($n['path']) ?>" target="_blank" rel="noopener">Open</a>
+            <?php endif; ?>
           </div>
         </td>
       </tr>
@@ -166,6 +204,60 @@ $recent = $pdo->query("
   <?php else: ?>
     <p class="empty">No newsletters yet.</p>
   <?php endif; ?>
+
+  <h2 class="sec">Clear Tracking Data</h2>
+  <?php if ($clearMsg): ?><div style="background:#f2efdc;border:1px solid #ddd3ac;border-radius:10px;padding:12px 16px;margin-bottom:14px;color:var(--olive);font-size:.9rem;"><?= e($clearMsg) ?></div><?php endif; ?>
+  <?php if ($clearErr): ?><div style="background:#fbeee9;border:1px solid #eec9c0;border-radius:10px;padding:12px 16px;margin-bottom:14px;color:var(--crimson);font-size:.9rem;"><?= e($clearErr) ?></div><?php endif; ?>
+
+  <div class="two-col" style="gap:20px;">
+    <div style="background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:20px;">
+      <h3 style="font-size:.92rem;color:var(--cocoa);margin-bottom:12px;">Clear Views by Date Range</h3>
+      <form method="POST" style="display:flex;flex-direction:column;gap:10px;max-width:600px;">
+        <input type="hidden" name="action" value="clear_range">
+        <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:end;">
+          <label style="font-size:.82rem;color:var(--muted);">
+            Newsletter
+            <select name="newsletter_id" required style="display:block;margin-top:4px;padding:8px 12px;border:1px solid var(--line);border-radius:8px;font-family:inherit;font-size:.88rem;background:var(--cream);width:100%;">
+              <?php foreach ($newsletters as $n): ?>
+              <option value="<?= (int)$n['id'] ?>"><?= e($n['title']) ?></option>
+              <?php endforeach; ?>
+            </select>
+          </label>
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:end;">
+          <label style="font-size:.82rem;color:var(--muted);flex:1;min-width:180px;">
+            From
+            <input type="datetime-local" name="from_datetime" required style="display:block;margin-top:4px;padding:8px 12px;border:1px solid var(--line);border-radius:8px;font-family:inherit;font-size:.88rem;width:100%;">
+          </label>
+          <label style="font-size:.82rem;color:var(--muted);flex:1;min-width:180px;">
+            To
+            <input type="datetime-local" name="to_datetime" required style="display:block;margin-top:4px;padding:8px 12px;border:1px solid var(--line);border-radius:8px;font-family:inherit;font-size:.88rem;width:100%;">
+          </label>
+        </div>
+        <div>
+          <button type="submit" onclick="return confirm('This will permanently delete tracking data in the selected date range. Continue?')" class="btn btn-gold" style="font-size:.82rem;">Clear Range</button>
+        </div>
+      </form>
+    </div>
+
+    <div style="background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:20px;">
+      <h3 style="font-size:.92rem;color:var(--cocoa);margin-bottom:12px;">Clear All View Data</h3>
+      <form method="POST" style="display:flex;flex-direction:column;gap:10px;max-width:600px;">
+        <input type="hidden" name="action" value="clear_all">
+        <label style="font-size:.82rem;color:var(--muted);">
+          Newsletter
+          <select name="newsletter_id" required style="display:block;margin-top:4px;padding:8px 12px;border:1px solid var(--line);border-radius:8px;font-family:inherit;font-size:.88rem;background:var(--cream);width:100%;">
+            <?php foreach ($newsletters as $n): ?>
+            <option value="<?= (int)$n['id'] ?>"><?= e($n['title']) ?></option>
+            <?php endforeach; ?>
+          </select>
+        </label>
+        <div>
+          <button type="submit" onclick="return confirm('This will permanently delete ALL tracking data (events, views, shares, comments) for this newsletter. Continue?')" class="btn" style="background:var(--crimson);color:#fff;border-color:var(--crimson);font-size:.82rem;">Clear All Data</button>
+        </div>
+      </form>
+    </div>
+  </div>
 
   <h2 class="sec">Slide Performance &mdash; Top Across All Issues</h2>
   <?php if ($topSlides): ?>
