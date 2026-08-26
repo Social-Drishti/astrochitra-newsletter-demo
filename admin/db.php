@@ -257,8 +257,17 @@ function ac_migrate_json_subscribers(PDO $pdo): void {
     $jsonFile = dirname(__DIR__) . '/data/subscribers.json';
     if (!file_exists($jsonFile)) return;
 
-    $check = $pdo->query('SELECT COUNT(*) FROM subscribers')->fetchColumn();
-    if ((int)$check > 0) return;
+    // Check if table exists and has data, but handle missing 'source' column gracefully
+    $cols = $pdo->query("PRAGMA table_info(subscribers)")->fetchAll(PDO::FETCH_COLUMN);
+    $hasSource = in_array('source', $cols, true);
+    
+    if ($hasSource) {
+        $check = $pdo->query('SELECT COUNT(*) FROM subscribers')->fetchColumn();
+        if ((int)$check > 0) return;
+    } else {
+        // Table exists but missing source column - skip JSON migration to avoid errors
+        return;
+    }
 
     $data = json_decode(file_get_contents($jsonFile), true);
     if (!is_array($data)) return;
