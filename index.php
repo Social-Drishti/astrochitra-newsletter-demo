@@ -132,7 +132,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['subscribe'])) {
     border-color:var(--gold);
     box-shadow:var(--focus-ring);
   }
-  .helper{font-size:.7rem;color:var(--muted);margin-top:-.5rem;margin-bottom:.5rem;}
+  .helper{font-size:.7rem;color:var(--muted);margin-bottom:.5rem;}
   .btn{
     display:inline-flex;align-items:center;justify-content:center;gap:.5rem;
     width:100%;
