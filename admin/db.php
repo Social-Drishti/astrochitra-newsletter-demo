@@ -93,7 +93,7 @@ function ac_migrate(PDO $pdo): void {
     $pdo->exec('CREATE INDEX IF NOT EXISTS ix_subscribers_source ON subscribers(source)');
 
     // Add source column if missing (migration for existing DBs)
-    $subCols = $pdo->query("PRAGMA table_info(subscribers)")->fetchAll(PDO::FETCH_COLUMN);
+    $subCols = $pdo->query("PRAGMA table_info(subscribers)")->fetchAll(PDO::FETCH_COLUMN, 1);
     if (!in_array('source', $subCols, true)) {
         $pdo->exec("ALTER TABLE subscribers ADD COLUMN source TEXT DEFAULT ''");
     }
