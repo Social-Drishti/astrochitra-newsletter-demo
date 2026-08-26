@@ -1,22 +1,37 @@
 <?php
-require_once 'config.php';
+require_once __DIR__ . '/admin/db.php';
 
 $message = '';
 $message_type = '';
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['subscribe'])) {
-    $name = trim($_POST['name'] ?? '');
-    $email = trim($_POST['email'] ?? '');
-    $rashi = trim($_POST['rashi'] ?? '');
+// Auto-detect UTM source from URL
+$utmSource = trim($_GET['utm_source'] ?? $_GET['source'] ?? '');
 
-    if (empty($name) || empty($email) || empty($rashi)) {
-        $message = "Please fill in all fields to complete registration.";
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['subscribe'])) {
+    $name   = trim($_POST['name'] ?? '');
+    $email  = trim($_POST['email'] ?? '');
+    $phone  = trim($_POST['phone'] ?? '');
+    $source = trim($_POST['source'] ?? '');
+    $sourceCustom = trim($_POST['source_custom'] ?? '');
+
+    // Resolve source: if "Others" selected, use custom text
+    if ($source === 'Others' && $sourceCustom !== '') {
+        $source = $sourceCustom;
+    } elseif ($source === 'Others') {
+        $source = '';
+    }
+
+    if ($name === '') {
+        $message = "Please enter your name.";
         $message_type = "error";
-    } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    } elseif ($email === '' && $phone === '') {
+        $message = "Please provide an email address or phone number.";
+        $message_type = "error";
+    } elseif ($email !== '' && !filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $message = "Please provide a valid email address.";
         $message_type = "error";
     } else {
-        $result = add_subscriber($name, $email, $rashi);
+        $result = ac_add_subscriber($pdo, $name, $email, $phone, '', $source);
         $message = $result['message'];
         $message_type = $result['status'];
     }
@@ -262,37 +277,52 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['subscribe'])) {
       <?php endif; ?>
       <form method="POST" action="">
         <h3 class="form-title">Join the Circle</h3>
-        <p class="form-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.</p>
+        <p class="form-desc">Receive planetary alignments, transits, personal remedies and wisdom directly from Guruji.</p>
         <div class="form-row">
           <div class="form-group">
             <label for="name">Your Name</label>
-            <input type="text" id="name" name="name" required placeholder="Enter your first name">
+            <input type="text" id="name" name="name" required placeholder="Enter your full name">
           </div>
+        </div>
+        <div class="form-row">
           <div class="form-group">
             <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" required placeholder="name@example.com">
+            <input type="email" id="email" name="email" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210">
           </div>
         </div>
+        <div style="font-size:.78rem;color:var(--muted);margin-top:-8px;margin-bottom:8px;">At least one of email or phone is required.</div>
+        <?php if ($utmSource !== ''): ?>
+          <input type="hidden" name="source" value="<?= e($utmSource) ?>">
+          <div style="font-size:.82rem;color:var(--gold);margin-bottom:12px;">Source: <strong><?= e($utmSource) ?></strong> (auto-detected)</div>
+        <?php else: ?>
         <div class="form-row" style="grid-template-columns:1fr;">
           <div class="form-group">
-            <label for="rashi">Moon Sign (Rashi)</label>
-            <select id="rashi" name="rashi" required>
-              <option value="" disabled selected>Choose your Zodiac sign</option>
-              <option value="Aries">Aries (Mesh)</option>
-              <option value="Taurus">Taurus (Vrishabh)</option>
-              <option value="Gemini">Gemini (Mithun)</option>
-              <option value="Cancer">Cancer (Karka)</option>
-              <option value="Leo">Leo (Simha)</option>
-              <option value="Virgo">Virgo (Kanya)</option>
-              <option value="Libra">Libra (Tula)</option>
-              <option value="Scorpio">Scorpio (Vrishchik)</option>
-              <option value="Sagittarius">Sagittarius (Dhanu)</option>
-              <option value="Capricorn">Capricorn (Makar)</option>
-              <option value="Aquarius">Aquarius (Kumbh)</option>
-              <option value="Pisces">Pisces (Meen)</option>
+            <label for="source">How did you hear about us?</label>
+            <select id="source" name="source">
+              <option value="">Select source (optional)</option>
+              <option value="Instagram">Instagram</option>
+              <option value="YouTube">YouTube</option>
+              <option value="Facebook">Facebook</option>
+              <option value="Twitter">Twitter / X</option>
+              <option value="WhatsApp">WhatsApp</option>
+              <option value="Google">Google Search</option>
+              <option value="Friend">Friend / Referral</option>
+              <option value="Newspaper">Newspaper / Magazine</option>
+              <option value="Event">Event / Workshop</option>
+              <option value="Others">Others</option>
             </select>
           </div>
+          <div class="form-group" id="source-custom-group" style="display:none;">
+            <label for="source_custom">Please specify</label>
+            <input type="text" id="source_custom" name="source_custom" placeholder="e.g. Telegram, LinkedIn, Podcast...">
+          </div>
         </div>
+        <?php endif; ?>
+        <input type="hidden" name="utm_source_hidden" value="<?= e($utmSource) ?>">
         <button type="submit" name="subscribe" class="btn btn-primary form-submit" style="width:100%;">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
           Subscribe to Wisdom
@@ -361,5 +391,25 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['subscribe'])) {
   </div>
 </footer>
 
+<script>
+(function(){
+  var src = document.getElementById('source');
+  var cust = document.getElementById('source-custom-group');
+  var custInput = document.getElementById('source_custom');
+
+  if(!src || !cust) return;
+
+  function toggleCustom(){
+    if(src.value === 'Others'){
+      cust.style.display = 'block';
+    } else {
+      cust.style.display = 'none';
+      custInput.value = '';
+    }
+  }
+
+  src.addEventListener('change', toggleCustom);
+})();
+</script>
 </body>
 </html>

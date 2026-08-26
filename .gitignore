@@ -1,1 +1,9 @@
 ssh_helper.py
+
+# Database files - server owns its own database
+data/newsletters.db
+newsletters.db
+
+# Environment files
+.env
+*.env
