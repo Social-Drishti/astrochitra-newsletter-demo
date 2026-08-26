@@ -690,9 +690,34 @@ if (function_exists('track_view')) {
     .hero-hint svg{animation:none;}
     *{scroll-behavior:auto!important;}
   }
+
+  /* ================= PAGE LOADER ================= */
+  .page-loader{
+    position:fixed; inset:0; z-index:1000;
+    background:var(--cream);
+    display:flex; align-items:center; justify-content:center;
+    transition:opacity .35s ease, visibility .35s ease;
+  }
+  .page-loader.hidden{
+    opacity:0; visibility:hidden; pointer-events:none;
+  }
+  .loader-spinner{
+    width:48px; height:48px;
+    border:4px solid var(--gold-soft);
+    border-top-color:var(--gold);
+    border-radius:50%;
+    animation:spin 1s linear infinite;
+  }
+  @keyframes spin{
+    to{transform:rotate(360deg);}
+  }
 </style>
 </head>
 <body>
+
+<div id="pageLoader" class="page-loader" aria-hidden="true">
+  <div class="loader-spinner"></div>
+</div>
 
 <div class="progress" aria-hidden="true"><span id="progFill"></span></div>
 
@@ -1331,6 +1356,10 @@ if (function_exists('track_view')) {
   var initInner=slides[start].querySelector('.slide-in');
   if(initInner){initInner.scrollTop=0;}
   requestAnimationFrame(function(){requestAnimationFrame(function(){deck.style.transition='';});});
+
+  // hide page loader
+  var loader=document.getElementById('pageLoader');
+  if(loader){loader.classList.add('hidden');}
 })();
 </script>
 

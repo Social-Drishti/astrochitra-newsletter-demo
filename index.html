@@ -3,23 +3,16 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>AstroChitra — Monthly Wisdom | July 2026</title>
+<title>AstroChitra — Subscribe</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Saira:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
 
 <style>
-  /* ==========================================================================
-     AstroChitra — Monthly Wisdom newsletter template (July 2026 Edition)
-     Expanded, impact-first layout with Rashifal, Mantra, Free Patrika,
-     Tips & iconography throughout.
-     ========================================================================== */
-
   @font-face {
     font-family: "AstroChitra";
-    src: url("/AstroChitra.woff2") format("woff2"),
-         url("/AstroChitra.ttf") format("truetype");
+    src: url("assets/AstroChitra.ttf") format("truetype");
     font-display: swap;
   }
 
@@ -51,8 +44,10 @@
 
   * { box-sizing: border-box; }
 
-  body {
+  html, body {
+    height: 100%;
     margin: 0;
+    overflow: hidden;
     font-family: var(--font-body);
     color: var(--ac-ink);
     background-color: var(--ac-cream);
@@ -63,1184 +58,143 @@
     line-height: 1.55;
   }
 
-  img { max-width: 100%; display: block; }
-
-  .newsletter {
-    max-width: 980px;
-    margin: 0 auto;
-    background: rgba(250, 247, 242, 0.9);
+  .subscribe-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 1.5rem;
   }
 
-  a { color: inherit; }
-
-  /* ---------- shared section chrome ---------- */
-  .section {
-    padding: 3.25rem 3.5rem;
+  .subscribe-card {
+    background: #fff;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-card);
+    border: 1px solid rgba(101,78,18,0.10);
+    padding: 2.5rem 2rem;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
   }
-  .section + .section { padding-top: 0; }
 
-  .section-header {
-    margin-bottom: 2rem;
-  }
-  .section-title {
+  .subscribe-title {
     font-family: var(--font-display);
-    font-size: clamp(1.6rem, 4vw, 2.1rem);
-    margin: 0 0 0.35rem;
+    font-size: clamp(1.8rem, 5vw, 2.4rem);
     color: var(--ac-accent-red);
-    letter-spacing: 0.01em;
+    margin: 0 0 0.5rem;
   }
-  .section-subtitle {
-    margin: 0;
-    color: var(--ac-warm-gray);
+
+  .subscribe-subtitle {
     font-size: 1rem;
+    color: var(--ac-warm-gray);
+    margin: 0 0 2rem;
     max-width: 55ch;
   }
 
-  .eyebrow {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.55rem;
-    font-family: var(--font-body);
-    font-size: 0.74rem;
-    font-weight: 700;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--ac-olive);
-    margin: 0 0 0.7rem;
-  }
-  .eyebrow::before {
-    content: "";
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: var(--ac-gold);
-    box-shadow: 0 0 0 3px rgba(201, 162, 39, 0.22);
-  }
+  .form-group { margin-bottom: 1.2rem; text-align: left; }
 
-  /* orbit-ring divider */
-  .orbit-divider {
-    display: flex;
-    align-items: center;
-    gap: 0;
-    margin: 0 3.5rem;
-    padding: 0.4rem 0;
-  }
-  .orbit-divider::before,
-  .orbit-divider::after {
-    content: "";
-    flex: 1;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(101,78,18,0.28), transparent);
-  }
-  .orbit-divider .orbit-dot {
-    width: 10px;
-    height: 10px;
-    margin: 0 1rem;
-    border-radius: 50%;
-    background: radial-gradient(circle at 35% 30%, var(--ac-gold-light), var(--ac-gold) 70%);
-    box-shadow: 0 0 0 4px rgba(201,162,39,0.15);
-  }
-
-  /* ---------- header ---------- */
-  .masthead {
-    position: relative;
-    background: radial-gradient(120% 160% at 85% -10%, #3a1420 0%, transparent 55%),
-                linear-gradient(160deg, #2b0d16 0%, #4a0f1d 45%, #6b1622 100%);
-    color: var(--ac-gold-light);
-    padding: 2.8rem 3.5rem 2.6rem;
-    overflow: hidden;
-  }
-  .masthead::before {
-    content: "";
-    position: absolute;
-    top: 50%; right: -120px;
-    width: 440px; height: 440px;
-    transform: translateY(-50%);
-    border-radius: 50%;
-    background:
-      repeating-radial-gradient(circle at center,
-        transparent 0, transparent 34px,
-        rgba(201,162,39,0.12) 35px, rgba(201,162,39,0.12) 36px);
-    pointer-events: none;
-  }
-  .masthead-top {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1.5rem;
-    flex-wrap: wrap;
-  }
-  .brand-block {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-  }
-  .brand-block img { width: 60px; height: 60px; }
-  .brand-name {
-    font-family: var(--font-display);
-    font-size: 2rem;
-    line-height: 1;
-    color: var(--ac-gold-light);
-    margin: 0;
-    letter-spacing: 0.01em;
-  }
-  .brand-tagline {
-    font-size: 0.7rem;
-    letter-spacing: 0.24em;
-    text-transform: uppercase;
-    color: rgba(240, 217, 138, 0.65);
-    margin-top: 0.35rem;
-  }
-  .edition-pill {
-    font-size: 0.74rem;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    background: rgba(201, 162, 39, 0.16);
-    border: 1px solid rgba(201, 162, 39, 0.45);
-    color: var(--ac-gold-light);
-    padding: 0.55rem 1.2rem;
-    border-radius: 999px;
-    white-space: nowrap;
-  }
-  .masthead-heading {
-    position: relative;
-    margin-top: 2.4rem;
-  }
-  .masthead-heading h1 {
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: clamp(2rem, 5vw, 3rem);
-    margin: 0 0 0.45rem;
-    color: #fff;
-  }
-  .masthead-heading p {
-    margin: 0;
-    max-width: 48ch;
-    color: rgba(255,255,255,0.72);
-    font-size: 1.05rem;
-  }
-
-  /* ---------- guruji message ---------- */
-  .guruji-row {
-    display: grid;
-    grid-template-columns: 0.55fr 1.45fr;
-    gap: 2.5rem;
-    align-items: center;
-  }
-  .guruji-photo-wrap {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-  .guruji-photo {
-    width: 180px; height: 180px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 5px solid #fff;
-    box-shadow: var(--shadow-glow), var(--shadow-card);
-  }
-  .guruji-photo-ring {
-    position: absolute;
-    top: -10px; left: -10px;
-    width: 200px; height: 200px;
-    border-radius: 50%;
-    border: 1px dashed var(--ac-gold);
-    pointer-events: none;
-  }
-  .guruji-name {
-    text-align: center;
-  }
-  .guruji-name strong {
+  .form-label {
     display: block;
-    font-family: var(--font-display);
-    font-size: 1.2rem;
-    color: var(--ac-accent-red);
-  }
-  .guruji-name span {
-    font-size: 0.78rem;
-    color: var(--ac-olive);
-  }
-  .guruji-quote-card {
-    background: #fff;
-    border: 1px solid rgba(101,78,18,0.12);
-    border-left: 5px solid var(--ac-gold);
-    border-radius: var(--radius-md);
-    padding: 2.4rem 2.6rem;
-    box-shadow: var(--shadow-card);
-    position: relative;
-  }
-  .quote-glyph {
-    font-family: var(--font-display);
-    font-size: 3.2rem;
-    color: var(--ac-gold);
-    line-height: 1;
-    position: absolute;
-    top: 1.2rem; left: 1.6rem;
-    opacity: 0.55;
-  }
-  .guruji-quote-card blockquote {
-    margin: 0;
-    padding: 0.5rem 0 0 1rem;
-    font-family: var(--font-display);
-    font-size: clamp(1.4rem, 3vw, 1.85rem);
-    font-style: italic;
-    color: var(--ac-ink);
-    line-height: 1.45;
-  }
-  .guruji-quote-card cite {
-    display: block;
-    margin-top: 1.2rem;
-    font-family: var(--font-body);
-    font-size: 0.9rem;
-    font-style: normal;
-    color: var(--ac-olive);
-  }
-  .guruji-note {
-    margin-top: 1.6rem;
-    padding-top: 1.4rem;
-    border-top: 1px solid rgba(101,78,18,0.12);
-    font-size: 0.95rem;
-    line-height: 1.75;
-    color: #4a3a20;
-  }
-
-  /* ---------- patrika banner ---------- */
-  .patrika-banner {
-    background: linear-gradient(135deg, #4a0f1d 0%, #6b1622 50%, #8b1c2c 100%);
-    border-radius: var(--radius-lg);
-    padding: 2.4rem 2.8rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
-    flex-wrap: wrap;
-    color: #fff;
-    box-shadow: var(--shadow-card), 0 0 0 1px rgba(201,162,39,0.2) inset;
-    position: relative;
-    overflow: hidden;
-  }
-  .patrika-banner::before {
-    content: "";
-    position: absolute;
-    top: -60px; right: -60px;
-    width: 220px; height: 220px;
-    border-radius: 50%;
-    background: radial-gradient(circle, rgba(201,162,39,0.18) 0%, transparent 70%);
-  }
-  .patrika-media {
-    display: flex;
-    align-items: center;
-    gap: 1.6rem;
-    flex: 1 1 280px;
-    position: relative;
-    z-index: 1;
-  }
-  .patrika-thumb {
-    width: 130px; height: 130px;
-    border-radius: var(--radius-md);
-    object-fit: cover;
-    border: 3px solid rgba(255,255,255,0.25);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
-    flex-shrink: 0;
-  }
-  .patrika-content h3 {
-    font-family: var(--font-display);
-    font-size: 1.7rem;
-    color: var(--ac-gold-light);
-    margin: 0 0 0.3rem;
-  }
-  .patrika-content p { margin: 0 0 0.5rem; color: rgba(255,255,255,0.82); font-size: 0.95rem; }
-  .patrika-price {
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-    font-size: 0.95rem;
-  }
-  .patrika-price .strike { text-decoration: line-through; opacity: 0.7; }
-  .patrika-price .free {
-    background: var(--ac-gold);
-    color: #3a0d18;
-    font-weight: 700;
-    padding: 0.15rem 0.55rem;
-    border-radius: 999px;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-  }
-  .patrika-actions {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.7rem;
-    position: relative;
-    z-index: 1;
-  }
-  .patrika-cta {
-    background: var(--ac-gold);
-    color: #3a0d18;
-    font-weight: 700;
-    font-size: 0.95rem;
-    padding: 0.95rem 2rem;
-    border-radius: 999px;
-    text-decoration: none;
-    white-space: nowrap;
-    box-shadow: 0 8px 22px rgba(201,162,39,0.35);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-  .patrika-cta:hover { transform: translateY(-2px); box-shadow: 0 12px 28px rgba(201,162,39,0.45); }
-  .patrika-actions small {
-    font-size: 0.75rem;
-    color: rgba(255,255,255,0.65);
-    display: flex;
-    align-items: center;
-    gap: 0.35rem;
-  }
-
-  /* ---------- generic cards ---------- */
-  .card-grid {
-    display: grid;
-    gap: 1.8rem;
-  }
-  .grid-2 { grid-template-columns: repeat(2, 1fr); }
-  .grid-3 { grid-template-columns: repeat(3, 1fr); }
-  .grid-4 { grid-template-columns: repeat(4, 1fr); }
-
-  .card {
-    background: #fff;
-    border-radius: var(--radius-md);
-    overflow: hidden;
-    box-shadow: var(--shadow-card);
-    border: 1px solid rgba(101,78,18,0.10);
-    display: flex;
-    flex-direction: column;
-    transition: box-shadow 0.25s ease, transform 0.25s ease;
-  }
-  .card:hover { box-shadow: var(--shadow-card-hover); transform: translateY(-3px); }
-
-  .card-head {
-    padding: 0.9rem 1.4rem;
-    font-family: var(--font-body);
-    font-weight: 700;
-    font-size: 0.78rem;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-  }
-  .card-head .glyph { display: inline-flex; }
-  .card-head .glyph svg { width: 18px; height: 18px; }
-  .card-body { padding: 1.6rem 1.7rem 1.8rem; flex: 1; }
-  .card-body h4 {
-    font-family: var(--font-display);
-    font-size: 1.25rem;
-    margin: 0 0 0.6rem;
-    color: var(--ac-ink);
-  }
-  .card-body p {
-    margin: 0 0 0.7rem;
-    font-size: 0.92rem;
-    line-height: 1.7;
-    color: #4a3a20;
-  }
-  .card-body ul {
-    margin: 0;
-    padding-left: 1.2rem;
-    font-size: 0.9rem;
-    line-height: 1.8;
-    color: #4a3a20;
-  }
-  .card-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.35rem;
-    font-size: 0.86rem;
+    font-size: 0.85rem;
     font-weight: 600;
-    color: var(--ac-accent-red);
-    text-decoration: none;
-    margin-top: 0.6rem;
-  }
-  .card-link:hover { text-decoration: underline; }
-
-  .head-maroon { background: linear-gradient(120deg, var(--ac-accent-red), var(--ac-accent-red-dark)); }
-  .head-green  { background: linear-gradient(120deg, #6b7a44, var(--ac-accent-green)); }
-  .head-sky    { background: linear-gradient(120deg, #3c4270, var(--ac-sky)); }
-  .head-gold   { background: linear-gradient(120deg, var(--ac-gold), #a9821c); color: #3a2c10 !important; }
-  .head-terracotta { background: linear-gradient(120deg, #a5551a, var(--ac-terracotta)); }
-  .head-purple { background: linear-gradient(120deg, #6b4c7a, #4a3555); }
-
-  /* ---------- rashifal ---------- */
-  .rashifal-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.2rem;
-  }
-  .rashi-card {
-    background: #fff;
-    border: 1px solid rgba(101,78,18,0.10);
-    border-radius: var(--radius-md);
-    padding: 1.5rem 1.4rem;
-    box-shadow: var(--shadow-card);
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
-    position: relative;
-    overflow: hidden;
-  }
-  .rashi-card::before {
-    content: "";
-    position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 4px;
-    background: var(--rashi-accent, var(--ac-gold));
-  }
-  .rashi-card:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-card-hover);
-  }
-  .rashi-icon {
-    width: 42px; height: 42px;
-    margin-bottom: 0.8rem;
-    color: var(--rashi-accent, var(--ac-gold));
-  }
-  .rashi-name {
-    font-family: var(--font-display);
-    font-size: 1.2rem;
-    font-weight: 700;
-    margin: 0 0 0.45rem;
-    color: var(--ac-ink);
-  }
-  .rashi-name span {
-    font-family: var(--font-body);
-    font-size: 0.7rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: var(--ac-warm-gray);
-    display: block;
-    margin-top: 0.1rem;
-  }
-  .rashi-text {
-    font-size: 0.88rem;
-    line-height: 1.65;
-    color: #4a3a20;
-    margin: 0 0 0.8rem;
-  }
-  .rashi-lucky {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 0.74rem;
-    color: var(--ac-warm-gray);
-    padding-top: 0.7rem;
-    border-top: 1px dashed rgba(101,78,18,0.15);
-  }
-  .rashi-lucky strong { color: var(--ac-olive); }
-
-  /* ---------- mantra section ---------- */
-  .mantra-section {
-    background: linear-gradient(170deg, #fff 0%, var(--ac-parchment) 100%);
-    border: 1px solid rgba(101,78,18,0.12);
-    border-radius: var(--radius-lg);
-    padding: 3rem 2rem;
-    text-align: center;
-    box-shadow: var(--shadow-card);
-    position: relative;
-    overflow: hidden;
-  }
-  .mantra-section::before {
-    content: "";
-    position: absolute;
-    top: -80px; left: 50%;
-    transform: translateX(-50%);
-    width: 280px; height: 280px;
-    border-radius: 50%;
-    background: radial-gradient(circle, rgba(201,162,39,0.12) 0%, transparent 70%);
-  }
-  .mantra-om {
-    width: 80px; height: 80px;
-    margin: 0 auto 1.2rem;
-    color: var(--ac-accent-red);
-    position: relative;
-    z-index: 1;
-  }
-  .mantra-sanskrit {
-    font-family: var(--font-display);
-    font-size: clamp(2rem, 5vw, 2.8rem);
-    color: var(--ac-accent-red);
-    margin: 0 0 0.2rem;
-    position: relative;
-    z-index: 1;
-  }
-  .mantra-roman {
-    font-family: var(--font-display);
-    font-size: clamp(1.3rem, 3vw, 1.7rem);
     color: var(--ac-olive);
-    margin: 0 0 1.2rem;
-    position: relative;
-    z-index: 1;
-  }
-  .mantra-meta {
-    display: inline-grid;
-    grid-template-columns: repeat(3, auto);
-    gap: 1.5rem;
-    margin-bottom: 1.4rem;
-    position: relative;
-    z-index: 1;
-  }
-  .mantra-meta-item {
-    text-align: center;
-  }
-  .mantra-meta-item strong {
-    display: block;
-    font-size: 0.72rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: var(--ac-warm-gray);
-    margin-bottom: 0.2rem;
-  }
-  .mantra-meta-item span {
-    font-size: 0.92rem;
-    color: var(--ac-ink);
-    font-weight: 600;
-  }
-  .mantra-instruction {
-    background: #fff;
-    border: 1px dashed rgba(101,78,18,0.22);
-    border-radius: var(--radius-md);
-    padding: 1.2rem 1.6rem;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.8rem;
-    font-size: 0.95rem;
-    color: #4a3a20;
-    position: relative;
-    z-index: 1;
-  }
-  .mantra-instruction svg {
-    width: 26px; height: 26px;
-    color: var(--ac-gold);
-    flex-shrink: 0;
-  }
-
-  /* ---------- transit list ---------- */
-  .transit-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 0.8rem;
-    padding: 0.8rem 0;
-    border-bottom: 1px dashed rgba(101,78,18,0.18);
-    font-size: 0.88rem;
-  }
-  .transit-item:last-child { border-bottom: none; }
-  .transit-item strong { display: block; font-size: 0.95rem; color: var(--ac-ink); }
-  .transit-item span.note { color: #6b5a3a; display: block; margin-top: 0.15rem; }
-  .trend {
-    font-size: 0.78rem;
-    font-weight: 700;
-    padding: 0.2rem 0.55rem;
-    border-radius: 999px;
-    white-space: nowrap;
-    flex-shrink: 0;
-  }
-  .trend.up   { background: #e4ecd9; color: var(--ac-accent-green); }
-  .trend.flat { background: #eee6d8; color: var(--ac-terracotta); }
-
-  /* ---------- panchang table ---------- */
-  table.panchang { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
-  table.panchang th {
-    text-align: left;
-    font-size: 0.7rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--ac-olive);
-    padding: 0 0 0.6rem;
-    border-bottom: 2px solid var(--ac-gold);
-  }
-  table.panchang td {
-    padding: 0.65rem 0.5rem;
-    border-bottom: 1px solid rgba(101,78,18,0.10);
-    vertical-align: top;
-  }
-  table.panchang td:first-child { font-weight: 600; white-space: nowrap; color: var(--ac-accent-red); }
-
-  /* ---------- tips ---------- */
-  .tip-card {
-    background: #fff;
-    border-radius: var(--radius-md);
-    padding: 1.7rem 1.6rem;
-    box-shadow: var(--shadow-card);
-    border: 1px solid rgba(101,78,18,0.10);
-    border-top: 4px solid var(--tip-color, var(--ac-gold));
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
-  }
-  .tip-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-card-hover); }
-  .tip-icon {
-    width: 44px; height: 44px;
-    border-radius: 12px;
-    background: rgba(0,0,0,0.04);
-    display: flex; align-items: center; justify-content: center;
-    margin-bottom: 1rem;
-    color: var(--tip-color, var(--ac-gold));
-  }
-  .tip-icon svg { width: 22px; height: 22px; }
-  .tip-title {
-    font-family: var(--font-display);
-    font-size: 1.15rem;
-    margin: 0 0 0.7rem;
-    color: var(--ac-ink);
-  }
-  .tip-list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-size: 0.86rem;
-    line-height: 1.7;
-    color: #4a3a20;
-  }
-  .tip-list li {
-    padding-left: 1.2rem;
-    position: relative;
     margin-bottom: 0.4rem;
   }
-  .tip-list li::before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    color: var(--tip-color, var(--ac-gold));
+
+  .form-input {
+    width: 100%;
+    padding: 0.95rem 1rem;
+    font-size: 1rem;
+    font-family: var(--font-body);
+    border: 1px solid rgba(101,78,18,0.25);
+    border-radius: var(--radius-md);
+    background: #fff;
+    color: var(--ac-ink);
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .form-input:focus {
+    outline: none;
+    border-color: var(--ac-gold);
+    box-shadow: 0 0 0 3px rgba(201,162,39,0.2);
+  }
+
+  .btn-subscribe {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    font-family: var(--font-body);
+    font-size: 1rem;
     font-weight: 700;
-  }
-
-  /* ---------- blog spotlight ---------- */
-  .blog-card-inner { display: flex; gap: 1.3rem; align-items: center; }
-  .blog-thumb {
-    width: 120px; height: 120px;
-    border-radius: var(--radius-sm);
-    flex-shrink: 0;
-    object-fit: cover;
-    border: 1px solid rgba(101,78,18,0.12);
-  }
-
-  /* ---------- testimonial ---------- */
-  .testimonial-card { display: flex; flex-direction: column; justify-content: center; }
-  .testimonial-header {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 0.9rem;
-  }
-  .testimonial-avatar {
-    width: 54px; height: 54px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid var(--ac-gold-light);
-  }
-  .stars { color: var(--ac-gold); letter-spacing: 0.12em; font-size: 0.95rem; }
-  .testimonial-name { font-size: 0.85rem; color: var(--ac-olive); font-weight: 600; margin-top: 0.5rem; }
-
-  /* ---------- CTA banner ---------- */
-  .cta-banner {
-    margin: 0 3.5rem;
-    background: linear-gradient(135deg, #4a0f1d, #6b1622);
-    border-radius: var(--radius-lg);
-    padding: 2.2rem 2.6rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1.8rem;
-    flex-wrap: wrap;
-    color: #fff;
-  }
-  .cta-banner h3 {
-    font-family: var(--font-display);
-    margin: 0 0 0.35rem;
-    font-size: 1.45rem;
-    color: var(--ac-gold-light);
-  }
-  .cta-banner p { margin: 0; color: rgba(255,255,255,0.78); font-size: 0.92rem; max-width: 42ch; }
-  .cta-button {
+    color: #3a2c10;
     background: var(--ac-gold);
-    color: #3a0d18;
-    font-weight: 700;
-    font-size: 0.95rem;
-    padding: 0.95rem 2rem;
+    border: none;
     border-radius: 999px;
-    text-decoration: none;
-    white-space: nowrap;
+    cursor: pointer;
     box-shadow: 0 8px 22px rgba(201,162,39,0.35);
-    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
-  .cta-button:hover { transform: translateY(-2px); }
+  .btn-subscribe:hover { transform: translateY(-2px); box-shadow: 0 12px 28px rgba(201,162,39,0.45); }
+  .btn-subscribe:active { transform: translateY(0); }
 
-  /* ---------- footer ---------- */
-  .site-footer {
-    background: #2b0d16;
-    color: rgba(255,255,255,0.75);
-    padding: 2.4rem 3.5rem 1.8rem;
-    font-size: 0.84rem;
-    margin-top: 3rem;
+  .form-note {
+    margin-top: 1rem;
+    font-size: 0.78rem;
+    color: var(--ac-warm-gray);
   }
-  .footer-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1.4rem;
-    padding-bottom: 1.5rem;
-    border-bottom: 1px solid rgba(255,255,255,0.12);
-  }
-  .footer-brand { display: flex; align-items: center; gap: 0.7rem; }
-  .footer-brand img { width: 36px; height: 36px; }
-  .footer-brand span { font-family: var(--font-display); font-size: 1.1rem; color: var(--ac-gold-light); }
-  .footer-contacts { display: flex; gap: 1.8rem; flex-wrap: wrap; }
-  .footer-contacts a { text-decoration: none; color: rgba(255,255,255,0.75); }
-  .social-row { display: flex; gap: 0.7rem; }
-  .social-row a {
-    width: 34px; height: 34px;
-    border-radius: 50%;
-    border: 1px solid rgba(201,162,39,0.45);
-    display: flex; align-items: center; justify-content: center;
-    color: var(--ac-gold-light);
-  }
-  .footer-bottom {
-    margin-top: 1.3rem;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 0.6rem;
-    font-size: 0.76rem;
-    color: rgba(255,255,255,0.5);
-  }
-  .footer-bottom a { color: rgba(255,255,255,0.6); text-decoration: underline; }
 
-  /* ---------- responsive ---------- */
-  @media (max-width: 900px) {
-    .section { padding: 2.5rem 2rem; }
-    .masthead { padding: 2.2rem 2rem; }
-    .cta-banner, .orbit-divider { margin-left: 2rem; margin-right: 2rem; }
-    .guruji-row { grid-template-columns: 1fr; text-align: center; }
-    .guruji-photo-wrap { margin: 0 auto; }
-    .grid-2, .grid-3, .grid-4 { grid-template-columns: repeat(2, 1fr); }
-    .rashifal-grid { grid-template-columns: repeat(2, 1fr); }
-    .mantra-meta { grid-template-columns: 1fr; gap: 0.6rem; }
-    .patrika-banner { flex-direction: column; align-items: flex-start; }
-  }
-  @media (max-width: 640px) {
-    .section { padding: 2rem 1.3rem; }
-    .masthead { padding: 1.8rem 1.3rem; }
-    .cta-banner, .orbit-divider { margin-left: 1.3rem; margin-right: 1.3rem; }
-    .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
-    .rashifal-grid { grid-template-columns: 1fr; }
-    .blog-card-inner { flex-direction: column; align-items: flex-start; }
-    .footer-top, .footer-contacts { flex-direction: column; align-items: flex-start; }
-    .cta-banner { flex-direction: column; align-items: flex-start; }
-    .patrika-media { flex-direction: column; align-items: flex-start; }
-    .guruji-quote-card { padding: 1.8rem; }
+  @media (max-width: 480px) {
+    .subscribe-card { padding: 2rem 1.5rem; }
   }
 </style>
 </head>
 <body>
-<div class="newsletter">
-
-  <!-- ============ HEADER ============ -->
-  <header class="masthead">
-    <div class="masthead-top">
-      <div class="brand-block">
-        <img src="assets/astrochitra-logo.png" alt="AstroChitra logo" />
-        <div>
-          <p class="brand-name">AstroChitra</p>
-          <p class="brand-tagline">Guidance · Growth · Grace</p>
-        </div>
+<div class="subscribe-container">
+  <div class="subscribe-card" role="region" aria-label="Newsletter subscription">
+    <h1 class="subscribe-title">AstroChitra</h1>
+    <p class="subscribe-subtitle">Get monthly wisdom, horoscopes & remedies delivered to your inbox.</p>
+    <form id="subscribe-form" action="/api/subscribe.php" method="POST" novalidate>
+      <div class="form-group">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" id="email" name="email" class="form-input" placeholder="you@example.com" required autocomplete="email" aria-required="true" />
       </div>
-      <span class="edition-pill">July 2026 Edition</span>
-    </div>
-    <div class="masthead-heading">
-      <h1>Monthly Wisdom</h1>
-      <p>Planetary shifts, sacred festivals, your monthly horoscope, and Guruji's guidance — all in one place.</p>
-    </div>
-  </header>
-
-  <!-- ============ GURUJI'S MESSAGE ============ -->
-  <section class="section" style="padding-top:2.6rem;">
-    <div class="eyebrow">Guruji's Message</div>
-    <div class="guruji-row">
-      <div class="guruji-photo-wrap">
-        <img class="guruji-photo" src="assets/Guruji2.jpg" alt="Acharya Dharmraj Guruji" />
-        <div class="guruji-photo-ring"></div>
-        <div class="guruji-name">
-          <strong>Acharya Dharmraj Guruji</strong>
-          <span>Vedic Astrologer &amp; Founder, AstroChitra</span>
-        </div>
-      </div>
-      <div class="guruji-quote-card">
-        <span class="quote-glyph">"</span>
-        <blockquote>The stars may indicate tendencies, but your actions shape your future.</blockquote>
-        <cite>— Acharya Dharmraj Guruji</cite>
-        <p class="guruji-note">
-          Namaste. This month invites you to look inward. Jupiter's light favours learning and patience, while Saturn asks for discipline. Begin each day with faith, complete each task with honesty, and trust that grace follows effort.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ FREE PATRIKA BANNER ============ -->
-  <section class="section">
-    <div class="patrika-banner">
-      <div class="patrika-media">
-        <img class="patrika-thumb" src="assets/event_placeholder.png" alt="Free Monthly Patrika" />
-        <div class="patrika-content">
-          <h3>Free Monthly Patrika</h3>
-          <p>Get your personalised July 2026 Patrika with rashifal, muhurat, remedies and more.</p>
-          <div class="patrika-price">
-            <span class="strike">Worth ₹599</span>
-            <span class="free">Yours FREE</span>
-          </div>
-        </div>
-      </div>
-      <div class="patrika-actions">
-        <a class="patrika-cta" href="#">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-          Order Now
-        </a>
-        <small>
-          <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-          Personalised for your birth chart
-        </small>
-      </div>
-    </div>
-  </section>
-
-  <div class="orbit-divider"><span class="orbit-dot"></span></div>
-
-  <!-- ============ RASHIFAL ============ -->
-  <section class="section">
-    <div class="section-header">
-      <div class="eyebrow">Monthly Horoscope</div>
-      <h2 class="section-title">Rashifal — July 2026</h2>
-      <p class="section-subtitle">A quick glimpse of what the planets hold for your sign this month. For detailed predictions, consult your birth chart.</p>
-    </div>
-    <div class="rashifal-grid">
-      <div class="rashi-card" style="--rashi-accent:#c0392b;">
-        <svg class="rashi-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 4c-2 2-4 5-4 8s2 6 4 6 4-3 4-6-2-6-4-8z"/><path d="M12 18v4M8 22h8"/></svg>
-        <h4 class="rashi-name">Aries <span>Mesh</span></h4>
-        <p class="rashi-text">Career momentum builds. Avoid impulsive decisions in the second week. A senior may offer valuable guidance.</p>
-        <div class="rashi-lucky"><strong>Lucky:</strong> Red · 9</div>
-      </div>
-      <div class="rashi-card" style="--rashi-accent:#27ae60;">
-        <svg class="rashi-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="9" r="5"/><path d="M12 14v7M9 21h6"/></svg>
-        <h4 class="rashi-name">Taurus <span>Vrishabh</span></h4>
-        <p class="rashi-text">Financial gains are indicated. Spend quality time with family. A property matter may move forward.</p>
-        <div class="rashi-lucky"><strong>Lucky:</strong> Green · 6</div>
-      </div>
-      <div class="rashi-card" style="--rashi-accent:#f39c12;">
-        <svg class="rashi-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 7h12M6 12h12M6 17h12"/><circle cx="9" cy="7" r="1"/><circle cx="15" cy="12" r="1"/><circle cx="9" cy="17" r="1"/></svg>
-        <h4 class="rashi-name">Gemini <span>Mithun</span></h4>
-        <p class="rashi-text">New partnerships bring opportunities. Short travels are favourable. Keep communication clear and kind.</p>
-        <div class="rashi-lucky"><strong>Lucky:</strong> Yellow · 5</div>
-      </div>
-      <div class="rashi-card" style="--rashi-accent:#8e44ad;">
-        <svg class="rashi-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 4a7 7 0 0 0-7 7c0 3 2 5 2 8h10c0-3 2-5 2-8a7 7 0 0 0-7-7z"/><path d="M9 19v3M15 19v3"/></svg>
-        <h4 class="rashi-name">Cancer <span>Karka</span></h4>
-        <p class="rashi-text">Focus on home and emotional well-being. A renovation or family gathering may bring joy.</p>
-        <div class="rashi-lucky"><strong>Lucky:</strong> Silver · 2</div>
-      </div>
-      <div class="rashi-card" style="--rashi-accent:#e67e22;">
-        <svg class="rashi-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="5"/><path d="M12 7v-4"/><path d="M12 17v4"/></svg>
-        <h4 class="rashi-name">Leo <span>Simha</span></h4>
-        <p class="rashi-text">Leadership opportunities open up. Recognition at work is likely. Romance brings happiness.</p>
-        <div class="rashi-lucky"><strong>Lucky:</strong> Gold · 1</div>
-      </div>
-      <div class="rashi-card" style="--rashi-accent:#16a085;">
-        <svg class="rashi-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 4c-3 0-5 2-5 5 0 2 1 3 2 4v7h6v-7c1-1 2-2 2-4 0-3-2-5-5-5z"/><path d="M10 20h4"/></svg>
-        <h4 class="rashi-name">Virgo <span>Kanya</span></h4>
-        <p class="rashi-text">Health routines bring long-term benefits. Detail-oriented work gets noticed. Avoid overthinking.</p>
-        <div class="rashi-lucky"><strong>Lucky:</strong> Green · 7</div>
-      </div>
-      <div class="rashi-card" style="--rashi-accent:#d63384;">
-        <svg class="rashi-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="4"/><path d="M8 12h8M12 12v8"/></svg>
-        <h4 class="rashi-name">Libra <span>Tula</span></h4>
-        <p class="rashi-text">Relationships grow stronger through honest conversations. Creative projects find support.</p>
-        <div class="rashi-lucky"><strong>Lucky:</strong> Pink · 6</div>
-      </div>
-      <div class="rashi-card" style="--rashi-accent:#7b241c;">
-        <svg class="rashi-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 4l-3 6h6l-3-6z"/><path d="M12 20l3-6h-6l3 6z"/><circle cx="12" cy="12" r="2"/></svg>
-        <h4 class="rashi-name">Scorpio <span>Vrishchik</span></h4>
-        <p class="rashi-text">A period of transformation. Savings improve. Avoid unnecessary arguments at work.</p>
-        <div class="rashi-lucky"><strong>Lucky:</strong> Maroon · 8</div>
-      </div>
-      <div class="rashi-card" style="--rashi-accent:#8e44ad;">
-        <svg class="rashi-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 4c2 3 3 5 3 8s-1 5-3 8"/><path d="M18 4c-2 3-3 5-3 8s1 5 3 8"/></svg>
-        <h4 class="rashi-name">Sagittarius <span>Dhanu</span></h4>
-        <p class="rashi-text">Travel and learning are favoured. A mentor may appear. Stay open to new philosophies.</p>
-        <div class="rashi-lucky"><strong>Lucky:</strong> Purple · 3</div>
-      </div>
-      <div class="rashi-card" style="--rashi-accent:#34495e;">
-        <svg class="rashi-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 4h10l-1 12H8L7 4z"/><path d="M9 16v4M15 16v4"/></svg>
-        <h4 class="rashi-name">Capricorn <span>Makar</span></h4>
-        <p class="rashi-text">Hard work begins to show concrete results. A career milestone is within reach. Stay disciplined.</p>
-        <div class="rashi-lucky"><strong>Lucky:</strong> Black · 8</div>
-      </div>
-      <div class="rashi-card" style="--rashi-accent:#2980b9;">
-        <svg class="rashi-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 7c3-2 8-2 11 0s5 6 3 9-8 2-11 0-5-6-3-9z"/><circle cx="12" cy="10" r="2"/></svg>
-        <h4 class="rashi-name">Aquarius <span>Kumbh</span></h4>
-        <p class="rashi-text">Social connections lead to fresh opportunities. Innovative ideas gain traction. Network wisely.</p>
-        <div class="rashi-lucky"><strong>Lucky:</strong> Blue · 4</div>
-      </div>
-      <div class="rashi-card" style="--rashi-accent:#1abc9c;">
-        <svg class="rashi-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 4c-4 0-7 3-7 7s3 7 7 7 7-3 7-7-3-7-7-7z"/><path d="M8 12c0-2 2-4 4-4"/><path d="M16 12c0 2-2 4-4 4"/></svg>
-        <h4 class="rashi-name">Pisces <span>Meen</span></h4>
-        <p class="rashi-text">Spiritual growth and inner peace dominate. Trust your intuition. Charity work brings blessings.</p>
-        <div class="rashi-lucky"><strong>Lucky:</strong> Sea Green · 7</div>
-      </div>
-    </div>
-  </section>
-
-  <div class="orbit-divider"><span class="orbit-dot"></span></div>
-
-  <!-- ============ MANTRA OF THE MONTH ============ -->
-  <section class="section">
-    <div class="section-header" style="text-align:center;">
-      <div class="eyebrow" style="justify-content:center;">Sacred Sound</div>
-      <h2 class="section-title" style="margin-left:auto;margin-right:auto;">Mantra to Jap This Month</h2>
-      <p class="section-subtitle" style="margin-left:auto;margin-right:auto;">Chant this mantra with devotion throughout July to invite peace, protection and spiritual strength.</p>
-    </div>
-    <div class="mantra-section">
-      <!-- <svg class="mantra-om" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="12" r="10"/><path d="M8 14c0-2 2-3 4-3s4 1 4 3"/><path d="M12 7v7"/></svg> -->
-      <p class="mantra-sanskrit">ॐ नमः शिवाय</p>
-      <p class="mantra-roman">Om Namah Shivaya</p>
-      <div class="mantra-meta">
-        <div class="mantra-meta-item"><strong>Meaning</strong><span>I bow to Lord Shiva</span></div>
-        <div class="mantra-meta-item"><strong>Benefits</strong><span>Peace, protection, strength</span></div>
-        <div class="mantra-meta-item"><strong>Count</strong><span>108 times daily</span></div>
-      </div>
-      <div class="mantra-instruction">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
-        Best time to chant: Brahma Muhurta (4:00 AM – 6:00 AM) while facing East.
-      </div>
-    </div>
-  </section>
-
-  <div class="orbit-divider"><span class="orbit-dot"></span></div>
-
-  <!-- ============ TRANSITS + FESTIVALS ============ -->
-  <section class="section">
-    <div class="card-grid grid-2">
-      <article class="card">
-        <div class="card-head head-sky">
-          <span class="glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="5"/><ellipse cx="12" cy="12" rx="10" ry="3"/><path d="M12 2v3"/><path d="M12 19v3"/></svg></span>
-          Planetary Transits
-        </div>
-        <div class="card-body">
-          <div class="transit-item">
-            <div><strong>Jupiter in Gemini</strong><span class="note">Favours learning, communication and new opportunities.</span></div>
-            <span class="trend up">Positive ↑</span>
-          </div>
-          <div class="transit-item">
-            <div><strong>Saturn in Pisces</strong><span class="note">A time for patience, discipline and long-term planning.</span></div>
-            <span class="trend flat">Steady →</span>
-          </div>
-          <div class="transit-item">
-            <div><strong>Venus enters Leo</strong><span class="note">Brings creativity, romance and financial confidence.</span></div>
-            <span class="trend up">Positive ↑</span>
-          </div>
-          <div class="transit-item">
-            <div><strong>Mars in Virgo</strong><span class="note">Energy turns toward health, detail and productivity.</span></div>
-            <span class="trend up">Positive ↑</span>
-          </div>
-          <div class="transit-item">
-            <div><strong>Mercury retrograde ends</strong><span class="note">Around 18 July — communication and travel clear up.</span></div>
-            <span class="trend up">Relief ↑</span>
-          </div>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="card-head head-terracotta">
-          <span class="glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 9.5h17"/><path d="M8 3v4M16 3v4"/></svg></span>
-          Festivals &amp; Panchang
-        </div>
-        <div class="card-body">
-          <img src="assets/event_placeholder.png" alt="Festival celebration" style="width:100%;height:130px;object-fit:cover;border-radius:10px;margin-bottom:1rem;" />
-          <table class="panchang">
-            <thead><tr><th>Date</th><th>Festival / Observance</th></tr></thead>
-            <tbody>
-              <tr><td>6 Jul</td><td>Ekadashi — fasting &amp; prayer</td></tr>
-              <tr><td>10 Jul</td><td>Guru Purnima — worship of Guru</td></tr>
-              <tr><td>17 Jul</td><td>Pradosh Vrat — Lord Shiva worship</td></tr>
-              <tr><td>24 Jul</td><td>Amavasya — ancestor prayers</td></tr>
-              <tr><td>28 Jul</td><td>Sankashti Chaturthi — removal of obstacles</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <div class="orbit-divider"><span class="orbit-dot"></span></div>
-
-  <!-- ============ TIPS & INFORMATION ============ -->
-  <section class="section">
-    <div class="section-header">
-      <div class="eyebrow">Simple Wisdom</div>
-      <h2 class="section-title">Tips &amp; Information for July</h2>
-      <p class="section-subtitle">Practical guidance to help you move through the month with balance, clarity and intention.</p>
-    </div>
-    <div class="card-grid grid-4">
-      <article class="tip-card" style="--tip-color:#e74c3c;">
-        <div class="tip-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
-        <h4 class="tip-title">Health</h4>
-        <ul class="tip-list">
-          <li>Begin the day with warm water and lemon.</li>
-          <li>Practice Anulom Vilom for 10 minutes.</li>
-          <li>Favour sattvic, freshly cooked meals.</li>
-        </ul>
-      </article>
-      <article class="tip-card" style="--tip-color:#27ae60;">
-        <div class="tip-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
-        <h4 class="tip-title">Wealth</h4>
-        <ul class="tip-list">
-          <li>Review SIPs and avoid impulse spending.</li>
-          <li>Donate 2-3% of income to a good cause.</li>
-          <li>Keep financial documents organised.</li>
-        </ul>
-      </article>
-      <article class="tip-card" style="--tip-color:#d63384;">
-        <div class="tip-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></div>
-        <h4 class="tip-title">Love</h4>
-        <ul class="tip-list">
-          <li>Listen more than you speak this week.</li>
-          <li>Plan a small ritual together on Fridays.</li>
-          <li>Express gratitude daily to loved ones.</li>
-        </ul>
-      </article>
-      <article class="tip-card" style="--tip-color:#8e44ad;">
-        <div class="tip-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
-        <h4 class="tip-title">Spirituality</h4>
-        <ul class="tip-list">
-          <li>Wake up during Brahma Muhurta.</li>
-          <li>Read one verse from the Gita daily.</li>
-          <li>Light a diya every evening at home.</li>
-        </ul>
-      </article>
-    </div>
-  </section>
-
-  <div class="orbit-divider"><span class="orbit-dot"></span></div>
-
-  <!-- ============ MYTH VS FACT + REMEDY + DID YOU KNOW ============ -->
-  <section class="section">
-    <div class="card-grid grid-3">
-      <article class="card">
-        <div class="card-head head-terracotta">
-          <span class="glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor" stroke="none"/></svg></span>
-          Myth vs Fact
-        </div>
-        <div class="card-body">
-          <p><strong>Myth:</strong> Wearing any gemstone will solve your problems.</p>
-          <p style="margin-bottom:0;"><strong>Fact:</strong> Gemstones should only be worn after proper horoscope analysis by an expert astrologer.</p>
-        </div>
-      </article>
-      <article class="card">
-        <div class="card-head head-green">
-          <span class="glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3c2 3 3 4.5 3 7a3 3 0 1 1-6 0c0-1 .3-1.8.8-2.6C10.4 8 11 6 12 3z"/><path d="M5 19c1.5-2 4-2 7-2s5.5 0 7 2"/></svg></span>
-          Remedy of the Month
-        </div>
-        <div class="card-body">
-          <p>Offer water to the Sun every morning while chanting:</p>
-          <p style="font-family:var(--font-display); font-style:italic; color:var(--ac-accent-red); font-size:1.15rem;">"Om Suryaya Namah"</p>
-          <p style="margin-bottom:0;">Brings health, energy, confidence and positivity.</p>
-        </div>
-      </article>
-      <article class="card">
-        <div class="card-head head-sky">
-          <span class="glyph"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M20 12a8 8 0 1 1-8-8 6.5 6.5 0 0 0 8 8z"/></svg></span>
-          Did You Know?
-        </div>
-        <div class="card-body">
-          <p style="margin-bottom:0;">The Moon changes zodiac signs roughly every 2.5 days, making it one of the fastest-moving influences in Vedic astrology.</p>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <!-- ============ BLOG SPOTLIGHT + TESTIMONIAL ============ -->
-  <section class="section" style="padding-top:0;">
-    <div class="card-grid grid-2">
-      <article class="card">
-        <div class="card-head head-maroon">
-          <span class="glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 20l4-1 10-10a2.5 2.5 0 0 0-3-3L5 16l-1 4z"/><path d="M14 7l3 3"/></svg></span>
-          Blog Spotlight
-        </div>
-        <div class="card-body blog-card-inner">
-          <img class="blog-thumb" src="assets/event_placeholder.png" alt="Gaja Kesari Yoga" />
-          <div>
-            <h4 style="font-size:1.15rem;">Gaja Kesari Yoga and Its Importance</h4>
-            <p style="font-size:0.88rem;">How this powerful yoga can influence wealth, wisdom, success and respect in a birth chart.</p>
-            <a class="card-link" href="#">Read full article →</a>
-          </div>
-        </div>
-      </article>
-      <article class="card">
-        <div class="card-head head-gold">
-          <span class="glyph"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M7 8c-2 0-3.5 1.5-3.5 3.5S5 15 7 15c.3 1.6-.7 3-2.3 3.6l.5 1.4c3-.8 4.8-3 4.8-6C10 10 8.8 8 7 8zm10 0c-2 0-3.5 1.5-3.5 3.5S15 15 17 15c.3 1.6-.7 3-2.3 3.6l.5 1.4c3-.8 4.8-3 4.8-6 0-4-1.2-6-3-6z"/></svg></span>
-          What Our Clients Say
-        </div>
-        <div class="card-body testimonial-card">
-          <div class="testimonial-header">
-            <img class="testimonial-avatar" src="assets/person_placeholder.png" alt="Client" />
-            <div>
-              <div class="stars">★★★★★</div>
-              <p style="margin:0;font-size:0.8rem;color:var(--ac-olive);font-weight:600;">Rohini S., Mumbai</p>
-            </div>
-          </div>
-          <p>"Guruji's guidance helped me understand my path and navigate a difficult career decision with real clarity. The monthly patrika is something I look forward to."</p>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <!-- ============ CTA ============ -->
-  <div class="cta-banner">
-    <div>
-      <h3>Confused about career, marriage or finances?</h3>
-      <p>Book a personalised consultation with Acharya Dharmraj Guruji based on your birth chart.</p>
-    </div>
-    <a class="cta-button" href="tel:+919820616655">Book Consultation</a>
+      <button type="submit" class="btn-subscribe">Subscribe</button>
+      <p class="form-note">No spam. Unsubscribe anytime.</p>
+    </form>
   </div>
-
-  <!-- ============ FOOTER ============ -->
-  <footer class="site-footer">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <img src="assets/astrochitra-logo.png" alt="AstroChitra logo" />
-        <span>AstroChitra</span>
-      </div>
-      <div class="footer-contacts">
-        <a href="tel:+919820616655">+91 98206 16655</a>
-        <a href="tel:+917039726655">+91 70397 26655</a>
-        <a href="mailto:info@astrochitra.com">info@astrochitra.com</a>
-        <a href="https://www.astrochitra.com" target="_blank" rel="noopener">www.astrochitra.com</a>
-      </div>
-      <div class="social-row">
-        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M15 8.5h2.5V5.2c-.4-.1-1.8-.2-3.4-.2-3.4 0-5.1 2-5.1 5.1v2.4H6v3.7h3v8.3h3.9v-8.3h3.3l.5-3.7h-3.8v-2c0-1.1.3-1.9 2.2-1.9z"/></svg></a>
-        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="6" width="18" height="14" rx="3"/><circle cx="12" cy="13" r="4"/><path d="M8 6l1.5-2h5L16 6"/></svg></a>
-        <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></a>
-        <a href="#" aria-label="LinkedIn" style="font-size:0.7rem; font-weight:700;">in</a>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>© 2026 AstroChitra. Siddharth Nagar, Goregaon (West), Mumbai – 400104.</span>
-      <span><a href="#">Unsubscribe</a> &nbsp;·&nbsp; <a href="#">Manage Preferences</a></span>
-    </div>
-  </footer>
-
 </div>
+
+<script>
+  // Simple client‑side validation + feedback
+  const form = document.getElementById('subscribe-form');
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const btn = form.querySelector('.btn-subscribe');
+    const email = form.email.value.trim();
+    if (!email) return;
+    btn.disabled = true;
+    btn.textContent = 'Subscribing…';
+    try {
+      const resp = await fetch(form.action, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams({ email })
+      });
+      if (resp.ok) {
+        btn.textContent = 'Subscribed!';
+        btn.style.background = 'var(--ac-accent-green)';
+        form.reset();
+      } else {
+        throw new Error('Failed');
+      }
+    } catch (_) {
+      btn.textContent = 'Try again';
+      btn.style.background = 'var(--ac-accent-red)';
+    }
+    setTimeout(() => {
+      btn.disabled = false;
+      btn.textContent = 'Subscribe';
+      btn.style.background = '';
+    }, 3000);
+  });
+</script>
 </body>
 </html>

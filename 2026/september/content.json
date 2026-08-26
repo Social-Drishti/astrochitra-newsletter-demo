@@ -294,10 +294,10 @@
     },
     "share": {
       "eyebrowLabel": "09",
-      "eyebrowText": "Spread the Wisdom",
-      "title": "Share This Newsletter",
-      "subtitle": "Know someone who needs cosmic guidance? Share this issue and drop a comment with your email or phone \u2014 Guruji's team will reach out.",
-      "successMsg": "Thank you! Your share has been recorded. We will be in touch soon.",
+      "eyebrowText": "Share Your Thoughts",
+      "title": "Comment on This Newsletter",
+      "subtitle": "We’d love to hear your views. Drop a comment below \u2014 Guruji's team will read every message.",
+      "successMsg": "Thank you! Your comment has been received.",
       "emailLabel": "Email address",
       "emailPlaceholder": "you@example.com",
       "phoneLabel": "Phone / WhatsApp",
@@ -306,7 +306,7 @@
       "commentLabel": "Comment",
       "commentOptional": "(optional)",
       "commentPlaceholder": "Tell us what you loved, or ask Guruji a question...",
-      "submitBtn": "Share & Comment",
+      "submitBtn": "Submit Comment",
       "privacyNote": "We respect your privacy \u2014 contact details are only used to respond to you."
     },
     "final": {
@@ -315,7 +315,7 @@
       "title": "Let the stars guide<br><em>your next step</em>",
       "subtitle": "Book your personal consultation with Guruji before the September slots fill up.",
       "callBtn": "Call / Book Now",
-      "shareBtn": "Share This Issue",
+      "shareBtn": "Share Newsletter",
       "footerTag": "AstroChitra",
       "footerCopy": "\u00a9 2026 AstroChitra. All rights reserved.",
       "footerLinks": [
@@ -624,10 +624,10 @@
     },
     "share": {
       "eyebrowLabel": "09",
-      "eyebrowText": "ज्ञान साझा करें",
-      "title": "यह न्यूज़लेटर साझा करें",
-      "subtitle": "कोई है जिसे ब्रह्मांडीय मार्गदर्शन की आवश्यकता है? इस अंक को साझा करें और अपना ईमेल या फोन नंबर के साथ टिप्पणी छोड़ें — गुरुजी की टीम संपर्क करेगी।",
-      "successMsg": "धन्यवाद! आपका साझाकरण दर्ज हो गया है। हम शीघ्र ही संपर्क करेंगे।",
+      "eyebrowText": "अपने विचार साझा करें",
+      "title": "इस न्यूज़लेटर पर टिप्पणी करें",
+      "subtitle": "हम आपके विचार सुनना चाहेंगे। नीचे टिप्पणी छोड़ें — गुरुजी की टीम हर संदेश पढ़ेगी।",
+      "successMsg": "धन्यवाद! आपकी टिप्पणी प्राप्त हो गई है।",
       "emailLabel": "ईमेल पता",
       "emailPlaceholder": "aapka.naam@domain.com",
       "phoneLabel": "फोन / WhatsApp",
@@ -636,7 +636,7 @@
       "commentLabel": "टिप्पणी",
       "commentOptional": "(वैकल्पिक)",
       "commentPlaceholder": "हमें बताएँ आपको क्या पसंद आया, या गुरुजी से कोई प्रश्न पूछें...",
-      "submitBtn": "साझा करें और टिप्पणी करें",
+      "submitBtn": "टिप्पणी भेजें",
       "privacyNote": "हम आपकी गोपनीयता का सम्मान करते हैं — संपर्क विवरण केवल आपको प्रतिक्रिया देने के लिए उपयोग किए जाते हैं।"
     },
     "final": {
@@ -645,7 +645,7 @@
       "title": "तारे आपका अगला कदम<br><em>निर्देशित करें</em>",
       "subtitle": "सितम्बर के स्लॉट भरने से पहले गुरुजी से अपना व्यक्तिगत परामर्श बुक करें।",
       "callBtn": "कॉल / अभी बुक करें",
-      "shareBtn": "यह अंक साझा करें",
+      "shareBtn": "न्यूज़लेटर साझा करें",
       "footerTag": "AstroChitra",
       "footerCopy": "\u00a9 2026 AstroChitra. सर्वाधिकार सुरक्षित।",
       "footerLinks": [
@@ -954,10 +954,10 @@
     },
     "share": {
       "eyebrowLabel": "09",
-      "eyebrowText": "ज्ञान साठवा",
-      "title": "हा न्यूजलेटर शेअर करा",
-      "subtitle": "कुणाला ब्रह्मांडीय मार्गदर्शनाची गरज आहे? हा अंक शेअर करा आणि तुमचा ईमेल किंवा फोन नंबर टिप्पणीसह सोडा — गुरुजींचा संघ संपर्क साधेल.",
-      "successMsg": "धन्यवाद! तुमचे शेअर नोंदवले गेले आहे. आम्ही लवकरच संपर्क करू.",
+      "eyebrowText": "तुमचे विचार शेअर करा",
+      "title": "या न्यूजलेटरवर टिप्पणी करा",
+      "subtitle": "आम्हाला तुमचे मत जाणून घेण्याची इच्छा आहे. खाली तुमची टिप्पणी सोडा — गुरुजींची टीम प्रत्येक संदेश वाचेल.",
+      "successMsg": "धन्यवाद! तुमची टिप्पणी प्राप्त झाली आहे.",
       "emailLabel": "ईमेल पत्ता",
       "emailPlaceholder": "tumcha.naam@domain.com",
       "phoneLabel": "फोन / WhatsApp",
@@ -966,7 +966,7 @@
       "commentLabel": "टिप्पणी",
       "commentOptional": "(पर्यायी)",
       "commentPlaceholder": "आम्हाला सांगा तुम्हाला काय आवडले, किंवा गुरुजींना प्रश्न विचारा...",
-      "submitBtn": "शेअर करा आणि टिप्पणी करा",
+      "submitBtn": "टिप्पणी पाठवा",
       "privacyNote": "आम्ही तुमच्या गोपनीयतेचा आदर करतो — संपर्क माहिती केवळ तुम्हाला प्रतिसाद देण्यासाठी वापरली जाते."
     },
     "final": {
@@ -975,7 +975,7 @@
       "title": "तारे तुमचे पुढचे पाऊल<br><em>निर्देशित करतील</em>",
       "subtitle": "सप्टेंबरचे स्लॉट भरण्यापूर्वी गुरुजींकडून तुमचा वैयक्तिक सल्ला बुक करा.",
       "callBtn": "कॉल / आता बुक करा",
-      "shareBtn": "हा अंक शेअर करा",
+      "shareBtn": "न्यूजलेटर शेअर करा",
       "footerTag": "AstroChitra",
       "footerCopy": "\u00a9 2026 AstroChitra. सर्व हक्क राखीव.",
       "footerLinks": [
