@@ -1,0 +1,991 @@
+{
+  "en": {
+    "meta": {
+      "title": "AstroChitra Monthly Newsletter | September 2026",
+      "htmlLang": "en"
+    },
+    "langSwitcher": {
+      "en": "English",
+      "hi": "हिन्दी",
+      "mr": "मराठी"
+    },
+    "menu": {
+      "title": "In this issue",
+      "items": [
+        "Cover",
+        "Guruji Speaks",
+        "Monthly Rashifal",
+        "Web Products",
+        "Mantra of the Month",
+        "Transits & Festivals",
+        "Myth vs Reality",
+        "Watch & Follow",
+        "Did You Know · Blogs",
+        "Testimonials",
+        "Share & Comment",
+        "Consult Now"
+      ]
+    },
+    "hero": {
+      "brandName": "AstroChitra",
+      "kicker": "Monthly Edition",
+      "headline": "September<br><em>Newsletter</em>",
+      "swipeHint": "Swipe to explore"
+    },
+    "guruji": {
+      "eyebrowLabel": "01",
+      "eyebrowText": "Guruji's Thought of the Month",
+      "quote": "Better to follow your own path imperfectly than to follow someone else's path perfectly.",
+      "bookBtn": "Book Consultation",
+      "whatsappLink": "or WhatsApp us"
+    },
+    "rashifal": {
+      "eyebrowLabel": "02",
+      "eyebrowText": "Monthly Horoscope",
+      "title": "Rashifal &nbsp;<em>September 2026</em>",
+      "subtitle": "Date-wise impacts for all twelve moon signs this month.",
+      "signs": [
+        {
+          "name": "Aries",
+          "dates": "Mar 21 – Apr 19",
+          "description": "This month brings powerful career momentum for Aries natives. The early September transits ignite your ambition, pushing you toward leadership roles. Financial gains are indicated mid-month. Relationships deepen as Mars strengthens your emotional core.",
+          "hits": [
+            { "text": "Sep 4–9 Career Push", "hot": true },
+            { "text": "Sep 18 Finance", "hot": false }
+          ]
+        },
+        {
+          "name": "Taurus",
+          "dates": "Apr 20 – May 20",
+          "description": "Family bonds take center stage this September. Venus moving into Libra on the 2nd blesses your home life with harmony. Expect a financial windfall around the 12th. Health improves steadily — prioritise sleep and hydration.",
+          "hits": [
+            { "text": "Sep 2 Family", "hot": false },
+            { "text": "Sep 12 Wealth", "hot": true }
+          ]
+        },
+        {
+          "name": "Gemini",
+          "dates": "May 21 – Jun 20",
+          "description": "Communication is your superpower this month. Mercury's transit sharpens your articulation, making contracts and negotiations favourable. A short journey around the 21st could bring pleasant surprises. Students excelling in exams.",
+          "hits": [
+            { "text": "Sep 6 Communication", "hot": true },
+            { "text": "Sep 21 Travel", "hot": false }
+          ]
+        },
+        {
+          "name": "Cancer",
+          "dates": "Jun 21 – Jul 22",
+          "description": "Emotional waves are strong at the start of September. The Moon's transit through your sign mid-month brings clarity. Domestic matters resolve beautifully. Invest in home improvements — they will yield long-term comfort.",
+          "hits": [
+            { "text": "Sep 3 Emotions", "hot": false },
+            { "text": "Sep 15 Home", "hot": false }
+          ]
+        },
+        {
+          "name": "Leo",
+          "dates": "Jul 23 – Aug 22",
+          "description": "Venus enters your house of wealth on the 11th, making this an excellent period for income growth. Recognition at work is imminent. Romance blossoms for singles. Creative projects gain traction and public appreciation.",
+          "hits": [
+            { "text": "Sep 11 Venus Entry", "hot": true },
+            { "text": "Sep 24 Recognition", "hot": false }
+          ]
+        },
+        {
+          "name": "Virgo",
+          "dates": "Aug 23 – Sep 22",
+          "description": "Birthday month brings double planetary transits on the 4th and 17th — expect major life shifts. Career restructuring is possible. Health requires attention, especially digestive health. A mentor's guidance proves invaluable.",
+          "hits": [
+            { "text": "Sep 4 & 17 Double Transit", "hot": true },
+            { "text": "Birthday Month", "hot": false }
+          ]
+        },
+        {
+          "name": "Libra",
+          "dates": "Sep 23 – Oct 22",
+          "description": "Venus entering your sign on the 2nd makes you magnetic and charming. Relationships find new balance. Business partnerships forged now can be lasting. Self-care rituals recommended — you need energy for the opportunities ahead.",
+          "hits": [
+            { "text": "Sep 8 Relationships", "hot": false },
+            { "text": "Sep 19 Balance", "hot": false }
+          ]
+        },
+        {
+          "name": "Scorpio",
+          "dates": "Oct 23 – Nov 21",
+          "description": "A deep transformation cycle begins mid-month. Research and investigation yield breakthroughs. Hidden information surfaces that changes your perspective. Financial prudence advised until the 26th. Meditation helps channel intensity.",
+          "hits": [
+            { "text": "Sep 10 Transformation", "hot": true },
+            { "text": "Sep 26 Research", "hot": false }
+          ]
+        },
+        {
+          "name": "Sagittarius",
+          "dates": "Nov 22 – Dec 21",
+          "description": "Learning and higher education themes dominate September. A long-distance journey or spiritual pilgrimage is strongly indicated. Jupiter's influence expands your philosophical outlook. Publishing and media projects gain momentum.",
+          "hits": [
+            { "text": "Sep 5 Learning", "hot": false },
+            { "text": "Sep 22 Long Travel", "hot": false }
+          ]
+        },
+        {
+          "name": "Capricorn",
+          "dates": "Dec 22 – Jan 19",
+          "description": "Discipline pays off dramatically around the 14th. Saturn's retrograde encourages restructuring your career strategy. Property matters resolve favourably. Avoid overwork — schedule deliberate rest periods to maintain peak performance.",
+          "hits": [
+            { "text": "Sep 14 Discipline Pays", "hot": true },
+            { "text": "Sep 28 Career", "hot": false }
+          ]
+        },
+        {
+          "name": "Aquarius",
+          "dates": "Jan 20 – Feb 18",
+          "description": "Your professional network expands significantly this month. Innovative ideas attract the right collaborators. Social causes you champion gain public attention. A group project reaches a milestone around the 20th.",
+          "hits": [
+            { "text": "Sep 7 Network", "hot": false },
+            { "text": "Sep 20 Ideas", "hot": false }
+          ]
+        },
+        {
+          "name": "Pisces",
+          "dates": "Feb 19 – Mar 20",
+          "description": "Saturn retrograde demands spiritual introspection. Intuitive abilities heighten — trust your inner voice around the 16th. Financial保守 recommended. Creative and artistic pursuits bring inner peace. Health improves in the second half.",
+          "hits": [
+            { "text": "Saturn Retro Watch", "hot": true },
+            { "text": "Sep 16 Intuition", "hot": false }
+          ]
+        }
+      ]
+    },
+    "products": {
+      "eyebrowLabel": "03",
+      "eyebrowText": "Free Tools & Services",
+      "title": "Explore AstroChitra Web Products",
+      "subtitle": "Everything you need for your jyotish journey, in one place.",
+      "items": [
+        {
+          "name": "Kundli Generator",
+          "desc": "Your free Vedic birth chart, prepared in seconds."
+        },
+        {
+          "name": "Matchmaking Tool",
+          "desc": "Guna-milan compatibility for the two of you."
+        },
+        {
+          "name": "AstroChitra Insights",
+          "desc": "Data-backed dashboards for your chart."
+        },
+        {
+          "name": "AstroChitra Journal",
+          "desc": "Long-form wisdom from our astrologers."
+        },
+        {
+          "name": "Panchang App",
+          "desc": "Daily tithi, nakshatra, muhurat and more."
+        }
+      ]
+    },
+    "mantra": {
+      "kicker": "Mantra of the Month",
+      "sanskrit": "<em>Om Gan Ganpatey Namah</em>",
+      "meaning": "Om represents the universal cosmic vibration, Gan is the seed sound of Lord Ganesha, Ganapataye means \u201cto the lord of all beings,\u201d and Namah expresses humble salutations. Chanting it helps clear mental, physical, and spiritual roadblocks to ensure smooth progress whenever you start a new journey or project. Additionally, the rhythmic repetition calms the nervous system, sharpening your focus while dissolving anxiety and fear.",
+      "tipLabel": "Guruji\u2019s tip:",
+      "tipText": "Chant 108 times each morning this month for smooth progress and inner calm."
+    },
+    "transits": {
+      "eyebrowLabel": "04",
+      "eyebrowText": "Planetary Movements",
+      "title": "September Transits & Festivals",
+      "subtitle": "Key graha movements through the month, plus sacred dates to remember.",
+      "planets": [
+        { "name": "Moon", "from": "Pisces", "to": "Aries", "date": "1 Sept, 03:23 am", "icon": "Moon" },
+        { "name": "Venus", "from": "Virgo", "to": "Libra", "date": "2 Sept, 01:44 pm", "icon": "Venus" },
+        { "name": "Moon", "from": "Aries", "to": "Taurus", "date": "3 Sept, 07:25 am", "icon": "Moon" },
+        { "name": "Moon", "from": "Taurus", "to": "Gemini", "date": "5 Sept, 10:18 am", "icon": "Moon" },
+        { "name": "Moon", "from": "Gemini", "to": "Cancer", "date": "7 Sept, 12:38 pm", "icon": "Moon" },
+        { "name": "Mercury", "from": "Leo", "to": "Virgo", "date": "7 Sept, 01:31 pm", "icon": "Mercury" },
+        { "name": "Moon", "from": "Cancer", "to": "Leo", "date": "9 Sept, 03:14 pm", "icon": "Moon" },
+        { "name": "Moon", "from": "Leo", "to": "Virgo", "date": "11 Sept, 07:08 pm", "icon": "Moon" },
+        { "name": "Moon", "from": "Virgo", "to": "Libra", "date": "14 Sept, 01:26 am", "icon": "Moon" },
+        { "name": "Moon", "from": "Libra", "to": "Scorpio", "date": "16 Sept, 10:48 am", "icon": "Moon" },
+        { "name": "Sun", "from": "Leo", "to": "Virgo", "date": "17 Sept, 07:50 am", "icon": "Sun" },
+        { "name": "Mars", "from": "Gemini", "to": "Cancer", "date": "18 Sept, 04:30 pm", "icon": "Mars" },
+        { "name": "Moon", "from": "Scorpio", "to": "Sagittarius", "date": "18 Sept, 10:44 pm", "icon": "Moon" },
+        { "name": "Moon", "from": "Sagittarius", "to": "Capricorn", "date": "21 Sept, 11:15 am", "icon": "Moon" },
+        { "name": "Moon", "from": "Capricorn", "to": "Aquarius", "date": "23 Sept, 09:56 pm", "icon": "Moon" },
+        { "name": "Moon", "from": "Aquarius", "to": "Pisces", "date": "26 Sept, 05:33 am", "icon": "Moon" },
+        { "name": "Mercury", "from": "Virgo", "to": "Libra", "date": "26 Sept, 12:37 pm", "icon": "Mercury" },
+        { "name": "Moon", "from": "Pisces", "to": "Aries", "date": "28 Sept, 10:16 am", "icon": "Moon" },
+        { "name": "Moon", "from": "Aries", "to": "Taurus", "date": "30 Sept, 01:13 pm", "icon": "Moon" }
+      ],
+      "festivalsLabel": "Festivals",
+      "festivals": [
+        {
+          "name": "Krishna Janmashtami",
+          "date": "04 September",
+          "desc": "Celebrate the birth of Lord Krishna with devotion, fasting, and midnight prayers."
+        },
+        {
+          "name": "Ganesh Chaturthi",
+          "date": "14 September",
+          "desc": "Welcome Lord Ganesha home; perform puja for removal of obstacles and new beginnings."
+        }
+      ],
+      "panchangCtaDesc": "Check daily panchang, muhurat and transits, rahu kaal, abhijit muhurat and more.",
+      "panchangCtaBtn": "Open Panchang App"
+    },
+"myth": {
+      "eyebrowLabel": "05",
+      "eyebrowText": "Myth vs Fact",
+      "title": "The Saturn–Mars Conjunction",
+      "subtitle": "Clearing superstitions, one belief at a time.",
+      "mythLabel": "Myth",
+      "mythText": "In Vedic astrology, the Saturn–Mars conjunction is considered an inauspicious combination.",
+      "realityLabel": "Fact",
+      "realityText": "The main reason is that Saturn is a planet associated with delay and slow movement, whereas Mars is a planet that takes quick decisions and moves rapidly. Since both are contradictory planets, their conjunction is considered an inauspicious yoga. This combination can create obstacles, delays, or repeated difficulties in a person's professional life, which can also disturb their mental balance.\n\nHowever, the reality is that the Saturn–Mars conjunction can prove to be highly beneficial for sectors such as Engineering, Construction, Mining, Mechanical Work, Machinery & Manufacturing. This conjunction is often seen in the birth charts of many big industrialists, factory owners and builders."
+    },
+    "watch": {
+      "eyebrowLabel": "06",
+      "eyebrowText": "This Month On",
+      "title": "Watch & Follow",
+      "subtitle": "Wisdom videos and daily cosmic updates from our channels.",
+      "youtubeLabel": "YouTube \u00b7 Featured Video",
+      "visitChannel": "Visit Our Channel",
+      "instagramLabel": "Instagram \u00b7 Featured Reels",
+      "followInsta": "Follow @astrochitra.official"
+    },
+    "know": {
+      "eyebrowLabel": "07",
+      "eyebrowText": "Astro Insights",
+      "title": "Did You Know?",
+      "factTitle": "Vedic Astrology",
+      "factText": "Vedic astrology is an ancient science used to predict and interpret the results for an individual by observing the combined positions of zodiac signs, nakshatras, houses and planets in the birth chart, based on the individual's birth details such as date of birth, time of birth and place of birth.",
+      "blogsLabel": "Our Blogs \u00b7 Featured Reads",
+      "readArticle": "Read article",
+      "blogs": [
+        {
+          "category": "Vedic Wisdom",
+          "title": "What is Manglik Dosh?",
+          "image": "what-is-manglik-dosh.webp",
+          "url": "https://blogs.astrochitra.com/what-is-manglik-dosh/"
+        },
+        {
+          "category": "Remedies",
+          "title": "Kemdrum Dosha: Effects, Causes & Remedies",
+          "image": "kemdrum-dosha-effects-causes-remedies.jpg",
+          "url": "https://blogs.astrochitra.com/what-is-kemdrum-dosha-effects-causes-remedies/"
+        },
+        {
+          "category": "Personal Reflections",
+          "title": "I Am Saturn Speaking",
+          "image": "i-am-saturn-shani-speaking.webp",
+          "url": "https://blogs.astrochitra.com/i-am-saturn-speaking/"
+        },
+        {
+          "category": "Yogas",
+          "title": "Gaj Kesari Yog · Its Importance in Human Life",
+          "image": "what-is-gaja-kesari-yoga.webp",
+          "url": "https://blogs.astrochitra.com/gaj-kesari-yog-its-importance-in-human-life/"
+        }
+      ]
+    },
+    "testimonials": {
+      "eyebrowLabel": "08",
+      "eyebrowText": "Kind Words",
+      "title": "What Seekers Say"
+    },
+    "share": {
+      "eyebrowLabel": "09",
+      "eyebrowText": "Spread the Wisdom",
+      "title": "Share This Newsletter",
+      "subtitle": "Know someone who needs cosmic guidance? Share this issue and drop a comment with your email or phone \u2014 Guruji's team will reach out.",
+      "successMsg": "Thank you! Your share has been recorded. We will be in touch soon.",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "you@example.com",
+      "phoneLabel": "Phone / WhatsApp",
+      "phoneOptional": "(optional)",
+      "phonePlaceholder": "+91 98765 43210",
+      "commentLabel": "Comment",
+      "commentOptional": "(optional)",
+      "commentPlaceholder": "Tell us what you loved, or ask Guruji a question...",
+      "submitBtn": "Share & Comment",
+      "privacyNote": "We respect your privacy \u2014 contact details are only used to respond to you."
+    },
+    "final": {
+      "eyebrowLabel": "10",
+      "eyebrowText": "Limited Slots This Month",
+      "title": "Let the stars guide<br><em>your next step</em>",
+      "subtitle": "Book your personal consultation with Guruji before the September slots fill up.",
+      "callBtn": "Call / Book Now",
+      "shareBtn": "Share This Issue",
+      "footerTag": "AstroChitra",
+      "footerCopy": "\u00a9 2026 AstroChitra. All rights reserved.",
+      "footerLinks": [
+        { "text": "Kundli", "url": "https://astrochitra.com/kundli" },
+        { "text": "Panchang", "url": "https://panchang.astrochitra.com/" },
+        { "text": "Matchmaking", "url": "https://astrochitra.com/matchmaking" },
+        { "text": "Insights", "url": "https://astrochitra.com/insights" },
+        { "text": "Journal", "url": "https://blogs.astrochitra.com/" }
+      ]
+    },
+    "shareToast": "Link copied to clipboard"
+  },
+
+  "hi": {
+    "meta": {
+      "title": "AstroChitra मासिक न्यूज़लेटर | सितम्बर 2026",
+      "htmlLang": "hi"
+    },
+    "langSwitcher": {
+      "en": "English",
+      "hi": "हिन्दी",
+      "mr": "मराठी"
+    },
+    "menu": {
+      "title": "इस अंक में",
+      "items": [
+        "कवर",
+        "गुरुजी कहते हैं",
+        "मासिक राशिफल",
+        "वेब उत्पाद",
+        "माह का मंत्र",
+        "ग्रह गोचर एवं उत्सव",
+        "मिथक बनाम यथार्थ",
+        "देखें और फॉलो करें",
+        "क्या आप जानते हैं · ब्लॉग",
+        "प्रशंसापत्र",
+        "साझा करें और टिप्पणी करें",
+        "अभी परामर्श लें"
+      ]
+    },
+    "hero": {
+      "brandName": "AstroChitra",
+      "kicker": "मासिक संस्करण",
+      "headline": "सितम्बर<br><em>न्यूज़लेटर</em>",
+      "swipeHint": "एक्सप्लोर करने के लिए स्वाइप करें"
+    },
+    "guruji": {
+      "eyebrowLabel": "01",
+      "eyebrowText": "गुरुजी का इस माह का विचार",
+      "quote": "किसी और के रास्ते पर पूर्णता से चलने से बेहतर है कि अपने रास्ते पर अपूर्ण रूप से चलें।",
+      "bookBtn": "परामर्श बुक करें",
+      "whatsappLink": "या WhatsApp करें"
+    },
+    "rashifal": {
+      "eyebrowLabel": "02",
+      "eyebrowText": "मासिक राशिफल",
+      "title": "राशिफल · <em>सितम्बर 2026</em>",
+      "subtitle": "इस माह सभी बारह चंद्र राशियों पर तिथि-वार प्रभाव।",
+      "signs": [
+        {
+          "name": "मेष (Aries)",
+          "dates": "21 मार्च – 19 अप्रैल",
+          "description": "इस माह मेष राशि वालों के लिए करियर में शक्तिशाली गति आ रही है। सितम्बर की शुरुआत में ग्रहों के गोचर आपकी महत्वाकांक्षा को प्रज्वलित करते हैं, नेतृत्व की भूमिकाओं की ओर धकेलते हैं। मध्य माह में आर्थिक लाभ का संकेत है। मंगल आपके भावनात्मक कोर को मजबूत करते हुए संबंधों में गहराई लाता है।",
+          "hits": [
+            { "text": "4–9 सितम्बर करियर उन्नति", "hot": true },
+            { "text": "18 सितम्बर आर्थिक", "hot": false }
+          ]
+        },
+        {
+          "name": "वृषभ (Taurus)",
+          "dates": "20 अप्रैल – 20 मई",
+          "description": "सितम्बर में पारिवारिक बंधन प्रमुख रहेंगे। शुक्र का 2 तारीख को तुला में प्रवेश आपके घरेलू जीवन को सद्भाव से भर देता है। 12 तारीख के आसपास आर्थिक लाभ की उम्मीद है। स्वास्थ्य में धीरे-धीरे सुधार होगा — नींद और पानी पर ध्यान दें।",
+          "hits": [
+            { "text": "2 सितम्बर परिवार", "hot": false },
+            { "text": "12 सितम्बर धन", "hot": true }
+          ]
+        },
+        {
+          "name": "मिथुन (Gemini)",
+          "dates": "21 मई – 20 जून",
+          "description": "संवाद इस माह आपकी शक्ति है। बुध का गोचर आपकी अभिव्यक्ति को तेज करता है, अनुबंध और बातचीत अनुकूल बनाता है। 21 तारीख के आसपास एक छोटी यात्रा सुखद आश्चर्य ला सकती है। छात्र परीक्षाओं में उत्कृष्ट प्रदर्शन करेंगे।",
+          "hits": [
+            { "text": "6 सितम्बर संवाद", "hot": true },
+            { "text": "21 सितम्बर यात्रा", "hot": false }
+          ]
+        },
+        {
+          "name": "कर्क (Cancer)",
+          "dates": "21 जून – 22 जुलाई",
+          "description": "सितम्बर की शुरुआत में भावनात्मक लहरें तीव्र हैं। माह के मध्य में चंद्रमा का आपकी राशि में गोचर स्पष्टता लाता है। घरेलू मामले खूबसूरती से सुलझेंगे। घर में सुधार में निवेश करें — यह दीर्घकालिक आराम देगा।",
+          "hits": [
+            { "text": "3 सितम्बर भावनाएँ", "hot": false },
+            { "text": "15 सितम्बर घर", "hot": false }
+          ]
+        },
+        {
+          "name": "सिंह (Leo)",
+          "dates": "23 जुलाई – 22 अगस्त",
+          "description": "शुक्र 11 तारीख को आपके धन भाव में प्रवेश करता है, आय वृद्धि के लिए उत्कृष्ट काल। कार्यस्थल पर मान्यता आसन्न है। अविवाहितों के लिए रोमांस खिलता है। रचनात्मक परियोजनाएँ गति पकड़ती हैं और सार्वजनिक प्रशंसा प्राप्त करती हैं।",
+          "hits": [
+            { "text": "11 सितम्बर शुक्र प्रवेश", "hot": true },
+            { "text": "24 सितम्बर मान्यता", "hot": false }
+          ]
+        },
+        {
+          "name": "कन्या (Virgo)",
+          "dates": "23 अगस्त – 22 सितम्बर",
+          "description": "जन्मदिन के माह में 4 और 17 तारीख को दोहरे ग्रह गोचर — बड़े जीवन परिवर्तन की उम्मीद। करियर पुनर्गठन संभव है। स्वास्थ्य पर ध्यान दें, विशेषकर पाचन स्वास्थ्य। किसी गुरु का मार्गदर्शन अमूल्य सिद्ध होगा।",
+          "hits": [
+            { "text": "4 और 17 सितम्बर दोहरा गोचर", "hot": true },
+            { "text": "जन्मदिन माह", "hot": false }
+          ]
+        },
+        {
+          "name": "तुला (Libra)",
+          "dates": "23 सितम्बर – 22 अक्टूबर",
+          "description": "शुक्र का 2 तारीख को आपकी राशि में प्रवेश आपको आकर्षक और मोहक बनाता है। संबंधों में नया संतुलन आता है। अभी बनाए गए व्यावसायिक साझेदारी टिकाऊ हो सकती हैं। स्व-देखभाल की सलाह दी जाती है — आगे के अवसरों के लिए ऊर्जा चाहिए।",
+          "hits": [
+            { "text": "8 सितम्बर संबंध", "hot": false },
+            { "text": "19 सितम्बर संतुलन", "hot": false }
+          ]
+        },
+        {
+          "name": "वृश्चिक (Scorpio)",
+          "dates": "23 अक्टूबर – 21 नवम्बर",
+          "description": "माह के मध्य में गहरे परिवर्तन का चक्र शुरू होता है। अनुसंधान और छानबीन में सफलता मिलेगी। छिपी जानकारी सामने आती है जो आपका दृष्टिकोण बदलती है। 26 तारीख तक आर्थिक सतर्कता की सलाह। ध्यान गहनता को निर्देशित करने में मदद करता है।",
+          "hits": [
+            { "text": "10 सितम्बर रूपांतरण", "hot": true },
+            { "text": "26 सितम्बर अनुसंधान", "hot": false }
+          ]
+        },
+        {
+          "name": "धनु (Sagittarius)",
+          "dates": "22 नवम्बर – 21 दिसम्बर",
+          "description": "सितम्बर में शिक्षा और उच्च शिक्षा के विषय प्रभावी रहेंगे। दूर की यात्रा या आध्यात्मिक तीर्थ यात्रा का मजबूत संकेत है। बृहस्पति का प्रभाव आपके दार्शनिक दृष्टिकोण का विस्तार करता है। प्रकाशन और मीडिया परियोजनाएँ गति पकड़ती हैं।",
+          "hits": [
+            { "text": "5 सितम्बर शिक्षा", "hot": false },
+            { "text": "22 सितम्बर लंबी यात्रा", "hot": false }
+          ]
+        },
+        {
+          "name": "मकर (Capricorn)",
+          "dates": "22 दिसम्बर – 19 जनवरी",
+          "description": "14 तारीख के आसपास अनुशासन का भुगतान शानदार होता है। शनि का वक्री आपकी करियर रणनीति के पुनर्गठन को प्रोत्साहित करता है। संपत्ति के मामले अनुकूल रूप से सुलझते हैं। अत्यधिक कार्य से बचें — शीर्ष प्रदर्शन बनाए रखने के लिए जानबूझकर आराम करें।",
+          "hits": [
+            { "text": "14 सितम्बर अनुशासन रंग लाता है", "hot": true },
+            { "text": "28 सितम्बर करियर", "hot": false }
+          ]
+        },
+        {
+          "name": "कुम्भ (Aquarius)",
+          "dates": "20 जनवरी – 18 फरवरी",
+          "description": "इस माह आपका पेशेवर नेटवर्क काफी विस्तारित होता है। नवीन विचार सही सहयोगियों को आकर्षित करते हैं। सामाजिक कारण जिनका आप समर्थन करते हैं, उन्हें सार्वजनिक ध्यान मिलता है। 20 तारीख के आसपास एक समूह परियोजना मील का पत्थर पार करती है।",
+          "hits": [
+            { "text": "7 सितम्बर नेटवर्क", "hot": false },
+            { "text": "20 सितम्बर विचार", "hot": false }
+          ]
+        },
+        {
+          "name": "मीन (Pisces)",
+          "dates": "19 फरवरी – 20 मार्च",
+          "description": "शनि वक्री आध्यात्मिक आत्मचिंतन की मांग करता है। सहज ज्ञान की क्षमता बढ़ती है — 16 तारीख के आसपास अपनी अंतर्ध्वनि पर भरोसा करें। आर्थिक संयम की सलाह। रचनात्मक और कलात्मक कार्य आंतरिक शांति लाते हैं। दूसरे भाग में स्वास्थ्य में सुधार होगा।",
+          "hits": [
+            { "text": "शनि वक्री सतर्कता", "hot": true },
+            { "text": "16 सितम्बर सहज ज्ञान", "hot": false }
+          ]
+        }
+      ]
+    },
+    "products": {
+      "eyebrowLabel": "03",
+      "eyebrowText": "निःशुल्क उपकरण एवं सेवाएँ",
+      "title": "AstroChitra वेब उत्पाद एक्सप्लोर करें",
+      "subtitle": "आपकी ज्योतिष यात्रा के लिए आवश्यक सब कुछ, एक ही स्थान पर।",
+      "items": [
+        {
+          "name": "कुंडली जनरेटर",
+          "desc": "आपकी निःशुल्क वैदिक जन्म कुंडली, सेकंडों में तैयार।"
+        },
+        {
+          "name": "मैचमेकिंग टूल",
+          "desc": "दोनों के लिए गुण-मिलान संगतता।"
+        },
+        {
+          "name": "AstroChitra Insights",
+          "desc": "आपकी कुंडली के लिए डेटा-आधारित डैशबोर्ड।"
+        },
+        {
+          "name": "AstroChitra Journal",
+          "desc": "हमारे ज्योतिषियों से लंबी कहानी वाला ज्ञान।"
+        },
+        {
+          "name": "पंचांग ऐप",
+          "desc": "दैनिक तिथि, नक्षत्र, मुहूर्त और बहुत कुछ।"
+        }
+      ]
+    },
+    "mantra": {
+      "kicker": "माह का मंत्र",
+      "sanskrit": "<em>ॐ गं गणपतये नमः</em>",
+      "meaning": "ॐ ब्रह्मांडीय ब्रह्मांडीय कंपन का प्रतिनिधित्व करता है, गं भगवान गणेश का बीज मंत्र है, गणपतये का अर्थ है \u201cसभी प्राणियों के स्वामी को,\u201d और नमः विनम्र प्रणाम व्यक्त करता है। इसका जाप करने से मानसिक, शारीरिक और आध्यात्मिक बाधाओं को दूर करने में मदद मिलती है, जब भी आप कोई नई यात्रा या परियोजना शुरू करते हैं तो सुचारु प्रगति सुनिश्चित होती है। इसके अतिरिक्त, लयबद्ध पुनरावृत्ति तंत्रिका तंत्र को शांत करती है, चिंता और भय को दूर करते हुए आपकी एकाग्रता को तेज करती है।",
+      "tipLabel": "गुरुजी की सलाह:",
+      "tipText": "इस माह प्रतिदिन सुबह 108 बार जाप करें सुचारु प्रगति और आंतरिक शांति के लिए।"
+    },
+    "transits": {
+      "eyebrowLabel": "04",
+      "eyebrowText": "ग्रह गोचर",
+      "title": "सितम्बर ग्रह गोचर एवं उत्सव",
+      "subtitle": "माह भर में प्रमुख ग्रह गतिविधियाँ, साथ ही याद रखने योग्य पवित्र तिथियाँ।",
+      "planets": [
+        { "name": "चंद्रमा", "from": "मीन", "to": "मेष", "date": "1 सितम्बर, 03:23 प्रातः (8वाँ दिन)", "icon": "Moon" },
+        { "name": "शुक्र", "from": "कन्या", "to": "तुला", "date": "2 सितम्बर, 01:44 अपराह्न (9वाँ दिन)", "icon": "Venus" },
+        { "name": "चंद्रमा", "from": "मेष", "to": "वृषभ", "date": "3 सितम्बर, 07:25 प्रातः (10वाँ दिन)", "icon": "Moon" },
+        { "name": "चंद्रमा", "from": "वृषभ", "to": "मिथुन", "date": "5 सितम्बर, 10:18 प्रातः (12वाँ दिन)", "icon": "Moon" },
+        { "name": "चंद्रमा", "from": "मिथुन", "to": "कर्क", "date": "7 सितम्बर, 12:38 अपराह्न (14वाँ दिन)", "icon": "Moon" },
+        { "name": "बुध", "from": "सिंह", "to": "कन्या", "date": "7 सितम्बर, 01:31 अपराह्न (14वाँ दिन)", "icon": "Mercury" },
+        { "name": "चंद्रमा", "from": "कर्क", "to": "सिंह", "date": "9 सितम्बर, 03:14 अपराह्न (16वाँ दिन)", "icon": "Moon" },
+        { "name": "चंद्रमा", "from": "सिंह", "to": "कन्या", "date": "11 सितम्बर, 07:08 सायं (18वाँ दिन)", "icon": "Moon" },
+        { "name": "चंद्रमा", "from": "कन्या", "to": "तुला", "date": "14 सितम्बर, 01:26 प्रातः (21वाँ दिन)", "icon": "Moon" },
+        { "name": "चंद्रमा", "from": "तुला", "to": "वृश्चिक", "date": "16 सितम्बर, 10:48 प्रातः (23वाँ दिन)", "icon": "Moon" },
+        { "name": "सूर्य", "from": "सिंह", "to": "कन्या", "date": "17 सितम्बर, 07:50 प्रातः (24वाँ दिन)", "icon": "Sun" },
+        { "name": "मंगल", "from": "मिथुन", "to": "कर्क", "date": "18 सितम्बर, 04:30 अपराह्न (25वाँ दिन)", "icon": "Mars" },
+        { "name": "चंद्रमा", "from": "वृश्चिक", "to": "धनु", "date": "18 सितम्बर, 10:44 सायं (25वाँ दिन)", "icon": "Moon" },
+        { "name": "चंद्रमा", "from": "धनु", "to": "मकर", "date": "21 सितम्बर, 11:15 प्रातः (28वाँ दिन)", "icon": "Moon" },
+        { "name": "चंद्रमा", "from": "मकर", "to": "कुम्भ", "date": "23 सितम्बर, 09:56 सायं (30वाँ दिन)", "icon": "Moon" },
+        { "name": "चंद्रमा", "from": "कुम्भ", "to": "मीन", "date": "26 सितम्बर, 05:33 प्रातः (33वाँ दिन)", "icon": "Moon" },
+        { "name": "बुध", "from": "कन्या", "to": "तुला", "date": "26 सितम्बर, 12:37 अपराह्न (33वाँ दिन)", "icon": "Mercury" },
+        { "name": "चंद्रमा", "from": "मीन", "to": "मेष", "date": "28 सितम्बर, 10:16 प्रातः (35वाँ दिन)", "icon": "Moon" },
+        { "name": "चंद्रमा", "from": "मेष", "to": "वृषभ", "date": "30 सितम्बर, 01:13 अपराह्न (37वाँ दिन)", "icon": "Moon" }
+      ],
+      "festivalsLabel": "उत्सव",
+      "festivals": [
+        {
+          "name": "कृष्ण जन्माष्टमी",
+          "date": "04 सितम्बर",
+          "desc": "भगवान कृष्ण के जन्म को भक्ति, उपवास और मध्यरात्रि प्रार्थनाओं के साथ मनाएँ।"
+        },
+        {
+          "name": "गणेश चतुर्थी",
+          "date": "14 सितम्बर",
+          "desc": "भगवान गणेश का स्वागत करें; बाधाओं के निवारण और नई शुरुआत के लिए पूजा करें।"
+        }
+      ],
+      "panchangCtaDesc": "रोज़ का पंचांग, मुहूर्त और गोचर, राहु काल, अभिजित मुहूर्त और बहुत कुछ देखें।",
+      "panchangCtaBtn": "पंचांग ऐप खोलें"
+    },
+    "myth": {
+      "eyebrowLabel": "05",
+      "eyebrowText": "मिथक बनाम तथ्य",
+      "title": "शनि-मंगल युति",
+      "subtitle": "अंधविश्वासों को तोड़ना, एक-एक विश्वास को दूर करना।",
+      "mythLabel": "मिथक",
+      "mythText": "वैदिक ज्योतिषशास्त्र में शनि-मंगल युति को एक अशुभ योग माना जाता है।",
+      "realityLabel": "तथ्य",
+      "realityText": "इसका प्रमुख कारण यह है कि शनि विलंब और मंदगति का कारक ग्रह है, जबकि मंगल तड़क-भड़क से निर्णय लेने वाला और शीघ्र गति का ग्रह है। दोनों ही विरोधाभासी ग्रह एक साथ होने के कारण ऐसी युति को अशुभ योग माना गया है। इस योग के कारण व्यक्ति के कार्यक्षेत्र में बाधाएँ, विलंब अथवा बार-बार कठिनाइयाँ उत्पन्न होती हैं और इससे व्यक्ति का मानसिक संतुलन भी बिगड़ सकता है।\n\nलेकिन वास्तविकता यह है कि शनि-मंगल युति Engineering, Construction, Mining, Mechanical Work, Machinery & Manufacturing Sector के लिए अत्यंत शुभ फलदायी सिद्ध होती है। बड़े-बड़े कारखानदारों, Industrialists और Builders की जन्मपत्रिकाओं में शनि-मंगल युति दिखाई देती है।"
+    },
+    "watch": {
+      "eyebrowLabel": "06",
+      "eyebrowText": "इस माह देखें",
+      "title": "देखें और फॉलो करें",
+      "subtitle": "हमारे चैनलों से ज्ञान वीडियो और दैनिक ब्रह्मांडीय अपडेट।",
+      "youtubeLabel": "YouTube \u00b7 विशेष वीडियो",
+      "visitChannel": "हमारा चैनल देखें",
+      "instagramLabel": "Instagram \u00b7 विशेष रील्स",
+      "followInsta": "@astrochitra.official को फॉलो करें"
+    },
+    "know": {
+      "eyebrowLabel": "07",
+      "eyebrowText": "ज्योतिष जानकारी",
+      "title": "क्या आप जानते हैं?",
+      "factTitle": "वैदिक ज्योतिष",
+      "factText": "वैदिक ज्योतिषशास्त्र में राशियों, नक्षत्रों, भावों और ग्रहों की संयुक्त स्थिति के अनुसार जातक की जन्मस्थिति के समय अर्थात जन्मदिन, जन्मसमय और जन्मस्थान के आधार पर कुंडली में ग्रहों की स्थिति देखकर फलादेश बताने के लिए उपयोग किया जाने वाला प्राचीन शास्त्र ही वैदिक ज्योतिषशास्त्र है।",
+      "blogsLabel": "हमारे ब्लॉग \u00b7 विशेष पठन",
+      "readArticle": "लेख पढ़ें",
+      "blogs": [
+        {
+          "category": "वैदिक ज्ञान",
+          "title": "मांगलिक दोष क्या है?",
+          "image": "what-is-manglik-dosh.webp",
+          "url": "https://blogs.astrochitra.com/what-is-manglik-dosh/"
+        },
+        {
+          "category": "उपाय",
+          "title": "केमद्रुम दोष: प्रभाव, कारण और उपाय",
+          "image": "kemdrum-dosha-effects-causes-remedies.jpg",
+          "url": "https://blogs.astrochitra.com/what-is-kemdrum-dosha-effects-causes-remedies/"
+        },
+        {
+          "category": "व्यक्तिगत चिंतन",
+          "title": "मैं शनि बोल रहा हूँ",
+          "image": "i-am-saturn-shani-speaking.webp",
+          "url": "https://blogs.astrochitra.com/i-am-saturn-speaking/"
+        },
+        {
+          "category": "योग",
+          "title": "गज केसरी योग · मानव जीवन में इसका महत्व",
+          "image": "what-is-gaja-kesari-yoga.webp",
+          "url": "https://blogs.astrochitra.com/gaj-kesari-yog-its-importance-in-human-life/"
+        }
+      ]
+    },
+    "testimonials": {
+      "eyebrowLabel": "08",
+      "eyebrowText": "कृपापूर्ण शब्द",
+      "title": "साधक क्या कहते हैं"
+    },
+    "share": {
+      "eyebrowLabel": "09",
+      "eyebrowText": "ज्ञान साझा करें",
+      "title": "यह न्यूज़लेटर साझा करें",
+      "subtitle": "कोई है जिसे ब्रह्मांडीय मार्गदर्शन की आवश्यकता है? इस अंक को साझा करें और अपना ईमेल या फोन नंबर के साथ टिप्पणी छोड़ें — गुरुजी की टीम संपर्क करेगी।",
+      "successMsg": "धन्यवाद! आपका साझाकरण दर्ज हो गया है। हम शीघ्र ही संपर्क करेंगे।",
+      "emailLabel": "ईमेल पता",
+      "emailPlaceholder": "aapka.naam@domain.com",
+      "phoneLabel": "फोन / WhatsApp",
+      "phoneOptional": "(वैकल्पिक)",
+      "phonePlaceholder": "+91 98765 43210",
+      "commentLabel": "टिप्पणी",
+      "commentOptional": "(वैकल्पिक)",
+      "commentPlaceholder": "हमें बताएँ आपको क्या पसंद आया, या गुरुजी से कोई प्रश्न पूछें...",
+      "submitBtn": "साझा करें और टिप्पणी करें",
+      "privacyNote": "हम आपकी गोपनीयता का सम्मान करते हैं — संपर्क विवरण केवल आपको प्रतिक्रिया देने के लिए उपयोग किए जाते हैं।"
+    },
+    "final": {
+      "eyebrowLabel": "10",
+      "eyebrowText": "इस माह सीमित स्लॉट",
+      "title": "तारे आपका अगला कदम<br><em>निर्देशित करें</em>",
+      "subtitle": "सितम्बर के स्लॉट भरने से पहले गुरुजी से अपना व्यक्तिगत परामर्श बुक करें।",
+      "callBtn": "कॉल / अभी बुक करें",
+      "shareBtn": "यह अंक साझा करें",
+      "footerTag": "AstroChitra",
+      "footerCopy": "\u00a9 2026 AstroChitra. सर्वाधिकार सुरक्षित।",
+      "footerLinks": [
+        { "text": "कुंडली", "url": "https://astrochitra.com/kundli" },
+        { "text": "पंचांग", "url": "https://panchang.astrochitra.com/" },
+        { "text": "मैचमेकिंग", "url": "https://astrochitra.com/matchmaking" },
+        { "text": "Insights", "url": "https://astrochitra.com/insights" },
+        { "text": "जर्नल", "url": "https://blogs.astrochitra.com/" }
+      ]
+    },
+    "shareToast": "लिंक क्लिपबोर्ड पर कॉपी हो गया"
+  },
+
+  "mr": {
+    "meta": {
+      "title": "AstroChitra मासिक न्यूजलेटर | सप्टेंबर 2026",
+      "htmlLang": "mr"
+    },
+    "langSwitcher": {
+      "en": "English",
+      "hi": "हिन्दी",
+      "mr": "मराठी"
+    },
+    "menu": {
+      "title": "या अंकात",
+      "items": [
+        "कव्हर",
+        "गुरुजी म्हणतात",
+        "मासिक राशिफल",
+        "वेब उत्पादने",
+        "महिन्याचा मंत्र",
+        "ग्रहगोचर आणि सण",
+        "खोट बनाम खरोखर",
+        "पहा आणि फॉलो करा",
+        "तुम्हाला माहीत आहे का? · ब्लॉग",
+        "प्रशंसापत्रे",
+        "शेअर करा आणि टिप्पणी करा",
+        "आता सल्ला घ्या"
+      ]
+    },
+    "hero": {
+      "brandName": "AstroChitra",
+      "kicker": "मासिक आवृत्ती",
+      "headline": "सप्टेंबर<br><em>न्यूजलेटर</em>",
+      "swipeHint": "एक्सप्लोर करण्यासाठी स्वाइप करा"
+    },
+    "guruji": {
+      "eyebrowLabel": "01",
+      "eyebrowText": "गुरुजींचा या महिन्याचा विचार",
+      "quote": "कुणाच्या मार्गावर पूर्णपणे चालण्यापेक्षा आपल्या मार्गावर अपूर्णपणे चालणे चांगले.",
+      "bookBtn": "सल्ला बुक करा",
+      "whatsappLink": "किंवा WhatsApp करा"
+    },
+    "rashifal": {
+      "eyebrowLabel": "02",
+      "eyebrowText": "मासिक राशिफल",
+      "title": "राशिफल · <em>सप्टेंबर 2026</em>",
+      "subtitle": "या महिन्यातील सर्वा बारा चंद्र राशींवर तिथीनुसार परिणाम.",
+      "signs": [
+        {
+          "name": "मेष (Aries)",
+          "dates": "21 मार्च – 19 एप्रिल",
+          "description": "या महिन्यात मेष राशीच्या जातकांना करिअरमध्ये शक्तिशाली गती मिळत आहे. सप्टेंबरच्या सुरुवातीला ग्रहांचे गोचर तुमच्या महत्त्वाकांक्षेला प्रज्वलित करतात, नेतृत्व भूमिकांकडे ढकलतात. मध्य महिन्यात आर्थिक लाभाची चिन्हे आहेत. मंगल तुमच्या भावनिक कोरला मजबूत करताना संबंधांमध्ये खोली आणतो.",
+          "hits": [
+            { "text": "4–9 सप्टेंबर करिअर वाढ", "hot": true },
+            { "text": "18 सप्टेंबर आर्थिक", "hot": false }
+          ]
+        },
+        {
+          "name": "वृषभ (Taurus)",
+          "dates": "20 एप्रिल – 20 मे",
+          "description": "सप्टेंबरमध्ये कुटुंबबंधन प्रमुख राहतील. शुक्राचा 2 तारखेला तुला राशीतील प्रवेश तुमच्या गृहजीवनाला सद्भावाने भरतो. 12 तारखेच्या सुमारास आर्थिक लाभाची अपेक्षा करा. आरोग्यात हळूहळू सुधारणा होईल — झोप आणि पाणी यावर लक्ष द्या.",
+          "hits": [
+            { "text": "2 सप्टेंबर कुटुंब", "hot": false },
+            { "text": "12 सप्टेंबर धन", "hot": true }
+          ]
+        },
+        {
+          "name": "मिथुन (Gemini)",
+          "dates": "21 मे – 20 जून",
+          "description": "संवाद हा या महिन्यातील तुमचा सुपरपॉवर आहे. बुधाचे गोचर तुमच्या अभिव्यक्तीला तीव्र करतो, करार आणि व्यवहार अनुकूल बनवतो. 21 तारखेच्या सुमारास एक छोटी प्रवास सुखद आश्चर्य घेऊन येऊ शकते. विद्यार्थी परीक्षांमध्ये उत्कृष्ट कामगिरी करतील.",
+          "hits": [
+            { "text": "6 सप्टेंबर संवाद", "hot": true },
+            { "text": "21 सप्टेंबर प्रवास", "hot": false }
+          ]
+        },
+        {
+          "name": "कर्क (Cancer)",
+          "dates": "21 जून – 22 जुलै",
+          "description": "सप्टेंबरच्या सुरुवातीला भावनिक लाटा तीव्र असतात. महिन्याच्या मध्यभागी चंद्राचा तुमच्या राशीतील गोचर स्पष्टता आणतो. गृहसंबंधी बाबी सुंदरपणे सुटतील. घरात सुधारण्यासाठी गुंतवणूक करा — ती दीर्घकालीन आराम देईल.",
+          "hits": [
+            { "text": "3 सप्टेंबर भावना", "hot": false },
+            { "text": "15 सप्टेंबर घर", "hot": false }
+          ]
+        },
+        {
+          "name": "सिंह (Leo)",
+          "dates": "23 जुलै – 22 ऑगस्ट",
+          "description": "शुक्र 11 तारखेला तुमच्या धन भावात प्रवेश करतो, उत्पन्न वाढीसाठी उत्कृष्ट काल. कार्यस्थळीवरील मान्यता आसन्न आहे. अविवाहितांसाठी प्रेम खिलते. सर्जनशील प्रकल्प गती धरतात आणि सार्वजनिक प्रशंसा मिळवतात.",
+          "hits": [
+            { "text": "11 सप्टेंबर शुक्र प्रवेश", "hot": true },
+            { "text": "24 सप्टेंबर मान्यता", "hot": false }
+          ]
+        },
+        {
+          "name": "कन्या (Virgo)",
+          "dates": "23 ऑगस्ट – 22 सप्टेंबर",
+          "description": "वाढदिवसाच्या महिन्यात 4 आणि 17 तारखेला दोन ग्रहांचे गोचर — मोठ्या जीवन बदलांची अपेक्षा. करिअर पुनर्घटना शक्य आहे. आरोग्याकडे लक्ष द्या, विशेषतः पचन आरोग्य. गुरूंचे मार्गदर्शन अमूल्य ठरेल.",
+          "hits": [
+            { "text": "4 आणि 17 सप्टेंबर दोन गोचर", "hot": true },
+            { "text": "वाढदिवस महिना", "hot": false }
+          ]
+        },
+        {
+          "name": "तुला (Libra)",
+          "dates": "23 सप्टेंबर – 22 ऑक्टोबर",
+          "description": "शुक्राचा 2 तारखेला तुमच्या राशीतील प्रवेश तुम्हाला आकर्षक आणि मोहक बनवतो. संबंधांमध्ये नवीन संतुलन येते. आत्ता बनवलेल्या व्यावसायिक भागीदारी टिकाऊ असू शकतात. स्व-देखभालीचा सल्ला दिला जातो — पुढच्या संधींसाठी ऊर्जा लागते.",
+          "hits": [
+            { "text": "8 सप्टेंबर संबंध", "hot": false },
+            { "text": "19 सप्टेंबर संतुलन", "hot": false }
+          ]
+        },
+        {
+          "name": "वृश्चिक (Scorpio)",
+          "dates": "23 ऑक्टोबर – 21 नोव्हेंबर",
+          "description": "महिन्याच्या मध्यभागी खोल बदलांचा चक्र सुरू होतो. संशोधन आणि चौकशीत ब्रेकथ्रू मिळतो. लपलेली माहिती समोर येते जी तुमचा दृष्टिकोन बदलते. 26 तारखेपर्यंत आर्थिक सतर्कतेची शिफारस. ध्यान तीव्रता व्यवस्थापित करण्यास मदत करते.",
+          "hits": [
+            { "text": "10 सप्टेंबर रूपांतर", "hot": true },
+            { "text": "26 सप्टेंबर संशोधन", "hot": false }
+          ]
+        },
+        {
+          "name": "धनु (Sagittarius)",
+          "dates": "21 नोव्हेंबर – 21 डिसेंबर",
+          "description": "सप्टेंबरमध्ये शिक्षण आणि उच्च शिक्षणाच्या विषय प्रभावी राहतील. दूरच्या प्रवासाची किंवा आध्यात्मिक तीर्थयात्रेची मजबूत चिन्हे आहेत. गुरूंचा प्रभाव तुमच्या तत्त्वज्ञान दृष्टिकोनाचा विस्तार करतो. प्रकाशन आणि मीडिया प्रकल्प गती धरतात.",
+          "hits": [
+            { "text": "5 सप्टेंबर शिक्षण", "hot": false },
+            { "text": "22 सप्टेंबर मोठा प्रवास", "hot": false }
+          ]
+        },
+        {
+          "name": "मकर (Capricorn)",
+          "dates": "22 डिसेंबर – 19 जानेवारी",
+          "description": "14 तारखेच्या सुमारास अनुशासनाचे फळ शानदार मिळते. शनि वक्री तुमच्या करिअर धोरणाच्या पुनर्घटनाला प्रोत्साहित करतो. मालमत्तेशी संबंधित बाबी अनुकूलपणे सुटतात. अत्यधिक काम करण्यापासून टाळा — शीर्ष कामगिरी टिकवण्यासाठी हेतूपूर्वक विश्रांती घ्या.",
+          "hits": [
+            { "text": "14 सप्टेंबर अनुशासन फळ देते", "hot": true },
+            { "text": "28 सप्टेंबर करिअर", "hot": false }
+          ]
+        },
+        {
+          "name": "कुंभ (Aquarius)",
+          "dates": "19 जानेवारी – 18 फेब्रुवारी",
+          "description": "या महिन्यात तुमचे व्यावसायिक नेटवर्क काही प्रमाणात विस्तारित होते. नाविन्यपूर्ण विचार योग्य सहकारियांना आकर्षित करतात. तुम्ही समर्थन करणाऱ्या सामाजिक कारणांना सार्वजनिक लक्ष मिळते. 20 तारखेच्या सुमारास एक गट प्रकल्प मैलाचा दगड ओलांडतो.",
+          "hits": [
+            { "text": "7 सप्टेंबर नेटवर्क", "hot": false },
+            { "text": "20 सप्टेंबर विचार", "hot": false }
+          ]
+        },
+        {
+          "name": "मीन (Pisces)",
+          "dates": "19 फेब्रुवारी – 20 मार्च",
+          "description": "शनि वक्री आध्यात्मिक आत्मविचाराची मागणी करतो. अंतर्ज्ञान क्षमता वाढते — 16 तारखेच्या सुमारास आपल्या अंतर्ध्वनीवर विश्वास ठेवा. आर्थिक मर्यादा शिफारस. सर्जनशील आणि कलात्मक कार्य आंतरिक शांती देतात. दुसऱ्या भागात आरोग्यात सुधारणा होईल.",
+          "hits": [
+            { "text": "शनि वक्री सतर्कता", "hot": true },
+            { "text": "16 सप्टेंबर अंतर्ज्ञान", "hot": false }
+          ]
+        }
+      ]
+    },
+    "products": {
+      "eyebrowLabel": "03",
+      "eyebrowText": "विनामूल्य साधने आणि सेवा",
+      "title": "AstroChitra वेब उत्पादने एक्सप्लोर करा",
+      "subtitle": "तुमच्या ज्योतिष प्रवासासाठी आवश्यक सर्वकाही, एकाच ठिकाणी.",
+      "items": [
+        {
+          "name": "कुंडली जनरेटर",
+          "desc": "तुमची विनामूल्य वैदिक जन्मकुंडली, सेकंदात तयार."
+        },
+        {
+          "name": "मॅचमेकिंग टूल",
+          "desc": "दोघांसाठी गुण-मिलान सुसंगतता."
+        },
+        {
+          "name": "AstroChitra Insights",
+          "desc": "तुमच्या कुंडलीसाठी डेटा-आधारित डॅशबोर्ड."
+        },
+        {
+          "name": "AstroChitra Journal",
+          "desc": "आमच्या ज्योतिषींकडून मांडलेले ज्ञान."
+        },
+        {
+          "name": "पंचांग ॲप",
+          "desc": "दैनिक तिथी, नक्षत्र, मुहूर्त आणि बरेच काही."
+        }
+      ]
+    },
+    "mantra": {
+      "kicker": "महिन्याचा मंत्र",
+      "sanskrit": "<em>ॐ गं गणपतये नमः</em>",
+      "meaning": "ॐ हा सार्वभौमिक ब्रह्मांडीय कंपनाचे प्रतिनिधित्व करतो, गं हा भगवान गणेशाचा बीज मंत्र आहे, गणपतयेचा अर्थ \u201cसर्व प्राण्यांच्या स्वामीला,\u201d आणि नमः विनम्र अभिवादन व्यक्त करतो. याचा जप करणे मानसिक, शारीरिक आणि आध्यात्मिक अडचणी दूर करण्यास मदत करते, तुम्ही नवीन प्रवास किंवा प्रकल्प सुरू करता तेव्हा सुलभ प्रगती सुनिश्चित करते. याशिवाय, लयबद्ध पुनरावृत्ती स्नायू प्रणालीला शांत करते, चिंता आणि भींग दूर करताना तुमचे लक्ष केंद्रित करते.",
+      "tipLabel": "गुरुजींचा सल्ला:",
+      "tipText": "या महिन्यात दररोज सकाळी 108 वेळा जप करा सुलभ प्रगती आणि आंतरिक शांतीसाठी."
+    },
+    "transits": {
+      "eyebrowLabel": "04",
+      "eyebrowText": "ग्रहगोचर",
+      "title": "सप्टेंबर ग्रहगोचर आणि सण",
+      "subtitle": "महिन्याभरातील प्रमुख ग्रह हालचाली, तसेच लक्षात ठेवण्यायोग्य पवित्र तिथी.",
+      "planets": [
+        { "name": "चंद्र", "from": "मीन", "to": "मेष", "date": "1 सप्टेंबर, 03:23 प्रातः (8वा दिवस)", "icon": "Moon" },
+        { "name": "शुक्र", "from": "कन्या", "to": "तुला", "date": "2 सप्टेंबर, 01:44 दुपारी (9वा दिवस)", "icon": "Venus" },
+        { "name": "चंद्र", "from": "मेष", "to": "वृषभ", "date": "3 सप्टेंबर, 07:25 प्रातः (10वा दिवस)", "icon": "Moon" },
+        { "name": "चंद्र", "from": "वृषभ", "to": "मिथुन", "date": "5 सप्टेंबर, 10:18 प्रातः (12वा दिवस)", "icon": "Moon" },
+        { "name": "चंद्र", "from": "मिथुन", "to": "कर्क", "date": "7 सप्टेंबर, 12:38 दुपारी (14वा दिवस)", "icon": "Moon" },
+        { "name": "बुध", "from": "सिंह", "to": "कन्या", "date": "7 सप्टेंबर, 01:31 दुपारी (14वा दिवस)", "icon": "Mercury" },
+        { "name": "चंद्र", "from": "कर्क", "to": "सिंह", "date": "9 सप्टेंबर, 03:14 दुपारी (16वा दिवस)", "icon": "Moon" },
+        { "name": "चंद्र", "from": "सिंह", "to": "कन्या", "date": "11 सप्टेंबर, 07:08 सायंकाळी (18वा दिवस)", "icon": "Moon" },
+        { "name": "चंद्र", "from": "कन्या", "to": "तुला", "date": "14 सप्टेंबर, 01:26 प्रातः (21वा दिवस)", "icon": "Moon" },
+        { "name": "चंद्र", "from": "तुला", "to": "वृश्चिक", "date": "16 सप्टेंबर, 10:48 प्रातः (23वा दिवस)", "icon": "Moon" },
+        { "name": "सूर्य", "from": "सिंह", "to": "कन्या", "date": "17 सप्टेंबर, 07:50 प्रातः (24वा दिवस)", "icon": "Sun" },
+        { "name": "मंगळ", "from": "मिथुन", "to": "कर्क", "date": "18 सप्टेंबर, 04:30 दुपारी (25वा दिवस)", "icon": "Mars" },
+        { "name": "चंद्र", "from": "वृश्चिक", "to": "धनु", "date": "18 सप्टेंबर, 10:44 सायंकाळी (25वा दिवस)", "icon": "Moon" },
+        { "name": "चंद्र", "from": "धनु", "to": "मकर", "date": "21 सप्टेंबर, 11:15 प्रातः (28वा दिवस)", "icon": "Moon" },
+        { "name": "चंद्र", "from": "मकर", "to": "कुंभ", "date": "23 सप्टेंबर, 09:56 सायंकाळी (30वा दिवस)", "icon": "Moon" },
+        { "name": "चंद्र", "from": "कुंभ", "to": "मीन", "date": "26 सप्टेंबर, 05:33 प्रातः (33वा दिवस)", "icon": "Moon" },
+        { "name": "बुध", "from": "कन्या", "to": "तुला", "date": "26 सप्टेंबर, 12:37 दुपारी (33वा दिवस)", "icon": "Mercury" },
+        { "name": "चंद्र", "from": "मीन", "to": "मेष", "date": "28 सप्टेंबर, 10:16 प्रातः (35वा दिवस)", "icon": "Moon" },
+        { "name": "चंद्र", "from": "मेष", "to": "वृषभ", "date": "30 सप्टेंबर, 01:13 दुपारी (37वा दिवस)", "icon": "Moon" }
+      ],
+      "festivalsLabel": "सण",
+      "festivals": [
+        {
+          "name": "कृष्ण जन्माष्टमी",
+          "date": "04 सप्टेंबर",
+          "desc": "भगवान कृष्णाच्या जन्माचा भक्ती, उपवास आणि मध्यरात्री प्रार्थनांसह उत्सव साजरा करा."
+        },
+        {
+          "name": "गणेश चतुर्थी",
+          "date": "14 सप्टेंबर",
+          "desc": "भगवान गणेशाचे स्वागत करा; अडचणींच्या निवारणासाठी आणि नव्या सुरुवातीसाठी पूजा करा."
+        }
+      ],
+      "panchangCtaDesc": "दैनंदिन पंचांग, मुहूर्त आणि गोचर, राहू काळ, अभिजित मुहूर्त आणि बरेच काही पहा.",
+      "panchangCtaBtn": "पंचांग अॅप उघडा"
+    },
+"myth": {
+      "eyebrowLabel": "05",
+      "eyebrowText": "मिथक बनाम तथ्य",
+      "title": "शनि-मंगळ युती",
+      "subtitle": "अंधविश्वास दूर करणे, एक-एक विश्वास तोडणे।",
+      "mythLabel": "मिथक",
+      "mythText": "वैदिक ज्योतिषशास्त्रामध्ये शनि-मंगळ युती हा एक अशुभ योग मानला जातो.",
+      "realityLabel": "तथ्य",
+      "realityText": "याचे प्रमुख कारण म्हणजे शनि हा विलंब व मंदगतीचा कारक ग्रह, तर मंगळ हा तडकाफडकी निर्णय घेणारा व शीघ्र गतीचा ग्रह आहे. दोन्हीही विरोधाभासी ग्रह एकत्र असल्यामुळे अशा योगास अशुभ योग मानले आहे. ह्या योगामुळे व्यक्तीच्या कार्यक्षेत्रामध्ये अडथळे, विलंब अथवा वारंवार अडचणी निर्माण होतात व त्यामुळे व्यक्तीचे मानसिक संतुलन बिघडते.\n\nपरंतु वास्तविकता अशी आहे की शनि-मंगळ युती Engineering, Construction, Mining, Mechanical Work, Machinery & Manufacturing Sector साठी अतिशय शुभ फलदायी ठरते. मोठे-मोठे कारखानदार, Industrialists आणि Builders यांच्या जन्मपत्रिकेमध्ये शनि-मंगळ युती दिसून येते."
+    },
+    "watch": {
+      "eyebrowLabel": "06",
+      "eyebrowText": "या महिन्यात पहा",
+      "title": "पहा आणि फॉलो करा",
+      "subtitle": "आमच्या चॅनेलवरील ज्ञान व्हिडिओ आणि दैनिक ब्रह्मांडीय अपडेट.",
+      "youtubeLabel": "YouTube \u00b7 विशेष व्हिडिओ",
+      "visitChannel": "आमचे चॅनेल पहा",
+      "instagramLabel": "Instagram \u00b7 विशेष रील्स",
+      "followInsta": "@astrochitra.official फॉलो करा"
+    },
+    "know": {
+      "eyebrowLabel": "07",
+      "eyebrowText": "ज्योतिष माहिती",
+      "title": "तुम्हाला माहीत आहे का?",
+      "factTitle": "वैदिक ज्योतिष",
+      "factText": "वैदिक ज्योतिषशास्त्रात राशी, नक्षत्र, भाव व ग्रह यांच्या संमिश्र स्थितीनुसार जातकाच्या जन्मस्थितीच्या वेळी अर्थात जन्मदिवस, जन्मवेळ व जन्मस्थळानुसार ग्रहांचे कुंडलीतील स्थान पाहून फलादेश वर्तविण्यासाठी वापरण्यात येणारे प्राचीन शास्त्र म्हणजेच वैदिक ज्योतिषशास्त्र.",
+      "blogsLabel": "आमचे ब्लॉग \u00b7 विशेष वाचन",
+      "readArticle": "लेख वाचा",
+      "blogs": [
+        {
+          "category": "वैदिक ज्ञान",
+          "title": "मांगलिक दोष काय आहे?",
+          "image": "what-is-manglik-dosh.webp",
+          "url": "https://blogs.astrochitra.com/what-is-manglik-dosh/"
+        },
+        {
+          "category": "उपाय",
+          "title": "केमद्रुम दोष: परिणाम, कारणे आणि उपाय",
+          "image": "kemdrum-dosha-effects-causes-remedies.jpg",
+          "url": "https://blogs.astrochitra.com/what-is-kemdrum-dosha-effects-causes-remedies/"
+        },
+        {
+          "category": "वैयक्तिक चिंतन",
+          "title": "मी शनी बोलत आहे",
+          "image": "i-am-saturn-shani-speaking.webp",
+          "url": "https://blogs.astrochitra.com/i-am-saturn-speaking/"
+        },
+        {
+          "category": "योग",
+          "title": "गज केसरी योग · मानव जीवनातील त्याचे महत्त्व",
+          "image": "what-is-gaja-kesari-yoga.webp",
+          "url": "https://blogs.astrochitra.com/gaj-kesari-yog-its-importance-in-human-life/"
+        }
+      ]
+    },
+    "testimonials": {
+      "eyebrowLabel": "08",
+      "eyebrowText": "कृपापूर्ण शब्द",
+      "title": "साधक काय म्हणतात"
+    },
+    "share": {
+      "eyebrowLabel": "09",
+      "eyebrowText": "ज्ञान साठवा",
+      "title": "हा न्यूजलेटर शेअर करा",
+      "subtitle": "कुणाला ब्रह्मांडीय मार्गदर्शनाची गरज आहे? हा अंक शेअर करा आणि तुमचा ईमेल किंवा फोन नंबर टिप्पणीसह सोडा — गुरुजींचा संघ संपर्क साधेल.",
+      "successMsg": "धन्यवाद! तुमचे शेअर नोंदवले गेले आहे. आम्ही लवकरच संपर्क करू.",
+      "emailLabel": "ईमेल पत्ता",
+      "emailPlaceholder": "tumcha.naam@domain.com",
+      "phoneLabel": "फोन / WhatsApp",
+      "phoneOptional": "(पर्यायी)",
+      "phonePlaceholder": "+91 98765 43210",
+      "commentLabel": "टिप्पणी",
+      "commentOptional": "(पर्यायी)",
+      "commentPlaceholder": "आम्हाला सांगा तुम्हाला काय आवडले, किंवा गुरुजींना प्रश्न विचारा...",
+      "submitBtn": "शेअर करा आणि टिप्पणी करा",
+      "privacyNote": "आम्ही तुमच्या गोपनीयतेचा आदर करतो — संपर्क माहिती केवळ तुम्हाला प्रतिसाद देण्यासाठी वापरली जाते."
+    },
+    "final": {
+      "eyebrowLabel": "10",
+      "eyebrowText": "या महिन्यात मर्यादित स्लॉट",
+      "title": "तारे तुमचे पुढचे पाऊल<br><em>निर्देशित करतील</em>",
+      "subtitle": "सप्टेंबरचे स्लॉट भरण्यापूर्वी गुरुजींकडून तुमचा वैयक्तिक सल्ला बुक करा.",
+      "callBtn": "कॉल / आता बुक करा",
+      "shareBtn": "हा अंक शेअर करा",
+      "footerTag": "AstroChitra",
+      "footerCopy": "\u00a9 2026 AstroChitra. सर्व हक्क राखीव.",
+      "footerLinks": [
+        { "text": "कुंडली", "url": "https://astrochitra.com/kundli" },
+        { "text": "पंचांग", "url": "https://panchang.astrochitra.com/" },
+        { "text": "मॅचमेकिंग", "url": "https://astrochitra.com/matchmaking" },
+        { "text": "Insights", "url": "https://astrochitra.com/insights" },
+        { "text": "जर्नल", "url": "https://blogs.astrochitra.com/" }
+      ]
+    },
+    "shareToast": "लिंक क्लिपबोर्डवर कॉपी झाला"
+  }
+}
