@@ -100,10 +100,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['subscribe'])) {
   }
   h1{
     font-family:var(--font-display);
-    font-size:clamp(1.6rem,4.5vw,2rem);
+    font-size:clamp(2.5rem,4.5vw,2rem);
     color:var(--night);
     margin-bottom:.25rem;
-    letter-spacing:-0.1em;
+    letter-spacing:-10%;
+    font-weight: 300;
   }
   .subtitle{font-size:.95rem;color:var(--muted);margin-bottom:1.75rem;line-height:1.5;}
   .msg{margin-bottom:1rem;padding:.85rem 1rem;border-radius:8px;font-size:.9rem;font-weight:600;text-align:center;}

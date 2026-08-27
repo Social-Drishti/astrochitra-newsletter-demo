@@ -22,9 +22,9 @@ if (function_exists('track_view')) {
 <title><?php echo htmlspecialchars($title); ?></title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Dekko&family=Saira:wght@400;600;700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dekko&family=Saira:wght@400;600;700&display=swap" media="print" onload="this.media='all'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dekko&family=Saira:wght@400;600;700&display=swap"></noscript>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Dekko&family=Nunito+Sans:wght@400;600;700;900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dekko&family=Nunito+Sans:wght@400;600;700;900&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dekko&family=Nunito+Sans:wght@400;600;700;900&display=swap"></noscript>
 <style>
   @font-face{font-family:'AstroChitra';src:url('../../assets/AstroChitra.ttf') format('truetype');font-weight:normal;font-style:normal;font-display:swap;}
 
@@ -48,7 +48,7 @@ if (function_exists('track_view')) {
   *{margin:0;padding:0;box-sizing:border-box;}
   html,body{height:100%;}
   body{
-    font-family:<?php echo $lang==='en' ? "'Saira',sans-serif" : "'Dekko',cursive"; ?>,Georgia,'Times New Roman',serif;
+    font-family:<?php echo $lang==='en' ? "'Nunito Sans',sans-serif" : "'Dekko',cursive"; ?>,Georgia,'Times New Roman',serif;
     background:var(--cream); color:var(--ink);
     line-height:1.6; overflow:hidden;
     -webkit-font-smoothing:antialiased;
@@ -131,7 +131,7 @@ if (function_exists('track_view')) {
 
   .eyebrow{
     display:inline-flex;align-items:center;gap:10px;
-    font-size:.7rem;font-weight:bold;letter-spacing:.22em;text-transform:uppercase;
+    font-size:.7rem;font-weight:bold;letter-spacing:.04em;text-transform:uppercase;
     color:var(--terracotta);
   }
   .eyebrow::before,.eyebrow::after{content:"";width:26px;height:1px;background:var(--gold);}
@@ -155,8 +155,6 @@ if (function_exists('track_view')) {
   .sec-head h2,
   .hero-wrap h1,
   .final-wrap h2,
-  .rashi-body h3,
-  .transit-body h3,
   .fest-item h3,
   .myth-col h3,
   .fact h3,
@@ -164,27 +162,30 @@ if (function_exists('track_view')) {
     font-family:'AstroChitra',Georgia,serif;
     font-weight:100;
     font-style:normal;
-    letter-spacing:-10%;
+    letter-spacing:-0.1em;
   }
   .ghost{font-size:clamp(9.6rem,34vw,17rem);}
   .sec-head h2{font-size:clamp(3.1rem,10vw,4.5rem);}
   .hero-wrap h1{font-size:clamp(5.8rem,25vw,10.8rem);}
   .final-wrap h2{font-size:clamp(3.5rem,12.4vw,5.6rem);}
-  .rashi-body h3,
-  .fest-item h3,
+  .fest-item h3{font-size:1.95rem;}
   .fact h3{font-size:1.3rem;}
-  .transit-body h3{font-size:1.15rem;}
   .myth-col h3{font-size:1.25rem;}
   .blog-item h3{font-size:1.3rem;}
+  /* Rashifal + transit names use the clean body font, bigger & clearer */
+  .rashi-body h3{font-family:'Nunito Sans',sans-serif;font-weight:900;font-size:1.55rem;letter-spacing:0;}
+  .transit-body h3{font-family:'Nunito Sans',sans-serif;font-weight:400;font-size:1.02rem;letter-spacing:0;}
+  /* festival date label stays in the clean body font, not AstroChitra */
+  .fest-date{font-family:'Nunito Sans',sans-serif;font-weight:700;}
   /* Kill any italic/em inside AstroChitra headings */
   .sec-head h2 em,
   .hero-wrap h1 em,
   .final-wrap h2 em{font-style:normal;}
-  /* Headings with dashes get Saira instead of AstroChitra */
+  /* Headings with dashes get Nunito Sans instead of AstroChitra */
   .sec-head h2.dash,
   .myth-col h3.dash,
   .blog-item h3.dash{
-    font-family:'Saira',sans-serif;
+    font-family:'Nunito Sans',sans-serif;
     letter-spacing:normal;
   }
   <?php else: ?>
@@ -193,6 +194,7 @@ if (function_exists('track_view')) {
   .sec-head h2,
   .hero-wrap h1,
   .final-wrap h2,
+  .mantra-title,
   .rashi-body h3,
   .transit-body h3,
   .fest-item h3,
@@ -205,22 +207,25 @@ if (function_exists('track_view')) {
     letter-spacing:normal;
   }
   /* 1.5× content sizes */
-  .eyebrow{font-size:1.05rem;letter-spacing:.15em;}
-  .eyebrow .no{letter-spacing:.06em;}
+  .eyebrow{font-size:1.05rem;letter-spacing:.04em;}
+  .eyebrow .no{letter-spacing:.05em;}
   .sec-head p{font-size:1.38rem;}
   .guruji-quote{font-size:clamp(1.8rem,6vw,2.8rem);}
   .guruji-role{font-size:1.17rem;}
   .rashi-dates{font-size:1rem;}
+  .rashi-body h3{font-size:1.5rem;}
   .rashi-body>p{font-size:1.26rem;}
   .hit-tag{font-size:1rem;}
   .prod-txt strong{font-size:1.6rem;}
   .prod-txt span{font-size:1.3rem;}
-  .mantra-label{font-size:1rem;}
+  .mantra-title{font-size:clamp(3rem,12vw,5rem);}
   .mantra-sanskrit{font-size:clamp(2.5rem,8vw,4rem);}
   .mantra-meaning{font-size:1.38rem;}
   .transit-date{font-size:1rem;}
   .transit-tag{font-size:1rem;}
   .transit-body h3{font-size:1.3rem;}
+  .fest-date{font-family:'Dekko',cursive;}
+  .fest-item h3{font-size:1.9rem;line-height:1.2;}
   .fest-item p{font-size:1.28rem;}
   .myth-label{font-size:1rem;}
   .myth-col h3{font-size:1.45rem;}
@@ -255,7 +260,7 @@ if (function_exists('track_view')) {
     display:flex;align-items:center;gap:14px;
     margin:clamp(26px,5vh,42px) auto 10px;
     width:100%;text-align:center;
-    font-size:.7rem;font-weight:bold;letter-spacing:.22em;text-transform:uppercase;color:var(--terracotta);
+    font-size:.7rem;font-weight:bold;letter-spacing:.04em;text-transform:uppercase;color:var(--terracotta);
   }
   .rule-label::before,.rule-label::after{content:"";flex:1;height:1px;background:var(--gold);}
   .rule-label.tight{margin-top:0;}
@@ -302,7 +307,7 @@ if (function_exists('track_view')) {
     box-shadow:-18px 0 44px rgba(43,16,5,.18);
   }
   body.menu-open .menu-panel{transform:translateX(0);}
-  .menu-title{font-size:.68rem;font-weight:bold;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);text-align:center;margin-bottom:14px;display:block;}
+  .menu-title{font-size:.68rem;font-weight:bold;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);text-align:center;margin-bottom:14px;display:block;}
   .menu-list{display:flex;flex-direction:column;gap:6px;list-style:none;}
   .menu-list a{
     font-size:.86rem;font-weight:bold;color:var(--cocoa);
@@ -341,7 +346,7 @@ if (function_exists('track_view')) {
   .seg.done i{background:rgba(240,217,138,.55);}
   .nav-count{
     display:none;align-items:baseline;gap:4px;color:#e8dcc2;
-    font-size:.72rem;letter-spacing:.12em;padding:0 6px 0 8px;white-space:nowrap;
+    font-size:.72rem;letter-spacing:.04em;padding:0 6px 0 8px;white-space:nowrap;
   }
   .nav-count b{color:var(--gold-light);font-size:.95rem;}
   @media(min-width:540px){.nav-count{display:inline-flex;}}
@@ -354,9 +359,9 @@ if (function_exists('track_view')) {
   }
   .brand-badge img{height:40px;width:auto;}
   .brand-badge i{width:1px;height:24px;background:var(--gold-soft);}
-  .brand-badge span{font-size:.74rem;letter-spacing:.26em;text-transform:uppercase;color:var(--gold-light);font-weight:bold;}
+  .brand-badge span{font-size:.74rem;letter-spacing:.04em;text-transform:uppercase;color:var(--gold-light);font-weight:bold;}
   .hero-kicker{
-    display:inline-flex;align-items:center;gap:9px;font-size:.67rem;font-weight:bold;letter-spacing:.3em;text-transform:uppercase;
+    display:inline-flex;align-items:center;gap:9px;font-size:.67rem;font-weight:bold;letter-spacing:.05em;text-transform:uppercase;
     color:var(--gold-light);
   }
   .hero-kicker i{width:26px;height:1px;background:var(--gold-soft);}
@@ -367,7 +372,7 @@ if (function_exists('track_view')) {
   .hero-wrap h1 em{color:var(--gold-light);}
   .hero-hint{
     margin-top:clamp(28px,6vh,52px);
-    font-size:.68rem;letter-spacing:.24em;text-transform:uppercase;color:#bfae8d;
+    font-size:.68rem;letter-spacing:.04em;text-transform:uppercase;color:#bfae8d;
     display:inline-flex;align-items:center;gap:9px;
   }
   .hero-hint svg{animation:nudge 1.6s ease infinite;}
@@ -397,7 +402,7 @@ if (function_exists('track_view')) {
 }
 
   .guruji-quote{font-size:clamp(1.32rem,4.8vw,2rem);font-style:italic;line-height:1.42;color:var(--cocoa);max-width:680px;}
-  .guruji-name{font-weight:bold;color:var(--terracotta);letter-spacing:.08em;}
+  .guruji-name{font-weight:bold;color:var(--terracotta);letter-spacing:.04em;}
   .guruji-role{font-size:.78rem;color:var(--muted);letter-spacing:.04em;}
   .consult-links{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px 22px;margin-top:10px;}
   .quiet-link{
@@ -458,42 +463,59 @@ if (function_exists('track_view')) {
   @media(min-width:760px){.prod-item{padding:15px 10px;}}
 
   /* ================= SLIDE 5 : MANTRA ================= */
-  .mantra-wrap{text-align:center;max-width:700px;margin:0 auto;position:relative;}
-  .mantra-kicker{
-    display:inline-flex;align-items:center;gap:12px;
-    font-size:.67rem;font-weight:bold;letter-spacing:.28em;text-transform:uppercase;color:var(--gold-light);
+  .mantra-wrap{text-align:left;max-width:780px;margin:0 auto;position:relative;}
+  .mantra-title{
+    font-family:'AstroChitra',Georgia,serif;
+    font-weight:100;font-style:normal;letter-spacing:-0.1em;line-height:1.02;
+    color:var(--gold-light);
+    font-size:clamp(4rem,15vw,7rem);
   }
-  .mantra-kicker i{width:22px;height:1px;background:var(--gold-soft);}
-  .mantra-sanskrit{margin:clamp(20px,4vh,30px) 0 14px;font-size:clamp(1.7rem,6.6vw,2.8rem);line-height:1.3;color:#fffdf8;font-weight:normal;}
+  .s-mantra .mantra-title{color:var(--gold-light);}
+  .mantra-sanskrit{margin:clamp(24px,4vh,32px) 0 14px;font-size:clamp(1.7rem,6.6vw,2.8rem);line-height:1.3;color:#fffdf8;font-weight:normal;}
   .mantra-sanskrit em{font-style:italic;color:var(--gold-light);}
-  .mantra-meaning{color:#d8cbb2;font-style:italic;max-width:600px;margin:0 auto;font-size:.92rem;line-height:1.68;}
+  .mantra-meaning{color:#d8cbb2;font-style:italic;max-width:680px;margin:0 0;font-size:.92rem;line-height:1.68;}
   .mantra-tip{
-    margin:clamp(24px,4.5vh,32px) auto 0;max-width:560px;
-    border-left:2px solid var(--gold);padding:3px 0 3px 18px;
-    text-align:left;font-size:.87rem;color:#e8dcc2;line-height:1.62;
+    margin:clamp(26px,5vh,36px) 0 0;max-width:640px;
+    background:rgba(240,217,138,.12);
+    border:1px solid var(--gold);
+    border-left:4px solid var(--gold);
+    border-radius:14px;
+    padding:16px 20px;
+    text-align:left;font-size:.88rem;color:#e8dcc2;line-height:1.62;
+    box-shadow:0 14px 30px -18px rgba(43,16,5,.6);
   }
   .mantra-tip strong{color:var(--gold-light);font-weight:bold;}
 
   /* ================= SLIDE 6 : TRANSITS & FESTIVALS ================= */
-  .transit-list{width:100%;max-width:1140px;margin:0 auto;display:grid;grid-template-columns:1fr;}
-  .transit-item{display:flex;align-items:center;gap:14px;padding:11px 4px;border-bottom:1px dashed var(--rule);}
-  .transit-item>img{flex:none;width:30px;height:30px;object-fit:contain;filter:saturate(.9);}
-  .transit-body{display:flex;flex-wrap:wrap;align-items:baseline;gap:1px 12px;flex:1;min-width:0;}
+  .transit-list{width:100%;max-width:1140px;margin:0 auto;display:grid;grid-template-columns:1fr;gap:10px;}
+  .transit-item{
+    display:flex;align-items:center;gap:14px;padding:12px 14px;
+    border:1px solid var(--line);border-radius:14px;background:var(--paper);
+    box-shadow:0 10px 24px -18px rgba(71,29,11,.35);
+  }
+  .transit-item>img{
+    flex:none;width:40px;height:40px;object-fit:contain;filter:saturate(.9);
+    background:var(--parchment);border:1px solid var(--gold);border-radius:50%;padding:8px;
+  }
+  .transit-body{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:10px;row-gap:3px;flex:1;min-width:0;}
   .transit-body h3{color:var(--ink);}
-  .transit-body h3 b{font-weight:bold;}
-  .transit-date{font-size:.67rem;font-weight:bold;letter-spacing:.08em;text-transform:uppercase;color:var(--crimson);}
+  .transit-body h3 b{font-weight:700;color:var(--cocoa);}
+  .transit-date{
+    font-size:.68rem;font-weight:bold;letter-spacing:.04em;text-transform:uppercase;
+    color:var(--crimson);background:rgba(174,23,42,.08);border-radius:999px;padding:4px 11px;
+  }
   .fest-grid{width:100%;max-width:1140px;margin:0 auto;display:grid;grid-template-columns:1fr;}
   .fest-item{padding:15px 4px;border-bottom:1px solid var(--line);}
   .fest-item h3{color:var(--night);display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;}
   .fest-date{
-    flex:none;font-size:.65rem;font-weight:bold;letter-spacing:.08em;text-transform:uppercase;
-    color:var(--night);background:var(--gold-light);border-radius:999px;padding:4px 11px;
+    flex:none;font-size:1.02rem;font-weight:bold;letter-spacing:.02em;text-transform:uppercase;
+    color:var(--night);background:var(--gold-light);border-radius:999px;padding:6px 16px;
   }
   .fest-item p{font-size:.85rem;color:var(--muted);margin-top:6px;line-height:1.55;}
   .panchang-cta{text-align:center;margin:24px auto 0;max-width:600px;}
   .panchang-cta p{color:var(--muted);font-size:.92rem;margin-bottom:16px;line-height:1.6;}
   @media(min-width:900px){
-    .transit-list{grid-template-columns:repeat(2,1fr);column-gap:44px;}
+    .transit-list{grid-template-columns:repeat(2,1fr);column-gap:20px;}
     .fest-grid{grid-template-columns:repeat(2,1fr);column-gap:44px;}
   }
 
@@ -503,7 +525,7 @@ if (function_exists('track_view')) {
   .myth-col+.myth-col{border-top:1px solid var(--line);padding-top:22px;}
   .myth-label{
     display:inline-flex;align-items:center;gap:7px;
-    font-size:.65rem;font-weight:bold;letter-spacing:.14em;text-transform:uppercase;
+    font-size:.65rem;font-weight:bold;letter-spacing:.04em;text-transform:uppercase;
     padding:5px 13px;border-radius:999px;
   }
   .myth-no{color:var(--crimson);border:1px solid rgba(174,23,42,.35);}
@@ -573,7 +595,7 @@ if (function_exists('track_view')) {
   .blog-list{width:100%;max-width:980px;margin:0 auto;display:grid;grid-template-columns:1fr;}
   .blog-item{padding:15px 4px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;align-items:flex-start;}
   .blog-img{width:100%;height:auto;border-radius:10px;margin-bottom:10px;border:1px solid var(--line);}
-  .blog-cat{font-size:.63rem;font-weight:bold;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);}
+  .blog-cat{font-size:.63rem;font-weight:bold;letter-spacing:.04em;text-transform:uppercase;color:var(--gold);}
   .blog-item h3{color:var(--night);margin-top:5px;line-height:1.45;}
   .blog-link{
     display:inline-flex;align-items:center;gap:7px;
@@ -636,7 +658,7 @@ if (function_exists('track_view')) {
   }
   .foot-brand{display:flex;align-items:center;gap:10px;}
   .foot-brand img{height:34px;width:auto;}
-  .foot-tag{font-size:.68rem;letter-spacing:.24em;text-transform:uppercase;color:#bfae8d;}
+  .foot-tag{font-size:.68rem;letter-spacing:.04em;text-transform:uppercase;color:#bfae8d;}
   .foot-links{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 8px;font-size:.82rem;color:#e8dcc2;}
   .foot-links a{padding:8px 10px;border-radius:8px;min-height:36px;display:inline-flex;align-items:center;}
   .foot-links a:hover{color:var(--gold-light);}
@@ -666,7 +688,7 @@ if (function_exists('track_view')) {
     border:none;background:none;padding:9px 13px;font-size:.68rem;font-weight:600;
     letter-spacing:.08em;cursor:pointer;position:relative;
     color:rgba(232,220,194,.55);transition:color .2s;
-    font-family:'Saira',sans-serif;
+    font-family:'Nunito Sans',sans-serif;
   }
   .lang-switcher button:hover{color:var(--gold-light);}
   .lang-switcher button.active{color:var(--night);}
@@ -795,10 +817,10 @@ if (function_exists('track_view')) {
           </div>
         </div>
         <div class="consult-links rv" style="--d:.2s;">
-          <button class="btn btn-gold" data-goto="11"><?php echo htmlspecialchars($langContent['guruji']['bookBtn']); ?></button>
-          <a href="#" class="quiet-link">
+          <a class="btn btn-gold" href="https://astrochitra.com/consultation" target="_blank" rel="noopener"><?php echo htmlspecialchars($langContent['guruji']['bookBtn']); ?></a>
+          <a class="btn btn-outline" href="https://wa.me/919820616655" target="_blank" rel="noopener">
             <svg width="17" height="17" viewBox="0 0 24 24" fill="#25d366"><path d="M12.04 2a9.9 9.9 0 0 0-8.51 14.93L2 22l5.2-1.49A9.9 9.9 0 1 0 12.04 2zm5.77 14.06c-.24.68-1.4 1.3-1.93 1.35-.52.05-1.01.24-3.4-.71-2.87-1.13-4.68-4.06-4.82-4.25-.14-.19-1.15-1.53-1.15-2.92 0-1.39.73-2.07.99-2.35.26-.28.57-.35.76-.35h.55c.18 0 .42-.07.66.5.24.57.83 2.03.9 2.18.07.14.12.31.02.5-.1.19-.15.3-.29.47-.15.17-.31.38-.44.51-.14.14-.29.29-.12.57.16.28.73 1.2 1.57 1.95 1.08.96 1.99 1.26 2.27 1.4.28.14.44.12.61-.07.16-.19.7-.81.89-1.09.19-.28.38-.23.63-.14.26.09 1.63.77 1.91.91.28.14.47.21.54.33.07.12.07.68-.17 1.35z"/></svg>
-            <?php echo htmlspecialchars($langContent['guruji']['whatsappLink']); ?>
+            <?php echo htmlspecialchars($langContent['guruji']['whatsappLink']); ?> &nbsp;<b>+91 98206 16655</b>
           </a>
         </div>
       </div>
@@ -868,10 +890,10 @@ if (function_exists('track_view')) {
     <span class="deco-ring rg2"></span>
     <div class="slide-in">
       <div class="mantra-wrap">
-        <span class="mantra-kicker rv"><i></i><?php echo htmlspecialchars($langContent['mantra']['kicker']); ?><i></i></span>
+        <h2 class="mantra-title rv"><?php echo htmlspecialchars($langContent['mantra']['kicker']); ?></h2>
         <p class="mantra-sanskrit rv" style="--d:.1s;"><?php echo $langContent['mantra']['sanskrit']; ?></p>
         <p class="mantra-meaning rv" style="--d:.18s;"><?php echo $langContent['mantra']['meaning']; ?></p>
-        <p class="mantra-tip rv" style="--d:.26s;"><strong><?php echo htmlspecialchars($langContent['mantra']['tipLabel']); ?></strong> <?php echo htmlspecialchars($langContent['mantra']['tipText']); ?></p>
+        <aside class="mantra-tip rv" style="--d:.26s;"><strong><?php echo htmlspecialchars($langContent['mantra']['tipLabel']); ?></strong> <?php echo htmlspecialchars($langContent['mantra']['tipText']); ?></aside>
       </div>
     </div>
   </section>
@@ -1090,9 +1112,9 @@ if (function_exists('track_view')) {
         <h2 class="rv" style="--d:.08s;"><?php echo $langContent['final']['title']; ?></h2>
         <p class="rv" style="--d:.16s;"><?php echo htmlspecialchars($langContent['final']['subtitle']); ?></p>
         <div class="final-actions rv" style="--d:.24s;">
-          <a href="#" class="btn btn-gold">
+          <a href="tel:+919820616655" class="btn btn-gold">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.61 21 3 13.39 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.24.2 2.45.57 3.57a1 1 0 0 1-.24 1.02l-2.21 2.2z"/></svg>
-            <?php echo htmlspecialchars($langContent['final']['callBtn']); ?>
+            <?php echo htmlspecialchars($langContent['final']['callBtn']); ?> &nbsp;+91 98206 16655
           </a>
           <button class="btn btn-primary" data-goto="10"><?php echo htmlspecialchars($langContent['final']['shareBtn']); ?></button>
         </div>
