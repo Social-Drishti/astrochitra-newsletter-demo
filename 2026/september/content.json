@@ -50,7 +50,7 @@
       "cautionDaysLabel": "Caution Days",
       "signs": [
 {
-            "name": "Aries",
+            "name": "Mesha (Aries)",
             "dates": "Mar 21 – Apr 19",
             "overview": "Overall, this month can bring progress in your career, success in competitions, network benefits, and positivity in relationships.",
             "transits": [
@@ -102,7 +102,7 @@
             }
           },
         {
-          "name": "Taurus",
+          "name": "Vrishabha (Taurus)",
           "dates": "Apr 20 – May 20",
           "overview": "Overall, the month can remain highly active in terms of career, networking, and learning. However, keeping patience in your home and family life, as well as in your communication, will be necessary.",
           "transits": [
@@ -154,7 +154,7 @@
           }
         },
         {
-          "name": "Gemini",
+          "name": "Mithuna (Gemini)",
           "dates": "May 21 – Jun 20",
           "overview": "Overall, this month can provide stability in your career, financial growth, important decisions related to home and family, and progress in creative matters.",
           "transits": [
@@ -206,7 +206,7 @@
           }
         },
         {
-          "name": "Cancer",
+          "name": "Karka (Cancer)",
           "dates": "Jun 21 – Jul 22",
           "overview": "Overall, this month will be better for new opportunities and planning, but practicing patience in your decisions will be necessary.",
           "transits": [
@@ -258,7 +258,7 @@
           }
         },
         {
-          "name": "Leo",
+          "name": "Simha (Leo)",
           "dates": "Jul 23 – Aug 22",
           "overview": "Overall, this month can remain good for money, communication, networking, and career-related opportunities.",
           "transits": [
@@ -316,7 +316,7 @@
           }
         },
         {
-          "name": "Virgo",
+          "name": "Kanya (Virgo)",
           "dates": "Aug 23 – Sep 22",
           "overview": "Overall, this will be a good month for career, growth, networking, communication, and income, but it will be necessary to keep patience in your relationships.",
           "transits": [
@@ -374,7 +374,7 @@
           }
         },
         {
-          "name": "Libra",
+          "name": "Tula (Libra)",
           "dates": "Sep 23 – Oct 22",
           "overview": "Overall, this will be an important month for your personality, career, networking, and professional opportunities. You will need to balance your expenses and work pressure.",
           "transits": [
@@ -426,7 +426,7 @@
           }
         },
         {
-          "name": "Scorpio",
+          "name": "Vrishchika (Scorpio)",
           "dates": "Oct 23 – Nov 21",
           "overview": "Overall, this can be a month of career growth, income, networking, and strong foreign connections.",
           "transits": [
@@ -484,7 +484,7 @@
           }
         },
         {
-          "name": "Sagittarius",
+          "name": "Dhanu (Sagittarius)",
           "dates": "Nov 22 – Dec 21",
           "overview": "Overall, this will be an important month for career growth, income, networking, and professional recognition, but keep extra caution in financial matters.",
           "transits": [
@@ -536,7 +536,7 @@
           }
         },
         {
-          "name": "Capricorn",
+          "name": "Makara (Capricorn)",
           "dates": "Dec 22 – Jan 19",
           "overview": "Overall, this month will provide career growth, professional recognition, the support of luck, and progress in relationships and partnerships.",
           "transits": [
@@ -594,7 +594,7 @@
           }
         },
         {
-          "name": "Aquarius",
+          "name": "Kumbha (Aquarius)",
           "dates": "Jan 20 – Feb 18",
           "overview": "Overall, this month can be a month of progress in your career, competitions, job opportunities, and luck. However, keeping patience in your relationships is essential.",
           "transits": [
@@ -657,7 +657,7 @@
           }
         },
         {
-          "name": "Pisces",
+          "name": "Meena (Pisces)",
           "dates": "Feb 19 – Mar 20",
           "overview": "Overall, this month can bring important changes for you in relationships, partnerships, career, creativity, and financial matters.",
           "transits": [
@@ -801,10 +801,10 @@
 "myth": {
       "eyebrowLabel": "05",
       "eyebrowText": "Myth vs Fact",
-      "title": "The Saturn–Mars Conjunction",
+      "title": "The Saturn Mars Conjunction",
       "subtitle": "Clearing superstitions, one belief at a time.",
       "mythLabel": "Myth",
-      "mythText": "In Vedic astrology, the Saturn–Mars conjunction is considered an inauspicious combination.",
+      "mythText": "In Vedic astrology, the Saturn Mars conjunction is considered an inauspicious combination.",
       "realityLabel": "Fact",
       "realityText": "The main reason is that Saturn is a planet associated with delay and slow movement, whereas Mars is a planet that takes quick decisions and moves rapidly. Since both are contradictory planets, their conjunction is considered an inauspicious yoga. This combination can create obstacles, delays, or repeated difficulties in a person's professional life, which can also disturb their mental balance.\n\nHowever, the reality is that the Saturn–Mars conjunction can prove to be highly beneficial for sectors such as Engineering, Construction, Mining, Mechanical Work, Machinery & Manufacturing. This conjunction is often seen in the birth charts of many big industrialists, factory owners and builders."
     },
