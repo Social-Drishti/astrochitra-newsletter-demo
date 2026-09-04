@@ -44,114 +44,680 @@
       "eyebrowText": "Monthly Horoscope",
       "title": "Rashifal &nbsp;<em>September 2026</em>",
       "subtitle": "Date-wise impacts for all twelve moon signs this month.",
+      "transitsLabel": "Key Transits",
+      "extraTransitsLabel": "Ongoing Transits",
+      "bestDaysLabel": "Best Days",
+      "cautionDaysLabel": "Caution Days",
       "signs": [
-        {
-          "name": "Aries",
-          "dates": "Mar 21 – Apr 19",
-          "description": "This month brings powerful career momentum for Aries natives. The early September transits ignite your ambition, pushing you toward leadership roles. Financial gains are indicated mid-month. Relationships deepen as Mars strengthens your emotional core.",
-          "hits": [
-            { "text": "Sep 4–9 Career Push", "hot": true },
-            { "text": "Sep 18 Finance", "hot": false }
-          ]
-        },
+{
+            "name": "Aries",
+            "dates": "Mar 21 – Apr 19",
+            "overview": "Overall, this month can bring progress in your career, success in competitions, network benefits, and positivity in relationships.",
+            "transits": [
+              {
+                "date": "Sep 2",
+                "planet": "Venus",
+                "planetIcon": "Venus",
+                "from": "6th House",
+                "to": "7th House",
+                "house": "7th House",
+                "effect": "For unmarried people, there can be chances of new relationships or a meeting with an important person."
+              },
+              {
+                "date": "Sep 7",
+                "planet": "Mercury",
+                "planetIcon": "Mercury",
+                "from": "5th House",
+                "to": "6th House",
+                "house": "6th House",
+                "effect": "You may get new job opportunities. A solution to an old office problem can be found."
+              },
+              {
+                "date": "Sep 17",
+                "planet": "Sun",
+                "planetIcon": "Sun",
+                "from": "5th House",
+                "to": "6th House",
+                "house": "6th House",
+                "effect": "You may get new job opportunities. A solution to an old office problem can be found."
+              },
+              {
+                "date": "Sep 18",
+                "planet": "Mars",
+                "planetIcon": "Mars",
+                "from": "3rd House",
+                "to": "4th House",
+                "house": "4th House",
+                "effect": "Do not rush in property matters. Sudden expenses at home may increase."
+              }
+            ],
+            "extraTransits": [],
+            "bestDays": {
+              "range": "2nd Sep to 17th Sep",
+              "note": "Relationships, meetings, career, important decisions."
+            },
+            "cautionDays": {
+              "range": "18th Sep to 30th Sep",
+              "note": "Keep patience in matters related to home and family, property, vehicles, and emotional decisions."
+            }
+          },
         {
           "name": "Taurus",
           "dates": "Apr 20 – May 20",
-          "description": "Family bonds take center stage this September. Venus moving into Libra on the 2nd blesses your home life with harmony. Expect a financial windfall around the 12th. Health improves steadily — prioritise sleep and hydration.",
-          "hits": [
-            { "text": "Sep 2 Family", "hot": false },
-            { "text": "Sep 12 Wealth", "hot": true }
-          ]
+          "overview": "Overall, the month can remain highly active in terms of career, networking, and learning. However, keeping patience in your home and family life, as well as in your communication, will be necessary.",
+          "transits": [
+            {
+              "date": "Sep 2",
+              "planet": "Venus",
+              "planetIcon": "Venus",
+              "from": "5th House",
+              "to": "6th House",
+              "house": "6th House",
+              "effect": "Confidence and decision-making can increase. It will be a good time for interviews, presentations, writing, studies, and creative work."
+            },
+            {
+              "date": "Sep 7",
+              "planet": "Mercury",
+              "planetIcon": "Mercury",
+              "from": "4th House",
+              "to": "5th House",
+              "house": "5th House",
+              "effect": "Confidence and decision-making can increase. It will be a good time for interviews, presentations, writing, studies, and creative work."
+            },
+            {
+              "date": "Sep 17",
+              "planet": "Sun",
+              "planetIcon": "Sun",
+              "from": "4th House",
+              "to": "5th House",
+              "house": "5th House",
+              "effect": "Confidence and decision-making can increase. It will be a good time for interviews, presentations, writing, studies, and creative work."
+            },
+            {
+              "date": "Sep 18",
+              "planet": "Mars",
+              "planetIcon": "Mars",
+              "from": "2nd House",
+              "to": "3rd House",
+              "house": "3rd House",
+              "effect": "You will make aggressive efforts to start new projects, travel, and push your work forward. Avoid arguments with siblings and close ones, and control your anger and speech. There can be a tendency for sudden decisions in property matters."
+            }
+          ],
+          "extraTransits": [],
+          "bestDays": {
+            "range": "7th Sep to 17th Sep",
+            "note": "Career, meetings, interviews, studies, creative field, important decisions."
+          },
+          "cautionDays": {
+            "range": "18th Sep to 30th Sep",
+            "note": "Keep patience in home and family matters, property and vehicle decisions, expenses, and decisions taken in anger."
+          }
         },
         {
           "name": "Gemini",
           "dates": "May 21 – Jun 20",
-          "description": "Communication is your superpower this month. Mercury's transit sharpens your articulation, making contracts and negotiations favourable. A short journey around the 21st could bring pleasant surprises. Students excelling in exams.",
-          "hits": [
-            { "text": "Sep 6 Communication", "hot": true },
-            { "text": "Sep 21 Travel", "hot": false }
-          ]
+          "overview": "Overall, this month can provide stability in your career, financial growth, important decisions related to home and family, and progress in creative matters.",
+          "transits": [
+            {
+              "date": "Sep 2",
+              "planet": "Venus",
+              "planetIcon": "Venus",
+              "from": "4th House",
+              "to": "5th House",
+              "house": "5th House",
+              "effect": "Positivity can come in love relations and creative studies. You may get a chance to build a connection with a favorite person."
+            },
+            {
+              "date": "Sep 7",
+              "planet": "Mercury",
+              "planetIcon": "Mercury",
+              "from": "3rd House",
+              "to": "4th House",
+              "house": "4th House",
+              "effect": "Important decisions related to home and family, property, vehicles, and career may come up."
+            },
+            {
+              "date": "Sep 17",
+              "planet": "Sun",
+              "planetIcon": "Sun",
+              "from": "3rd House",
+              "to": "4th House",
+              "house": "4th House",
+              "effect": "Important decisions related to home and family, property, vehicles, and career may come up."
+            },
+            {
+              "date": "Sep 18",
+              "planet": "Mars",
+              "planetIcon": "Mars",
+              "from": "1st House",
+              "to": "2nd House",
+              "house": "2nd House",
+              "effect": "New opportunities to increase income may be found. With correct planning, financial growth can happen."
+            }
+          ],
+          "extraTransits": [],
+          "bestDays": {
+            "range": "2nd Sep to 17th Sep",
+            "note": "Relationships, creativity, property discussions, meetings, career planning, important decisions."
+          },
+          "cautionDays": {
+            "range": "18th Sep to 30th Sep",
+            "note": "Keep patience in family matters, money, expenses, property, vehicles, and decisions taken emotionally."
+          }
         },
         {
           "name": "Cancer",
           "dates": "Jun 21 – Jul 22",
-          "description": "Emotional waves are strong at the start of September. The Moon's transit through your sign mid-month brings clarity. Domestic matters resolve beautifully. Invest in home improvements — they will yield long-term comfort.",
-          "hits": [
-            { "text": "Sep 3 Emotions", "hot": false },
-            { "text": "Sep 15 Home", "hot": false }
-          ]
+          "overview": "Overall, this month will be better for new opportunities and planning, but practicing patience in your decisions will be necessary.",
+          "transits": [
+            {
+              "date": "Sep 2",
+              "planet": "Venus",
+              "planetIcon": "Venus",
+              "from": "3rd House",
+              "to": "4th House",
+              "house": "4th House",
+              "effect": "Positivity can come in matters related to home and family, property, vehicles, and luxury items. Sweetness will remain in relationships."
+            },
+            {
+              "date": "Sep 7",
+              "planet": "Mercury",
+              "planetIcon": "Mercury",
+              "from": "2nd House",
+              "to": "3rd House",
+              "house": "3rd House",
+              "effect": "Communication, networking, traveling, and self-efforts will increase. You may get success in efforts for job opportunities, interviews, and meetings."
+            },
+            {
+              "date": "Sep 17",
+              "planet": "Sun",
+              "planetIcon": "Sun",
+              "from": "2nd House",
+              "to": "3rd House",
+              "house": "3rd House",
+              "effect": "Communication, networking, traveling, and self-efforts will increase. You may get success in efforts for job opportunities, interviews, and meetings."
+            },
+            {
+              "date": "Sep 18",
+              "planet": "Mars",
+              "planetIcon": "Mars",
+              "from": "12th House",
+              "to": "1st House",
+              "house": "1st House",
+              "effect": "Your confidence, decision-making, and personal growth can get strong support."
+            }
+          ],
+          "extraTransits": [],
+          "bestDays": {
+            "range": "2nd Sep to 17th Sep",
+            "note": "Relationships, property, home and family, meetings, job opportunities."
+          },
+          "cautionDays": {
+            "range": "18th Sep to 30th Sep",
+            "note": "Haste, home and family, vehicles, property."
+          }
         },
         {
           "name": "Leo",
           "dates": "Jul 23 – Aug 22",
-          "description": "Venus enters your house of wealth on the 11th, making this an excellent period for income growth. Recognition at work is imminent. Romance blossoms for singles. Creative projects gain traction and public appreciation.",
-          "hits": [
-            { "text": "Sep 11 Venus Entry", "hot": true },
-            { "text": "Sep 24 Recognition", "hot": false }
-          ]
+          "overview": "Overall, this month can remain good for money, communication, networking, and career-related opportunities.",
+          "transits": [
+            {
+              "date": "Sep 2",
+              "planet": "Venus",
+              "planetIcon": "Venus",
+              "from": "2nd House",
+              "to": "3rd House",
+              "house": "3rd House",
+              "effect": "It is a good time for communication, creative work, social media, marketing, and business communication."
+            },
+            {
+              "date": "Sep 7",
+              "planet": "Mercury",
+              "planetIcon": "Mercury",
+              "from": "1st House",
+              "to": "2nd House",
+              "house": "2nd House",
+              "effect": "New income opportunities can be found. You may get a chance to move stalled financial matters forward."
+            },
+            {
+              "date": "Sep 17",
+              "planet": "Sun",
+              "planetIcon": "Sun",
+              "from": "1st House",
+              "to": "2nd House",
+              "house": "2nd House",
+              "effect": "New income opportunities can be found. You may get a chance to move stalled financial matters forward."
+            },
+            {
+              "date": "Sep 18",
+              "planet": "Mars",
+              "planetIcon": "Mars",
+              "from": "11th House",
+              "to": "12th House",
+              "house": "12th House",
+              "effect": "Travel, foreign connections, work-related expenses, or sudden expenses can increase."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "Rahu / Ketu",
+              "position": "Rahu in 7th House, Ketu in 1st House",
+              "effect": "Do not make a commitment in haste in any relationship or business partnership."
+            }
+          ],
+          "bestDays": {
+            "range": "2nd Sep to 17th Sep",
+            "note": "Money, meetings, networking, communication, career opportunities."
+          },
+          "cautionDays": {
+            "range": "18th Sep to 30th Sep",
+            "note": "Unnecessary expenses, foreign/travel matters; avoid haste in relationships and partnerships."
+          }
         },
         {
           "name": "Virgo",
           "dates": "Aug 23 – Sep 22",
-          "description": "Birthday month brings double planetary transits on the 4th and 17th — expect major life shifts. Career restructuring is possible. Health requires attention, especially digestive health. A mentor's guidance proves invaluable.",
-          "hits": [
-            { "text": "Sep 4 & 17 Double Transit", "hot": true },
-            { "text": "Birthday Month", "hot": false }
-          ]
+          "overview": "Overall, this will be a good month for career, growth, networking, communication, and income, but it will be necessary to keep patience in your relationships.",
+          "transits": [
+            {
+              "date": "Sep 2",
+              "planet": "Venus",
+              "planetIcon": "Venus",
+              "from": "1st House",
+              "to": "2nd House",
+              "house": "2nd House",
+              "effect": "New opportunities can be created to increase wealth, savings, and income. Communication will remain attractive."
+            },
+            {
+              "date": "Sep 7",
+              "planet": "Mercury",
+              "planetIcon": "Mercury",
+              "from": "12th House",
+              "to": "1st House",
+              "house": "1st House",
+              "effect": "You will get new opportunities in your career. The time will be good for interviews, analytical work, meetings, business planning, and important decisions."
+            },
+            {
+              "date": "Sep 17",
+              "planet": "Sun",
+              "planetIcon": "Sun",
+              "from": "12th House",
+              "to": "1st House",
+              "house": "1st House",
+              "effect": "You will get new opportunities in your career. The time will be good for interviews, analytical work, meetings, business planning, and important decisions."
+            },
+            {
+              "date": "Sep 18",
+              "planet": "Mars",
+              "planetIcon": "Mars",
+              "from": "10th House",
+              "to": "11th House",
+              "house": "11th House",
+              "effect": "You may get benefits from old contacts and a chance to move stalled work forward."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "Saturn",
+              "position": "Saturn in 7th House",
+              "effect": "Old issues in marriage or partnerships may surface again."
+            }
+          ],
+          "bestDays": {
+            "range": "2nd Sep to 17th Sep",
+            "note": "Money, career, meetings, interviews, networking, important decisions."
+          },
+          "cautionDays": {
+            "range": "18th Sep to 30th Sep",
+            "note": "Relationships, partnerships, family, and professional network."
+          }
         },
         {
           "name": "Libra",
           "dates": "Sep 23 – Oct 22",
-          "description": "Venus entering your sign on the 2nd makes you magnetic and charming. Relationships find new balance. Business partnerships forged now can be lasting. Self-care rituals recommended — you need energy for the opportunities ahead.",
-          "hits": [
-            { "text": "Sep 8 Relationships", "hot": false },
-            { "text": "Sep 19 Balance", "hot": false }
-          ]
+          "overview": "Overall, this will be an important month for your personality, career, networking, and professional opportunities. You will need to balance your expenses and work pressure.",
+          "transits": [
+            {
+              "date": "Sep 2",
+              "planet": "Venus",
+              "planetIcon": "Venus",
+              "from": "12th House",
+              "to": "1st House",
+              "house": "1st House",
+              "effect": "Positivity can come in personality, confidence, relationships, and social image. Attractiveness and the ability to influence people will increase."
+            },
+            {
+              "date": "Sep 7",
+              "planet": "Mercury",
+              "planetIcon": "Mercury",
+              "from": "11th House",
+              "to": "12th House",
+              "house": "12th House",
+              "effect": "Foreign connections, long-distance travel, and matters related to expenses can become active. You may get job opportunities or a professional connection from abroad or a distant place."
+            },
+            {
+              "date": "Sep 17",
+              "planet": "Sun",
+              "planetIcon": "Sun",
+              "from": "11th House",
+              "to": "12th House",
+              "house": "12th House",
+              "effect": "Foreign connections, long-distance travel, and matters related to expenses can become active. You may get job opportunities or a professional connection from abroad or a distant place."
+            },
+            {
+              "date": "Sep 18",
+              "planet": "Mars",
+              "planetIcon": "Mars",
+              "from": "9th House",
+              "to": "10th House",
+              "house": "10th House",
+              "effect": "Activity and pressure in your career can both increase, but avoid arguing with your senior or boss."
+            }
+          ],
+          "extraTransits": [],
+          "bestDays": {
+            "range": "2nd Sep to 17th Sep",
+            "note": "Relationships, meetings, networking, personality, career planning."
+          },
+          "cautionDays": {
+            "range": "18th Sep to 30th Sep",
+            "note": "Career pressure, office politics, expenses, foreign/travel matters; keep patience in conversation with seniors."
+          }
         },
         {
           "name": "Scorpio",
           "dates": "Oct 23 – Nov 21",
-          "description": "A deep transformation cycle begins mid-month. Research and investigation yield breakthroughs. Hidden information surfaces that changes your perspective. Financial prudence advised until the 26th. Meditation helps channel intensity.",
-          "hits": [
-            { "text": "Sep 10 Transformation", "hot": true },
-            { "text": "Sep 26 Research", "hot": false }
-          ]
+          "overview": "Overall, this can be a month of career growth, income, networking, and strong foreign connections.",
+          "transits": [
+            {
+              "date": "Sep 2",
+              "planet": "Venus",
+              "planetIcon": "Venus",
+              "from": "11th House",
+              "to": "12th House",
+              "house": "12th House",
+              "effect": "You can become active in matters of foreign connections, long-distance travel, work related to abroad, and expenses. You may get behind-the-scenes support from an important person. Control luxury, travel, and unnecessary expenses."
+            },
+            {
+              "date": "Sep 7",
+              "planet": "Mercury",
+              "planetIcon": "Mercury",
+              "from": "10th House",
+              "to": "11th House",
+              "house": "11th House",
+              "effect": "You may get benefits in income, networking, career opportunities, and professional contacts. There will be a chance for stalled money or any old work to move forward."
+            },
+            {
+              "date": "Sep 17",
+              "planet": "Sun",
+              "planetIcon": "Sun",
+              "from": "10th House",
+              "to": "11th House",
+              "house": "11th House",
+              "effect": "You may get benefits in income, networking, career opportunities, and professional contacts. There will be a chance for stalled money or any old work to move forward."
+            },
+            {
+              "date": "Sep 18",
+              "planet": "Mars",
+              "planetIcon": "Mars",
+              "from": "8th House",
+              "to": "9th House",
+              "house": "9th House",
+              "effect": "Higher education, travel, career-related travel, and foreign connections can become active. Do not rush in conversations with your father, senior, or mentor."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "Rahu / Ketu",
+              "position": "Rahu in 4th House, Ketu in 10th House",
+              "effect": "There can be a change in direction or dissatisfaction regarding work in your career, so do not take job-related decisions emotionally."
+            }
+          ],
+          "bestDays": {
+            "range": "7th Sep to 17th Sep",
+            "note": "Income, networking, career opportunities, meetings, benefits from old contacts, important decisions."
+          },
+          "cautionDays": {
+            "range": "18th Sep to 30th Sep",
+            "note": "Travel, expenses, relations with father/seniors, career decisions."
+          }
         },
         {
           "name": "Sagittarius",
           "dates": "Nov 22 – Dec 21",
-          "description": "Learning and higher education themes dominate September. A long-distance journey or spiritual pilgrimage is strongly indicated. Jupiter's influence expands your philosophical outlook. Publishing and media projects gain momentum.",
-          "hits": [
-            { "text": "Sep 5 Learning", "hot": false },
-            { "text": "Sep 22 Long Travel", "hot": false }
-          ]
+          "overview": "Overall, this will be an important month for career growth, income, networking, and professional recognition, but keep extra caution in financial matters.",
+          "transits": [
+            {
+              "date": "Sep 2",
+              "planet": "Venus",
+              "planetIcon": "Venus",
+              "from": "10th House",
+              "to": "11th House",
+              "house": "11th House",
+              "effect": "Positivity can come in income, gains, and your social circle. You may get benefits from old contacts, and stalled money or financial opportunities can move forward."
+            },
+            {
+              "date": "Sep 7",
+              "planet": "Mercury",
+              "planetIcon": "Mercury",
+              "from": "9th House",
+              "to": "10th House",
+              "house": "10th House",
+              "effect": "Career will remain the most active aspect of your life. You may get a promotion, an important meeting, or a new responsibility."
+            },
+            {
+              "date": "Sep 17",
+              "planet": "Sun",
+              "planetIcon": "Sun",
+              "from": "9th House",
+              "to": "10th House",
+              "house": "10th House",
+              "effect": "Career will remain the most active aspect of your life. You may get a promotion, an important meeting, or a new responsibility."
+            },
+            {
+              "date": "Sep 18",
+              "planet": "Mars",
+              "planetIcon": "Mars",
+              "from": "7th House",
+              "to": "8th House",
+              "house": "8th House",
+              "effect": "Sudden changes, unexpected expenses, and matters related to property, insurance, loans, or shared money will come up. Be careful while driving."
+            }
+          ],
+          "extraTransits": [],
+          "bestDays": {
+            "range": "2nd Sep to 17th Sep",
+            "note": "Income, networking, career, meetings, job promotion."
+          },
+          "cautionDays": {
+            "range": "18th Sep to 30th Sep",
+            "note": "Joint finance, loans, investments, property, sudden expenses."
+          }
         },
         {
           "name": "Capricorn",
           "dates": "Dec 22 – Jan 19",
-          "description": "Discipline pays off dramatically around the 14th. Saturn's retrograde encourages restructuring your career strategy. Property matters resolve favourably. Avoid overwork — schedule deliberate rest periods to maintain peak performance.",
-          "hits": [
-            { "text": "Sep 14 Discipline Pays", "hot": true },
-            { "text": "Sep 28 Career", "hot": false }
-          ]
+          "overview": "Overall, this month will provide career growth, professional recognition, the support of luck, and progress in relationships and partnerships.",
+          "transits": [
+            {
+              "date": "Sep 2",
+              "planet": "Venus",
+              "planetIcon": "Venus",
+              "from": "9th House",
+              "to": "10th House",
+              "house": "10th House",
+              "effect": "There will be possibilities for career advancement, new job opportunities, a promotion, important projects, or a professional connection with an influential person. You may get appreciation at work."
+            },
+            {
+              "date": "Sep 7",
+              "planet": "Mercury",
+              "planetIcon": "Mercury",
+              "from": "8th House",
+              "to": "9th House",
+              "house": "9th House",
+              "effect": "Higher studies, long-distance travel, and matters related to luck will become active. You may get opportunities related to abroad, higher education, or a new direction in your career."
+            },
+            {
+              "date": "Sep 17",
+              "planet": "Sun",
+              "planetIcon": "Sun",
+              "from": "8th House",
+              "to": "9th House",
+              "house": "9th House",
+              "effect": "Higher studies, long-distance travel, and matters related to luck will become active. You may get opportunities related to abroad, higher education, or a new direction in your career."
+            },
+            {
+              "date": "Sep 18",
+              "planet": "Mars",
+              "planetIcon": "Mars",
+              "from": "6th House",
+              "to": "7th House",
+              "house": "7th House",
+              "effect": "Activity will increase in marriage, relationships, and business partnerships. A new collaboration in business is also possible."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "Rahu / Ketu",
+              "position": "Rahu in 2nd House, Ketu in 8th House",
+              "effect": "Be careful with money, family matters, and sudden financial decisions."
+            }
+          ],
+          "bestDays": {
+            "range": "2nd Sep to 17th Sep",
+            "note": "Career, job opportunities, meetings, travel, higher studies."
+          },
+          "cautionDays": {
+            "range": "18th Sep to 30th Sep",
+            "note": "Relationships, partnerships, family, money, financial decisions."
+          }
         },
         {
           "name": "Aquarius",
           "dates": "Jan 20 – Feb 18",
-          "description": "Your professional network expands significantly this month. Innovative ideas attract the right collaborators. Social causes you champion gain public attention. A group project reaches a milestone around the 20th.",
-          "hits": [
-            { "text": "Sep 7 Network", "hot": false },
-            { "text": "Sep 20 Ideas", "hot": false }
-          ]
+          "overview": "Overall, this month can be a month of progress in your career, competitions, job opportunities, and luck. However, keeping patience in your relationships is essential.",
+          "transits": [
+            {
+              "date": "Sep 2",
+              "planet": "Venus",
+              "planetIcon": "Venus",
+              "from": "8th House",
+              "to": "9th House",
+              "house": "9th House",
+              "effect": "Positivity can come in matters related to luck, higher studies, long-distance travel, and your father or guru. You will get support from a senior or influential person in your career."
+            },
+            {
+              "date": "Sep 7",
+              "planet": "Mercury",
+              "planetIcon": "Mercury",
+              "from": "7th House",
+              "to": "8th House",
+              "house": "8th House",
+              "effect": "Focus can shift to sudden changes, old financial matters, tax, insurance, and pending paperwork. A solution to an old office problem can be found."
+            },
+            {
+              "date": "Sep 17",
+              "planet": "Sun",
+              "planetIcon": "Sun",
+              "from": "7th House",
+              "to": "8th House",
+              "house": "8th House",
+              "effect": "Focus can shift to sudden changes, old financial matters, tax, insurance, and pending paperwork. A solution to an old office problem can be found."
+            },
+            {
+              "date": "Sep 18",
+              "planet": "Mars",
+              "planetIcon": "Mars",
+              "from": "5th House",
+              "to": "6th House",
+              "house": "6th House",
+              "effect": "You will have to face competition, job, and workplace challenges, but avoid unnecessary arguments with colleagues and overwork."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "Saturn",
+              "position": "Saturn retrograde in 2nd House",
+              "effect": "Old financial commitments or family-related matters may surface again."
+            },
+            {
+              "planet": "Rahu / Ketu",
+              "position": "Rahu in 1st House, Ketu in 7th House",
+              "effect": "There can be confusion or distance in relationships and partnerships."
+            }
+          ],
+          "bestDays": {
+            "range": "2nd Sep to 17th Sep",
+            "note": "Relationships, travel, career, meetings, higher studies."
+          },
+          "cautionDays": {
+            "range": "18th Sep to 30th Sep",
+            "note": "Family, money, health routine, workplace arguments, and avoid haste in relationships/partnerships."
+          }
         },
         {
           "name": "Pisces",
           "dates": "Feb 19 – Mar 20",
-          "description": "Saturn retrograde demands spiritual introspection. Intuitive abilities heighten — trust your inner voice around the 16th. Financial保守 recommended. Creative and artistic pursuits bring inner peace. Health improves in the second half.",
-          "hits": [
-            { "text": "Saturn Retro Watch", "hot": true },
-            { "text": "Sep 16 Intuition", "hot": false }
-          ]
+          "overview": "Overall, this month can bring important changes for you in relationships, partnerships, career, creativity, and financial matters.",
+          "transits": [
+            {
+              "date": "Sep 2",
+              "planet": "Venus",
+              "planetIcon": "Venus",
+              "from": "7th House",
+              "to": "8th House",
+              "house": "8th House",
+              "effect": "Matters related to sudden financial gain, joint finances, insurance, or a partner's finances can come up. Emotional bonding in relationships can increase."
+            },
+            {
+              "date": "Sep 7",
+              "planet": "Mercury",
+              "planetIcon": "Mercury",
+              "from": "6th House",
+              "to": "7th House",
+              "house": "7th House",
+              "effect": "Matters related to marriage, relationships, business partnerships, and clients will remain highly active. You may get opportunities for a new partnership, important meeting, business deal, or a connection with an important person."
+            },
+            {
+              "date": "Sep 17",
+              "planet": "Sun",
+              "planetIcon": "Sun",
+              "from": "6th House",
+              "to": "7th House",
+              "house": "7th House",
+              "effect": "Matters related to marriage, relationships, business partnerships, and clients will remain highly active. You may get opportunities for a new partnership, important meeting, business deal, or a connection with an important person."
+            },
+            {
+              "date": "Sep 18",
+              "planet": "Mars",
+              "planetIcon": "Mars",
+              "from": "4th House",
+              "to": "5th House",
+              "house": "5th House",
+              "effect": "Creativity, new ideas, business decisions, and competitive efforts can gain momentum. Hard work and focus will increase for students. Avoid anger or haste in love relationships."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "Saturn",
+              "position": "Saturn retrograde in 1st House",
+              "effect": "It will be necessary to pay attention to self-discipline, health routines, and personal decisions."
+            },
+            {
+              "planet": "Rahu / Ketu",
+              "position": "Rahu in 12th House, Ketu in 6th House",
+              "effect": "You will get an opportunity regarding foreign connections, expenses, competition, and completing old work."
+            }
+          ],
+          "bestDays": {
+            "range": "2nd Sep to 17th Sep",
+            "note": "Relationships, meetings, partnerships, business deals, career, planning."
+          },
+          "cautionDays": {
+            "range": "18th Sep to 30th Sep",
+            "note": "Love, relationships, investments, partnerships, expenses, and emotional decisions."
+          }
         }
       ]
     },
@@ -374,114 +940,680 @@
       "eyebrowText": "मासिक राशिफल",
       "title": "राशिफल · <em>सितम्बर 2026</em>",
       "subtitle": "इस माह सभी बारह चंद्र राशियों पर तिथि-वार प्रभाव।",
-      "signs": [
+      "transitsLabel": "ग्रह गोचर",
+          "extraTransitsLabel": "चल रहे ग्रह गोचर",
+          "bestDaysLabel": "शुभ दिन",
+          "cautionDaysLabel": "सावधानी दिन",
+          "signs": [
         {
           "name": "मेष (Aries)",
           "dates": "21 मार्च – 19 अप्रैल",
-          "description": "इस माह मेष राशि वालों के लिए करियर में शक्तिशाली गति आ रही है। सितम्बर की शुरुआत में ग्रहों के गोचर आपकी महत्वाकांक्षा को प्रज्वलित करते हैं, नेतृत्व की भूमिकाओं की ओर धकेलते हैं। मध्य माह में आर्थिक लाभ का संकेत है। मंगल आपके भावनात्मक कोर को मजबूत करते हुए संबंधों में गहराई लाता है।",
-          "hits": [
-            { "text": "4–9 सितम्बर करियर उन्नति", "hot": true },
-            { "text": "18 सितम्बर आर्थिक", "hot": false }
-          ]
+          "overview": "इस माह आपका करियर, आय, और प्रतिस्पर्धा में गति बनी रहेगी, लेकिन खर्चों और संबंधों में धैर्य रखना आवश्यक होगा।",
+          "transits": [
+            {
+              "date": "2 सितम्बर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "6वाँ घर",
+              "to": "7वाँ घर",
+              "house": "7वाँ घर",
+              "effect": "शत्रुओं पर विजय, स्वास्थ्य में सुधार, और कार्यस्थल पर प्रशंसा की संभावना।"
+            },
+            {
+              "date": "7 सितम्बर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "5वाँ घर",
+              "to": "6वाँ घर",
+              "house": "6वाँ घर",
+              "effect": "प्रतिस्पर्धा, नौकरी, और कार्यस्थल की चुनौतियों के लिए समय अनुकूल।"
+            },
+            {
+              "date": "17 सितम्बर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "5वाँ घर",
+              "to": "6वाँ घर",
+              "house": "6वाँ घर",
+              "effect": "प्रतिस्पर्धा, नौकरी, और कार्यस्थल की चुनौतियों के लिए समय अनुकूल।"
+            },
+            {
+              "date": "18 सितम्बर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "4वाँ घर",
+              "to": "5वाँ घर",
+              "house": "5वाँ घर",
+              "effect": "संतान, शिक्षा, और प्रेम संबंधों में गतिविधि बढ़ेगी।"
+            }
+          ],
+          "extraTransits": [],
+          "bestDays": {
+            "range": "2 सितम्बर से 17 सितम्बर",
+            "note": "करियर, प्रतिस्पर्धा, नौकरी, बैठकें, महत्वपूर्ण निर्णय।"
+          },
+          "cautionDays": {
+            "range": "18 सितम्बर से 30 सितम्बर",
+            "note": "प्रेम संबंध, संतान, शिक्षा, और पारिवारिक मामले।"
+          }
         },
         {
           "name": "वृषभ (Taurus)",
           "dates": "20 अप्रैल – 20 मई",
-          "description": "सितम्बर में पारिवारिक बंधन प्रमुख रहेंगे। शुक्र का 2 तारीख को तुला में प्रवेश आपके घरेलू जीवन को सद्भाव से भर देता है। 12 तारीख के आसपास आर्थिक लाभ की उम्मीद है। स्वास्थ्य में धीरे-धीरे सुधार होगा — नींद और पानी पर ध्यान दें।",
-          "hits": [
-            { "text": "2 सितम्बर परिवार", "hot": false },
-            { "text": "12 सितम्बर धन", "hot": true }
-          ]
+          "overview": "इस माह आपके लिए पारिवारिक जीवन, आय, और संपत्ति में सकारात्मकता रहेगी, लेकिन खर्चों और स्वास्थ्य में सतर्कता आवश्यक होगी।",
+          "transits": [
+            {
+              "date": "2 सितम्बर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "5वाँ घर",
+              "to": "6वाँ घर",
+              "house": "6वाँ घर",
+              "effect": "प्रतिस्पर्धा, नौकरी, और कार्यस्थल की चुनौतियों के लिए समय अनुकूल।"
+            },
+            {
+              "date": "7 सितम्बर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "4वाँ घर",
+              "to": "5वाँ घर",
+              "house": "5वाँ घर",
+              "effect": "संतान, शिक्षा, और प्रेम संबंधों में गतिविधि बढ़ेगी।"
+            },
+            {
+              "date": "17 सितम्बर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "4वाँ घर",
+              "to": "5वाँ घर",
+              "house": "5वाँ घर",
+              "effect": "संतान, शिक्षा, और प्रेम संबंधों में गतिविधि बढ़ेगी।"
+            },
+            {
+              "date": "18 सितम्बर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "3वाँ घर",
+              "to": "4वाँ घर",
+              "house": "4वाँ घर",
+              "effect": "घरेलू मामले, संपत्ति, और पारिवारिक जीवन में गतिविधि बढ़ेगी।"
+            }
+          ],
+          "extraTransits": [],
+          "bestDays": {
+            "range": "2 सितम्बर से 17 सितम्बर",
+            "note": "परिवार, संपत्ति, बैठकें, नौकरी के अवसर।"
+          },
+          "cautionDays": {
+            "range": "18 सितम्बर से 30 सितम्बर",
+            "note": "घरेलू मामले, वाहन, संपत्ति, और खर्च।"
+          }
         },
         {
           "name": "मिथुन (Gemini)",
           "dates": "21 मई – 20 जून",
-          "description": "संवाद इस माह आपकी शक्ति है। बुध का गोचर आपकी अभिव्यक्ति को तेज करता है, अनुबंध और बातचीत अनुकूल बनाता है। 21 तारीख के आसपास एक छोटी यात्रा सुखद आश्चर्य ला सकती है। छात्र परीक्षाओं में उत्कृष्ट प्रदर्शन करेंगे।",
-          "hits": [
-            { "text": "6 सितम्बर संवाद", "hot": true },
-            { "text": "21 सितम्बर यात्रा", "hot": false }
-          ]
+          "overview": "इस माह आपकी वाणी, संवाद, और आर्थिक मामलों में सकारात्मकता रहेगी, लेकिन स्वास्थ्य और यात्रा में सतर्कता आवश्यक होगी।",
+          "transits": [
+            {
+              "date": "2 सितम्बर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "4वाँ घर",
+              "to": "5वाँ घर",
+              "house": "5वाँ घर",
+              "effect": "संतान, शिक्षा, और प्रेम संबंधों में गतिविधि बढ़ेगी।"
+            },
+            {
+              "date": "7 सितम्बर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "3वाँ घर",
+              "to": "4वाँ घर",
+              "house": "4वाँ घर",
+              "effect": "घरेलू मामले, संपत्ति, और पारिवारिक जीवन में गतिविधि बढ़ेगी।"
+            },
+            {
+              "date": "17 सितम्बर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "3वाँ घर",
+              "to": "4वाँ घर",
+              "house": "4वाँ घर",
+              "effect": "घरेलू मामले, संपत्ति, और पारिवारिक जीवन में गतिविधि बढ़ेगी।"
+            },
+            {
+              "date": "18 सितम्बर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "2वाँ घर",
+              "to": "3वाँ घर",
+              "house": "3वाँ घर",
+              "effect": "संवाद, नेटवर्किंग, और यात्रा में वृद्धि होगी।"
+            }
+          ],
+          "extraTransits": [],
+          "bestDays": {
+            "range": "2 सितम्बर से 17 सितम्बर",
+            "note": "संवाद, परिवार, बैठकें, नौकरी के अवसर।"
+          },
+          "cautionDays": {
+            "range": "18 सितम्बर से 30 सितम्बर",
+            "note": "यात्रा, स्वास्थ्य, और खर्च।"
+          }
         },
         {
           "name": "कर्क (Cancer)",
           "dates": "21 जून – 22 जुलाई",
-          "description": "सितम्बर की शुरुआत में भावनात्मक लहरें तीव्र हैं। माह के मध्य में चंद्रमा का आपकी राशि में गोचर स्पष्टता लाता है। घरेलू मामले खूबसूरती से सुलझेंगे। घर में सुधार में निवेश करें — यह दीर्घकालिक आराम देगा।",
-          "hits": [
-            { "text": "3 सितम्बर भावनाएँ", "hot": false },
-            { "text": "15 सितम्बर घर", "hot": false }
-          ]
+          "overview": "इस माह आपके लिए व्यक्तित्व, करियर, और नेटवर्किंग में सकारात्मकता रहेगी, लेकिन खर्चों और यात्रा में सतर्कता आवश्यक होगी।",
+          "transits": [
+            {
+              "date": "2 सितम्बर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "3वाँ घर",
+              "to": "4वाँ घर",
+              "house": "4वाँ घर",
+              "effect": "घरेलू मामले, संपत्ति, और पारिवारिक जीवन में गतिविधि बढ़ेगी।"
+            },
+            {
+              "date": "7 सितम्बर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "2वाँ घर",
+              "to": "3वाँ घर",
+              "house": "3वाँ घर",
+              "effect": "संवाद, नेटवर्किंग, और यात्रा में वृद्धि होगी।"
+            },
+            {
+              "date": "17 सितम्बर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "2वाँ घर",
+              "to": "3वाँ घर",
+              "house": "3वाँ घर",
+              "effect": "संवाद, नेटवर्किंग, और यात्रा में वृद्धि होगी।"
+            },
+            {
+              "date": "18 सितम्बर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "1वाँ घर",
+              "to": "2वाँ घर",
+              "house": "2वाँ घर",
+              "effect": "आय, धन, और पारिवारिक मामलों में गतिविधि बढ़ेगी।"
+            }
+          ],
+          "extraTransits": [],
+          "bestDays": {
+            "range": "2 सितम्बर से 17 सितम्बर",
+            "note": "संवाद, परिवार, बैठकें, नौकरी के अवसर।"
+          },
+          "cautionDays": {
+            "range": "18 सितम्बर से 30 सितम्बर",
+            "note": "खर्च, यात्रा, और पारिवारिक मामले।"
+          }
         },
         {
           "name": "सिंह (Leo)",
           "dates": "23 जुलाई – 22 अगस्त",
-          "description": "शुक्र 11 तारीख को आपके धन भाव में प्रवेश करता है, आय वृद्धि के लिए उत्कृष्ट काल। कार्यस्थल पर मान्यता आसन्न है। अविवाहितों के लिए रोमांस खिलता है। रचनात्मक परियोजनाएँ गति पकड़ती हैं और सार्वजनिक प्रशंसा प्राप्त करती हैं।",
-          "hits": [
-            { "text": "11 सितम्बर शुक्र प्रवेश", "hot": true },
-            { "text": "24 सितम्बर मान्यता", "hot": false }
-          ]
+          "overview": "इस माह आपके लिए धन, संवाद, नेटवर्किंग, और करियर के अवसर अनुकूल रहेंगे, लेकिन खर्चों और संबंधों में सतर्कता आवश्यक होगी।",
+          "transits": [
+            {
+              "date": "2 सितम्बर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "2वाँ घर",
+              "to": "3वाँ घर",
+              "house": "3वाँ घर",
+              "effect": "संवाद, नेटवर्किंग, और यात्रा में वृद्धि होगी।"
+            },
+            {
+              "date": "7 सितम्बर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "1वाँ घर",
+              "to": "2वाँ घर",
+              "house": "2वाँ घर",
+              "effect": "आय, धन, और पारिवारिक मामलों में गतिविधि बढ़ेगी।"
+            },
+            {
+              "date": "17 सितम्बर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "1वाँ घर",
+              "to": "2वाँ घर",
+              "house": "2वाँ घर",
+              "effect": "आय, धन, और पारिवारिक मामलों में गतिविधि बढ़ेगी।"
+            },
+            {
+              "date": "18 सितम्बर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "11वाँ घर",
+              "to": "12वाँ घर",
+              "house": "12वाँ घर",
+              "effect": "यात्रा, खर्च, और विदेशी मामलों में गतिविधि बढ़ेगी।"
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "राहु / केतु",
+              "position": "राहु 7वें घर में, केतु 1वें घर में",
+              "effect": "संबंधों और साझेदारी में जल्दबाजी से बचें।"
+            }
+          ],
+          "bestDays": {
+            "range": "2 सितम्बर से 17 सितम्बर",
+            "note": "धन, बैठकें, नेटवर्किंग, संवाद, करियर के अवसर।"
+          },
+          "cautionDays": {
+            "range": "18 सितम्बर से 30 सितम्बर",
+            "note": "अनावश्यक खर्च, विदेशी/यात्रा मामले; संबंधों में जल्दबाजी से बचें।"
+          }
         },
         {
           "name": "कन्या (Virgo)",
           "dates": "23 अगस्त – 22 सितम्बर",
-          "description": "जन्मदिन के माह में 4 और 17 तारीख को दोहरे ग्रह गोचर — बड़े जीवन परिवर्तन की उम्मीद। करियर पुनर्गठन संभव है। स्वास्थ्य पर ध्यान दें, विशेषकर पाचन स्वास्थ्य। किसी गुरु का मार्गदर्शन अमूल्य सिद्ध होगा।",
-          "hits": [
-            { "text": "4 और 17 सितम्बर दोहरा गोचर", "hot": true },
-            { "text": "जन्मदिन माह", "hot": false }
-          ]
+          "overview": "इस माह आपके करियर, विकास, नेटवर्किंग, और आय में सकारात्मकता रहेगी, लेकिन संबंधों में धैर्य रखना आवश्यक होगा।",
+          "transits": [
+            {
+              "date": "2 सितम्बर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "1वाँ घर",
+              "to": "2वाँ घर",
+              "house": "2वाँ घर",
+              "effect": "धन, बचत, और आय के नए अवसर बनेंगे। संवाद आकर्षक रहेगा।"
+            },
+            {
+              "date": "7 सितम्बर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "12वाँ घर",
+              "to": "1वाँ घर",
+              "house": "1वाँ घर",
+              "effect": "करियर में नए अवसर मिलेंगे। साक्षात्कार, विश्लेषणात्मक कार्य, बैठकें, और महत्वपूर्ण निर्णयों के लिए समय अनुकूल।"
+            },
+            {
+              "date": "17 सितम्बर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "12वाँ घर",
+              "to": "1वाँ घर",
+              "house": "1वाँ घर",
+              "effect": "करियर में नए अवसर मिलेंगे। साक्षात्कार, विश्लेषणात्मक कार्य, बैठकें, और महत्वपूर्ण निर्णयों के लिए समय अनुकूल।"
+            },
+            {
+              "date": "18 सितम्बर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "10वाँ घर",
+              "to": "11वाँ घर",
+              "house": "11वाँ घर",
+              "effect": "पुराने संपर्कों से लाभ और रुके हुए काम को आगे बढ़ाने का अवसर मिलेगा।"
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "शनि",
+              "position": "शनि 7वें घर में",
+              "effect": "विवाह या साझेदारी में पुराने मुद्दे फिर से उभर सकते हैं।"
+            }
+          ],
+          "bestDays": {
+            "range": "2 सितम्बर से 17 सितम्बर",
+            "note": "धन, करियर, बैठकें, साक्षात्कार, नेटवर्किंग, महत्वपूर्ण निर्णय।"
+          },
+          "cautionDays": {
+            "range": "18 सितम्बर से 30 सितम्बर",
+            "note": "संबंध, साझेदारी, परिवार, और पेशेवर नेटवर्क।"
+          }
         },
         {
           "name": "तुला (Libra)",
           "dates": "23 सितम्बर – 22 अक्टूबर",
-          "description": "शुक्र का 2 तारीख को आपकी राशि में प्रवेश आपको आकर्षक और मोहक बनाता है। संबंधों में नया संतुलन आता है। अभी बनाए गए व्यावसायिक साझेदारी टिकाऊ हो सकती हैं। स्व-देखभाल की सलाह दी जाती है — आगे के अवसरों के लिए ऊर्जा चाहिए।",
-          "hits": [
-            { "text": "8 सितम्बर संबंध", "hot": false },
-            { "text": "19 सितम्बर संतुलन", "hot": false }
-          ]
+          "overview": "इस माह आपकी व्यक्तित्व, करियर, और नेटवर्किंग के लिए महत्वपूर्ण रहेगा, लेकिन खर्चों और दबाव में संतुलन आवश्यक होगा।",
+          "transits": [
+            {
+              "date": "2 सितम्बर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "12वाँ घर",
+              "to": "1वाँ घर",
+              "house": "1वाँ घर",
+              "effect": "व्यक्तित्व, आत्मविश्वास, और सामाजिक छवि में सकारात्मकता आएगी। आकर्षण और प्रभाव बढ़ेगा।"
+            },
+            {
+              "date": "7 सितम्बर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "11वाँ घर",
+              "to": "12वाँ घर",
+              "house": "12वाँ घर",
+              "effect": "विदेशी संपर्क, यात्रा, और खर्चों से संबंधित मामले सक्रिय होंगे। विदेश से नौकरी या पेशेवर संपर्क मिल सकता है।"
+            },
+            {
+              "date": "17 सितम्बर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "11वाँ घर",
+              "to": "12वाँ घर",
+              "house": "12वाँ घर",
+              "effect": "विदेशी संपर्क, यात्रा, और खर्चों से संबंधित मामले सक्रिय होंगे। विदेश से नौकरी या पेशेवर संपर्क मिल सकता है।"
+            },
+            {
+              "date": "18 सितम्बर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "9वाँ घर",
+              "to": "10वाँ घर",
+              "house": "10वाँ घर",
+              "effect": "करियर में गतिविधि और दबाव दोनों बढ़ेगा, लेकिन वरिष्ठ से बहस से बचें।"
+            }
+          ],
+          "extraTransits": [],
+          "bestDays": {
+            "range": "2 सितम्बर से 17 सितम्बर",
+            "note": "संबंध, बैठकें, नेटवर्किंग, व्यक्तित्व, करियर योजना।"
+          },
+          "cautionDays": {
+            "range": "18 सितम्बर से 30 सितम्बर",
+            "note": "करियर दबाव, कार्यालय राजनीति, खर्च, विदेशी/यात्रा मामले; वरिष्ठों से धैर्य रखें।"
+          }
         },
         {
           "name": "वृश्चिक (Scorpio)",
           "dates": "23 अक्टूबर – 21 नवम्बर",
-          "description": "माह के मध्य में गहरे परिवर्तन का चक्र शुरू होता है। अनुसंधान और छानबीन में सफलता मिलेगी। छिपी जानकारी सामने आती है जो आपका दृष्टिकोण बदलती है। 26 तारीख तक आर्थिक सतर्कता की सलाह। ध्यान गहनता को निर्देशित करने में मदद करता है।",
-          "hits": [
-            { "text": "10 सितम्बर रूपांतरण", "hot": true },
-            { "text": "26 सितम्बर अनुसंधान", "hot": false }
-          ]
+          "overview": "इस माह आपके करियर विकास, आय, नेटवर्किंग, और विदेशी संपर्कों में सकारात्मकता रहेगी।",
+          "transits": [
+            {
+              "date": "2 सितम्बर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "11वाँ घर",
+              "to": "12वाँ घर",
+              "house": "12वाँ घर",
+              "effect": "विदेशी संपर्क, यात्रा, और खर्चों से संबंधित मामले सक्रिय होंगे। पीछे के समर्थन की संभावना। अनावश्यक खर्चों पर नियंत्रण रखें।"
+            },
+            {
+              "date": "7 सितम्बर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "10वाँ घर",
+              "to": "11वाँ घर",
+              "house": "11वाँ घर",
+              "effect": "आय, नेटवर्किंग, करियर अवसर, और पेशेवर संपर्कों में लाभ। रुके हुए धन या काम को आगे बढ़ाने का अवसर।"
+            },
+            {
+              "date": "17 सितम्बर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "10वाँ घर",
+              "to": "11वाँ घर",
+              "house": "11वाँ घर",
+              "effect": "आय, नेटवर्किंग, करियर अवसर, और पेशेवर संपर्कों में लाभ। रुके हुए धन या काम को आगे बढ़ाने का अवसर।"
+            },
+            {
+              "date": "18 सितम्बर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "8वाँ घर",
+              "to": "9वाँ घर",
+              "house": "9वाँ घर",
+              "effect": "उच्च शिक्षा, यात्रा, और विदेशी संपर्क सक्रिय होंगे। पिता, वरिष्ठ, या गुरु से बातचीत में धैर्य रखें।"
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "राहु / केतु",
+              "position": "राहु 4वें घर में, केतु 10वें घर में",
+              "effect": "करियर में कार्य की दिशा में बदलाव या असंतोष हो सकता है, भावनात्मक रूप से निर्णय न लें।"
+            }
+          ],
+          "bestDays": {
+            "range": "7 सितम्बर से 17 सितम्बर",
+            "note": "आय, नेटवर्किंग, करियर अवसर, बैठकें, महत्वपूर्ण निर्णय।"
+          },
+          "cautionDays": {
+            "range": "18 सितम्बर से 30 सितम्बर",
+            "note": "यात्रा, खर्च, पिता/वरिष्ठों के साथ संबंध, करियर निर्णय।"
+          }
         },
         {
           "name": "धनु (Sagittarius)",
           "dates": "22 नवम्बर – 21 दिसम्बर",
-          "description": "सितम्बर में शिक्षा और उच्च शिक्षा के विषय प्रभावी रहेंगे। दूर की यात्रा या आध्यात्मिक तीर्थ यात्रा का मजबूत संकेत है। बृहस्पति का प्रभाव आपके दार्शनिक दृष्टिकोण का विस्तार करता है। प्रकाशन और मीडिया परियोजनाएँ गति पकड़ती हैं।",
-          "hits": [
-            { "text": "5 सितम्बर शिक्षा", "hot": false },
-            { "text": "22 सितम्बर लंबी यात्रा", "hot": false }
-          ]
+          "overview": "इस माह आपके करियर विकास, आय, नेटवर्किंग, और पेशेवर मान्यता के लिए महत्वपूर्ण रहेगा, लेकिन वित्तीय मामलों में सतर्कता आवश्यक होगी।",
+          "transits": [
+            {
+              "date": "2 सितम्बर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "10वाँ घर",
+              "to": "11वाँ घर",
+              "house": "11वाँ घर",
+              "effect": "आय, लाभ, और सामाजिक घेरे में सकारात्मकता आएगी। पुराने संपर्कों से लाभ की संभावना।"
+            },
+            {
+              "date": "7 सितम्बर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "9वाँ घर",
+              "to": "10वाँ घर",
+              "house": "10वाँ घर",
+              "effect": "करियर सबसे सक्रिय पहलू रहेगा। पदोन्नति, महत्वपूर्ण बैठक, या नई जिम्मेदारी मिल सकती है।"
+            },
+            {
+              "date": "17 सितम्बर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "9वाँ घर",
+              "to": "10वाँ घर",
+              "house": "10वाँ घर",
+              "effect": "करियर सबसे सक्रिय पहलू रहेगा। पदोन्नति, महत्वपूर्ण बैठक, या नई जिम्मेदारी मिल सकती है।"
+            },
+            {
+              "date": "18 सितम्बर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "7वाँ घर",
+              "to": "8वाँ घर",
+              "house": "8वाँ घर",
+              "effect": "अचानक बदलाव, खर्च, और संपत्ति, बीमा, या ऋण से संबंधित मामले सक्रिय होंगे। गाड़ी चलाते समय सावधानी बरतें।"
+            }
+          ],
+          "extraTransits": [],
+          "bestDays": {
+            "range": "2 सितम्बर से 17 सितम्बर",
+            "note": "आय, नेटवर्किंग, करियर, बैठकें, पदोन्नति।"
+          },
+          "cautionDays": {
+            "range": "18 सितम्बर से 30 सितम्बर",
+            "note": "संयुक्त वित्त, ऋण, निवेश, संपत्ति, अचानक खर्च।"
+          }
         },
         {
           "name": "मकर (Capricorn)",
           "dates": "22 दिसम्बर – 19 जनवरी",
-          "description": "14 तारीख के आसपास अनुशासन का भुगतान शानदार होता है। शनि का वक्री आपकी करियर रणनीति के पुनर्गठन को प्रोत्साहित करता है। संपत्ति के मामले अनुकूल रूप से सुलझते हैं। अत्यधिक कार्य से बचें — शीर्ष प्रदर्शन बनाए रखने के लिए जानबूझकर आराम करें।",
-          "hits": [
-            { "text": "14 सितम्बर अनुशासन रंग लाता है", "hot": true },
-            { "text": "28 सितम्बर करियर", "hot": false }
-          ]
+          "overview": "इस माह आपके करियर विकास, पेशेवर मान्यता, भाग्य के समर्थन, और संबंधों में प्रगति के लिए महत्वपूर्ण रहेगा।",
+          "transits": [
+            {
+              "date": "2 सितम्बर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "9वाँ घर",
+              "to": "10वाँ घर",
+              "house": "10वाँ घर",
+              "effect": "करियर में प्रगति, नए नौकरी अवसर, पदोन्नति, महत्वपूर्ण परियोजनाएँ, या प्रभावशाली व्यक्ति से पेशेवर संपर्क। कार्यस्थल पर प्रशंसा मिल सकती है।"
+            },
+            {
+              "date": "7 सितम्बर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "8वाँ घर",
+              "to": "9वाँ घर",
+              "house": "9वाँ घर",
+              "effect": "उच्च शिक्षा, यात्रा, और भाग्य से संबंधित मामले सक्रिय होंगे। विदेश, उच्च शिक्षा, या करियर में नई दिशा के अवसर मिल सकते हैं।"
+            },
+            {
+              "date": "17 सितम्बर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "8वाँ घर",
+              "to": "9वाँ घर",
+              "house": "9वाँ घर",
+              "effect": "उच्च शिक्षा, यात्रा, और भाग्य से संबंधित मामले सक्रिय होंगे। विदेश, उच्च शिक्षा, या करियर में नई दिशा के अवसर मिल सकते हैं।"
+            },
+            {
+              "date": "18 सितम्बर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "6वाँ घर",
+              "to": "7वाँ घर",
+              "house": "7वाँ घर",
+              "effect": "विवाह, संबंधों, और व्यावसायिक साझेदारी में गतिविधि बढ़ेगी। व्यवसाय में नई साझेदारी की संभावना।"
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "राहु / केतु",
+              "position": "राहु 2वें घर में, केतु 8वें घर में",
+              "effect": "धन, परिवार, और अचानक वित्तीय निर्णयों में सावधानी बरतें।"
+            }
+          ],
+          "bestDays": {
+            "range": "2 सितम्बर से 17 सितम्बर",
+            "note": "करियर, नौकरी अवसर, बैठकें, यात्रा, उच्च शिक्षा।"
+          },
+          "cautionDays": {
+            "range": "18 सितम्बर से 30 सितम्बर",
+            "note": "संबंध, साझेदारी, परिवार, धन, वित्तीय निर्णय।"
+          }
         },
-        {
+{
           "name": "कुम्भ (Aquarius)",
           "dates": "20 जनवरी – 18 फरवरी",
-          "description": "इस माह आपका पेशेवर नेटवर्क काफी विस्तारित होता है। नवीन विचार सही सहयोगियों को आकर्षित करते हैं। सामाजिक कारण जिनका आप समर्थन करते हैं, उन्हें सार्वजनिक ध्यान मिलता है। 20 तारीख के आसपास एक समूह परियोजना मील का पत्थर पार करती है।",
-          "hits": [
-            { "text": "7 सितम्बर नेटवर्क", "hot": false },
-            { "text": "20 सितम्बर विचार", "hot": false }
-          ]
+          "overview": "इस माह आपके करियर, प्रतिस्पर्धा, नौकरी के अवसर, और भाग्य में प्रगति के लिए महत्वपूर्ण रहेगा, लेकिन संबंधों में धैर्य रखना आवश्यक होगा।",
+          "transits": [
+            {
+              "date": "2 सितम्बर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "8वाँ घर",
+              "to": "9वाँ घर",
+              "house": "9वाँ घर",
+              "effect": "भाग्य, उच्च शिक्षा, यात्रा, और पिता या गुरु से संबंधित मामलों में सकारात्मकता आएगी। करियर में वरिष्ठ या प्रभावशाली व्यक्ति का समर्थन मिलेगा।"
+            },
+            {
+              "date": "7 सितम्बर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "7वाँ घर",
+              "to": "8वाँ घर",
+              "house": "8वाँ घर",
+              "effect": "अचानक बदलाव, पुराने वित्तीय मामले, कर, बीमा, और लंबित कागजात पर ध्यान केंद्रित होगा। पुरानी कार्यालय समस्या का समाधान मिल सकता है।"
+            },
+            {
+              "date": "17 सितम्बर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "7वाँ घर",
+              "to": "8वाँ घर",
+              "house": "8वाँ घर",
+              "effect": "अचानक बदलाव, पुराने वित्तीय मामले, कर, बीमा, और लंबित कागजात पर ध्यान केंद्रित होगा। पुरानी कार्यालय समस्या का समाधान मिल सकता है।"
+            },
+            {
+              "date": "18 सितम्बर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "5वाँ घर",
+              "to": "6वाँ घर",
+              "house": "6वाँ घर",
+              "effect": "प्रतिस्पर्धा, नौकरी, और कार्यस्थल की चुनौतियों का सामना करना पड़ेगा, लेकिन सहकर्मियों से अनावश्यक बहस और अत्यधिक कार्य से बचें।"
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "शनि",
+              "position": "शनि वक्री 2वें घर में",
+              "effect": "पुरानी वित्तीय प्रतिबद्धताएँ या पारिवारिक मामले फिर से उभर सकते हैं।"
+            },
+            {
+              "planet": "राहु / केतु",
+              "position": "राहु 1वें घर में, केतु 7वें घर में",
+              "effect": "संबंधों और साझेदारी में भ्रम या दूरी हो सकती है।"
+            }
+          ],
+          "bestDays": {
+            "range": "2 सितम्बर से 17 सितम्बर",
+            "note": "संबंध, यात्रा, करियर, बैठकें, उच्च शिक्षा।"
+          },
+          "cautionDays": {
+            "range": "18 सितम्बर से 30 सितम्बर",
+            "note": "परिवार, धन, स्वास्थ्य दिनचर्या, कार्यस्थल बहस, संबंधों में जल्दबाजी से बचें।"
+          }
         },
-        {
+{
           "name": "मीन (Pisces)",
           "dates": "19 फरवरी – 20 मार्च",
-          "description": "शनि वक्री आध्यात्मिक आत्मचिंतन की मांग करता है। सहज ज्ञान की क्षमता बढ़ती है — 16 तारीख के आसपास अपनी अंतर्ध्वनि पर भरोसा करें। आर्थिक संयम की सलाह। रचनात्मक और कलात्मक कार्य आंतरिक शांति लाते हैं। दूसरे भाग में स्वास्थ्य में सुधार होगा।",
-          "hits": [
-            { "text": "शनि वक्री सतर्कता", "hot": true },
-            { "text": "16 सितम्बर सहज ज्ञान", "hot": false }
-          ]
+          "overview": "इस माह आपके संबंधों, साझेदारी, करियर, रचनात्मकता, और वित्तीय मामलों में महत्वपूर्ण बदलाव ला सकता है।",
+          "transits": [
+            {
+              "date": "2 सितम्बर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "7वाँ घर",
+              "to": "8वाँ घर",
+              "house": "8वाँ घर",
+              "effect": "अचानक वित्तीय लाभ, संयुक्त वित्त, बीमा, या साथी के वित्त से संबंधित मामले सक्रिय होंगे। संबंधों में भावनात्मक बंधन बढ़ेगा।"
+            },
+            {
+              "date": "7 सितम्बर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "6वाँ घर",
+              "to": "7वाँ घर",
+              "house": "7वाँ घर",
+              "effect": "विवाह, संबंधों, व्यावसायिक साझेदारी, और ग्राहकों से संबंधित मामले सक्रिय रहेंगे। नई साझेदारी, महत्वपूर्ण बैठक, या व्यवसाय सौदे के अवसर मिल सकते हैं।"
+            },
+            {
+              "date": "17 सितम्बर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "6वाँ घर",
+              "to": "7वाँ घर",
+              "house": "7वाँ घर",
+              "effect": "विवाह, संबंधों, व्यावसायिक साझेदारी, और ग्राहकों से संबंधित मामले सक्रिय रहेंगे। नई साझेदारी, महत्वपूर्ण बैठक, या व्यवसाय सौदे के अवसर मिल सकते हैं।"
+            },
+            {
+              "date": "18 सितम्बर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "4वाँ घर",
+              "to": "5वाँ घर",
+              "house": "5वाँ घर",
+              "effect": "रचनात्मकता, नए विचार, व्यवसाय निर्णय, और प्रतिस्पर्धात्मक प्रयासों में गति आएगी। प्रेम संबंधों में क्रोध या जल्दबाजी से बचें।"
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "शनि",
+              "position": "शनि वक्री 1वें घर में",
+              "effect": "आत्म-अनुशासन, स्वास्थ्य दिनचर्या, और व्यक्तिगत निर्णयों पर ध्यान देना आवश्यक होगा।"
+            },
+            {
+              "planet": "राहु / केतु",
+              "position": "राहु 12वें घर में, केतु 6वें घर में",
+              "effect": "विदेशी संपर्क, खर्च, प्रतिस्पर्धा, और पुराने काम को पूरा करने के अवसर मिलेंगे।"
+            }
+          ],
+          "bestDays": {
+            "range": "2 सितम्बर से 17 सितम्बर",
+            "note": "संबंध, बैठकें, साझेदारी, व्यवसाय सौदे, करियर, योजना।"
+          },
+          "cautionDays": {
+            "range": "18 सितम्बर से 30 सितम्बर",
+            "note": "प्रेम, संबंध, निवेश, साझेदारी, खर्च, और भावनात्मक निर्णय।"
+          }
         }
       ]
     },
@@ -704,114 +1836,680 @@
       "eyebrowText": "मासिक राशिफल",
       "title": "राशिफल · <em>सप्टेंबर 2026</em>",
       "subtitle": "या महिन्यातील सर्वा बारा चंद्र राशींवर तिथीनुसार परिणाम.",
+      "transitsLabel": "ग्रह गोचर",
+      "extraTransitsLabel": "चालू ग्रह गोचर",
+      "bestDaysLabel": "शुभ दिवस",
+      "cautionDaysLabel": "सावधानी दिवस",
       "signs": [
         {
           "name": "मेष (Aries)",
           "dates": "21 मार्च – 19 एप्रिल",
-          "description": "या महिन्यात मेष राशीच्या जातकांना करिअरमध्ये शक्तिशाली गती मिळत आहे. सप्टेंबरच्या सुरुवातीला ग्रहांचे गोचर तुमच्या महत्त्वाकांक्षेला प्रज्वलित करतात, नेतृत्व भूमिकांकडे ढकलतात. मध्य महिन्यात आर्थिक लाभाची चिन्हे आहेत. मंगल तुमच्या भावनिक कोरला मजबूत करताना संबंधांमध्ये खोली आणतो.",
-          "hits": [
-            { "text": "4–9 सप्टेंबर करिअर वाढ", "hot": true },
-            { "text": "18 सप्टेंबर आर्थिक", "hot": false }
-          ]
+          "overview": "या महिन्यात तुमचं करिअर, उत्पन्न आणि स्पर्धेतील गती कायम राहील, पण खर्च आणि नातेसंबंधांमध्ये धीर ठेवणं आवश्यक असेल.",
+          "transits": [
+            {
+              "date": "2 सप्टेंबर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "6वा भाव",
+              "to": "7वा भाव",
+              "house": "7वा भाव",
+              "effect": "शत्रूंवर विजय, आरोग्यात सुधारणा आणि कार्यस्थळी कौतुकाची शक्यता."
+            },
+            {
+              "date": "7 सप्टेंबर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "5वा भाव",
+              "to": "6वा भाव",
+              "house": "6वा भाव",
+              "effect": "स्पर्धा, नोकरी आणि कार्यस्थळावरील आव्हानांसाठी अनुकूल."
+            },
+            {
+              "date": "17 सप्टेंबर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "5वा भाव",
+              "to": "6वा भाव",
+              "house": "6वा भाव",
+              "effect": "स्पर्धा, नोकरी आणि कार्यस्थळावरील आव्हानांसाठी अनुकूल."
+            },
+            {
+              "date": "18 सप्टेंबर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "4वा भाव",
+              "to": "5वा भाव",
+              "house": "5वा भाव",
+              "effect": "संतान, शिक्षण आणि प्रेमसंबंधांमध्ये गतिविधी वाढेल."
+            }
+          ],
+          "extraTransits": [],
+          "bestDays": {
+            "range": "2 सप्टेंबर ते 17 सप्टेंबर",
+            "note": "करिअर, स्पर्धा, नोकरी, बैठका, महत्त्वाचे निर्णय."
+          },
+          "cautionDays": {
+            "range": "18 सप्टेंबर ते 30 सप्टेंबर",
+            "note": "प्रेमसंबंध, संतान, शिक्षण आणि कौटुंबिक बाबी."
+          }
         },
         {
           "name": "वृषभ (Taurus)",
           "dates": "20 एप्रिल – 20 मे",
-          "description": "सप्टेंबरमध्ये कुटुंबबंधन प्रमुख राहतील. शुक्राचा 2 तारखेला तुला राशीतील प्रवेश तुमच्या गृहजीवनाला सद्भावाने भरतो. 12 तारखेच्या सुमारास आर्थिक लाभाची अपेक्षा करा. आरोग्यात हळूहळू सुधारणा होईल — झोप आणि पाणी यावर लक्ष द्या.",
-          "hits": [
-            { "text": "2 सप्टेंबर कुटुंब", "hot": false },
-            { "text": "12 सप्टेंबर धन", "hot": true }
-          ]
+          "overview": "या महिन्यात तुमच्या कौटुंबिक जीवनात, उत्पन्नात आणि मालमत्तेमध्ये सकारात्मकता राहील, पण खर्च आणि आरोग्यात सतर्कता आवश्यक असेल.",
+          "transits": [
+            {
+              "date": "2 सप्टेंबर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "5वा भाव",
+              "to": "6वा भाव",
+              "house": "6वा भाव",
+              "effect": "स्पर्धा, नोकरी आणि कार्यस्थळावरील आव्हानांसाठी अनुकूल."
+            },
+            {
+              "date": "7 सप्टेंबर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "4वा भाव",
+              "to": "5वा भाव",
+              "house": "5वा भाव",
+              "effect": "संतान, शिक्षण आणि प्रेमसंबंधांमध्ये गतिविधी वाढेल."
+            },
+            {
+              "date": "17 सप्टेंबर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "4वा भाव",
+              "to": "5वा भाव",
+              "house": "5वा भाव",
+              "effect": "संतान, शिक्षण आणि प्रेमसंबंधांमध्ये गतिविधी वाढेल."
+            },
+            {
+              "date": "18 सप्टेंबर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "3वा भाव",
+              "to": "4वा भाव",
+              "house": "4वा भाव",
+              "effect": "घरच्या बाबी, मालमत्ता आणि कौटुंबिक जीवनात गतिविधी वाढेल."
+            }
+          ],
+          "extraTransits": [],
+          "bestDays": {
+            "range": "2 सप्टेंबर ते 17 सप्टेंबर",
+            "note": "कुटुंब, मालमत्ता, बैठका, नोकरीच्या संधी."
+          },
+          "cautionDays": {
+            "range": "18 सप्टेंबर ते 30 सप्टेंबर",
+            "note": "घरच्या बाबी, वाहन, मालमत्ता आणि खर्च."
+          }
         },
         {
           "name": "मिथुन (Gemini)",
           "dates": "21 मे – 20 जून",
-          "description": "संवाद हा या महिन्यातील तुमचा सुपरपॉवर आहे. बुधाचे गोचर तुमच्या अभिव्यक्तीला तीव्र करतो, करार आणि व्यवहार अनुकूल बनवतो. 21 तारखेच्या सुमारास एक छोटी प्रवास सुखद आश्चर्य घेऊन येऊ शकते. विद्यार्थी परीक्षांमध्ये उत्कृष्ट कामगिरी करतील.",
-          "hits": [
-            { "text": "6 सप्टेंबर संवाद", "hot": true },
-            { "text": "21 सप्टेंबर प्रवास", "hot": false }
-          ]
+          "overview": "या महिन्यात तुमच्या वाणी, संवाद आणि आर्थिक बाबींमध्ये सकारात्मकता राहील, पण आरोग्य आणि प्रवासात सतर्कता आवश्यक असेल.",
+          "transits": [
+            {
+              "date": "2 सप्टेंबर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "4वा भाव",
+              "to": "5वा भाव",
+              "house": "5वा भाव",
+              "effect": "संतान, शिक्षण आणि प्रेमसंबंधांमध्ये गतिविधी वाढेल."
+            },
+            {
+              "date": "7 सप्टेंबर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "3वा भाव",
+              "to": "4वा भाव",
+              "house": "4वा भाव",
+              "effect": "घरच्या बाबी, मालमत्ता आणि कौटुंबिक जीवनात गतिविधी वाढेल."
+            },
+            {
+              "date": "17 सप्टेंबर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "3वा भाव",
+              "to": "4वा भाव",
+              "house": "4वा भाव",
+              "effect": "घरच्या बाबी, मालमत्ता आणि कौटुंबिक जीवनात गतिविधी वाढेल."
+            },
+            {
+              "date": "18 सप्टेंबर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "2वा भाव",
+              "to": "3वा भाव",
+              "house": "3वा भाव",
+              "effect": "संवाद, नेटवर्किंग आणि प्रवासात वाढ होईल."
+            }
+          ],
+          "extraTransits": [],
+          "bestDays": {
+            "range": "2 सप्टेंबर ते 17 सप्टेंबर",
+            "note": "संवाद, कुटुंब, बैठका, नोकरीच्या संधी."
+          },
+          "cautionDays": {
+            "range": "18 सप्टेंबर ते 30 सप्टेंबर",
+            "note": "प्रवास, आरोग्य आणि खर्च."
+          }
         },
         {
           "name": "कर्क (Cancer)",
           "dates": "21 जून – 22 जुलै",
-          "description": "सप्टेंबरच्या सुरुवातीला भावनिक लाटा तीव्र असतात. महिन्याच्या मध्यभागी चंद्राचा तुमच्या राशीतील गोचर स्पष्टता आणतो. गृहसंबंधी बाबी सुंदरपणे सुटतील. घरात सुधारण्यासाठी गुंतवणूक करा — ती दीर्घकालीन आराम देईल.",
-          "hits": [
-            { "text": "3 सप्टेंबर भावना", "hot": false },
-            { "text": "15 सप्टेंबर घर", "hot": false }
-          ]
+          "overview": "या महिन्यात तुमच्या व्यक्तिमत्त्व, करिअर आणि नेटवर्किंगमध्ये सकारात्मकता राहील, पण खर्च आणि प्रवासात सतर्कता आवश्यक असेल.",
+          "transits": [
+            {
+              "date": "2 सप्टेंबर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "3वा भाव",
+              "to": "4वा भाव",
+              "house": "4वा भाव",
+              "effect": "घरच्या बाबी, मालमत्ता आणि कौटुंबिक जीवनात गतिविधी वाढेल."
+            },
+            {
+              "date": "7 सप्टेंबर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "2वा भाव",
+              "to": "3वा भाव",
+              "house": "3वा भाव",
+              "effect": "संवाद, नेटवर्किंग आणि प्रवासात वाढ होईल."
+            },
+            {
+              "date": "17 सप्टेंबर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "2वा भाव",
+              "to": "3वा भाव",
+              "house": "3वा भाव",
+              "effect": "संवाद, नेटवर्किंग आणि प्रवासात वाढ होईल."
+            },
+            {
+              "date": "18 सप्टेंबर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "1वा भाव",
+              "to": "2वा भाव",
+              "house": "2वा भाव",
+              "effect": "उत्पन्न, धन आणि कौटुंबिक बाबींमध्ये गतिविधी वाढेल."
+            }
+          ],
+          "extraTransits": [],
+          "bestDays": {
+            "range": "2 सप्टेंबर ते 17 सप्टेंबर",
+            "note": "संवाद, कुटुंब, बैठका, नोकरीच्या संधी."
+          },
+          "cautionDays": {
+            "range": "18 सप्टेंबर ते 30 सप्टेंबर",
+            "note": "खर्च, प्रवास आणि कौटुंबिक बाबी."
+          }
         },
         {
           "name": "सिंह (Leo)",
           "dates": "23 जुलै – 22 ऑगस्ट",
-          "description": "शुक्र 11 तारखेला तुमच्या धन भावात प्रवेश करतो, उत्पन्न वाढीसाठी उत्कृष्ट काल. कार्यस्थळीवरील मान्यता आसन्न आहे. अविवाहितांसाठी प्रेम खिलते. सर्जनशील प्रकल्प गती धरतात आणि सार्वजनिक प्रशंसा मिळवतात.",
-          "hits": [
-            { "text": "11 सप्टेंबर शुक्र प्रवेश", "hot": true },
-            { "text": "24 सप्टेंबर मान्यता", "hot": false }
-          ]
+          "overview": "या महिन्यात तुमचे धन, संवाद, नेटवर्किंग आणि करिअरच्या संधी अनुकूल राहतील, पण खर्च आणि नातेसंबंधांमध्ये सतर्कता आवश्यक असेल.",
+          "transits": [
+            {
+              "date": "2 सप्टेंबर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "2वा भाव",
+              "to": "3वा भाव",
+              "house": "3वा भाव",
+              "effect": "संवाद, नेटवर्किंग आणि प्रवासात वाढ होईल."
+            },
+            {
+              "date": "7 सप्टेंबर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "1वा भाव",
+              "to": "2वा भाव",
+              "house": "2वा भाव",
+              "effect": "उत्पन्न, धन आणि कौटुंबिक बाबींमध्ये गतिविधी वाढेल."
+            },
+            {
+              "date": "17 सप्टेंबर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "1वा भाव",
+              "to": "2वा भाव",
+              "house": "2वा भाव",
+              "effect": "उत्पन्न, धन आणि कौटुंबिक बाबींमध्ये गतिविधी वाढेल."
+            },
+            {
+              "date": "18 सप्टेंबर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "11वा भाव",
+              "to": "12वा भाव",
+              "house": "12वा भाव",
+              "effect": "प्रवास, खर्च आणि विदेशी बाबींमध्ये गतिविधी वाढेल."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "राहु / केतु",
+              "position": "राहु 7व्या भावात, केतु 1व्या भावात",
+              "effect": "नातेसंबंध आणि भागीदारीत घाई टाळा."
+            }
+          ],
+          "bestDays": {
+            "range": "2 सप्टेंबर ते 17 सप्टेंबर",
+            "note": "धन, बैठका, नेटवर्किंग, संवाद, करिअरच्या संधी."
+          },
+          "cautionDays": {
+            "range": "18 सप्टेंबर ते 30 सप्टेंबर",
+            "note": "अनावश्यक खर्च, विदेशी/प्रवासाच्या बाबी; नातेसंबंधात घाई टाळा."
+          }
         },
         {
           "name": "कन्या (Virgo)",
           "dates": "23 ऑगस्ट – 22 सप्टेंबर",
-          "description": "वाढदिवसाच्या महिन्यात 4 आणि 17 तारखेला दोन ग्रहांचे गोचर — मोठ्या जीवन बदलांची अपेक्षा. करिअर पुनर्घटना शक्य आहे. आरोग्याकडे लक्ष द्या, विशेषतः पचन आरोग्य. गुरूंचे मार्गदर्शन अमूल्य ठरेल.",
-          "hits": [
-            { "text": "4 आणि 17 सप्टेंबर दोन गोचर", "hot": true },
-            { "text": "वाढदिवस महिना", "hot": false }
-          ]
+          "overview": "या महिन्यात तुमचे करिअर, विकास, नेटवर्किंग आणि उत्पन्नात सकारात्मकता राहील, पण नातेसंबंधांमध्ये धीर ठेवणं आवश्यक असेल.",
+          "transits": [
+            {
+              "date": "2 सप्टेंबर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "1वा भाव",
+              "to": "2वा भाव",
+              "house": "2वा भाव",
+              "effect": "धन, बचत आणि उत्पन्नाच्या नवीन संधी निर्माण होतील. संवाद आकर्षक राहील."
+            },
+            {
+              "date": "7 सप्टेंबर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "12वा भाव",
+              "to": "1वा भाव",
+              "house": "1वा भाव",
+              "effect": "करिअरमध्ये नवीन संधी मिळतील. मुलाखती, विश्लेषणात्मक काम, बैठका आणि महत्त्वाचे निर्णय घेण्यासाठी अनुकूल."
+            },
+            {
+              "date": "17 सप्टेंबर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "12वा भाव",
+              "to": "1वा भाव",
+              "house": "1वा भाव",
+              "effect": "करिअरमध्ये नवीन संधी मिळतील. मुलाखती, विश्लेषणात्मक काम, बैठका आणि महत्त्वाचे निर्णय घेण्यासाठी अनुकूल."
+            },
+            {
+              "date": "18 सप्टेंबर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "10वा भाव",
+              "to": "11वा भाव",
+              "house": "11वा भाव",
+              "effect": "जुन्या संपर्कांतून लाभ आणि अडकलेले काम पुढे नेण्याची संधी मिळेल."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "शनि",
+              "position": "शनि 7व्या भावात",
+              "effect": "लग्न किंवा भागीदारीत पुन्हा उगवलेल्या जुन्या मुद्द्यांकडे लक्ष द्या."
+            }
+          ],
+          "bestDays": {
+            "range": "2 सप्टेंबर ते 17 सप्टेंबर",
+            "note": "धन, करिअर, बैठका, मुलाखती, नेटवर्किंग, महत्त्वाचे निर्णय."
+          },
+          "cautionDays": {
+            "range": "18 सप्टेंबर ते 30 सप्टेंबर",
+            "note": "नातेसंबंध, भागीदारी, कुटुंब आणि व्यावसायिक नेटवर्क."
+          }
         },
         {
           "name": "तुला (Libra)",
           "dates": "23 सप्टेंबर – 22 ऑक्टोबर",
-          "description": "शुक्राचा 2 तारखेला तुमच्या राशीतील प्रवेश तुम्हाला आकर्षक आणि मोहक बनवतो. संबंधांमध्ये नवीन संतुलन येते. आत्ता बनवलेल्या व्यावसायिक भागीदारी टिकाऊ असू शकतात. स्व-देखभालीचा सल्ला दिला जातो — पुढच्या संधींसाठी ऊर्जा लागते.",
-          "hits": [
-            { "text": "8 सप्टेंबर संबंध", "hot": false },
-            { "text": "19 सप्टेंबर संतुलन", "hot": false }
-          ]
+          "overview": "या महिन्यात तुमच्या व्यक्तिमत्त्व, करिअर आणि नेटवर्किंगसाठी महत्त्वाचा असेल, पण खर्च आणि दबावात संतुलन आवश्यक असेल.",
+          "transits": [
+            {
+              "date": "2 सप्टेंबर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "12वा भाव",
+              "to": "1वा भाव",
+              "house": "1वा भाव",
+              "effect": "व्यक्तिमत्त्व, आत्मविश्वास आणि सामाजिक प्रतिमेत सकारात्मकता येईल. आकर्षण आणि प्रभाव वाढेल."
+            },
+            {
+              "date": "7 सप्टेंबर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "11वा भाव",
+              "to": "12वा भाव",
+              "house": "12वा भाव",
+              "effect": "विदेशी संपर्क, प्रवास आणि खर्चाशी संबंधित बाबी सक्रिय होतील. परदेशातून नोकरी किंवा व्यावसायिक संपर्क मिळू शकतो."
+            },
+            {
+              "date": "17 सप्टेंबर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "11वा भाव",
+              "to": "12वा भाव",
+              "house": "12वा भाव",
+              "effect": "विदेशी संपर्क, प्रवास आणि खर्चाशी संबंधित बाबी सक्रिय होतील. परदेशातून नोकरी किंवा व्यावसायिक संपर्क मिळू शकतो."
+            },
+            {
+              "date": "18 सप्टेंबर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "9वा भाव",
+              "to": "10वा भाव",
+              "house": "10वा भाव",
+              "effect": "करिअरमध्ये गतिविधी आणि दबाव दोन्ही वाढेल, पण वरिष्ठांशी वाद टाळा."
+            }
+          ],
+          "extraTransits": [],
+          "bestDays": {
+            "range": "2 सप्टेंबर ते 17 सप्टेंबर",
+            "note": "नातेसंबंध, बैठका, नेटवर्किंग, व्यक्तिमत्त्व, करिअर नियोजन."
+          },
+          "cautionDays": {
+            "range": "18 सप्टेंबर ते 30 सप्टेंबर",
+            "note": "करिअर दबाव, कार्यालयीन राजकारण, खर्च, विदेशी/प्रवासाच्या बाबी; वरिष्ठांशी धीर ठेवा."
+          }
         },
         {
           "name": "वृश्चिक (Scorpio)",
           "dates": "23 ऑक्टोबर – 21 नोव्हेंबर",
-          "description": "महिन्याच्या मध्यभागी खोल बदलांचा चक्र सुरू होतो. संशोधन आणि चौकशीत ब्रेकथ्रू मिळतो. लपलेली माहिती समोर येते जी तुमचा दृष्टिकोन बदलते. 26 तारखेपर्यंत आर्थिक सतर्कतेची शिफारस. ध्यान तीव्रता व्यवस्थापित करण्यास मदत करते.",
-          "hits": [
-            { "text": "10 सप्टेंबर रूपांतर", "hot": true },
-            { "text": "26 सप्टेंबर संशोधन", "hot": false }
-          ]
+          "overview": "या महिन्यात तुमचे करिअर विकास, उत्पन्न, नेटवर्किंग आणि विदेशी संपर्कांमध्ये सकारात्मकता राहील.",
+          "transits": [
+            {
+              "date": "2 सप्टेंबर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "11वा भाव",
+              "to": "12वा भाव",
+              "house": "12वा भाव",
+              "effect": "विदेशी संपर्क, प्रवास आणि खर्चाशी संबंधित बाबी सक्रिय होतील. प्रभावी व्यक्तीच्या पाठीशी येण्याची शक्यता. अनावश्यक खर्चांवर नियंत्रण ठेवा."
+            },
+            {
+              "date": "7 सप्टेंबर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "10वा भाव",
+              "to": "11वा भाव",
+              "house": "11वा भाव",
+              "effect": "उत्पन्न, नेटवर्किंग, करिअर संधी आणि व्यावसायिक संपर्कांमध्ये लाभ. अडकलेले धन किंवा काम पुढे नेण्याची संधी."
+            },
+            {
+              "date": "17 सप्टेंबर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "10वा भाव",
+              "to": "11वा भाव",
+              "house": "11वा भाव",
+              "effect": "उत्पन्न, नेटवर्किंग, करिअर संधी आणि व्यावसायिक संपर्कांमध्ये लाभ. अडकलेले धन किंवा काम पुढे नेण्याची संधी."
+            },
+            {
+              "date": "18 सप्टेंबर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "8वा भाव",
+              "to": "9वा भाव",
+              "house": "9वा भाव",
+              "effect": "उच्च शिक्षण, प्रवास आणि विदेशी संपर्क सक्रिय होतील. पिता, वरिष्ठ किंवा गुरूंशी संवादात धीर ठेवा."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "राहु / केतु",
+              "position": "राहु 4व्या भावात, केतु 10व्या भावात",
+              "effect": "करिअरमध्ये कामाच्या दिशेत बदल किंवा असंतोष होऊ शकतो, भावनिकरित्या निर्णय घेऊ नका."
+            }
+          ],
+          "bestDays": {
+            "range": "7 सप्टेंबर ते 17 सप्टेंबर",
+            "note": "उत्पन्न, नेटवर्किंग, करिअर संधी, बैठका, महत्त्वाचे निर्णय."
+          },
+          "cautionDays": {
+            "range": "18 सप्टेंबर ते 30 सप्टेंबर",
+            "note": "प्रवास, खर्च, पिता/वरिष्ठांशी संबंध, करिअर निर्णय."
+          }
         },
         {
           "name": "धनु (Sagittarius)",
           "dates": "21 नोव्हेंबर – 21 डिसेंबर",
-          "description": "सप्टेंबरमध्ये शिक्षण आणि उच्च शिक्षणाच्या विषय प्रभावी राहतील. दूरच्या प्रवासाची किंवा आध्यात्मिक तीर्थयात्रेची मजबूत चिन्हे आहेत. गुरूंचा प्रभाव तुमच्या तत्त्वज्ञान दृष्टिकोनाचा विस्तार करतो. प्रकाशन आणि मीडिया प्रकल्प गती धरतात.",
-          "hits": [
-            { "text": "5 सप्टेंबर शिक्षण", "hot": false },
-            { "text": "22 सप्टेंबर मोठा प्रवास", "hot": false }
-          ]
+          "overview": "या महिन्यात तुमचे करिअर विकास, उत्पन्न, नेटवर्किंग आणि व्यावसायिक ओळखीसाठी महत्त्वाचा असेल, पण आर्थिक बाबींमध्ये सतर्कता आवश्यक असेल.",
+          "transits": [
+            {
+              "date": "2 सप्टेंबर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "10वा भाव",
+              "to": "11वा भाव",
+              "house": "11वा भाव",
+              "effect": "उत्पन्न, लाभ आणि सामाजिक वर्तुळात सकारात्मकता येईल. जुन्या संपर्कांतून लाभाची शक्यता."
+            },
+            {
+              "date": "7 सप्टेंबर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "9वा भाव",
+              "to": "10वा भाव",
+              "house": "10वा भाव",
+              "effect": "करिअर सर्वात सक्रिय पैलू राहील. बढती, महत्त्वाची बैठक किंवा नवीन जबाबदारी मिळू शकते."
+            },
+            {
+              "date": "17 सप्टेंबर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "9वा भाव",
+              "to": "10वा भाव",
+              "house": "10वा भाव",
+              "effect": "करिअर सर्वात सक्रिय पैलू राहील. बढती, महत्त्वाची बैठक किंवा नवीन जबाबदारी मिळू शकते."
+            },
+            {
+              "date": "18 सप्टेंबर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "7वा भाव",
+              "to": "8वा भाव",
+              "house": "8वा भाव",
+              "effect": "अचानक बदल, खर्च आणि मालमत्ता, विमा किंवा कर्जाशी संबंधित बाबी सक्रिय होतील. वाहन चालवताना काळजी घ्या."
+            }
+          ],
+          "extraTransits": [],
+          "bestDays": {
+            "range": "2 सप्टेंबर ते 17 सप्टेंबर",
+            "note": "उत्पन्न, नेटवर्किंग, करिअर, बैठका, बढती."
+          },
+          "cautionDays": {
+            "range": "18 सप्टेंबर ते 30 सप्टेंबर",
+            "note": "संयुक्त वित्त, कर्ज, गुंतवणूक, मालमत्ता, अचानक खर्च."
+          }
         },
         {
           "name": "मकर (Capricorn)",
           "dates": "22 डिसेंबर – 19 जानेवारी",
-          "description": "14 तारखेच्या सुमारास अनुशासनाचे फळ शानदार मिळते. शनि वक्री तुमच्या करिअर धोरणाच्या पुनर्घटनाला प्रोत्साहित करतो. मालमत्तेशी संबंधित बाबी अनुकूलपणे सुटतात. अत्यधिक काम करण्यापासून टाळा — शीर्ष कामगिरी टिकवण्यासाठी हेतूपूर्वक विश्रांती घ्या.",
-          "hits": [
-            { "text": "14 सप्टेंबर अनुशासन फळ देते", "hot": true },
-            { "text": "28 सप्टेंबर करिअर", "hot": false }
-          ]
+          "overview": "या महिन्यात तुमचे करिअर विकास, व्यावसायिक ओळख, नशिबाची साथ आणि नातेसंबंधांत प्रगतीसाठी महत्त्वाचा असेल.",
+          "transits": [
+            {
+              "date": "2 सप्टेंबर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "9वा भाव",
+              "to": "10वा भाव",
+              "house": "10वा भाव",
+              "effect": "करिअरमध्ये प्रगती, नवीन नोकरीच्या संधी, बढती, महत्त्वाचे प्रकल्प किंवा प्रभावी व्यक्तीशी व्यावसायिक संपर्क. कार्यस्थळी कौतुक मिळू शकते."
+            },
+            {
+              "date": "7 सप्टेंबर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "8वा भाव",
+              "to": "9वा भाव",
+              "house": "9वा भाव",
+              "effect": "उच्च शिक्षण, प्रवास आणि नशिबाशी संबंधित बाबी सक्रिय होतील. परदेश, उच्च शिक्षण किंवा करिअरमध्ये नवीन दिशेच्या संधी मिळू शकतात."
+            },
+            {
+              "date": "17 सप्टेंबर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "8वा भाव",
+              "to": "9वा भाव",
+              "house": "9वा भाव",
+              "effect": "उच्च शिक्षण, प्रवास आणि नशिबाशी संबंधित बाबी सक्रिय होतील. परदेश, उच्च शिक्षण किंवा करिअरमध्ये नवीन दिशेच्या संधी मिळू शकतात."
+            },
+            {
+              "date": "18 सप्टेंबर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "6वा भाव",
+              "to": "7वा भाव",
+              "house": "7वा भाव",
+              "effect": "लग्न, नातेसंबंध आणि व्यावसायिक भागीदारीत गतिविधी वाढेल. व्यवसायात नवीन भागीदारीची शक्यता."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "राहु / केतु",
+              "position": "राहु 2व्या भावात, केतु 8व्या भावात",
+              "effect": "धन, कुटुंब आणि अचानक आर्थिक निर्णयांमध्ये सावधानी बाळगा."
+            }
+          ],
+          "bestDays": {
+            "range": "2 सप्टेंबर ते 17 सप्टेंबर",
+            "note": "करिअर, नोकरीच्या संधी, बैठका, प्रवास, उच्च शिक्षण."
+          },
+          "cautionDays": {
+            "range": "18 सप्टेंबर ते 30 सप्टेंबर",
+            "note": "नातेसंबंध, भागीदारी, कुटुंब, धन, आर्थिक निर्णय."
+          }
         },
         {
           "name": "कुंभ (Aquarius)",
           "dates": "19 जानेवारी – 18 फेब्रुवारी",
-          "description": "या महिन्यात तुमचे व्यावसायिक नेटवर्क काही प्रमाणात विस्तारित होते. नाविन्यपूर्ण विचार योग्य सहकारियांना आकर्षित करतात. तुम्ही समर्थन करणाऱ्या सामाजिक कारणांना सार्वजनिक लक्ष मिळते. 20 तारखेच्या सुमारास एक गट प्रकल्प मैलाचा दगड ओलांडतो.",
-          "hits": [
-            { "text": "7 सप्टेंबर नेटवर्क", "hot": false },
-            { "text": "20 सप्टेंबर विचार", "hot": false }
-          ]
+          "overview": "या महिन्यात तुमचे करिअर, स्पर्धा, नोकरीच्या संधी आणि नशिबात प्रगतीसाठी महत्त्वाचा असेल, पण नातेसंबंधांमध्ये धीर ठेवणं आवश्यक असेल.",
+          "transits": [
+            {
+              "date": "2 सप्टेंबर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "8वा भाव",
+              "to": "9वा भाव",
+              "house": "9वा भाव",
+              "effect": "नशिब, उच्च शिक्षण, प्रवास आणि पिता किंवा गुरूंशी संबंधित बाबींमध्ये सकारात्मकता येईल. करिअरमध्ये वरिष्ठ किंवा प्रभावी व्यक्तीची साथ मिळेल."
+            },
+            {
+              "date": "7 सप्टेंबर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "7वा भाव",
+              "to": "8वा भाव",
+              "house": "8वा भाव",
+              "effect": "अचानक बदल, जुन्या आर्थिक बाबी, कर, विमा आणि प्रलंबित कागदपत्रांवर लक्ष केंद्रित होईल. जुन्या कार्यालय समस्येचा उपाय मिळू शकतो."
+            },
+            {
+              "date": "17 सप्टेंबर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "7वा भाव",
+              "to": "8वा भाव",
+              "house": "8वा भाव",
+              "effect": "अचानक बदल, जुन्या आर्थिक बाबी, कर, विमा आणि प्रलंबित कागदपत्रांवर लक्ष केंद्रित होईल. जुन्या कार्यालय समस्येचा उपाय मिळू शकतो."
+            },
+            {
+              "date": "18 सप्टेंबर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "5वा भाव",
+              "to": "6वा भाव",
+              "house": "6वा भाव",
+              "effect": "स्पर्धा, नोकरी आणि कार्यस्थळावरील आव्हानांचा सामना करावा लागेल, पण सहकाऱ्यांशी अनावश्यक वाद आणि कामाचा अतिरेक टाळा."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "शनि",
+              "position": "शनि वक्री 2व्या भावात",
+              "effect": "जुन्या आर्थिक जबाबदाऱ्या किंवा कौटुंबिक बाबी पुन्हा उगवू शकतात."
+            },
+            {
+              "planet": "राहु / केतु",
+              "position": "राहु 1व्या भावात, केतु 7व्या भावात",
+              "effect": "नातेसंबंध आणि भागीदारीत गोंधळ किंवा अंतर होऊ शकते."
+            }
+          ],
+          "bestDays": {
+            "range": "2 सप्टेंबर ते 17 सप्टेंबर",
+            "note": "नातेसंबंध, प्रवास, करिअर, बैठका, उच्च शिक्षण."
+          },
+          "cautionDays": {
+            "range": "18 सप्टेंबर ते 30 सप्टेंबर",
+            "note": "कुटुंब, धन, आरोग्य दिनचर्या, कार्यालयीन वाद, नातेसंबंधात घाई टाळा."
+          }
         },
         {
           "name": "मीन (Pisces)",
           "dates": "19 फेब्रुवारी – 20 मार्च",
-          "description": "शनि वक्री आध्यात्मिक आत्मविचाराची मागणी करतो. अंतर्ज्ञान क्षमता वाढते — 16 तारखेच्या सुमारास आपल्या अंतर्ध्वनीवर विश्वास ठेवा. आर्थिक मर्यादा शिफारस. सर्जनशील आणि कलात्मक कार्य आंतरिक शांती देतात. दुसऱ्या भागात आरोग्यात सुधारणा होईल.",
-          "hits": [
-            { "text": "शनि वक्री सतर्कता", "hot": true },
-            { "text": "16 सप्टेंबर अंतर्ज्ञान", "hot": false }
-          ]
+          "overview": "या महिन्यात तुमचे नातेसंबंध, भागीदारी, करिअर, सर्जनशीलता आणि आर्थिक बाबींमध्ये महत्त्वाचे बदल घडवू शकतो.",
+          "transits": [
+            {
+              "date": "2 सप्टेंबर",
+              "planet": "शुक्र",
+              "planetIcon": "Venus",
+              "from": "7वा भाव",
+              "to": "8वा भाव",
+              "house": "8वा भाव",
+              "effect": "अचानक आर्थिक लाभ, संयुक्त वित्त, विमा किंवा जोडीदाराच्या वित्ताशी संबंधित बाबी सक्रिय होतील. नातेसंबंधात भावनिक बंध वाढतील."
+            },
+            {
+              "date": "7 सप्टेंबर",
+              "planet": "बुध",
+              "planetIcon": "Mercury",
+              "from": "6वा भाव",
+              "to": "7वा भाव",
+              "house": "7वा भाव",
+              "effect": "लग्न, नातेसंबंध, व्यावसायिक भागीदारी आणि ग्राहकांशी संबंधित बाबी सक्रिय राहतील. नवीन भागीदारी, महत्त्वाची बैठक किंवा व्यापार सौद्याच्या संधी मिळू शकतात."
+            },
+            {
+              "date": "17 सप्टेंबर",
+              "planet": "सूर्य",
+              "planetIcon": "Sun",
+              "from": "6वा भाव",
+              "to": "7वा भाव",
+              "house": "7वा भाव",
+              "effect": "लग्न, नातेसंबंध, व्यावसायिक भागीदारी आणि ग्राहकांशी संबंधित बाबी सक्रिय राहतील. नवीन भागीदारी, महत्त्वाची बैठक किंवा व्यापार सौद्याच्या संधी मिळू शकतात."
+            },
+            {
+              "date": "18 सप्टेंबर",
+              "planet": "मंगल",
+              "planetIcon": "Mars",
+              "from": "4वा भाव",
+              "to": "5वा भाव",
+              "house": "5वा भाव",
+              "effect": "सर्जनशीलता, नवीन कल्पना, व्यवसाय निर्णय आणि स्पर्धात्मक प्रयत्नांना गती मिळेल. प्रेमसंबंधांमध्ये राग किंवा घाई टाळा."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "शनि",
+              "position": "शनि वक्री 1व्या भावात",
+              "effect": "आत्म-शिस्त, आरोग्य दिनचर्या आणि वैयक्तिक निर्णयांकडे लक्ष देणं आवश्यक असेल."
+            },
+            {
+              "planet": "राहु / केतु",
+              "position": "राहु 12व्या भावात, केतु 6व्या भावात",
+              "effect": "विदेशी संपर्क, खर्च, स्पर्धा आणि जुने काम पूर्ण करण्याच्या संधी मिळतील."
+            }
+          ],
+          "bestDays": {
+            "range": "2 सप्टेंबर ते 17 सप्टेंबर",
+            "note": "नातेसंबंध, बैठका, भागीदारी, व्यापार सौदे, करिअर, नियोजन."
+          },
+          "cautionDays": {
+            "range": "18 सप्टेंबर ते 30 सप्टेंबर",
+            "note": "प्रेम, नातेसंबंध, गुंतवणूक, भागीदारी, खर्च आणि भावनिक निर्णय."
+          }
         }
       ]
     },

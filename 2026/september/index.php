@@ -254,6 +254,22 @@ if (function_exists('track_view')) {
   .menu-no{font-size:1rem;}
   .brand-badge span{font-size:1.11rem;}
   .slide-tag{font-size:1.01rem;}
+  /* Rashifal card — new timeline elements at ~1.5× */
+  .rashi-overview{font-size:1.26rem;}
+  .tl-head span{font-size:1rem;letter-spacing:normal;}
+  .tl-date{font-size:.95rem;letter-spacing:normal;}
+  .tl-planet-name{font-size:1.22rem;}
+  .tl-house{font-size:.95rem;letter-spacing:normal;}
+  .tl-effect{font-size:1.2rem;}
+  .rashi-extra-hdr span{font-size:.95rem;letter-spacing:normal;}
+  .rashi-extra-item strong{font-size:1.16rem;}
+  .rashi-extra-item p{font-size:1.14rem;}
+  .rashi-best-hdr strong{font-size:1.1rem;letter-spacing:normal;}
+  .rashi-caution-hdr strong{font-size:1.1rem;letter-spacing:normal;}
+  .rashi-best .rashi-days,
+  .rashi-caution .rashi-days{font-size:1.08rem;}
+  .rashi-best>p,
+  .rashi-caution>p{font-size:1.17rem;}
   <?php endif; ?>
 
   .rule-label{
@@ -417,28 +433,156 @@ if (function_exists('track_view')) {
   }
 
   /* ================= SLIDE 3 : RASHIFAL ================= */
-  .rashi-list{width:100%;max-width:1140px;margin:0 auto;display:grid;grid-template-columns:1fr;}
-  .rashi-item{display:flex;gap:14px;padding:15px 4px;border-top:1px solid var(--line);align-items:flex-start;}
+  .rashi-list{width:100%;max-width:1140px;margin:0 auto;display:grid;grid-template-columns:1fr;gap:clamp(14px,2.5vh,22px);}
+
+  /* -- Card -- */
+  .rashi-card{
+    background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-md);
+    box-shadow:var(--shadow-card);overflow:hidden;
+    transition:border-color .2s,box-shadow .2s;
+  }
+  .rashi-card:hover{border-color:var(--gold);box-shadow:0 10px 36px rgba(101,78,18,.18);}
+
+  /* -- Card Header -- */
+  .rashi-card-hdr{
+    display:flex;align-items:center;gap:clamp(10px,2.5vw,16px);
+    padding:clamp(14px,2.5vh,20px) clamp(14px,3vw,22px);
+    background:linear-gradient(135deg,var(--parchment) 0%,var(--cream) 100%);
+    border-bottom:1px solid var(--line);position:relative;overflow:hidden;
+  }
+  .rashi-card-hdr::after{
+    content:"";position:absolute;top:-28px;right:-28px;width:80px;height:80px;
+    border-radius:50%;border:1.5px solid var(--gold-soft);pointer-events:none;
+  }
   .rashi-glyph{
     flex:none;width:52px;height:52px;border-radius:50%;
-    background:var(--parchment);border:1px solid var(--gold);
-    display:flex;align-items:center;justify-content:center;padding:9px;
+    background:var(--cream);border:1.5px solid var(--gold);
+    display:flex;align-items:center;justify-content:center;padding:10px;
+    box-shadow:0 4px 14px -4px rgba(101,78,18,.18);
   }
   .rashi-glyph img{width:100%;height:100%;object-fit:contain;}
-  .rashi-body{min-width:0;}
-  .rashi-top{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap;}
-  .rashi-body h3{color:var(--night);}
-  .rashi-dates{font-size:.67rem;letter-spacing:.07em;color:var(--muted);text-transform:uppercase;}
-  .rashi-body>p{font-size:.84rem;color:var(--muted);margin-top:4px;line-height:1.55;}
-  .hits{display:flex;flex-wrap:wrap;gap:4px 18px;margin-top:7px;}
-  .hit{
-    font-size:.66rem;font-weight:bold;letter-spacing:.06em;text-transform:uppercase;color:var(--olive);
-    display:inline-flex;align-items:center;gap:7px;
+  .rashi-hdr-txt{min-width:0;flex:1;}
+  .rashi-hdr-txt h3{
+    font-family:'Nunito Sans',sans-serif;font-weight:900;font-size:1.22rem;
+    color:var(--night);line-height:1.25;margin:0;
   }
-  .hit::before{content:"";width:5px;height:5px;border-radius:50%;background:currentColor;flex:none;}
-  .hit-hot{color:var(--crimson);}
-  @media(min-width:700px){.rashi-list{grid-template-columns:repeat(2,1fr);column-gap:44px;}}
-  @media(min-width:1060px){.rashi-list{grid-template-columns:repeat(3,1fr);}}
+  .rashi-dates{display:block;font-size:.64rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:2px;}
+
+  /* -- Card Body -- */
+  .rashi-card-body{padding:clamp(14px,2.5vh,20px) clamp(14px,3vw,22px) clamp(16px,3vh,24px);}
+
+  /* -- Overview -- */
+  .rashi-overview{font-size:.84rem;color:var(--muted);line-height:1.62;margin-bottom:clamp(14px,2.5vh,20px);}
+
+  /* -- Timeline Header -- */
+  .tl-head{
+    display:flex;align-items:center;gap:10px;margin-bottom:12px;
+  }
+  .tl-head-ic{
+    flex:none;width:28px;height:28px;border-radius:8px;
+    background:var(--gold-soft);color:var(--terracotta);
+    display:flex;align-items:center;justify-content:center;
+  }
+  .tl-head span{
+    font-size:.68rem;font-weight:bold;letter-spacing:.06em;text-transform:uppercase;color:var(--terracotta);
+  }
+
+  /* -- Timeline -- */
+  .tl{position:relative;padding-left:22px;margin-bottom:clamp(14px,2.5vh,20px);}
+  .tl::before{
+    content:"";position:absolute;left:5px;top:6px;bottom:6px;width:2px;
+    background:linear-gradient(to bottom,var(--gold),var(--gold-light));border-radius:99px;
+  }
+  .tl-item{position:relative;padding-bottom:clamp(12px,2vh,18px);}
+  .tl-item:last-child{padding-bottom:0;}
+  .tl-dot{
+    position:absolute;left:-22px;top:3px;width:12px;height:12px;border-radius:50%;
+    background:var(--gold);border:2px solid var(--paper);
+    box-shadow:0 0 0 2px var(--gold-soft);
+  }
+  .tl-date{
+    display:inline-block;font-size:.62rem;font-weight:bold;letter-spacing:.06em;text-transform:uppercase;
+    color:var(--crimson);background:rgba(174,23,42,.08);border-radius:999px;padding:3px 10px;
+    margin-bottom:4px;
+  }
+  .tl-planet{
+    display:flex;align-items:center;gap:8px;margin-top:4px;
+  }
+  .tl-planet>img{
+    flex:none;width:26px;height:26px;border-radius:50%;background:var(--cream);
+    border:1px solid var(--gold);padding:4px;object-fit:contain;
+  }
+  .tl-planet-name{
+    font-size:.82rem;font-weight:700;color:var(--night);line-height:1.3;
+  }
+  .tl-planet-name b{color:var(--cocoa);}
+  .tl-house{
+    display:inline-block;font-size:.62rem;font-weight:600;letter-spacing:.04em;
+    color:var(--olive);background:rgba(101,78,18,.08);border-radius:999px;padding:2px 8px;
+    margin-top:3px;
+  }
+  .tl-effect{font-size:.8rem;color:var(--muted);line-height:1.58;margin-top:3px;}
+
+  /* -- Extra (Undated) Transits -- */
+  .rashi-extra{
+    background:linear-gradient(135deg,rgba(174,23,42,.04) 0%,rgba(139,69,19,.04) 100%);
+    border:1px dashed rgba(174,23,42,.25);border-radius:10px;
+    padding:clamp(10px,1.8vh,14px) clamp(12px,2.5vw,16px);
+    margin-bottom:clamp(14px,2.5vh,20px);
+  }
+  .rashi-extra-hdr{
+    display:flex;align-items:center;gap:8px;margin-bottom:8px;
+  }
+  .rashi-extra-hdr span{font-size:.62rem;font-weight:bold;letter-spacing:.06em;text-transform:uppercase;color:var(--crimson);}
+  .rashi-extra-item{display:flex;align-items:flex-start;gap:8px;margin-top:8px;}
+  .rashi-extra-item:first-of-type{margin-top:0;}
+  .rashi-extra-dot{flex:none;width:7px;height:7px;border-radius:50%;background:var(--crimson);margin-top:5px;}
+  .rashi-extra-item>div{min-width:0;}
+  .rashi-extra-item strong{font-size:.78rem;color:var(--night);display:block;line-height:1.35;}
+  .rashi-extra-item p{font-size:.76rem;color:var(--muted);line-height:1.55;margin-top:2px;}
+
+  /* -- Best Days -- */
+  .rashi-best{
+    background:linear-gradient(135deg,rgba(101,78,18,.05) 0%,rgba(201,162,39,.08) 100%);
+    border:1px solid rgba(101,78,18,.18);border-radius:10px;
+    padding:clamp(10px,1.8vh,14px) clamp(12px,2.5vw,16px);
+    margin-bottom:10px;position:relative;overflow:hidden;
+  }
+  .rashi-best::before{
+    content:"";position:absolute;top:0;left:0;width:3px;height:100%;
+    background:var(--olive);border-radius:0 99px 99px 0;
+  }
+  .rashi-best-hdr{display:flex;align-items:center;gap:8px;margin-bottom:5px;}
+  .rashi-best-hdr>svg{flex:none;color:var(--olive);}
+  .rashi-best-hdr strong{font-size:.74rem;font-weight:bold;letter-spacing:.04em;text-transform:uppercase;color:var(--olive);}
+  .rashi-best .rashi-days{font-size:.72rem;font-weight:700;color:var(--night);display:block;margin-bottom:3px;}
+  .rashi-best>p{font-size:.78rem;color:var(--muted);line-height:1.55;margin:0;}
+
+  /* -- Caution Days -- */
+  .rashi-caution{
+    background:linear-gradient(135deg,rgba(174,23,42,.04) 0%,rgba(139,69,19,.05) 100%);
+    border:1px solid rgba(174,23,42,.18);border-radius:10px;
+    padding:clamp(10px,1.8vh,14px) clamp(12px,2.5vw,16px);position:relative;overflow:hidden;
+  }
+  .rashi-caution::before{
+    content:"";position:absolute;top:0;left:0;width:3px;height:100%;
+    background:var(--crimson);border-radius:0 99px 99px 0;
+  }
+  .rashi-caution-hdr{display:flex;align-items:center;gap:8px;margin-bottom:5px;}
+  .rashi-caution-hdr>svg{flex:none;color:var(--crimson);}
+  .rashi-caution-hdr strong{font-size:.74rem;font-weight:bold;letter-spacing:.04em;text-transform:uppercase;color:var(--crimson);}
+  .rashi-caution .rashi-days{font-size:.72rem;font-weight:700;color:var(--night);display:block;margin-bottom:3px;}
+  .rashi-caution>p{font-size:.78rem;color:var(--muted);line-height:1.55;margin:0;}
+
+  /* -- Responsive: Tablet -- */
+  @media(min-width:700px){
+    .rashi-list{grid-template-columns:repeat(2,1fr);column-gap:clamp(20px,3vw,44px);}
+  }
+  /* -- Responsive: Desktop -- */
+  @media(min-width:1060px){
+    .rashi-list{grid-template-columns:repeat(3,1fr);}
+    .rashi-card-body{padding:clamp(16px,2.5vh,24px) clamp(18px,2.5vw,26px) clamp(18px,3vh,26px);}
+  }
 
   /* ================= SLIDE 4 : PRODUCTS ================= */
   .prod-list{width:100%;max-width:780px;margin:0 auto;}
@@ -841,15 +985,76 @@ if (function_exists('track_view')) {
         $signFiles = ['Aries','Taurus','Gemini','Cancer','Leo','Virgo','Libra','Scorpio','Sagittarius','Capricorn','Aquarius','Pisces'];
         foreach($langContent['rashifal']['signs'] as $ri => $rashi):
         ?>
-        <article class="rashi-item rv"<?php echo $ri > 0 ? ' style="--d:'.sprintf('%.2fs', ($ri % 4) * 0.04).'."' : ''; ?>>
-          <div class="rashi-glyph"><img src="../../assets/signs/<?php echo $signFiles[$ri]; ?>.svg" alt="" loading="lazy"></div>
-          <div class="rashi-body">
-            <div class="rashi-top"><h3><?php echo htmlspecialchars($rashi['name']); ?></h3><span class="rashi-dates"><?php echo htmlspecialchars($rashi['dates']); ?></span></div>
-            <p><?php echo htmlspecialchars($rashi['description']); ?></p>
-            <div class="hits">
-              <?php foreach($rashi['hits'] as $hit): ?>
-              <span class="hit<?php echo $hit['hot'] ? ' hit-hot' : ''; ?>"><?php echo htmlspecialchars($hit['text']); ?></span>
+        <article class="rashi-card rv"<?php echo $ri > 0 ? ' style="--d:'.sprintf('%.2fs', ($ri % 4) * 0.04).'."' : ''; ?>>
+          <header class="rashi-card-hdr">
+            <div class="rashi-glyph"><img src="../../assets/signs/<?php echo $signFiles[$ri]; ?>.svg" alt="" loading="lazy"></div>
+            <div class="rashi-hdr-txt">
+              <h3><?php echo htmlspecialchars($rashi['name']); ?></h3>
+              <span class="rashi-dates"><?php echo htmlspecialchars($rashi['dates']); ?></span>
+            </div>
+          </header>
+          <div class="rashi-card-body">
+            <p class="rashi-overview"><?php echo htmlspecialchars($rashi['overview']); ?></p>
+            
+            <!-- Dated Transits Timeline -->
+            <div class="tl-head">
+              <span class="tl-head-ic">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              </span>
+              <span><?php echo htmlspecialchars($langContent['rashifal']['transitsLabel'] ?? 'Key Transits'); ?></span>
+            </div>
+            <div class="tl">
+              <?php foreach($rashi['transits'] as $t): ?>
+              <div class="tl-item">
+                <span class="tl-dot" aria-hidden="true"></span>
+                <span class="tl-date"><?php echo htmlspecialchars($t['date']); ?></span>
+                <div class="tl-planet">
+                  <img src="../../assets/planets/<?php echo htmlspecialchars($t['planetIcon']); ?>.svg" alt="" loading="lazy">
+                  <span class="tl-planet-name"><?php echo htmlspecialchars($t['planet']); ?> <b>&middot;</b> <?php echo htmlspecialchars($t['from']); ?> &rarr; <?php echo htmlspecialchars($t['to']); ?></span>
+                </div>
+                <span class="tl-house"><?php echo htmlspecialchars($t['house']); ?></span>
+                <p class="tl-effect"><?php echo htmlspecialchars($t['effect']); ?></p>
+              </div>
               <?php endforeach; ?>
+            </div>
+            
+            <!-- Undated Transits (Shani, Rahu, Ketu) -->
+            <?php if (!empty($rashi['extraTransits'])): ?>
+            <div class="rashi-extra">
+              <div class="rashi-extra-hdr">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/><path d="M12 18v-4"/></svg>
+                <span><?php echo htmlspecialchars($langContent['rashifal']['extraTransitsLabel'] ?? 'Ongoing Transits'); ?></span>
+              </div>
+              <?php foreach($rashi['extraTransits'] as $ex): ?>
+              <div class="rashi-extra-item">
+                <span class="rashi-extra-dot" aria-hidden="true"></span>
+                <div>
+                  <strong><?php echo htmlspecialchars($ex['planet']); ?> <b>&middot;</b> <?php echo htmlspecialchars($ex['position']); ?></strong>
+                  <p><?php echo htmlspecialchars($ex['effect']); ?></p>
+                </div>
+              </div>
+              <?php endforeach; ?>
+            </div>
+            <?php endif; ?>
+            
+            <!-- Best Days -->
+            <div class="rashi-best">
+              <div class="rashi-best-hdr">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+                <strong><?php echo htmlspecialchars($langContent['rashifal']['bestDaysLabel'] ?? 'Best Days'); ?></strong>
+              </div>
+              <span class="rashi-days"><?php echo htmlspecialchars($rashi['bestDays']['range']); ?></span>
+              <p><?php echo htmlspecialchars($rashi['bestDays']['note']); ?></p>
+            </div>
+            
+            <!-- Caution Days -->
+            <div class="rashi-caution">
+              <div class="rashi-caution-hdr">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+                <strong><?php echo htmlspecialchars($langContent['rashifal']['cautionDaysLabel'] ?? 'Caution Days'); ?></strong>
+              </div>
+              <span class="rashi-days"><?php echo htmlspecialchars($rashi['cautionDays']['range']); ?></span>
+              <p><?php echo htmlspecialchars($rashi['cautionDays']['note']); ?></p>
             </div>
           </div>
         </article>
