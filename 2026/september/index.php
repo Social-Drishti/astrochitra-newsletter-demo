@@ -301,6 +301,7 @@ if (function_exists('track_view')) {
   .chrome-btn:active{transform:scale(.94);}
   .menu-btn{right:14px;}
   .share-btn{left:14px;}
+  .comment-btn{right:70px;}
   .menu-btn .ic-close{display:none;}
   body.menu-open .menu-btn .ic-open{display:none;}
   body.menu-open .menu-btn .ic-close{display:block;}
@@ -312,6 +313,15 @@ if (function_exists('track_view')) {
     opacity:0;visibility:hidden;transition:.25s;white-space:nowrap;
   }
   .share-toast.show{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0);}
+
+  .comment-btn .glow{
+    position:absolute;top:6px;right:6px;width:8px;height:8px;border-radius:50%;
+    background:var(--gold);animation:pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse{
+    0%,100%{box-shadow:0 0 0 0 rgba(201,162,39,.55);}
+    50%{box-shadow:0 0 0 7px rgba(201,162,39,0);}
+  }
 
   .menu-backdrop{position:fixed;inset:0;z-index:320;background:rgba(43,16,5,.62);opacity:0;visibility:hidden;transition:opacity .22s;}
   body.menu-open .menu-backdrop{opacity:1;visibility:visible;}
@@ -443,17 +453,32 @@ if (function_exists('track_view')) {
   }
   .rashi-card:hover{border-color:var(--gold);box-shadow:0 10px 36px rgba(101,78,18,.18);}
 
-  /* -- Card Header -- */
+  /* -- Card Header (Accordion) -- */
+  details.rashi-card>summary{list-style:none;}
+  details.rashi-card>summary::-webkit-details-marker{display:none;}
+  details.rashi-card>summary::marker{display:none;content:"";}
+
   .rashi-card-hdr{
     display:flex;align-items:center;gap:clamp(10px,2.5vw,16px);
     padding:clamp(14px,2.5vh,20px) clamp(14px,3vw,22px);
     background:linear-gradient(135deg,var(--parchment) 0%,var(--cream) 100%);
     border-bottom:1px solid var(--line);position:relative;overflow:hidden;
+    cursor:pointer;-webkit-tap-highlight-color:transparent;
   }
   .rashi-card-hdr::after{
     content:"";position:absolute;top:-28px;right:-28px;width:80px;height:80px;
     border-radius:50%;border:1.5px solid var(--gold-soft);pointer-events:none;
   }
+  details[open]>.rashi-card-hdr{border-bottom-color:var(--gold);}
+
+  .rashi-arrow{
+    flex:none;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    background:var(--cream);border:1.5px solid var(--gold-soft);margin-left:auto;
+    transition:transform .3s ease,background .2s;
+  }
+  .rashi-arrow svg{transition:transform .3s ease;}
+  details[open]>.rashi-card-hdr .rashi-arrow svg{transform:rotate(180deg);}
+  details[open]>.rashi-card-hdr .rashi-arrow{background:rgba(201,162,39,.15);}
   .rashi-glyph{
     flex:none;width:52px;height:52px;border-radius:50%;
     background:var(--cream);border:1.5px solid var(--gold);
@@ -818,35 +843,38 @@ if (function_exists('track_view')) {
 
   /* ================= LANGUAGE SWITCHER ================= */
   .lang-switcher{
-    position:fixed;top:var(--chrome-t);left:70px;z-index:340;
-    display:flex;align-items:center;gap:0;
+    position:fixed;top:var(--chrome-t);
+    left:calc(14px + 48px + 6px);   /* share-btn right edge + gap */
+    right:calc(70px + 48px + 6px);  /* comment-btn left edge + gap */
+    z-index:340;
+    display:flex;align-items:center;height:48px;
     background:var(--night);border:1px solid rgba(240,217,138,.28);
     border-radius:999px;overflow:hidden;
     box-shadow:0 6px 18px -4px rgba(43,16,5,.5), inset 0 1px 0 rgba(240,217,138,.12);
   }
   .lang-ic{
     display:flex;align-items:center;justify-content:center;
-    padding:0 0 0 11px;color:var(--gold-light);flex:none;
+    padding:0 0 0 12px;color:var(--gold-light);flex:none;
   }
   .lang-switcher button{
-    border:none;background:none;padding:9px 13px;font-size:.68rem;font-weight:600;
+    flex:1;border:none;background:none;padding:9px 0;font-size:.68rem;font-weight:600;
     letter-spacing:.08em;cursor:pointer;position:relative;
-    color:rgba(232,220,194,.55);transition:color .2s;
+    color:rgba(232,220,194,.55);transition:color .2s;text-align:center;
     font-family:'Nunito Sans',sans-serif;
   }
   .lang-switcher button:hover{color:var(--gold-light);}
   .lang-switcher button.active{color:var(--night);}
   .lang-switcher button.active::before{
-    content:"";position:absolute;inset:3px 2px;border-radius:999px;
+    content:"";position:absolute;inset:3px 4px;border-radius:999px;
     background:var(--gold);z-index:-1;
     animation:langSlide .25s cubic-bezier(.4,0,.2,1);
   }
   @keyframes langSlide{from{opacity:0;transform:scale(.85);}to{opacity:1;transform:none;}}
   .lang-divider{
-    width:1px;height:18px;background:rgba(240,217,138,.2);flex:none;
+    width:1px;height:20px;background:rgba(240,217,138,.2);flex:none;
   }
   @media(min-width:540px){
-    .lang-switcher button{padding:9px 15px;font-size:.72rem;}
+    .lang-switcher button{font-size:.72rem;}
   }
 
   /* ================= MOTION PREFS ================= */
@@ -900,6 +928,11 @@ if (function_exists('track_view')) {
   <span class="lang-divider"></span>
   <button data-lang="mr" class="<?php echo $lang==='mr'?'active':''; ?>">म</button>
 </div>
+
+<button class="chrome-btn comment-btn" id="commentBtn" aria-label="Go to comments">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+  <span class="glow" aria-hidden="true"></span>
+</button>
 
 <button class="chrome-btn menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="menuPanel">
   <svg class="ic-open" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
@@ -985,14 +1018,14 @@ if (function_exists('track_view')) {
         $signFiles = ['Aries','Taurus','Gemini','Cancer','Leo','Virgo','Libra','Scorpio','Sagittarius','Capricorn','Aquarius','Pisces'];
         foreach($langContent['rashifal']['signs'] as $ri => $rashi):
         ?>
-        <article class="rashi-card rv"<?php echo $ri > 0 ? ' style="--d:'.sprintf('%.2fs', ($ri % 4) * 0.04).'."' : ''; ?>>
-          <header class="rashi-card-hdr">
+        <details class="rashi-card rv"<?php echo $ri === 0 ? ' open' : ''; ?><?php echo $ri > 0 ? ' style="--d:'.sprintf('%.2fs', ($ri % 4) * 0.04).'."' : ''; ?>>
+          <summary class="rashi-card-hdr">
             <div class="rashi-glyph"><img src="../../assets/signs/<?php echo $signFiles[$ri]; ?>.svg" alt="" loading="lazy"></div>
             <div class="rashi-hdr-txt">
               <h3><?php echo htmlspecialchars($rashi['name']); ?></h3>
-              <span class="rashi-dates"><?php echo htmlspecialchars($rashi['dates']); ?></span>
             </div>
-          </header>
+            <span class="rashi-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></span>
+          </summary>
           <div class="rashi-card-body">
             <p class="rashi-overview"><?php echo htmlspecialchars($rashi['overview']); ?></p>
             
@@ -1057,7 +1090,7 @@ if (function_exists('track_view')) {
               <p><?php echo htmlspecialchars($rashi['cautionDays']['note']); ?></p>
             </div>
           </div>
-        </article>
+        </details>
         <?php endforeach; ?>
       </div>
     </div>
@@ -1340,7 +1373,7 @@ if (function_exists('track_view')) {
             <a href="https://www.instagram.com/astrochitra.official/" target="_blank" rel="noopener" class="soc" aria-label="Instagram">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
             </a>
-            <a href="#" class="soc" aria-label="Facebook">
+            <a href="https://www.facebook.com/p/Astro-Chitra-61587728232221/" target="_blank" rel="noopener" class="soc" aria-label="Facebook">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1V7.9c0-.9.25-1.5 1.55-1.5h1.65V3.6c-.3-.04-1.3-.13-2.45-.13-2.4 0-4.05 1.47-4.05 4.17v2.33H7.5V13h2.7v8h3.3z"/></svg>
             </a>
           </div>
@@ -1523,6 +1556,9 @@ if (function_exists('track_view')) {
     if(navigator.share){navigator.share({title:document.title,url:url}).catch(function(){});}
     else if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(showToast,function(){});}
   });
+
+  /* comment button */
+  document.getElementById('commentBtn').addEventListener('click',function(){goTo(10);});
 
   /* language switcher — preserves current hash */
   document.querySelectorAll('#langSwitcher button').forEach(function(btn){
