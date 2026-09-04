@@ -983,7 +983,7 @@ if (function_exists('track_view')) {
       </div>
       <div class="guruji-col">
         <div class="guruji-row rv" style="--d:.08s;">
-          <img class="guruji-photo" src="../../assets/Guruji2.jpg" alt="Portrait of Guruji" loading="lazy" decoding="async">
+          <img class="guruji-photo" src="../../assets/Guruji.jpg" alt="Portrait of Guruji" loading="lazy" decoding="async">
           <div>
             <div class="quote-mark" aria-hidden="true">&ldquo;</div>
             <p class="guruji-quote"><?php echo htmlspecialchars($langContent['guruji']['quote']); ?></p>
