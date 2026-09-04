@@ -5,6 +5,11 @@ $contentAll = json_decode(file_get_contents($jsonPath), true);
 $langContent = $contentAll[$lang] ?? $contentAll['en'];
 $title = $langContent['meta']['title'] ?? 'AstroChitra Monthly Newsletter | September 2026';
 
+$scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+$host   = $_SERVER['HTTP_HOST'] ?? $_SERVER['SERVER_NAME'] ?? 'astrochitra.com';
+$baseUrl = $scheme . '://' . $host;
+$ogImage = $baseUrl . '/assets/september_2026/og_image.webp';
+
 header('Cache-Control: public, max-age=3600, stale-while-revalidate=86400');
 header('Content-Type: text/html; charset=utf-8');
 
@@ -19,6 +24,18 @@ if (function_exists('track_view')) {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="theme-color" content="#2b1005">
+<link rel="preload" as="image" href="<?php echo $ogImage; ?>" type="image/webp">
+<meta property="og:type" content="website">
+<meta property="og:title" content="<?php echo htmlspecialchars($title); ?>">
+<meta property="og:description" content="AstroChitra September 2026 — your cosmic roadmap with monthly transits, rashifal, and practical guidance.">
+<meta property="og:image" content="<?php echo $ogImage; ?>">
+<meta property="og:image:width" content="3072">
+<meta property="og:image:height" content="2048">
+<meta property="og:image:type" content="image/webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="<?php echo htmlspecialchars($title); ?>">
+<meta name="twitter:description" content="AstroChitra September 2026 — your cosmic roadmap with monthly transits, rashifal, and practical guidance.">
+<meta name="twitter:image" content="<?php echo $ogImage; ?>">
 <title><?php echo htmlspecialchars($title); ?></title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
