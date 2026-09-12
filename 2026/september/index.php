@@ -363,35 +363,85 @@ if (function_exists('track_view')) {
   .menu-no{flex:none;font-size:.66rem;font-weight:bold;letter-spacing:.06em;color:var(--gold);width:20px;text-align:right;}
 
   /* ================= BOTTOM NAV ================= */
-  .deck-nav{
-    position:fixed;left:50%;bottom:calc(12px + var(--safe-b));transform:translateX(-50%);
-    z-index:300;display:flex;align-items:center;gap:7px;
-    background:rgba(43,16,5,.94);border:1px solid var(--gold);
-    border-radius:999px;padding:9px 11px;
-    box-shadow:0 14px 34px rgba(43,16,5,.4), inset 0 1px 0 rgba(240,217,138,.25);
-    max-width:calc(100vw - 20px);
+  /* ================= FOOTER BAR (transparent, like header) ================= */
+  .footer-bar{
+    position:fixed;left:0;right:0;bottom:0;z-index:300;
+    display:flex;align-items:center;justify-content:space-between;
+    gap:12px;padding:0 14px calc(12px + var(--safe-b));
+    pointer-events:none;
   }
+  .footer-bar>*{pointer-events:auto;}
+  .deck-nav{
+    flex:1;min-width:0;
+    display:flex;align-items:center;gap:4px;
+    background:rgba(43,16,5,.94);border:1px solid var(--gold);
+    border-radius:999px;padding:4px 6px;
+    box-shadow:0 14px 34px rgba(43,16,5,.4), inset 0 1px 0 rgba(240,217,138,.25);
+  }
+  .wa-sub{
+    display:inline-flex;align-items:center;justify-content:center;
+    height:46px;padding:0 18px;border-radius:999px;
+    background:#17935C;border:1.5px solid #117A4B;color:#fff;cursor:pointer;
+    font-size:.8rem;font-weight:bold;letter-spacing:.02em;white-space:nowrap;
+    box-shadow:0 6px 16px -6px rgba(23,147,92,.6);
+    transition:background .15s;
+    animation:waWiggle 1.2s ease-in-out infinite;
+  }
+  .wa-sub:hover{background:#116B44;}
+  @keyframes waWiggle{0%,100%{transform:rotate(-3deg);}50%{transform:rotate(3deg);}}
+
+  /* WhatsApp subscribe popup */
+  .wa-modal{
+    position:fixed;inset:0;z-index:380;
+    display:flex;align-items:center;justify-content:center;padding:24px;
+    background:rgba(43,16,5,.66);backdrop-filter:blur(3px);
+    opacity:0;visibility:hidden;transition:opacity .22s,visibility .22s;
+  }
+  .wa-modal.open{opacity:1;visibility:visible;}
+  .wa-modal-card{
+    position:relative;width:100%;max-width:340px;text-align:center;
+    background:var(--paper);border:1px solid var(--gold);border-radius:20px;
+    padding:30px 22px 24px;box-shadow:0 30px 70px -20px rgba(43,16,5,.5);
+    transform:translateY(12px) scale(.96);transition:transform .22s cubic-bezier(.22,.9,.35,1);
+  }
+  .wa-modal.open .wa-modal-card{transform:none;}
+  .wa-modal-ic{
+    width:56px;height:56px;margin:0 auto 14px;border-radius:50%;
+    background:#17935C;color:#fff;
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 10px 24px -8px rgba(23,147,92,.6);
+  }
+  .wa-modal-card h3{font-size:1.3rem;font-weight:900;color:var(--night);margin-bottom:8px;letter-spacing:normal;font-family:inherit;}
+  .wa-modal-card p{font-size:.9rem;color:var(--muted);line-height:1.6;margin:0 0 18px;}
+  .wa-modal-close{
+    position:absolute;top:10px;right:10px;width:34px;height:34px;border-radius:50%;
+    border:none;background:var(--cream);color:var(--terracotta);cursor:pointer;
+    display:flex;align-items:center;justify-content:center;transition:background .15s;
+  }
+  .wa-modal-close:hover{background:var(--gold-light);color:var(--night);}
+  .btn-wa{background:#17935C;border-color:#117A4B;color:#fff;}
+  .btn-wa:hover{background:#116B44;border-color:#0A5235;}
   .nav-btn{
-    flex:none;width:44px;height:44px;border-radius:50%;border:none;cursor:pointer;
+    flex:none;width:36px;height:36px;border-radius:50%;border:none;cursor:pointer;
     background:var(--gold);color:var(--night);
     display:flex;align-items:center;justify-content:center;
     transition:background .15s,transform .15s;
   }
   .nav-btn:hover{background:var(--gold-light);transform:scale(1.05);}
   .nav-btn:disabled{opacity:.3;cursor:default;transform:none;}
-  .segs{display:flex;align-items:center;gap:3px;padding:0 3px;}
+  .segs{display:flex;align-items:center;gap:2px;padding:0 2px;flex:1;min-width:0;}
   .seg{
-    width:15px;height:32px;border:none;background:none;padding:0;cursor:pointer;
+    flex:1;min-width:10px;height:26px;border:none;background:none;padding:0;cursor:pointer;
     display:flex;align-items:center;justify-content:center;
   }
-  .seg i{display:block;width:100%;height:4px;border-radius:99px;background:rgba(240,217,138,.32);transition:background .2s,transform .2s;}
+  .seg i{display:block;width:100%;height:3px;border-radius:99px;background:rgba(240,217,138,.32);transition:background .2s,transform .2s;}
   .seg.on i{background:var(--gold-light);transform:scaleY(1.5);}
   .seg.done i{background:rgba(240,217,138,.55);}
   .nav-count{
     display:none;align-items:baseline;gap:4px;color:#e8dcc2;
-    font-size:.72rem;letter-spacing:.04em;padding:0 6px 0 8px;white-space:nowrap;
+    font-size:.66rem;letter-spacing:.04em;padding:0 4px 0 6px;white-space:nowrap;
   }
-  .nav-count b{color:var(--gold-light);font-size:.95rem;}
+  .nav-count b{color:var(--gold-light);font-size:.85rem;}
   @media(min-width:540px){.nav-count{display:inline-flex;}}
   /* ================= SLIDE 1 : COVER ================= */
   .hero-wrap{text-align:center;max-width:800px;margin:0 auto;display:flex;flex-direction:column;align-items:center;}
@@ -1402,16 +1452,39 @@ if (function_exists('track_view')) {
 
 </main>
 
-<!-- ==================== FIXED BOTTOM NAV ==================== -->
-<div class="deck-nav" id="deckNav">
-  <button class="nav-btn" id="prevBtn" aria-label="Previous section">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+<!-- ==================== FIXED BOTTOM BAR (transparent, like header) ==================== -->
+<div class="footer-bar">
+  <button class="wa-sub" id="waSubBtn" aria-haspopup="dialog" aria-controls="waModal" aria-label="Subscribe to the newsletter">
+    Join
   </button>
-  <div class="segs" id="segs" role="tablist" aria-label="Sections"></div>
-  <span class="nav-count" aria-hidden="true"><b id="curNo">01</b>/<span id="totNo">12</span></span>
-  <button class="nav-btn" id="nextBtn" aria-label="Next section">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
-  </button>
+
+  <div class="deck-nav" id="deckNav">
+    <button class="nav-btn" id="prevBtn" aria-label="Previous section">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <div class="segs" id="segs" role="tablist" aria-label="Sections"></div>
+    <span class="nav-count" aria-hidden="true"><b id="curNo">01</b>/<span id="totNo">12</span></span>
+    <button class="nav-btn" id="nextBtn" aria-label="Next section">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+    </button>
+  </div>
+</div>
+
+<div class="wa-modal" id="waModal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="waModalTitle">
+  <div class="wa-modal-card">
+    <button class="wa-modal-close" id="waModalClose" aria-label="Close">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+    <div class="wa-modal-ic">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg>
+    </div>
+    <h3 id="waModalTitle"><?php echo htmlspecialchars($langContent['whatsappModal']['title']); ?></h3>
+    <p><?php echo htmlspecialchars($langContent['whatsappModal']['text']); ?></p>
+    <a href="https://chat.whatsapp.com/ELhfV9OyIldBs6H4mjMLW5" target="_blank" rel="noopener" class="btn btn-wa" style="width:100%;">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      <?php echo htmlspecialchars($langContent['whatsappModal']['joinBtn']); ?>
+    </a>
+  </div>
 </div>
 
 <script>
@@ -1576,6 +1649,31 @@ if (function_exists('track_view')) {
 
   /* comment button */
   document.getElementById('commentBtn').addEventListener('click',function(){goTo(10);});
+
+  /* WhatsApp subscribe popup */
+  var waSubBtn=document.getElementById('waSubBtn'),
+      waModal=document.getElementById('waModal'),
+      waModalClose=document.getElementById('waModalClose');
+  function openWa(){
+    waModal.classList.add('open');
+    waModal.setAttribute('aria-hidden','false');
+    document.body.style.overflow='hidden';
+    waModalClose.focus();
+  }
+  function closeWa(){
+    waModal.classList.remove('open');
+    waModal.setAttribute('aria-hidden','true');
+    document.body.style.overflow='';
+    waSubBtn.focus();
+  }
+  waSubBtn.addEventListener('click',openWa);
+  waModalClose.addEventListener('click',closeWa);
+  waModal.addEventListener('click',function(e){
+    if(e.target===waModal){closeWa();}
+  });
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'&&waModal.classList.contains('open')){closeWa();}
+  });
 
   /* language switcher — preserves current hash */
   document.querySelectorAll('#langSwitcher button').forEach(function(btn){

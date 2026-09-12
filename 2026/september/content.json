@@ -892,6 +892,11 @@
         { "text": "Journal", "url": "https://blogs.astrochitra.com/" }
       ]
     },
+    "whatsappModal": {
+      "title": "Subscribe to Newsletter",
+      "text": "To subscribe to our newsletter, join this WhatsApp group.",
+      "joinBtn": "Join WhatsApp Group"
+    },
     "shareToast": "Link copied to clipboard"
   },
 
@@ -1788,6 +1793,11 @@
         { "text": "जर्नल", "url": "https://blogs.astrochitra.com/" }
       ]
     },
+    "whatsappModal": {
+      "title": "न्यूज़लेटर के लिए सदस्यता लें",
+      "text": "हमारे न्यूज़लेटर की सदस्यता लेने के लिए, इस WhatsApp समूह से जुड़ें।",
+      "joinBtn": "WhatsApp समूह से जुड़ें"
+    },
     "shareToast": "लिंक क्लिपबोर्ड पर कॉपी हो गया"
   },
 
@@ -2683,6 +2693,11 @@
         { "text": "Insights", "url": "https://astrochitra.com/insights" },
         { "text": "जर्नल", "url": "https://blogs.astrochitra.com/" }
       ]
+    },
+    "whatsappModal": {
+      "title": "न्यूजलेटरची सदस्यता घ्या",
+      "text": "आमच्या न्यूजलेटरची सदस्यता घेण्यासाठी, या WhatsApp ग्रुपमध्ये सामील व्हा.",
+      "joinBtn": "WhatsApp ग्रुपमध्ये सामील व्हा"
     },
     "shareToast": "लिंक क्लिपबोर्डवर कॉपी झाला"
   }

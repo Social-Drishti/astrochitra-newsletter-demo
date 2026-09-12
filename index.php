@@ -1,41 +1,5 @@
 <?php
 require_once __DIR__ . '/admin/db.php';
-
-$message = '';
-$message_type = '';
-
-// Auto-detect UTM source from URL
-$utmSource = trim($_GET['utm_source'] ?? $_GET['source'] ?? '');
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['subscribe'])) {
-    $name   = trim($_POST['name'] ?? '');
-    $email  = trim($_POST['email'] ?? '');
-    $phone  = trim($_POST['phone'] ?? '');
-    $source = trim($_POST['source'] ?? '');
-    $sourceCustom = trim($_POST['source_custom'] ?? '');
-
-    // Resolve source: if "Others" selected, use custom text
-    if ($source === 'Others' && $sourceCustom !== '') {
-        $source = $sourceCustom;
-    } elseif ($source === 'Others') {
-        $source = '';
-    }
-
-    if ($name === '') {
-        $message = "Please enter your name.";
-        $message_type = "error";
-    } elseif ($email === '' && $phone === '') {
-        $message = "Please provide an email address or phone number.";
-        $message_type = "error";
-    } elseif ($email !== '' && !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $message = "Please provide a valid email address.";
-        $message_type = "error";
-    } else {
-        $result = ac_add_subscriber($pdo, $name, $email, $phone, '', $source);
-        $message = $result['message'];
-        $message_type = $result['status'];
-    }
-}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -153,6 +117,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['subscribe'])) {
   .btn:active{transform:translateY(0);}
   .btn:focus-visible{outline:none;box-shadow:var(--focus-ring),0 8px 22px rgba(174,23,42,.3);}
   .note{margin-top:1rem;font-size:.75rem;color:var(--muted);}
+  .whatsapp-box{margin-top:1.5rem;padding:1rem 1.15rem;border:1.5px dashed var(--line);border-radius:14px;background:rgba(37,211,102,.07);text-align:left;}
+  .whatsapp-box p{margin:0 0 .85rem;font-size:.85rem;color:var(--olive);line-height:1.5;}
+  .btn.wa{background:#17935C;border-color:#117A4B;box-shadow:0 8px 22px rgba(23,147,92,.35);}
+  .btn.wa:hover{background:#116B44;border-color:#0A5235;box-shadow:0 12px 28px rgba(23,147,92,.45);}
+  .btn.wa:focus-visible{box-shadow:var(--focus-ring),0 8px 22px rgba(23,147,92,.35);}
   @media (min-width:560px){
     .form-row.two-col{grid-template-columns:1fr 1fr;}
   }
@@ -171,85 +140,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['subscribe'])) {
     <h1>Subscribe to AstroChitra Newsletter</h1>
     <p class="subtitle">Receive planetary alignments, transits, personal remedies and wisdom directly from Guruji.</p>
 
-    <?php if (!empty($message)): ?>
-      <div class="msg <?= $message_type ?>"><?= htmlspecialchars($message) ?></div>
-    <?php endif; ?>
-
-    <form method="POST" action="" novalidate>
-      <div class="form-row">
-        <div class="form-group">
-          <label for="name">Your Name</label>
-          <input type="text" id="name" name="name" required placeholder="Enter your full name" autocomplete="name">
-        </div>
-      </div>
-
-      <div class="form-row two-col">
-        <div class="form-group">
-          <label for="email">Email Address</label>
-          <input type="email" id="email" name="email" placeholder="name@example.com" autocomplete="email">
-        </div>
-        <div class="form-group">
-          <label for="phone">Phone Number</label>
-          <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" autocomplete="tel">
-        </div>
-      </div>
-
-      <p class="helper">At least one of email or phone is required.</p>
-
-      <?php if ($utmSource !== ''): ?>
-        <input type="hidden" name="source" value="<?= htmlspecialchars($utmSource) ?>">
-        <p class="helper" style="color:var(--gold);margin-bottom:1rem;">Source: <strong><?= htmlspecialchars($utmSource) ?></strong> (auto‑detected)</p>
-      <?php else: ?>
-        <div class="form-row">
-          <div class="form-group">
-            <label for="source">How did you hear about us?</label>
-            <select id="source" name="source">
-              <option value="">Select source (optional)</option>
-              <option value="Instagram">Instagram</option>
-              <option value="YouTube">YouTube</option>
-              <option value="Facebook">Facebook</option>
-              <option value="Twitter">Twitter / X</option>
-              <option value="WhatsApp">WhatsApp</option>
-              <option value="Google">Google Search</option>
-              <option value="Friend">Friend / Referral</option>
-              <option value="Newspaper">Newspaper / Magazine</option>
-              <option value="Event">Event / Workshop</option>
-              <option value="Others">Others</option>
-            </select>
-          </div>
-          <div class="form-group" id="source-custom-group" style="display:none;">
-            <label for="source_custom">Please specify</label>
-            <input type="text" id="source_custom" name="source_custom" placeholder="e.g. Telegram, LinkedIn, Podcast…">
-          </div>
-        </div>
-      <?php endif; ?>
-
-      <input type="hidden" name="utm_source_hidden" value="<?= htmlspecialchars($utmSource) ?>">
-      <button type="submit" name="subscribe" class="btn">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
-        Subscribe
-      </button>
-    </form>
+    <div class="whatsapp-box">
+      <p>To subscribe to our newsletter, join this community group.</p>
+      <a href="https://chat.whatsapp.com/ELhfV9OyIldBs6H4mjMLW5" target="_blank" rel="noopener" class="btn wa">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-8.5 8.5 8.5 8.5 0 0 1-3.8-.9L3 21l1.9-5.7a8.5 8.5 0 1 1 16.1-3.8z"/><path d="M9 10a5 5 0 0 0 5 5c.7 0 1.2-1 1.5-2"/></svg>
+        Join WhatsApp Group
+      </a>
+    </div>
 
     <p class="note">No spam. Unsubscribe anytime.</p>
   </div>
 </div>
-<script>
-(function(){
-  var src = document.getElementById('source');
-  var cust = document.getElementById('source-custom-group');
-  var custInput = document.getElementById('source_custom');
-  if(!src || !cust) return;
-  function toggleCustom(){
-    if(src.value === 'Others'){
-      cust.style.display = 'block';
-    } else {
-      cust.style.display = 'none';
-      custInput.value = '';
-    }
-  }
-  src.addEventListener('change', toggleCustom);
-})();
-</script>
 </body>
 </html>
