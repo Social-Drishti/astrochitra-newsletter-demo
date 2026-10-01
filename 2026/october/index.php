@@ -9,7 +9,7 @@ $scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' :
 $host   = $_SERVER['HTTP_HOST'] ?? $_SERVER['SERVER_NAME'] ?? 'astrochitra.com';
 $baseUrl = $scheme . '://' . $host;
 // October has no OG image yet; fallback to September's
-$ogImage = $baseUrl . '/assets/september_2026/og_image.webp';
+$ogImage = $baseUrl . '/assets/october_2026/og_image.webp';
 
 header('Cache-Control: public, max-age=3600, stale-while-revalidate=86400');
 header('Content-Type: text/html; charset=utf-8');
