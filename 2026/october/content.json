@@ -1,0 +1,3130 @@
+{
+  "en": {
+    "meta": {
+      "title": "AstroChitra Monthly Newsletter | October 2026",
+      "htmlLang": "en"
+    },
+    "menu": {
+      "title": "In this issue",
+      "items": [
+        "Cover",
+        "Guruji Speaks",
+        "Monthly Rashifal",
+        "Online Products",
+        "Watch & Follow",
+        "Mantra of the Month",
+        "Myth vs Reality",
+        "Did You Know · Blogs",
+        "Testimonials",
+        "Share & Comment",
+        "Consult Now"
+      ]
+    },
+    "hero": {
+      "brandName": "AstroChitra",
+      "kicker": "Monthly Edition · October 2026",
+      "headline": "October 2026<br><em>Newsletter</em>"
+    },
+    "guruji": {
+      "eyebrowText": "Guruji Speaks",
+      "quoteLabel": "Quote of the Month",
+      "quoteBlock": [
+        {
+          "lang": "en",
+          "text": "Learn from the past,\nLive in the present, and\nLeave the future in God’s hands."
+        },
+        {
+          "lang": "hi",
+          "text": "अतीत से सीखें,\nवर्तमान में जिएँ और\nभविष्य को ईश्वर के हाथों में छोड़ दें।"
+        },
+        {
+          "lang": "mr",
+          "text": "भूतकाळातून शिका,\nवर्तमानात जगा आणि\nभविष्य देवाच्या हाती सोपवा."
+        }
+      ],
+      "bookBtn": "Book consultation",
+      "whatsappLink": "WhatsApp us"
+    },
+    "rashifal": {
+      "eyebrowText": "Monthly Horoscope",
+      "title": "Rashifal <em>October 2026</em>",
+      "subtitle": "Date-wise impacts for all twelve moon signs this month.",
+      "transitsLabel": "Key Transits",
+      "extraTransitsLabel": "Ongoing Transits",
+      "bestDaysLabel": "Best Days",
+      "cautionDaysLabel": "Caution Days",
+      "pendingLabel": "Content pending",
+      "signs": [
+        {
+          "name": "Mesh (Aries)",
+          "dates": "Mar 21 to Apr 19",
+          "overview": "Overall, the beginning of the month will have high competition and pending tasks at work, but later, your focus will shift towards business partnerships, networking, and taking major family decisions.",
+          "transits": [
+            {
+              "date": "Oct 1",
+              "effect": "Competition and workload in your job will be high."
+            },
+            {
+              "date": "Oct 17",
+              "planet": "Surya (Sun)",
+              "planetIcon": "Sun",
+              "house": "7th House",
+              "effect": "Focus will increase on business partnerships, clients, and dealing."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "Rahu",
+              "position": "11th House",
+              "effect": "Income opportunities will increase through new contacts and networking."
+            },
+            {
+              "planet": "Shani (Saturn)",
+              "position": "12th House",
+              "effect": "Money may be spent on old expenses, travel, or professional commitments."
+            },
+            {
+              "planet": "Guru (Jupiter) and Mangal (Mars)",
+              "position": "4th House",
+              "effect": "There is a possibility of making big decisions related to property, home renovation, vehicles, or family."
+            },
+            {
+              "planet": "Budh (Mercury), Shukra (Venus) and Surya (Sun)",
+              "position": "7th House",
+              "effect": "Old relationship issues may surface. Married people should keep their communication soft."
+            },
+            {
+              "planet": "Ketu",
+              "position": "5th House",
+              "effect": "Unnecessary worries regarding children-related matters may arise."
+            }
+          ],
+          "bestDays": {
+            "range": "1st Oct to 17th Oct",
+            "note": "Good time for career, relationships, making new contacts, and completing pending tasks."
+          },
+          "cautionDays": {
+            "range": "After 17th Oct",
+            "note": "Keep caution in partnerships, marriage, business agreements, and communication."
+          },
+          "pending": false
+        },
+        {
+          "name": "Vrishabh (Taurus)",
+          "dates": "Apr 20 to May 20",
+          "overview": "Overall, the month will keep you highly occupied with your daily routine and career opportunities. You will need to maintain soft communication in your relationships and avoid hasty decisions regarding your home.",
+          "transits": [
+            {
+              "date": "Oct 1",
+              "effect": "Workload and competition in your job will be high."
+            },
+            {
+              "date": "Oct 17",
+              "planet": "Surya (Sun)",
+              "planetIcon": "Sun",
+              "house": "6th House",
+              "effect": "Focus will increase on your job, competition, and pending work."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "Rahu",
+              "position": "10th House",
+              "effect": "You may get new career opportunities, sudden changes, or new projects."
+            },
+            {
+              "planet": "Shani (Saturn)",
+              "position": "11th House",
+              "effect": "Possibilities for income and financial gains will be created, but delays in results are possible."
+            },
+            {
+              "planet": "Guru (Jupiter) and Mangal (Mars)",
+              "position": "3rd House",
+              "effect": "The desire for communication, traveling, and starting new work will increase. Activity in matters related to siblings can increase."
+            },
+            {
+              "planet": "Budh (Mercury), Shukra (Venus) and Surya (Sun)",
+              "position": "6th House",
+              "effect": "Busyness in job, competition, and daily routine will increase. Misunderstandings over small things can happen in relationships, so keep communication soft."
+            },
+            {
+              "planet": "Ketu",
+              "position": "4th House",
+              "effect": "Unnecessary worries may occupy your mind regarding home, property, vehicles, or family matters. Do not rush while taking big decisions at home."
+            }
+          ],
+          "bestDays": {
+            "range": "1st Oct to 17th Oct",
+            "note": "Good time for new career opportunities, networking, income planning, and completing pending tasks."
+          },
+          "cautionDays": {
+            "range": "After 17th Oct",
+            "note": "Job, competition, workplace arguments, health routine, financial commitments, and communication."
+          },
+          "pending": false
+        },
+        {
+          "name": "Mithun (Gemini)",
+          "dates": "May 21 to Jun 20",
+          "overview": "Overall, this month brings a strong focus on wealth, family matters, and creative career growth. Balancing professional responsibilities with patience will be the key to success.",
+          "transits": [
+            {
+              "date": "Oct 1",
+              "effect": "Workload and pending work in your career may remain high."
+            },
+            {
+              "date": "Oct 17",
+              "planet": "Surya (Sun)",
+              "planetIcon": "Sun",
+              "house": "5th House",
+              "effect": "Focus will increase on creativity, decision-making, and learning in your career."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "Shani (Saturn)",
+              "position": "10th House",
+              "effect": "Professional responsibilities will increase, and keeping patience at work will be necessary."
+            },
+            {
+              "planet": "Rahu",
+              "position": "8th House",
+              "effect": "Keep caution regarding sudden changes and financial planning."
+            },
+            {
+              "planet": "Ketu",
+              "position": "3rd House",
+              "effect": "There might be occasional confusion in your mind regarding communication and short travels."
+            },
+            {
+              "planet": "Guru (Jupiter) and Mangal (Mars)",
+              "position": "2nd House",
+              "effect": "Special focus will be on wealth, savings, and family matters. The possibility of taking a big financial decision, property, or family investment can arise."
+            },
+            {
+              "planet": "Budh (Mercury), Shukra (Venus) and Surya (Sun)",
+              "position": "5th House",
+              "effect": "Topics related to love, relationships, creativity, and education may come to the forefront."
+            }
+          ],
+          "bestDays": {
+            "range": "1st Oct to 17th Oct",
+            "note": "Good time for career, networking, pending work, and financial planning."
+          },
+          "cautionDays": {
+            "range": "After 17th Oct",
+            "note": "Avoid haste in relationships, love matters, business communication, and major financial decisions."
+          },
+          "pending": false
+        },
+        {
+          "name": "Kark (Cancer)",
+          "dates": "Jun 21 to Jul 22",
+          "overview": "Overall, this month will keep your focus centered on personal growth, home, property, and family matters. Financial decisions will require careful evaluation.",
+          "transits": [
+            {
+              "date": "Oct 1",
+              "effect": "High focus will remain on home and family, career, and personal responsibilities."
+            },
+            {
+              "date": "Oct 17",
+              "planet": "Surya (Sun)",
+              "planetIcon": "Sun",
+              "house": "4th House",
+              "effect": "Focus will shift towards home and family, property, vehicles, and luxury items."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "Guru (Jupiter) and Mangal (Mars)",
+              "position": "1st House",
+              "effect": "Confidence, energy, and the desire to take your own decisions will increase."
+            },
+            {
+              "planet": "Budh (Mercury) and Shukra (Venus)",
+              "position": "4th House",
+              "effect": "Home renovation, property dealing, or important conversations with family may occur."
+            },
+            {
+              "planet": "Rahu",
+              "position": "8th House",
+              "effect": "Sudden expenses or unexpected situations may arise. Therefore, do not rush into investments and financial decisions."
+            },
+            {
+              "planet": "Ketu",
+              "position": "2nd House",
+              "effect": "Uncertainty regarding family communication and savings may persist."
+            },
+            {
+              "planet": "Shani (Saturn)",
+              "position": "9th House",
+              "effect": "You will get the support of luck slowly and gradually."
+            }
+          ],
+          "bestDays": {
+            "range": "1st Oct to 17th Oct",
+            "note": "Good time for personal growth, career planning, new opportunities, and completing pending work."
+          },
+          "cautionDays": {
+            "range": "After 17th Oct",
+            "note": "Do not rush into financial decisions, partnerships, relationships, and investments."
+          },
+          "pending": false
+        },
+        {
+          "name": "Singh (Leo)",
+          "dates": "Jul 23 to Aug 22",
+          "overview": "Overall, the month will start with career competition, but later it will transition into a good period for communication, networking, and planning. Avoid hasty financial and business deals.",
+          "transits": [
+            {
+              "date": "Oct 1",
+              "effect": "Competition and workload in your career may remain high."
+            },
+            {
+              "date": "Oct 17",
+              "planet": "Surya (Sun)",
+              "planetIcon": "Sun",
+              "house": "3rd House",
+              "effect": "Focus will increase on communication, networking, short travel, and marketing."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "Rahu",
+              "position": "6th House",
+              "effect": "You will handle competition and pending tasks very well."
+            },
+            {
+              "planet": "Shani (Saturn)",
+              "position": "8th House",
+              "effect": "Old financial matters will surface; do not make any big financial decisions in haste."
+            },
+            {
+              "planet": "Guru (Jupiter) and Mangal (Mars)",
+              "position": "12th House",
+              "effect": "Expenses may increase due to work-related travel, online foreign connections, hospitals, property, or other reasons."
+            },
+            {
+              "planet": "Budh (Mercury) and Shukra (Venus)",
+              "position": "3rd House",
+              "effect": "Misunderstandings in communication with your partner may happen."
+            },
+            {
+              "planet": "Ketu",
+              "position": "1st House",
+              "effect": "There might be confusion regarding decisions."
+            }
+          ],
+          "bestDays": {
+            "range": "1st Oct to 17th Oct",
+            "note": "Good time for pending work, making new contacts, and financial planning."
+          },
+          "cautionDays": {
+            "range": "After 17th Oct",
+            "note": "Communication, unnecessary arguments, short-term financial decisions; understand the terms thoroughly before making business deals."
+          },
+          "pending": false
+        },
+        {
+          "name": "Kanya (Virgo)",
+          "dates": "Aug 23 to Sep 22",
+          "overview": "Overall, this month will deeply focus on wealth, family, and financial planning. However, relationships and business partnerships will demand patience and careful communication.",
+          "transits": [],
+          "extraTransits": [
+            {
+              "planet": "Surya (Sun), Budh (Mercury) and Shukra (Venus)",
+              "position": "2nd House",
+              "effect": "Focus will increase on wealth, family, speech, and financial planning. Your attention will be more on income, savings, and family matters."
+            },
+            {
+              "planet": "Shani (Saturn)",
+              "position": "7th House",
+              "effect": "You will need to keep patience in matters related to marriage, business partnerships, and clients. Old issues or relationship responsibilities may surface."
+            },
+            {
+              "planet": "Rahu",
+              "position": "5th House",
+              "effect": "Confusion may arise in matters related to education, creativity, love relationships, and children."
+            },
+            {
+              "planet": "Guru (Jupiter) and Mangal (Mars)",
+              "position": "11th House",
+              "effect": "It will create a good time for income, networking, and friends."
+            },
+            {
+              "planet": "Ketu",
+              "position": "12th House",
+              "effect": "Travel, spiritual activities, and unnecessary expenses can increase."
+            }
+          ],
+          "bestDays": {
+            "range": "1st Oct to 17th Oct",
+            "note": "Wealth and financial planning, new contacts and networking, income opportunities, family-related planning."
+          },
+          "cautionDays": {
+            "range": "After 17th Oct",
+            "note": "Communicate thoughtfully in matters related to family, wealth, speech, relationships, and business partners."
+          },
+          "pending": false
+        },
+        {
+          "name": "Tula (Libra)",
+          "dates": "Sep 23 to Oct 22",
+          "overview": "Overall, the month will transition from high expenses and travel towards boosted confidence, personality development, and active career growth.",
+          "transits": [
+            {
+              "date": "Oct 1",
+              "planet": "Surya (Sun)",
+              "planetIcon": "Sun",
+              "house": "12th House",
+              "effect": "May increase expenses, travel, work related to abroad, or professional responsibilities."
+            },
+            {
+              "date": "Oct 17",
+              "planet": "Surya (Sun)",
+              "planetIcon": "Sun",
+              "house": "1st House",
+              "effect": "Confidence, decision-making, and focus on your work will increase."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "Rahu",
+              "position": "4th House",
+              "effect": "Thoughts like changing homes or matters related to family, property, and vehicles may increase. Do not take property-related decisions in haste."
+            },
+            {
+              "planet": "Guru (Jupiter) and Mangal (Mars)",
+              "position": "10th House",
+              "effect": "Activity in career and business will increase. Avoid aggressive communication at the workplace."
+            },
+            {
+              "planet": "Budh (Mercury), Shukra (Venus) and Surya (Sun)",
+              "position": "1st House",
+              "effect": "Personality will become attractive, and impact in communication will increase."
+            },
+            {
+              "planet": "Ketu",
+              "position": "11th House",
+              "effect": "You may experience a slight detachment regarding your income and social circle."
+            }
+          ],
+          "bestDays": {
+            "range": "1st Oct to 17th Oct",
+            "note": "Good time for career planning, pending work, travel, and financial planning."
+          },
+          "cautionDays": {
+            "range": "After 17th Oct",
+            "note": "Keep caution in relationships, marriage, business communication, and important agreements."
+          },
+          "pending": false
+        },
+        {
+          "name": "Vrishchik (Scorpio)",
+          "dates": "Oct 23 to Nov 21",
+          "overview": "Overall, this month brings excellent opportunities for networking, travel, and creative projects, though you may face some confusion in your daily work routines and expenses.",
+          "transits": [
+            {
+              "date": "Oct 1",
+              "effect": "The major focus will remain on your career and professional responsibilities."
+            },
+            {
+              "date": "Oct 17",
+              "planet": "Surya (Sun), Budh (Mercury) and Shukra (Venus)",
+              "planetIcon": "Sun",
+              "house": "12th House",
+              "effect": "Opportunities can arise in business expenses, foreign contacts, online work, or creative projects. Keep your communication soft."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "Ketu",
+              "position": "10th House",
+              "effect": "There might be occasional confusion regarding work."
+            },
+            {
+              "planet": "Rahu",
+              "position": "3rd House",
+              "effect": "Good possibilities will be formed for communication, networking, and short travels. You may get work opportunities through new contacts."
+            },
+            {
+              "planet": "Shani (Saturn)",
+              "position": "5th House",
+              "effect": "Completing any old pending matters may take time."
+            },
+            {
+              "planet": "Guru (Jupiter) and Mangal (Mars)",
+              "position": "9th House",
+              "effect": "Interest in higher education, long-distance travel, and religious activities may increase."
+            }
+          ],
+          "bestDays": {
+            "range": "1st Oct to 17th Oct",
+            "note": "Good time for career, networking, new projects, travel, education, and moving pending work forward."
+          },
+          "cautionDays": {
+            "range": "After 17th Oct",
+            "note": "Keep caution in expenses, foreign-related matters, relationship communication, and career decisions."
+          },
+          "pending": false
+        },
+        {
+          "name": "Dhanu (Sagittarius)",
+          "dates": "Nov 22 to Dec 21",
+          "overview": "Overall, this month brings excellent opportunities for communication, relationships, and networking. However, sudden financial changes and domestic responsibilities will require your careful attention.",
+          "transits": [
+            {
+              "date": "Oct 17",
+              "planet": "Surya (Sun)",
+              "planetIcon": "Sun",
+              "house": "11th House",
+              "effect": "Opportunities for income, networking, new contacts, and benefits from your professional circle can increase."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "Shani (Saturn)",
+              "position": "4th House",
+              "effect": "There can be expenses and mental pressure regarding responsibilities related to home, family, property, and vehicles."
+            },
+            {
+              "planet": "Guru (Jupiter) and Mangal (Mars)",
+              "position": "8th House",
+              "effect": "Activity can increase in matters related to sudden financial changes, joint finance, investments, and insurance."
+            },
+            {
+              "planet": "Rahu",
+              "position": "3rd House",
+              "effect": "Initiatives in communication, traveling, marketing, social media, and new efforts will increase."
+            },
+            {
+              "planet": "Ketu",
+              "position": "9th House",
+              "effect": "There might be a sense of detachment regarding religious beliefs, higher studies, long-distance travel, or matters related to your father."
+            },
+            {
+              "planet": "Budh (Mercury) and Shukra (Venus)",
+              "position": "7th House",
+              "effect": "A good yoga will be formed for relationships and business dealings."
+            }
+          ],
+          "bestDays": {
+            "range": "1st Oct to 17th Oct",
+            "note": "Career, professional planning, communication, new beginnings, pending work."
+          },
+          "cautionDays": {
+            "range": "After 17th Oct",
+            "note": "Over-expectations regarding income, sudden expenses, financial matters in partnerships, and communication."
+          },
+          "pending": false
+        },
+        {
+          "name": "Makar (Capricorn)",
+          "dates": "Dec 22 to Jan 19",
+          "overview": "Overall, your career and business will be highly active with strong possibilities for growth and new clients. However, sudden financial changes and family matters will require careful speech and patience.",
+          "transits": [
+            {
+              "date": "Oct 17",
+              "planet": "Surya (Sun)",
+              "planetIcon": "Sun",
+              "house": "10th House",
+              "effect": "Focus will increase on your career, job, and authority. Visibility at work can increase."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "Rahu",
+              "position": "2nd House",
+              "effect": "Sudden changes can be seen in wealth, savings, and family matters. Avoid thoughtless spending or investing, and be careful with your speech."
+            },
+            {
+              "planet": "Shani (Saturn)",
+              "position": "3rd House",
+              "effect": "Hard work, communication, documentation, and completing pending tasks will take more time. Short travels and professional commitments can increase."
+            },
+            {
+              "planet": "Guru (Jupiter) and Mangal (Mars)",
+              "position": "7th House",
+              "effect": "Focus will remain on business partnerships, clients, marriage, and dealings. Possibilities of new clients or expansion can arise for business people. Keep communication soft in married life."
+            },
+            {
+              "planet": "Surya (Sun), Budh (Mercury), and Shukra (Venus)",
+              "position": "10th House",
+              "effect": "You can get benefits in presentations, communication, meetings, networking, business dealings, and creative work."
+            },
+            {
+              "planet": "Ketu",
+              "position": "8th House",
+              "effect": "Avoid sudden shared finance and unnecessary worries. Old unresolved matters may resurface."
+            }
+          ],
+          "bestDays": {
+            "range": "1st Oct to 17th Oct",
+            "note": "Career planning, pending work, networking, financial planning, professional contacts."
+          },
+          "cautionDays": {
+            "range": "After 17th Oct",
+            "note": "Partnerships, marriage, business agreements, financial decisions, and communication."
+          },
+          "pending": false
+        },
+        {
+          "name": "Kumbh (Aquarius)",
+          "dates": "Jan 20 to Feb 18",
+          "overview": "Overall, the month will transition from sudden expenses towards luck, higher learning, and travel. You will need to carefully manage family responsibilities and avoid hasty business agreements.",
+          "transits": [
+            {
+              "date": "Oct 1",
+              "effect": "Surya (Sun) in your 8th House may bring sudden expenses, pending financial matters, and some uncertainty at work."
+            },
+            {
+              "date": "Oct 17",
+              "planet": "Surya (Sun)",
+              "planetIcon": "Sun",
+              "house": "9th House",
+              "effect": "Focus will increase on luck, higher learning, travel, and new opportunities."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "Shani (Saturn)",
+              "position": "2nd House",
+              "effect": "You will need to pay attention to wealth, family responsibilities, and financial planning. Family-related expenses may come up."
+            },
+            {
+              "planet": "Rahu",
+              "position": "12th House",
+              "effect": "You may get opportunities related to foreign connections, long-distance travel, or abroad. Unnecessary and sudden expenses can increase."
+            },
+            {
+              "planet": "Guru (Jupiter) and Mangal (Mars)",
+              "position": "6th House",
+              "effect": "Competition in your job will increase; pay attention to your health and routine."
+            },
+            {
+              "planet": "Ketu",
+              "position": "7th House",
+              "effect": "Misunderstandings can happen in relationships and partnerships. Do not finalize any business agreement in haste."
+            },
+            {
+              "planet": "Surya (Sun), Budh (Mercury), and Shukra (Venus)",
+              "position": "9th House",
+              "effect": "A good environment can be created for travel, networking, learning, consulting, and communication."
+            }
+          ],
+          "bestDays": {
+            "range": "1st Oct to 17th Oct",
+            "note": "Career opportunities, networking, travel, learning, new contacts, and pending professional matters."
+          },
+          "cautionDays": {
+            "range": "After 17th Oct",
+            "note": "Financial matters, sudden expenses, confidential matters, investment decisions."
+          },
+          "pending": false
+        },
+        {
+          "name": "Meen (Pisces)",
+          "dates": "Feb 19 to Mar 20",
+          "overview": "Overall, this month brings a strong focus on taking personal responsibilities seriously, new projects, and networking. Be cautious with joint finances and old relationship issues later in the month.",
+          "transits": [
+            {
+              "date": "Oct 1",
+              "effect": "Shani (Saturn) in your 1st House can increase your responsibilities and bring seriousness towards work. You should focus on health, routine, and personal decisions."
+            },
+            {
+              "date": "Oct 17",
+              "planet": "Surya (Sun)",
+              "planetIcon": "Sun",
+              "house": "8th House",
+              "effect": "Focus can increase on sudden expenses, joint finance, tax, insurance, loans, and old financial matters."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "Rahu",
+              "position": "11th House",
+              "effect": "New income opportunities can be created through new contacts, networking, and your professional circle."
+            },
+            {
+              "planet": "Guru (Jupiter) and Mangal (Mars)",
+              "position": "5th House",
+              "effect": "Activity will increase in matters related to education, creativity, children, and love relationships. The thought of starting a new project or creative work can arise."
+            },
+            {
+              "planet": "Ketu",
+              "position": "6th House",
+              "effect": "Your ability to handle competition and old pending matters will be good."
+            },
+            {
+              "planet": "Surya (Sun), Budh (Mercury), and Shukra (Venus)",
+              "position": "8th House",
+              "effect": "Old relationship issues may resurface. Read confidential information and agreements carefully in business."
+            }
+          ],
+          "bestDays": {
+            "range": "1st Oct to 17th Oct",
+            "note": "Career, networking, income opportunities, love relationships, education, new projects."
+          },
+          "cautionDays": {
+            "range": "After 17th Oct",
+            "note": "Financial matters, relationships, communication, important agreements, sudden expenses."
+          },
+          "pending": false
+        }
+      ]
+    },
+    "products": {
+      "eyebrowText": "Free Tools",
+      "title": "Explore AstroChitra Online",
+      "subtitle": "Everything you need for your jyotish journey, in one place.",
+      "items": [
+        {
+          "name": "Kundli Generator",
+          "desc": "Your full Vedic birth chart. Generated instantly, free forever."
+        },
+        {
+          "name": "Matchmaking Tool",
+          "desc": "Guna-milan compatibility for two charts."
+        },
+        {
+          "name": "AstroChitra Insights",
+          "desc": "Numbers and dashas behind your birth chart."
+        },
+        {
+          "name": "AstroChitra Journal",
+          "desc": "In-depth articles from experienced astrologers."
+        },
+        {
+          "name": "Panchang App",
+          "desc": "Today's tithi, nakshatra, muhurat at a glance."
+        },
+        {
+          "name": "Ask Guruji",
+          "desc": "Your questions answered by senior astrologers."
+        }
+      ]
+    },
+    "watch": {
+      "eyebrowText": "This Month On",
+      "title": "Watch & Follow",
+      "subtitle": "Wisdom videos and daily cosmic updates from our channels.",
+      "youtubeLabel": "YouTube · Featured Video",
+      "visitChannel": "Visit Our Channel",
+      "instagramLabel": "Instagram · Featured Reels",
+      "followInsta": "Follow @astrochitra.official",
+      "reels": [
+        {
+          "url": "https://www.instagram.com/reel/Da7u3wys_Ny/",
+          "video": "../../assets/october_2026/reels/video1.mp4",
+          "thumbnail": "../../assets/october_2026/reels/video1.jpg"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DcY0aPjt_le/",
+          "video": "../../assets/october_2026/reels/video2.mp4",
+          "thumbnail": "../../assets/october_2026/reels/video2.jpg"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DddEO_nD-FZ/",
+          "video": "../../assets/october_2026/reels/video3.mp4",
+          "thumbnail": "../../assets/october_2026/reels/video3.jpg"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DdvF0xHlVcg/",
+          "video": "../../assets/october_2026/reels/video4.mp4",
+          "thumbnail": "../../assets/october_2026/reels/video4.jpg"
+        }
+      ]
+    },
+    "mantra": {
+      "kicker": "Mantra of the Month",
+      "sanskrit": "सर्व मंगल मांगल्ये, शिवे सर्वार्थ साधिके<br>शरण्ये त्रंबके गौरी, नारायणी नमोस्तुते.",
+      "sections": [
+        {
+          "heading": "Meaning",
+          "paras": [
+            "This sacred prayer is offered to the Divine Mother, addressing her as the embodiment of auspiciousness and well-being, the one who fulfils worthy aspirations, the compassionate refuge, and the divine presence represented by Gauri and Narayani.",
+            "At its heart, the mantra is a humble salutation to Devi and a prayer for auspiciousness, refuge, inner strength, and the fulfilment of righteous intentions."
+          ]
+        },
+        {
+          "heading": "Why This Mantra for October?",
+          "paras": [
+            "October carries the spirit of Navratri, a sacred period dedicated to Maa Durga and her many forms. Navratri is traditionally observed as a time of devotion, self-reflection, renewal, and reconnecting with inner strength.",
+            "This mantra beautifully complements that spirit. Its words invoke the Divine Mother as a source of mangal — auspiciousness, as a refuge, and as the fulfiller of meaningful aspirations. During Navratri, when devotees turn toward Devi with faith and devotion, chanting this mantra becomes a simple way to centre the mind and begin each day with gratitude, surrender, and positive intent."
+          ]
+        },
+        {
+          "heading": "A Month of Devotion",
+          "paras": [
+            "Let this mantra be more than a recitation. Use it as a moment to pause, reflect, and reconnect with what truly matters. As Navratri reminds us to seek the strength to overcome negativity and move forward with faith, this mantra can become a daily reminder to carry that spirit into our thoughts, choices, and actions."
+          ]
+        }
+      ]
+    },
+    "transits": {
+      "eyebrowText": "Planetary Movements",
+      "title": "October Transits & Festivals",
+      "subtitle": "Key graha movements through the month, plus sacred dates to remember.",
+      "planets": [
+        {
+          "name": "Moon",
+          "from": "Virgo",
+          "to": "Libra",
+          "date": "1 Oct, 05:12 am",
+          "icon": "Moon"
+        },
+        {
+          "name": "Moon",
+          "from": "Libra",
+          "to": "Scorpio",
+          "date": "3 Oct, 09:37 am",
+          "icon": "Moon"
+        },
+        {
+          "name": "Venus",
+          "from": "Libra",
+          "to": "Scorpio",
+          "date": "4 Oct, 02:48 pm",
+          "icon": "Venus"
+        },
+        {
+          "name": "Moon",
+          "from": "Scorpio",
+          "to": "Sagittarius",
+          "date": "5 Oct, 04:26 pm",
+          "icon": "Moon"
+        },
+        {
+          "name": "Moon",
+          "from": "Sagittarius",
+          "to": "Capricorn",
+          "date": "7 Oct, 06:44 pm",
+          "icon": "Moon"
+        },
+        {
+          "name": "Mercury",
+          "from": "Scorpio",
+          "to": "Sagittarius",
+          "date": "8 Oct, 11:15 am",
+          "icon": "Mercury"
+        },
+        {
+          "name": "Moon",
+          "from": "Capricorn",
+          "to": "Aquarius",
+          "date": "10 Oct, 01:58 am",
+          "icon": "Moon"
+        },
+        {
+          "name": "Moon",
+          "from": "Aquarius",
+          "to": "Pisces",
+          "date": "12 Oct, 08:31 am",
+          "icon": "Moon"
+        },
+        {
+          "name": "Moon",
+          "from": "Pisces",
+          "to": "Aries",
+          "date": "14 Oct, 10:02 pm",
+          "icon": "Moon"
+        },
+        {
+          "name": "Mars",
+          "from": "Cancer",
+          "to": "Leo",
+          "date": "15 Oct, 03:10 pm",
+          "icon": "Mars"
+        },
+        {
+          "name": "Moon",
+          "from": "Aries",
+          "to": "Taurus",
+          "date": "17 Oct, 12:47 pm",
+          "icon": "Moon"
+        },
+        {
+          "name": "Sun",
+          "from": "Libra",
+          "to": "Scorpio",
+          "date": "17 Oct, 04:55 pm",
+          "icon": "Sun"
+        },
+        {
+          "name": "Moon",
+          "from": "Taurus",
+          "to": "Gemini",
+          "date": "19 Oct, 07:23 pm",
+          "icon": "Moon"
+        },
+        {
+          "name": "Moon",
+          "from": "Gemini",
+          "to": "Cancer",
+          "date": "22 Oct, 05:11 am",
+          "icon": "Moon"
+        },
+        {
+          "name": "Mercury",
+          "from": "Sagittarius",
+          "to": "Capricorn",
+          "date": "24 Oct, 09:39 am",
+          "icon": "Mercury"
+        },
+        {
+          "name": "Moon",
+          "from": "Cancer",
+          "to": "Leo",
+          "date": "24 Oct, 06:58 pm",
+          "icon": "Moon"
+        },
+        {
+          "name": "Moon",
+          "from": "Leo",
+          "to": "Virgo",
+          "date": "27 Oct, 01:34 pm",
+          "icon": "Moon"
+        },
+        {
+          "name": "Moon",
+          "from": "Virgo",
+          "to": "Libra",
+          "date": "30 Oct, 04:46 am",
+          "icon": "Moon"
+        }
+      ],
+      "festivalsLabel": "Festivals",
+      "festivals": [
+        {
+          "name": "Sharad Navratri",
+          "date": "11 to 19 October",
+          "desc": "Nine nights of the Goddess, beginning the month with fasting, sankalp, and quiet devotion."
+        },
+        {
+          "name": "Durga Ashtami & Mahanavami",
+          "date": "19 October",
+          "desc": "The peak of Navratri: Kanya Pujan and invoking the final forms of Maa Durga."
+        },
+        {
+          "name": "Vijayadashami",
+          "date": "20 October",
+          "desc": "The victory of dharma and a globally favourable day for new ventures and initiations."
+        },
+        {
+          "name": "Sharad Purnima",
+          "date": "26 October",
+          "desc": "The full moon of abundance, said to bless the night air with healing amrit."
+        }
+      ],
+      "panchangCtaDesc": "Check daily panchang, muhurat and transits, rahu kaal, abhijit muhurat and more.",
+      "panchangCtaBtn": "Open Panchang App"
+    },
+    "myth": {
+      "eyebrowText": "Myth vs Fact",
+      "title": "Pain or Discipline?",
+      "subtitle": "Clearing superstitions, one belief at a time.",
+      "topic": "Shani Sade Sati",
+      "mythLabel": "Myth",
+      "mythText": [
+        "Shani Sade Sati is only a painful period that brings hardship and difficulties into a person’s life."
+      ],
+      "realityLabel": "Fact",
+      "realityText": [
+        "In traditional Vedic astrology, Sade Sati is also viewed as a period that can bring discipline, accountability, maturity, and a stronger acceptance of reality.",
+        "It can become a time to recognise one’s actions and reconsider habits or decisions that may no longer be serving them. The period is traditionally associated with developing greater discipline in the way one manages time, money, and work.",
+        "It may also encourage greater self-reliance instead of depending on others, along with more financial awareness and prudence. Since Saturn is traditionally associated with patience and steady effort rather than quick results, this period can emphasise consistency and help strengthen the foundation of one’s work.",
+        "Difficult circumstances may also encourage humility, courage, resilience, and emotional strength. Practices such as meditation, prayer, service, and self-reflection are traditionally seen as ways of using the period for spiritual growth and for building a stronger foundation for long-term progress."
+      ]
+    },
+    "know": {
+      "eyebrowText": "Astro Insights",
+      "title": "Did You Know?",
+      "factTitle": "The Nine-Night Rhythm",
+      "factText": "Navratri simply means nine nights. In Vedic thought the night is the resting half of the cycle, so festivals honour the feminine with raatris, not days. The same nine nights return in spring as Chaitra Navratri.",
+      "blogsLabel": "Our Blogs · Featured Reads",
+      "readArticle": "Read article",
+      "blogs": [
+        {
+          "category": "Yogas",
+          "title": "Malavya Yoga: Meaning, Benefits, Effects & Formation",
+          "image": "blog1.webp",
+          "url": "https://blogs.astrochitra.com/malavya-yoga-meaning-benefits-effects-formation/"
+        },
+        {
+          "category": "Yogas",
+          "title": "Sunapha Yoga: Meaning, Benefits, Effects & Formation",
+          "image": "blog2.webp",
+          "url": "https://blogs.astrochitra.com/sunapha-yoga/"
+        },
+        {
+          "category": "Yogas",
+          "title": "Anapha Yoga: Meaning, Benefits, Effects, & Remedies",
+          "image": "blog3.webp",
+          "url": "https://blogs.astrochitra.com/anapha-yoga/"
+        },
+        {
+          "category": "Yogas",
+          "title": "Durudhara Yoga: Meaning, Benefits, Effects & Remedies",
+          "image": "blog4.webp",
+          "url": "https://blogs.astrochitra.com/durudhara-yoga/"
+        },
+        {
+          "category": "Yogas",
+          "title": "Chandra Mangal Yoga: Meaning, Benefits & Effects",
+          "image": "blog5.webp",
+          "url": "https://blogs.astrochitra.com/chandra-mangal-yoga/"
+        },
+        {
+          "category": "Yogas",
+          "title": "Rajalakshana Yoga: Meaning, Benefits, Effects & Remedies",
+          "image": "blog6.webp",
+          "url": "https://blogs.astrochitra.com/rajalakshana-yoga/"
+        }
+      ]
+    },
+    "testimonials": {
+      "eyebrowText": "Kind Words",
+      "title": "What Seekers Say"
+    },
+    "share": {
+      "eyebrowText": "Share Your Thoughts",
+      "title": "Comment on This Newsletter",
+      "subtitle": "Drop a comment below. Guruji's team reads every message.",
+      "successMsg": "Thank you! Your comment has been received.",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "you@example.com",
+      "phoneLabel": "Phone / WhatsApp",
+      "phoneOptional": "(optional)",
+      "phonePlaceholder": "+91 98765 43210",
+      "commentLabel": "Comment",
+      "commentOptional": "(optional)",
+      "commentPlaceholder": "Tell us what you loved, or ask Guruji a question...",
+      "submitBtn": "Submit Comment",
+      "privacyNote": "We respect your privacy: contact details are only used to respond to you."
+    },
+    "final": {
+      "eyebrowText": "Consult Now",
+      "title": "Let the stars guide<br><em>your next step</em>",
+      "subtitle": "Book a personal consultation with Guruji before the October slots fill up.",
+      "callBtn": "Book consultation",
+      "shareBtn": "Share newsletter",
+      "footerTag": "AstroChitra",
+      "footerCopy": "© 2026 AstroChitra. All rights reserved.",
+      "footerLinks": [
+        {
+          "text": "Kundli",
+          "url": "https://astrochitra.com/kundli"
+        },
+        {
+          "text": "Panchang",
+          "url": "https://panchang.astrochitra.com/"
+        },
+        {
+          "text": "Matchmaking",
+          "url": "https://astrochitra.com/matchmaking"
+        },
+        {
+          "text": "Insights",
+          "url": "https://astrochitra.com/insights"
+        },
+        {
+          "text": "Journal",
+          "url": "https://blogs.astrochitra.com/"
+        }
+      ]
+    },
+    "whatsappModal": {
+      "title": "Subscribe to Newsletter",
+      "text": "To subscribe to the newsletter, join this WhatsApp group.",
+      "joinBtn": "Join the group"
+    },
+    "shareToast": "Link copied to clipboard",
+    "waPill": "Join the group"
+  },
+  "hi": {
+    "meta": {
+      "title": "AstroChitra मासिक न्यूज़लेटर | अक्टूबर 2026",
+      "htmlLang": "hi"
+    },
+    "menu": {
+      "title": "इस अंक में",
+      "items": [
+        "कवर",
+        "गुरुजी कहते हैं",
+        "मासिक राशिफल",
+        "वेब उत्पाद",
+        "देखें और फॉलो करें",
+        "माह का मंत्र",
+        "ग्रह गोचर एवं उत्सव",
+        "मिथक बनाम यथार्थ",
+        "क्या आप जानते हैं · ब्लॉग",
+        "प्रशंसापत्र",
+        "साझा करें और टिप्पणी करें",
+        "अभी परामर्श लें"
+      ]
+    },
+    "hero": {
+      "brandName": "AstroChitra",
+      "kicker": "मासिक संस्करण",
+      "headline": "अक्टूबर 2026<br><em>न्यूज़लेटर</em>"
+    },
+    "guruji": {
+      "eyebrowText": "गुरुजी का इस माह का विचार",
+      "quoteLabel": "इस माह का उद्धरण",
+      "quoteBlock": [
+        {
+          "lang": "hi",
+          "text": "अतीत से सीखें,\nवर्तमान में जिएँ और\nभविष्य को ईश्वर के हाथों में छोड़ दें।"
+        },
+        {
+          "lang": "en",
+          "text": "Learn from the past,\nLive in the present, and\nLeave the future in God’s hands."
+        },
+        {
+          "lang": "mr",
+          "text": "भूतकाळातून शिका,\nवर्तमानात जगा आणि\nभविष्य देवाच्या हाती सोपवा."
+        }
+      ],
+      "bookBtn": "परामर्श बुक करें",
+      "whatsappLink": "WhatsApp करें"
+    },
+    "rashifal": {
+      "eyebrowText": "मासिक राशिफल",
+      "title": "राशिफल · <em>अक्टूबर 2026</em>",
+      "subtitle": "इस माह सभी बारह चंद्र राशियों पर तिथि-वार प्रभाव।",
+      "transitsLabel": "ग्रह परिवर्तन",
+      "extraTransitsLabel": "चल रहे ग्रह परिवर्तन",
+      "bestDaysLabel": "शुभ समय",
+      "cautionDaysLabel": "सावधानी का समय",
+      "pendingLabel": "सामग्री लंबित",
+      "signs": [
+        {
+          "name": "मेष (Aries)",
+          "dates": "21 मार्च – 19 अप्रैल",
+          "overview": "कुल मिलाकर महीने की शुरुआत में जॉब में प्रतिस्पर्धा और पेंडिंग काम ज्यादा रहेंगे, लेकिन बाद में आपका फोकस बिज़नेस पार्टनरशिप, नेटवर्किंग और परिवार के बड़े निर्णयों पर शिफ्ट होगा।",
+          "transits": [
+            {
+              "date": "अक्टूबर 1",
+              "effect": "जॉब में competition और pending work ज्यादा रहेगा।"
+            },
+            {
+              "date": "17 अक्टूबर के बाद",
+              "planet": "सूर्य (Sun)",
+              "planetIcon": "Sun",
+              "house": "7वें भाव",
+              "effect": "बिज़नेस पार्टनरशिप, क्लाइंट्स और डीलिंग पर फोकस बढ़ेगा।"
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "राहु (Rahu)",
+              "position": "11वें भाव",
+              "effect": "नए contacts और नेटवर्किंग से आय (income) के अवसर बढ़ेंगे।"
+            },
+            {
+              "planet": "शनि (Saturn)",
+              "position": "12वें भाव",
+              "effect": "पुराने खर्च, यात्रा, या प्रोफेशनल कमिटमेंट पर धन खर्च हो सकता है।"
+            },
+            {
+              "planet": "गुरु (Jupiter) और मंगल (Mars)",
+              "position": "4थें भाव",
+              "effect": "प्रॉपर्टी, घर के रिनोवेशन, वाहन या परिवार से जुड़े किसी भी बड़े निर्णय की संभावना बन सकती है।"
+            },
+            {
+              "planet": "बुध (Mercury), शुक्र (Venus) और सूर्य (Sun)",
+              "position": "7वें भाव",
+              "effect": "पुराने रिलेशनशिप issues सामने आ सकते हैं। विवाहित लोगों को अपनी कम्युनिकेशन में नरमी (softness) रखनी चाहिए।"
+            },
+            {
+              "planet": "केतु (Ketu)",
+              "position": "5वें भाव",
+              "effect": "संतान संबंधित मामलों में अनावश्यक (unnecessary) चिंता हो सकती है।"
+            }
+          ],
+          "bestDays": {
+            "range": "1 अक्टूबर से 17 अक्टूबर",
+            "note": "करियर, रिलेशनशिप, नए संपर्कों (contacts) और पेंडिंग कार्यों के लिए अच्छा समय है।"
+          },
+          "cautionDays": {
+            "range": "17 अक्टूबर के बाद",
+            "note": "पार्टनरशिप, विवाह, बिज़नेस एग्रीमेंट और कम्युनिकेशन में सावधानी रखें।"
+          },
+          "pending": false
+        },
+        {
+          "name": "वृषभ (Taurus)",
+          "dates": "20 अप्रैल – 20 मई",
+          "overview": "कुल मिलाकर यह महीना आपको डेली रूटीन और जॉब के अवसरों में काफी व्यस्त रखेगा। रिश्तों में छोटी-छोटी बातों पर गलतफहमियों से बचने के लिए बातचीत में नरमी रखना जरूरी है।",
+          "transits": [
+            {
+              "date": "अक्टूबर 1",
+              "effect": "जॉब में वर्कलोड (workload) और competition ज्यादा रहेगा।"
+            },
+            {
+              "date": "17 अक्टूबर के बाद",
+              "planet": "सूर्य (Sun)",
+              "planetIcon": "Sun",
+              "house": "6ठें भाव",
+              "effect": "जॉब, competition और पेंडिंग कामों पर फोकस बढ़ेगा।"
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "राहु (Rahu)",
+              "position": "10वें भाव",
+              "effect": "करियर में नए अवसर (opportunities), अचानक बदलाव या नए प्रोजेक्ट्स मिल सकते हैं।"
+            },
+            {
+              "planet": "शनि (Saturn)",
+              "position": "11वें भाव",
+              "effect": "इनकम और आर्थिक लाभ (financial gains) के योग बनेंगे, लेकिन परिणामों में देरी (delay) संभव है।"
+            },
+            {
+              "planet": "गुरु (Jupiter) और मंगल (Mars)",
+              "position": "3रें भाव",
+              "effect": "कम्युनिकेशन, यात्रा (travelling) और नए काम शुरू करने की इच्छा बढ़ेगी। भाई-बहनों से जुड़े मामलों में एक्टिविटी बढ़ सकती है।"
+            },
+            {
+              "planet": "बुध (Mercury), शुक्र (Venus) और सूर्य (Sun)",
+              "position": "6ठें भाव",
+              "effect": "जॉब, competition और डेली रूटीन में व्यस्तता बढ़ेगी। रिलेशनशिप में छोटी-छोटी बातों को लेकर गलतफहमी (misunderstanding) हो सकती है, इसलिए कम्युनिकेशन सॉफ्ट रखें।"
+            },
+            {
+              "planet": "केतु (Ketu)",
+              "position": "4थें भाव",
+              "effect": "घर, प्रॉपर्टी, वाहन या पारिवारिक मामलों (family matters) को लेकर मन में अनावश्यक चिंता हो सकती है। घर में बड़े निर्णय लेते समय जल्दबाज़ी ना करें।"
+            }
+          ],
+          "bestDays": {
+            "range": "1 अक्टूबर से 17 अक्टूबर",
+            "note": "करियर में नए अवसर, नेटवर्किंग, इनकम प्लानिंग और पेंडिंग टास्क पूरे करने के लिए अच्छा समय है।"
+          },
+          "cautionDays": {
+            "range": "17 अक्टूबर के बाद",
+            "note": "जॉब, competition, वर्कप्लेस पर बहस (arguments), हेल्थ रूटीन, आर्थिक कमिटमेंट और कम्युनिकेशन।"
+          },
+          "pending": false
+        },
+        {
+          "name": "मिथुन (Gemini)",
+          "dates": "21 मई – 20 जून",
+          "overview": "कुल मिलाकर इस महीने आपका विशेष फोकस धन, परिवार और रचनात्मक करियर पर रहेगा। प्रोफेशनल जिम्मेदारियों को धैर्य के साथ निभाना आवश्यक होगा।",
+          "transits": [
+            {
+              "date": "अक्टूबर 1",
+              "effect": "करियर में वर्कलोड और पेंडिंग काम ज्यादा रह सकता है।"
+            },
+            {
+              "date": "17 अक्टूबर के बाद",
+              "planet": "सूर्य (Sun)",
+              "planetIcon": "Sun",
+              "house": "5वें भाव",
+              "effect": "करियर में रचनात्मकता (creativity), निर्णय लेने (decision making) और सीखने (learning) पर फोकस बढ़ेगा।"
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "शनि (Saturn)",
+              "position": "10वें भाव",
+              "effect": "प्रोफेशनल जिम्मेदारियां बढ़ेंगी और काम में धैर्य (patience) रखना जरूरी होगा।"
+            },
+            {
+              "planet": "राहु (Rahu)",
+              "position": "8वें भाव",
+              "effect": "अचानक होने वाले बदलावों और फाइनेंसियल प्लानिंग में सावधानी रखें।"
+            },
+            {
+              "planet": "केतु (Ketu)",
+              "position": "3रें भाव",
+              "effect": "कम्युनिकेशन और छोटी यात्राओं (short travel) में कभी-कभी मन में कंफ्यूजन रह सकता है।"
+            },
+            {
+              "planet": "गुरु (Jupiter) और मंगल (Mars)",
+              "position": "2रें भाव",
+              "effect": "धन, बचत (saving) और पारिवारिक मामलों (family matters) पर विशेष फोकस रहेगा। प्रॉपर्टी, फॅमिली इन्वेस्टमेंट या कोई बड़ा फाइनेंसियल निर्णय लेने की संभावना भी बन सकती है।"
+            },
+            {
+              "planet": "बुध (Mercury), शुक्र (Venus) और सूर्य (Sun)",
+              "position": "5वें भाव",
+              "effect": "प्रेम, रिलेशनशिप, रचनात्मकता (creativity) और शिक्षा (education) से जुड़े विषय सामने आ सकते हैं।"
+            }
+          ],
+          "bestDays": {
+            "range": "1 अक्टूबर से 17 अक्टूबर",
+            "note": "करियर, नेटवर्किंग, पेंडिंग काम और फाइनेंसियल प्लानिंग के लिए अच्छा समय रह सकता है।"
+          },
+          "cautionDays": {
+            "range": "17 अक्टूबर के बाद",
+            "note": "रिलेशनशिप, लव मैटर्स, बिज़नेस कम्युनिकेशन और बड़े आर्थिक निर्णयों में जल्दबाज़ी से बचें।"
+          },
+          "pending": false
+        },
+        {
+          "name": "कर्क (Cancer)",
+          "dates": "21 जून – 22 जुलाई",
+          "overview": "कुल मिलाकर महीने की शुरुआत में घर-परिवार और व्यक्तिगत जिम्मेदारियों पर आपका ध्यान ज्यादा रहेगा। अचानक आने वाले खर्चों से बचने के लिए निवेश में जल्दबाज़ी न करें।",
+          "transits": [
+            {
+              "date": "अक्टूबर 1",
+              "effect": "घर-परिवार, करियर और व्यक्तिगत जिम्मेदारियों (personal responsibilities) पर ध्यान ज्यादा रहेगा।"
+            },
+            {
+              "date": "17 अक्टूबर के बाद",
+              "planet": "सूर्य (Sun)",
+              "planetIcon": "Sun",
+              "house": "4थें भाव",
+              "effect": "घर-परिवार, प्रॉपर्टी, वाहन और लग्जरी की चीज़ों पर फोकस बढ़ेगा।"
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "गुरु (Jupiter) और मंगल (Mars)",
+              "position": "1लें भाव (लग्न)",
+              "effect": "आपका आत्मविश्वास (confidence), ऊर्जा और अपने फैसले खुद लेने की इच्छा बढ़ेगी।"
+            },
+            {
+              "planet": "बुध (Mercury) और शुक्र (Venus)",
+              "position": "4थें भाव",
+              "effect": "घर का रिनोवेशन, प्रॉपर्टी डीलिंग या परिवार के साथ महत्वपूर्ण बातचीत हो सकती है।"
+            },
+            {
+              "planet": "राहु (Rahu)",
+              "position": "8वें भाव",
+              "effect": "अचानक खर्च या अनपेक्षित परिस्थितियां (unexpected situations) सामने आ सकती हैं। इसलिए निवेश (investment) और आर्थिक निर्णयों में जल्दबाजी ना करें।"
+            },
+            {
+              "planet": "केतु (Ketu)",
+              "position": "2रें भाव",
+              "effect": "फॅमिली कम्युनिकेशन और बचत (savings) को लेकर अनिश्चितता रह सकती है।"
+            },
+            {
+              "planet": "शनि (Saturn)",
+              "position": "9वें भाव",
+              "effect": "भाग्य का साथ धीरे-धीरे मिलेगा।"
+            }
+          ],
+          "bestDays": {
+            "range": "1 अक्टूबर से 17 अक्टूबर",
+            "note": "पर्सनल ग्रोथ, करियर प्लानिंग, नए अवसरों और पेंडिंग काम पूरा करने के लिए अच्छा समय है।"
+          },
+          "cautionDays": {
+            "range": "17 अक्टूबर के बाद",
+            "note": "आर्थिक निर्णय (Financial decision), पार्टनरशिप, रिलेशनशिप और निवेश (investment) में जल्दबाजी ना करें।"
+          },
+          "pending": false
+        },
+        {
+          "name": "सिंह (Leo)",
+          "dates": "23 जुलाई – 22 अगस्त",
+          "overview": "कुल मिलाकर करियर में शुरुआत में वर्कलोड अधिक रहेगा, लेकिन नेटवर्किंग और संचार के मामले में समय अच्छा हो जाएगा। बिना सोचे-समझे आर्थिक फैसले और बिज़नेस डील करने से बचें।",
+          "transits": [
+            {
+              "date": "अक्टूबर 1",
+              "effect": "करियर में competition और वर्कलोड ज्यादा रह सकता है।"
+            },
+            {
+              "date": "17 अक्टूबर के बाद",
+              "planet": "सूर्य (Sun)",
+              "planetIcon": "Sun",
+              "house": "3रें भाव",
+              "effect": "कम्युनिकेशन, नेटवर्किंग, छोटी यात्रा (short travel) और मार्केटिंग पर फोकस बढ़ेगा।"
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "राहु (Rahu)",
+              "position": "6ठें भाव",
+              "effect": "competition और पेंडिंग काम आप अच्छे से हैंडल (handle) कर लेंगे।"
+            },
+            {
+              "planet": "शनि (Saturn)",
+              "position": "8वें भाव",
+              "effect": "पुराने आर्थिक मामले (financial matters) सामने आएंगे, किसी बड़े आर्थिक निर्णय में जल्दबाज़ी ना करें।"
+            },
+            {
+              "planet": "गुरु (Jupiter) और मंगल (Mars)",
+              "position": "12वें भाव",
+              "effect": "काम से जुड़ी यात्रा, ऑनलाइन विदेशी कनेक्शन, अस्पताल, प्रॉपर्टी या अन्य कारणों से खर्च भी बढ़ सकता है।"
+            },
+            {
+              "planet": "बुध (Mercury) और शुक्र (Venus)",
+              "position": "3रें भाव",
+              "effect": "पार्टनर के साथ कम्युनिकेशन में गलतफहमी (misunderstanding) हो सकती है।"
+            },
+            {
+              "planet": "केतु (Ketu)",
+              "position": "1लें भाव",
+              "effect": "निर्णय (decision) को लेकर कंफ्यूजन हो सकता है।"
+            }
+          ],
+          "bestDays": {
+            "range": "1 अक्टूबर से 17 अक्टूबर",
+            "note": "पेंडिंग काम, नए contacts बनाने और फाइनेंसियल प्लानिंग के लिए अच्छा समय है।"
+          },
+          "cautionDays": {
+            "range": "17 अक्टूबर के बाद",
+            "note": "कम्युनिकेशन, अनावश्यक बहस (unnecessary arguments), शॉर्ट टर्म आर्थिक निर्णय; बिज़नेस डील में नियम व शर्तें (terms) अच्छी तरह से समझकर डील करें।"
+          },
+          "pending": false
+        },
+        {
+          "name": "कन्या (Virgo)",
+          "dates": "23 अगस्त – 22 सितम्बर",
+          "overview": "कुल मिलाकर धन, परिवार, और आर्थिक प्लानिंग पर आपका गहरा फोकस रहेगा। विवाह और बिज़नेस पार्टनरशिप से जुड़े मामलों में धैर्य और समझदारी से काम लेना होगा।",
+          "transits": [],
+          "extraTransits": [
+            {
+              "planet": "सूर्य (Sun), बुध (Mercury) और शुक्र (Venus)",
+              "position": "2रें भाव",
+              "effect": "धन, परिवार, वाणी और फाइनेंसियल प्लानिंग पर फोकस बढ़ेगा। इनकम, बचत (savings) और पारिवारिक मामलों में आपका ध्यान अधिक रहेगा।"
+            },
+            {
+              "planet": "शनि (Saturn)",
+              "position": "7वें भाव",
+              "effect": "विवाह (marriage), बिज़नेस पार्टनरशिप और क्लाइंट्स से जुड़े मामलों में धैर्य (patience) रखना पड़ेगा। पुराने मुद्दे या रिलेशनशिप की जिम्मेदारियां सामने आ सकती हैं।"
+            },
+            {
+              "planet": "राहु (Rahu)",
+              "position": "5वें भाव",
+              "effect": "शिक्षा, रचनात्मकता (creativity), प्रेम संबंध (love relationship) और संतान से जुड़े मामलों में कंफ्यूजन हो सकता है।"
+            },
+            {
+              "planet": "गुरु (Jupiter) और मंगल (Mars)",
+              "position": "11वें भाव",
+              "effect": "इनकम, नेटवर्किंग और दोस्तों (friends) के लिए अच्छा समय बनेगा।"
+            },
+            {
+              "planet": "केतु (Ketu)",
+              "position": "12वें भाव",
+              "effect": "यात्रा (travel), आध्यात्मिक गतिविधियों और अनावश्यक खर्च (unnecessary expenses) बढ़ सकते हैं।"
+            }
+          ],
+          "bestDays": {
+            "range": "1 अक्टूबर से 17 अक्टूबर",
+            "note": "धन और फाइनेंसियल प्लानिंग, नए contacts और नेटवर्किंग, इनकम के अवसर, परिवार से जुड़ी प्लानिंग।"
+          },
+          "cautionDays": {
+            "range": "17 अक्टूबर के बाद",
+            "note": "परिवार, धन, वाणी, रिलेशनशिप और बिज़नेस पार्टनर से जुड़े मामलों में सोच-समझकर कम्युनिकेशन करें।"
+          },
+          "pending": false
+        },
+        {
+          "name": "तुला (Libra)",
+          "dates": "23 सितम्बर – 22 अक्टूबर",
+          "overview": "कुल मिलाकर शुरुआती खर्चों और यात्राओं के बाद यह महीना आपके आत्मविश्वास, काम पर फोकस और व्यक्तित्व में सकारात्मक निखार लेकर आएगा।",
+          "transits": [
+            {
+              "date": "अक्टूबर 1",
+              "planet": "सूर्य (Sun)",
+              "planetIcon": "Sun",
+              "house": "12वें भाव",
+              "effect": "खर्च, यात्रा, विदेश से जुड़े काम या प्रोफेशनल जिम्मेदारियां बढ़ सकती हैं।"
+            },
+            {
+              "date": "17 अक्टूबर के बाद",
+              "planet": "सूर्य (Sun)",
+              "planetIcon": "Sun",
+              "house": "1लें भाव",
+              "effect": "आत्मविश्वास (confidence), निर्णय लेने की क्षमता (decision making) और अपने काम को लेकर फोकस बढ़ेगा।"
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "राहु (Rahu)",
+              "position": "4थें भाव",
+              "effect": "घर-परिवार, प्रॉपर्टी, वाहन या घर बदलने जैसे विचार बढ़ सकते हैं। प्रॉपर्टी से जुड़े निर्णय जल्दबाजी में ना लें।"
+            },
+            {
+              "planet": "गुरु (Jupiter) और मंगल (Mars)",
+              "position": "10वें भाव",
+              "effect": "करियर और बिज़नेस में एक्टिविटी (activity) बढ़ेगी। वर्कप्लेस पर आक्रामक (aggressive) कम्युनिकेशन से बचें।"
+            },
+            {
+              "planet": "बुध (Mercury), शुक्र (Venus) और सूर्य (Sun)",
+              "position": "1लें भाव",
+              "effect": "आपकी पर्सनालिटी (personality) आकर्षक होगी और कम्युनिकेशन में प्रभाव बढ़ेगा।"
+            },
+            {
+              "planet": "केतु (Ketu)",
+              "position": "11वें भाव",
+              "effect": "इनकम और सामाजिक दायरे (social circle) में थोड़ा अलगाव (detachment) महसूस हो सकता है।"
+            }
+          ],
+          "bestDays": {
+            "range": "1 अक्टूबर से 17 अक्टूबर",
+            "note": "करियर प्लानिंग, पेंडिंग काम, यात्रा, फाइनेंसियल प्लानिंग के लिए अच्छा समय है।"
+          },
+          "cautionDays": {
+            "range": "17 अक्टूबर के बाद",
+            "note": "रिलेशनशिप, विवाह, बिज़नेस कम्युनिकेशन और महत्वपूर्ण एग्रीमेंट में सावधानी रखें।"
+          },
+          "pending": false
+        },
+        {
+          "name": "वृश्चिक (Scorpio)",
+          "dates": "23 अक्टूबर – 21 नवम्बर",
+          "overview": "कुल मिलाकर करियर, नेटवर्किंग, और रचनात्मक प्रोजेक्ट्स के लिए शानदार मौके मिलेंगे, हालांकि कामकाज और खर्चों को लेकर कभी-कभी थोड़ा कंफ्यूजन रह सकता है।",
+          "transits": [
+            {
+              "date": "अक्टूबर 1",
+              "effect": "करियर और प्रोफेशनल जिम्मेदारियों पर आपका ज्यादा फोकस रहेगा।"
+            },
+            {
+              "date": "17 अक्टूबर के बाद",
+              "planet": "सूर्य (Sun), बुध (Mercury) और शुक्र (Venus)",
+              "planetIcon": "Sun",
+              "house": "12वें भाव",
+              "effect": "बिज़नेस खर्च, विदेशी संपर्क (foreign contacts), ऑनलाइन काम या क्रिएटिव प्रोजेक्ट्स (creative projects) में अवसर बन सकते हैं। कम्युनिकेशन में नरमी (softness) रखें।"
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "केतु (Ketu)",
+              "position": "10वें भाव",
+              "effect": "काम को लेकर कभी-कभी कंफ्यूजन हो सकता है।"
+            },
+            {
+              "planet": "राहु (Rahu)",
+              "position": "3रें भाव",
+              "effect": "कम्युनिकेशन, नेटवर्किंग और छोटी यात्रा (short travel) में अच्छे योग बनेंगे। नए contacts के माध्यम से काम के अवसर मिल सकते हैं।"
+            },
+            {
+              "planet": "शनि (Saturn)",
+              "position": "5वें भाव",
+              "effect": "किसी पुराने पेंडिंग मामले (pending matters) को पूरा करने में समय लग सकता है।"
+            },
+            {
+              "planet": "गुरु (Jupiter) और मंगल (Mars)",
+              "position": "9वें भाव",
+              "effect": "उच्च शिक्षा (higher education), लंबी दूरी की यात्रा और धार्मिक कार्यों में रुचि बढ़ सकती है।"
+            }
+          ],
+          "bestDays": {
+            "range": "1 अक्टूबर से 17 अक्टूबर",
+            "note": "करियर, नेटवर्किंग, नए प्रोजेक्ट्स, यात्रा, शिक्षा और पेंडिंग काम को आगे बढ़ाने के लिए अच्छा समय है।"
+          },
+          "cautionDays": {
+            "range": "17 अक्टूबर के बाद",
+            "note": "खर्च (Expenses), विदेश से जुड़े मामलों, रिलेशनशिप कम्युनिकेशन और करियर के निर्णयों में सावधानी रखें।"
+          },
+          "pending": false
+        },
+        {
+          "name": "धनु (Sagittarius)",
+          "dates": "22 नवम्बर – 21 दिसम्बर",
+          "overview": "कुल मिलाकर यह महीना संचार, रिश्तों और नेटवर्किंग के लिए बेहतरीन अवसर लेकर आएगा। हालांकि, अचानक होने वाले आर्थिक बदलाव और घरेलू जिम्मेदारियों पर आपको सावधानीपूर्वक ध्यान देना होगा।",
+          "transits": [
+            {
+              "date": "17 अक्टूबर के बाद",
+              "planet": "सूर्य (Sun)",
+              "planetIcon": "Sun",
+              "house": "11वें भाव",
+              "effect": "इनकम (income), नेटवर्किंग, नए contacts और प्रोफेशनल सर्कल से लाभ के अवसर बढ़ सकते हैं।"
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "शनि (Saturn)",
+              "position": "4थें भाव",
+              "effect": "घर-परिवार, प्रॉपर्टी, वाहन से जुड़ी जिम्मेदारियों पर खर्च और मानसिक दबाव (mental pressure) रह सकता है।"
+            },
+            {
+              "planet": "गुरु (Jupiter) और मंगल (Mars)",
+              "position": "8वें भाव",
+              "effect": "अचानक फाइनेंसियल बदलाव (financial changes), जॉइंट फाइनेंस, निवेश (investment) और इंश्योरेंस से जुड़े मामलों में एक्टिविटी बढ़ सकती है।"
+            },
+            {
+              "planet": "राहु (Rahu)",
+              "position": "3रें भाव",
+              "effect": "कम्युनिकेशन, यात्रा (travelling), मार्केटिंग, सोशल मीडिया और नए प्रयासों में पहल (initiative) बढ़ेगी।"
+            },
+            {
+              "planet": "केतु (Ketu)",
+              "position": "9वें भाव",
+              "effect": "धार्मिक विश्वास, उच्च शिक्षा (higher studies), लंबी दूरी की यात्रा या पिता से जुड़े मामलों में अलगाव (detachment) हो सकता है।"
+            },
+            {
+              "planet": "बुध (Mercury) और शुक्र (Venus)",
+              "position": "7वें भाव",
+              "effect": "रिलेशनशिप और बिज़नेस डीलिंग के लिए अच्छा योग बनेगा।"
+            }
+          ],
+          "bestDays": {
+            "range": "1 अक्टूबर से 17 अक्टूबर",
+            "note": "करियर, प्रोफेशनल प्लानिंग, कम्युनिकेशन, नई शुरुआत, पेंडिंग काम।"
+          },
+          "cautionDays": {
+            "range": "17 अक्टूबर के बाद",
+            "note": "इनकम को लेकर अधिक उम्मीदें (over expectation), अचानक खर्च, पार्टनरशिप के आर्थिक मामले, कम्युनिकेशन।"
+          },
+          "pending": false
+        },
+        {
+          "name": "मकर (Capricorn)",
+          "dates": "22 दिसम्बर – 19 जनवरी",
+          "overview": "कुल मिलाकर आपका करियर और व्यापार बेहद सक्रिय रहेगा और इसमें वृद्धि व नए क्लाइंट्स मिलने की प्रबल संभावनाएं हैं। लेकिन, अचानक होने वाले आर्थिक बदलावों और पारिवारिक मामलों में बातचीत के दौरान धैर्य रखना होगा।",
+          "transits": [
+            {
+              "date": "17 अक्टूबर के बाद",
+              "planet": "सूर्य (Sun)",
+              "planetIcon": "Sun",
+              "house": "10वें भाव",
+              "effect": "करियर, जॉब और अधिकार (authority) पर फोकस बढ़ेगा। काम में आपकी विजिबिलिटी (visibility) बढ़ सकती है।"
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "राहु (Rahu)",
+              "position": "2रें भाव",
+              "effect": "धन, बचत (savings) और पारिवारिक मामलों में अचानक बदलाव देखने को मिल सकता है। बिना सोचे खर्च या निवेश करने से बचें, बोलचाल में सावधानी रखें।"
+            },
+            {
+              "planet": "शनि (Saturn)",
+              "position": "3रें भाव",
+              "effect": "मेहनत, कम्युनिकेशन, डाक्यूमेंटेशन और पेंडिंग कामों को पूरा करने में समय ज्यादा लगेगा। छोटी यात्राएं और प्रोफेशनल कमिटमेंट बढ़ सकते हैं।"
+            },
+            {
+              "planet": "गुरु (Jupiter) और मंगल (Mars)",
+              "position": "7वें भाव",
+              "effect": "बिज़नेस पार्टनरशिप, क्लाइंट्स, विवाह और डीलिंग्स पर फोकस रहेगा। बिज़नेस वालों के लिए नए क्लाइंट्स या विस्तार (expansion) की संभावनाएं बन सकती हैं। शादीशुदा जीवन में कम्युनिकेशन सॉफ्ट रखें।"
+            },
+            {
+              "planet": "सूर्य (Sun), बुध (Mercury) और शुक्र (Venus)",
+              "position": "10वें भाव",
+              "effect": "प्रेजेंटेशन, कम्युनिकेशन, मीटिंग्स, नेटवर्किंग, बिज़नेस डीलिंग और क्रिएटिव काम में फायदा मिल सकता है।"
+            },
+            {
+              "planet": "केतु (Ketu)",
+              "position": "8वें भाव",
+              "effect": "अचानक साझा धन (shared finance) और अनावश्यक चिंता से बचें। पुराने अनसुलझे मामले (unresolved matters) दोबारा सामने आ सकते हैं।"
+            }
+          ],
+          "bestDays": {
+            "range": "1 अक्टूबर से 17 अक्टूबर",
+            "note": "करियर प्लानिंग, पेंडिंग काम, नेटवर्किंग, फाइनेंसियल प्लानिंग, प्रोफेशनल contacts।"
+          },
+          "cautionDays": {
+            "range": "17 अक्टूबर के बाद",
+            "note": "पार्टनरशिप, विवाह, बिज़नेस एग्रीमेंट, आर्थिक निर्णय, कम्युनिकेशन।"
+          },
+          "pending": false
+        },
+        {
+          "name": "कुम्भ (Aquarius)",
+          "dates": "20 जनवरी – 18 फरवरी",
+          "overview": "कुल मिलाकर यह महीना अचानक होने वाले खर्चों से शुरू होकर भाग्य, उच्च शिक्षा और यात्रा की तरफ शिफ्ट होगा। आपको पारिवारिक जिम्मेदारियों को संभालना होगा और बिज़नेस एग्रीमेंट में जल्दबाज़ी से बचना होगा।",
+          "transits": [
+            {
+              "date": "अक्टूबर 1",
+              "effect": "सूर्य (Sun) आपके 8वें भाव में होने से अचानक आने वाले खर्च, पेंडिंग फाइनेंसियल मामले और काम में कुछ अनिश्चितता (uncertainty) रह सकती है।"
+            },
+            {
+              "date": "17 अक्टूबर के बाद",
+              "planet": "सूर्य (Sun)",
+              "planetIcon": "Sun",
+              "house": "9वें भाव",
+              "effect": "भाग्य, उच्च शिक्षा (higher learning), यात्रा और नए अवसरों पर फोकस बढ़ेगा।"
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "शनि (Saturn)",
+              "position": "2रें भाव",
+              "effect": "धन, पारिवारिक जिम्मेदारियों (family responsibilities) और फाइनेंसियल प्लानिंग पर ध्यान देना होगा। परिवार से जुड़े खर्च सामने आ सकते हैं।"
+            },
+            {
+              "planet": "राहु (Rahu)",
+              "position": "12वें भाव",
+              "effect": "विदेशी कनेक्शन (foreign connection), दूर की यात्रा या विदेश से जुड़े अवसर मिल सकते हैं। अनावश्यक और अचानक खर्च बढ़ सकते हैं।"
+            },
+            {
+              "planet": "गुरु (Jupiter) और मंगल (Mars)",
+              "position": "6ठें भाव",
+              "effect": "जॉब में competition बढ़ेगा, अपनी हेल्थ और रूटीन पर ध्यान दें।"
+            },
+            {
+              "planet": "केतु (Ketu)",
+              "position": "7वें भाव",
+              "effect": "रिलेशनशिप और पार्टनरशिप में गलतफहमी (misunderstanding) हो सकती है। बिज़नेस में किसी एग्रीमेंट को जल्दबाज़ी में फाइनल ना करें।"
+            },
+            {
+              "planet": "सूर्य (Sun), बुध (Mercury) और शुक्र (Venus)",
+              "position": "9वें भाव",
+              "effect": "यात्रा, नेटवर्किंग, शिक्षा, कंसल्टिंग (consulting) और कम्युनिकेशन के लिए अच्छा माहौल बन सकता है।"
+            }
+          ],
+          "bestDays": {
+            "range": "1 अक्टूबर से 17 अक्टूबर",
+            "note": "करियर के अवसर, नेटवर्किंग, यात्रा, शिक्षा (learning), नए contacts, और पेंडिंग प्रोफेशनल मामले।"
+          },
+          "cautionDays": {
+            "range": "17 अक्टूबर के बाद",
+            "note": "आर्थिक मामले (Financial matters), अचानक खर्च, गोपनीय मामले (confidential matters), निवेश के निर्णय (investment decision)।"
+          },
+          "pending": false
+        },
+        {
+          "name": "मीन (Pisces)",
+          "dates": "19 फरवरी – 20 मार्च",
+          "overview": "कुल मिलाकर इस महीने आपका फोकस व्यक्तिगत जिम्मेदारियों, नए प्रोजेक्ट्स और नेटवर्किंग पर रहेगा। महीने के अंत में जॉइंट फाइनेंस और पुराने रिलेशनशिप मुद्दों को लेकर सतर्क रहना जरूरी है।",
+          "transits": [
+            {
+              "date": "अक्टूबर 1",
+              "effect": "शनि (Saturn) आपके 1लें भाव में होने से जिम्मेदारियां बढ़ सकती हैं और काम को लेकर गंभीरता (seriousness) रहेगी। हेल्थ, रूटीन और व्यक्तिगत निर्णयों पर ध्यान देना चाहिए।"
+            },
+            {
+              "date": "17 अक्टूबर के बाद",
+              "planet": "सूर्य (Sun)",
+              "planetIcon": "Sun",
+              "house": "8वें भाव",
+              "effect": "अचानक होने वाले खर्च, जॉइंट फाइनेंस, टैक्स, इंश्योरेंस, लोन और पुराने फाइनेंसियल मामलों पर फोकस बढ़ सकता है।"
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "राहु (Rahu)",
+              "position": "11वें भाव",
+              "effect": "नए contacts, नेटवर्किंग और प्रोफेशनल सर्कल के माध्यम से इनकम के नए अवसर बन सकते हैं।"
+            },
+            {
+              "planet": "गुरु (Jupiter) और मंगल (Mars)",
+              "position": "5वें भाव",
+              "effect": "शिक्षा (education), रचनात्मकता (creativity), बच्चों और प्रेम संबंध (love relationship) से जुड़े मामलों में एक्टिविटी बढ़ेगी। कोई नया प्रोजेक्ट या क्रिएटिव काम शुरू करने का विचार बन सकता है।"
+            },
+            {
+              "planet": "केतु (Ketu)",
+              "position": "6ठें भाव",
+              "effect": "competition और पुराने पेंडिंग मामलों को हैंडल करने की क्षमता अच्छी रहेगी।"
+            },
+            {
+              "planet": "सूर्य (Sun), बुध (Mercury) और शुक्र (Venus)",
+              "position": "8वें भाव",
+              "effect": "पुराने रिलेशनशिप मुद्दे (issues) दोबारा सामने आ सकते हैं। बिज़नेस में गोपनीय जानकारी (confidential information) और एग्रीमेंट्स को ध्यान से पढ़ें।"
+            }
+          ],
+          "bestDays": {
+            "range": "1 अक्टूबर से 17 अक्टूबर",
+            "note": "करियर, नेटवर्किंग, इनकम के अवसर, प्रेम संबंध, शिक्षा, नए प्रोजेक्ट्स।"
+          },
+          "cautionDays": {
+            "range": "17 अक्टूबर के बाद",
+            "note": "आर्थिक मामले (Financial matters), रिलेशनशिप, कम्युनिकेशन, महत्वपूर्ण एग्रीमेंट, अचानक होने वाले खर्च।"
+          },
+          "pending": false
+        }
+      ]
+    },
+    "products": {
+      "eyebrowText": "निःशुल्क उपकरण एवं सेवाएँ",
+      "title": "AstroChitra वेब उत्पाद एक्सप्लोर करें",
+      "subtitle": "आपकी ज्योतिष यात्रा के लिए आवश्यक सब कुछ, एक ही स्थान पर।",
+      "items": [
+        {
+          "name": "कुंडली जनरेटर",
+          "desc": "आपकी निःशुल्क वैदिक जन्म कुंडली, सेकंडों में तैयार।"
+        },
+        {
+          "name": "मैचमेकिंग टूल",
+          "desc": "दोनों के लिए गुण-मिलान संगतता।"
+        },
+        {
+          "name": "AstroChitra Insights",
+          "desc": "आपकी कुंडली के लिए डेटा-आधारित डैशबोर्ड।"
+        },
+        {
+          "name": "AstroChitra Journal",
+          "desc": "हमारे ज्योतिषियों से लंबी कहानी वाला ज्ञान।"
+        },
+        {
+          "name": "पंचांग ऐप",
+          "desc": "दैनिक तिथि, नक्षत्र, मुहूर्त और बहुत कुछ।"
+        },
+        {
+          "name": "गुरुजी से पूछें",
+          "desc": "वरिष्ठ ज्योतिषी आपके सवालों के जवाब देते हैं।"
+        }
+      ]
+    },
+    "watch": {
+      "eyebrowText": "इस माह देखें",
+      "title": "देखें और फॉलो करें",
+      "subtitle": "हमारे चैनलों से ज्ञान वीडियो और दैनिक ब्रह्मांडीय अपडेट।",
+      "youtubeLabel": "YouTube · विशेष वीडियो",
+      "visitChannel": "हमारा चैनल देखें",
+      "instagramLabel": "Instagram · विशेष रील्स",
+      "followInsta": "@astrochitra.official को फॉलो करें",
+      "reels": [
+        {
+          "url": "https://www.instagram.com/reel/Da7u3wys_Ny/",
+          "video": "../../assets/october_2026/reels/video1.mp4",
+          "thumbnail": "../../assets/october_2026/reels/video1.jpg"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DcY0aPjt_le/",
+          "video": "../../assets/october_2026/reels/video2.mp4",
+          "thumbnail": "../../assets/october_2026/reels/video2.jpg"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DddEO_nD-FZ/",
+          "video": "../../assets/october_2026/reels/video3.mp4",
+          "thumbnail": "../../assets/october_2026/reels/video3.jpg"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DdvF0xHlVcg/",
+          "video": "../../assets/october_2026/reels/video4.mp4",
+          "thumbnail": "../../assets/october_2026/reels/video4.jpg"
+        }
+      ]
+    },
+    "mantra": {
+      "kicker": "माह का मंत्र",
+      "sanskrit": "सर्व मंगल मांगल्ये, शिवे सर्वार्थ साधिके<br>शरण्ये त्रंबके गौरी, नारायणी नमोस्तुते.",
+      "sections": [
+        {
+          "heading": "मंत्र का अर्थ",
+          "paras": [
+            "यह पवित्र मंत्र दिव्य माता को प्रणाम करते हुए उन्हें सभी मंगलों में श्रेष्ठ मंगलस्वरूपा, कल्याणमयी, श्रेष्ठ संकल्पों को पूर्ण करने वाली, शरण देने वाली तथा गौरी और नारायणी के दिव्य स्वरूप के रूप में संबोधित करता है।",
+            "इस मंत्र के मूल में देवी को किया गया विनम्र नमन है — मंगल, आश्रय, आंतरिक शक्ति और शुभ उद्देश्यों की पूर्ति के लिए उनकी कृपा का स्मरण।"
+          ]
+        },
+        {
+          "heading": "अक्टूबर के लिए यह मंत्र क्यों?",
+          "paras": [
+            "अक्टूबर का महीना नवरात्रि की आध्यात्मिक ऊर्जा से जुड़ा है। नवरात्रि माँ दुर्गा और उनके विभिन्न स्वरूपों की उपासना का पावन समय है। यह अवधि परंपरागत रूप से भक्ति, आत्मचिंतन, नवीनीकरण और अपने भीतर की शक्ति से जुड़ने का अवसर मानी जाती है।",
+            "यह मंत्र इसी भाव को सुंदर रूप से व्यक्त करता है। इसमें देवी को मंगल की स्वरूपा, शरण देने वाली और सार्थक उद्देश्यों को पूर्ण करने वाली शक्ति के रूप में स्मरण किया जाता है। नवरात्रि के दौरान देवी के प्रति श्रद्धा और भक्ति के साथ इस मंत्र का जाप मन को एकाग्र करने और दिन की शुरुआत कृतज्ञता, समर्पण और सकारात्मक संकल्प के साथ करने का एक सरल माध्यम बन सकता है।"
+          ]
+        },
+        {
+          "heading": "भक्ति और आत्मचिंतन का महीना",
+          "paras": [
+            "इस मंत्र को केवल उच्चारण तक सीमित न रखें। इसे कुछ क्षण रुकने, स्वयं को देखने और जीवन के वास्तविक उद्देश्यों से फिर जुड़ने का अवसर बनाइए। नवरात्रि हमें नकारात्मकता पर विजय पाने और विश्वास के साथ आगे बढ़ने की प्रेरणा देती है; यह मंत्र उसी भावना को अपने विचारों, निर्णयों और कर्मों में बनाए रखने की एक दैनिक याद बन सकता है।"
+          ]
+        }
+      ]
+    },
+    "transits": {
+      "eyebrowText": "ग्रह गोचर",
+      "title": "अक्टूबर ग्रह गोचर एवं उत्सव",
+      "subtitle": "माह भर में प्रमुख ग्रह गतिविधियाँ, साथ ही याद रखने योग्य पवित्र तिथियाँ।",
+      "planets": [
+        {
+          "name": "चंद्रमा",
+          "from": "कन्या",
+          "to": "तुला",
+          "date": "1 अक्टूबर, 05:12 प्रातः",
+          "icon": "Moon"
+        },
+        {
+          "name": "चंद्रमा",
+          "from": "तुला",
+          "to": "वृश्चिक",
+          "date": "3 अक्टूबर, 09:37 प्रातः",
+          "icon": "Moon"
+        },
+        {
+          "name": "शुक्र",
+          "from": "तुला",
+          "to": "वृश्चिक",
+          "date": "4 अक्टूबर, 02:48 अपराह्न",
+          "icon": "Venus"
+        },
+        {
+          "name": "चंद्रमा",
+          "from": "वृश्चिक",
+          "to": "धनु",
+          "date": "5 अक्टूबर, 04:26 अपराह्न",
+          "icon": "Moon"
+        },
+        {
+          "name": "चंद्रमा",
+          "from": "धनु",
+          "to": "मकर",
+          "date": "7 अक्टूबर, 06:44 सायं",
+          "icon": "Moon"
+        },
+        {
+          "name": "बुध",
+          "from": "वृश्चिक",
+          "to": "धनु",
+          "date": "8 अक्टूबर, 11:15 प्रातः",
+          "icon": "Mercury"
+        },
+        {
+          "name": "चंद्रमा",
+          "from": "मकर",
+          "to": "कुम्भ",
+          "date": "10 अक्टूबर, 01:58 प्रातः",
+          "icon": "Moon"
+        },
+        {
+          "name": "चंद्रमा",
+          "from": "कुम्भ",
+          "to": "मीन",
+          "date": "12 अक्टूबर, 08:31 प्रातः",
+          "icon": "Moon"
+        },
+        {
+          "name": "चंद्रमा",
+          "from": "मीन",
+          "to": "मेष",
+          "date": "14 अक्टूबर, 10:02 सायं",
+          "icon": "Moon"
+        },
+        {
+          "name": "मंगल",
+          "from": "कर्क",
+          "to": "सिंह",
+          "date": "15 अक्टूबर, 03:10 अपराह्न",
+          "icon": "Mars"
+        },
+        {
+          "name": "चंद्रमा",
+          "from": "मेष",
+          "to": "वृषभ",
+          "date": "17 अक्टूबर, 12:47 दोपहर",
+          "icon": "Moon"
+        },
+        {
+          "name": "सूर्य",
+          "from": "तुला",
+          "to": "वृश्चिक",
+          "date": "17 अक्टूबर, 04:55 अपराह्न",
+          "icon": "Sun"
+        },
+        {
+          "name": "चंद्रमा",
+          "from": "वृषभ",
+          "to": "मिथुन",
+          "date": "19 अक्टूबर, 07:23 सायं",
+          "icon": "Moon"
+        },
+        {
+          "name": "चंद्रमा",
+          "from": "मिथुन",
+          "to": "कर्क",
+          "date": "22 अक्टूबर, 05:11 प्रातः",
+          "icon": "Moon"
+        },
+        {
+          "name": "बुध",
+          "from": "धनु",
+          "to": "मकर",
+          "date": "24 अक्टूबर, 09:39 प्रातः",
+          "icon": "Mercury"
+        },
+        {
+          "name": "चंद्रमा",
+          "from": "कर्क",
+          "to": "सिंह",
+          "date": "24 अक्टूबर, 06:58 सायं",
+          "icon": "Moon"
+        },
+        {
+          "name": "चंद्रमा",
+          "from": "सिंह",
+          "to": "कन्या",
+          "date": "27 अक्टूबर, 01:34 दोपहर",
+          "icon": "Moon"
+        },
+        {
+          "name": "चंद्रमा",
+          "from": "कन्या",
+          "to": "तुला",
+          "date": "30 अक्टूबर, 04:46 प्रातः",
+          "icon": "Moon"
+        }
+      ],
+      "festivalsLabel": "उत्सव",
+      "festivals": [
+        {
+          "name": "शरद नवरात्रि",
+          "date": "11 से 19 अक्टूबर",
+          "desc": "देवी की नौ रातें — उपवास, संकल्प और शांत भक्ति के साथ महीने की शुरुआत।"
+        },
+        {
+          "name": "दुर्गा अष्टमी एवं महानवमी",
+          "date": "19 अक्टूबर",
+          "desc": "नवरात्रि का शिखर: कन्या पूजन और माँ दुर्गा के अंतिम रूपों का आह्वान।"
+        },
+        {
+          "name": "विजयादशमी",
+          "date": "20 अक्टूबर",
+          "desc": "धर्म की विजय और नए कार्यों तथा शुभारंभों के लिए शुभ दिन।"
+        },
+        {
+          "name": "शरद पूर्णिमा",
+          "date": "26 अक्टूबर",
+          "desc": "समृद्धि की पूर्णिमा, जिसकी रात्रि वातावरण को शीतल और उपचार-सुगंध से भरा माना जाता है।"
+        }
+      ],
+      "panchangCtaDesc": "रोज़ का पंचांग, मुहूर्त और गोचर, राहु काल, अभिजित मुहूर्त और बहुत कुछ देखें।",
+      "panchangCtaBtn": "पंचांग ऐप खोलें"
+    },
+    "myth": {
+      "eyebrowText": "मिथक बनाम तथ्य",
+      "title": "कष्ट या अनुशासन?",
+      "subtitle": "अंधविश्वासों को तोड़ना, एक-एक विश्वास को दूर करना।",
+      "topic": "शनि साढ़ेसाती",
+      "mythLabel": "मिथक",
+      "mythText": [
+        "शनि की साढ़ेसाती केवल कष्ट और कठिनाइयों से भरा हुआ समय है।"
+      ],
+      "realityLabel": "तथ्य",
+      "realityText": [
+        "पारंपरिक वैदिक ज्योतिष में साढ़ेसाती को केवल कठिन समय के रूप में नहीं, बल्कि अनुशासन, कर्म, जिम्मेदारी, परिपक्वता और वास्तविकता को स्वीकार करने की अवधि के रूप में भी देखा जाता है।",
+        "यह समय व्यक्ति को अपने कर्मों के प्रति अधिक जागरूक होने और अपनी गलत आदतों या निर्णयों पर पुनर्विचार करने का अवसर दे सकता है। यह जीवन में समय, धन और कार्य के बेहतर नियोजन तथा अधिक अनुशासन की आदत विकसित करने पर भी ध्यान केंद्रित कर सकता है।",
+        "दूसरों पर निर्भर रहने के बजाय अपनी क्षमताओं पर विश्वास बढ़ाना और आर्थिक मामलों में अधिक समझदारी विकसित करना भी इस अवधि का एक महत्वपूर्ण पक्ष माना जाता है। शनि को पारंपरिक रूप से त्वरित सफलता की अपेक्षा निरंतर और धैर्यपूर्ण प्रयास से जोड़ा जाता है; इसलिए साढ़ेसाती व्यक्ति को निरंतरता और मेहनत के माध्यम से अपने कार्य की नींव मजबूत करने की प्रेरणा दे सकती है।",
+        "कठिन परिस्थितियाँ व्यक्ति में विनम्रता, साहस, सहनशक्ति और मानसिक दृढ़ता विकसित करने का अवसर भी बन सकती हैं। ध्यान, प्रार्थना, सेवा और आत्मचिंतन जैसी साधनाएँ इस अवधि को आध्यात्मिक विकास तथा दीर्घकालीन प्रगति की मजबूत नींव बनाने की दिशा में उपयोग करने के पारंपरिक माध्यम माने जाते हैं।"
+      ]
+    },
+    "know": {
+      "eyebrowText": "ज्योतिष जानकारी",
+      "title": "क्या आप जानते हैं?",
+      "factTitle": "नौ रातों की लय",
+      "factText": "नवरात्रि का अर्थ ही नौ रातें है। वैदिक मान्यता में रात चक्र का विश्राम भाग माना जाता है, इसलिए त्योहार देवी का स्मारण रात्रियों में करते हैं, दिनों में नहीं। यही नौ रातें वसंत में चैत्र नवरात्रि के रूप में लौटती हैं।",
+      "blogsLabel": "हमारे ब्लॉग · विशेष पठन",
+      "readArticle": "लेख पढ़ें",
+      "blogs": [
+        {
+          "category": "Yogas",
+          "title": "Malavya Yoga: Meaning, Benefits, Effects & Formation",
+          "image": "blog1.webp",
+          "url": "https://blogs.astrochitra.com/malavya-yoga-meaning-benefits-effects-formation/"
+        },
+        {
+          "category": "Yogas",
+          "title": "Sunapha Yoga: Meaning, Benefits, Effects & Formation",
+          "image": "blog2.webp",
+          "url": "https://blogs.astrochitra.com/sunapha-yoga/"
+        },
+        {
+          "category": "Yogas",
+          "title": "Anapha Yoga: Meaning, Benefits, Effects, & Remedies",
+          "image": "blog3.webp",
+          "url": "https://blogs.astrochitra.com/anapha-yoga/"
+        },
+        {
+          "category": "Yogas",
+          "title": "Durudhara Yoga: Meaning, Benefits, Effects & Remedies",
+          "image": "blog4.webp",
+          "url": "https://blogs.astrochitra.com/durudhara-yoga/"
+        },
+        {
+          "category": "Yogas",
+          "title": "Chandra Mangal Yoga: Meaning, Benefits & Effects",
+          "image": "blog5.webp",
+          "url": "https://blogs.astrochitra.com/chandra-mangal-yoga/"
+        },
+        {
+          "category": "Yogas",
+          "title": "Rajalakshana Yoga: Meaning, Benefits, Effects & Remedies",
+          "image": "blog6.webp",
+          "url": "https://blogs.astrochitra.com/rajalakshana-yoga/"
+        }
+      ]
+    },
+    "testimonials": {
+      "eyebrowText": "कृपापूर्ण शब्द",
+      "title": "साधक क्या कहते हैं"
+    },
+    "share": {
+      "eyebrowText": "अपने विचार साझा करें",
+      "title": "इस न्यूज़लेटर पर टिप्पणी करें",
+      "subtitle": "हम आपके विचार सुनना चाहेंगे। नीचे टिप्पणी छोड़ें — गुरुजी की टीम हर संदेश पढ़ेगी।",
+      "successMsg": "धन्यवाद! आपकी टिप्पणी प्राप्त हो गई है।",
+      "emailLabel": "ईमेल पता",
+      "emailPlaceholder": "aapka.naam@domain.com",
+      "phoneLabel": "फोन / WhatsApp",
+      "phoneOptional": "(वैकल्पिक)",
+      "phonePlaceholder": "+91 98765 43210",
+      "commentLabel": "टिप्पणी",
+      "commentOptional": "(वैकल्पिक)",
+      "commentPlaceholder": "हमें बताएँ आपको क्या पसंद आया, या गुरुजी से कोई प्रश्न पूछें...",
+      "submitBtn": "टिप्पणी भेजें",
+      "privacyNote": "हम आपकी गोपनीयता का सम्मान करते हैं — संपर्क विवरण केवल आपको प्रतिक्रिया देने के लिए उपयोग किए जाते हैं।"
+    },
+    "final": {
+      "eyebrowText": "इस माह सीमित स्लॉट",
+      "title": "तारे आपका अगला कदम<br><em>निर्देशित करें</em>",
+      "subtitle": "अक्टूबर के स्लॉट भरने से पहले गुरुजी से अपना व्यक्तिगत परामर्श बुक करें।",
+      "callBtn": "कॉल / अभी बुक करें",
+      "shareBtn": "न्यूज़लेटर साझा करें",
+      "footerTag": "AstroChitra",
+      "footerCopy": "© 2026 AstroChitra. सर्वाधिकार सुरक्षित।",
+      "footerLinks": [
+        {
+          "text": "कुंडली",
+          "url": "https://astrochitra.com/kundli"
+        },
+        {
+          "text": "पंचांग",
+          "url": "https://panchang.astrochitra.com/"
+        },
+        {
+          "text": "मैचमेकिंग",
+          "url": "https://astrochitra.com/matchmaking"
+        },
+        {
+          "text": "Insights",
+          "url": "https://astrochitra.com/insights"
+        },
+        {
+          "text": "जर्नल",
+          "url": "https://blogs.astrochitra.com/"
+        }
+      ]
+    },
+    "whatsappModal": {
+      "title": "न्यूज़लेटर के लिए सदस्यता लें",
+      "text": "हमारे न्यूज़लेटर की सदस्यता लेने के लिए, इस WhatsApp समूह से जुड़ें।",
+      "joinBtn": "WhatsApp समूह से जुड़ें"
+    },
+    "shareToast": "लिंक क्लिपबोर्ड पर कॉपी हो गया",
+    "waPill": "समूह से जुड़ें"
+  },
+  "mr": {
+    "meta": {
+      "title": "AstroChitra मासिक न्यूजलेटर | ऑक्टोबर 2026",
+      "htmlLang": "mr"
+    },
+    "menu": {
+      "title": "या अंकात",
+      "items": [
+        "कव्हर",
+        "गुरुजी म्हणतात",
+        "मासिक राशिफल",
+        "वेब उत्पादने",
+        "पहा आणि फॉलो करा",
+        "महिन्याचा मंत्र",
+        "ग्रहगोचर आणि सण",
+        "मिथक बनाम तथ्य",
+        "तुम्हाला माहीत आहे का? · ब्लॉग",
+        "प्रशंसापत्रे",
+        "शेअर करा आणि टिप्पणी करा",
+        "आता सल्ला घ्या"
+      ]
+    },
+    "hero": {
+      "brandName": "AstroChitra",
+      "kicker": "मासिक आवृत्ती",
+      "headline": "ऑक्टोबर 2026<br><em>न्यूजलेटर</em>"
+    },
+    "guruji": {
+      "eyebrowText": "गुरुजींचा या महिन्याचा विचार",
+      "quoteLabel": "या महिन्याचा उतारा",
+      "quoteBlock": [
+        {
+          "lang": "mr",
+          "text": "भूतकाळातून शिका,\nवर्तमानात जगा आणि\nभविष्य देवाच्या हाती सोपवा."
+        },
+        {
+          "lang": "en",
+          "text": "Learn from the past,\nLive in the present, and\nLeave the future in God’s hands."
+        },
+        {
+          "lang": "hi",
+          "text": "अतीत से सीखें,\nवर्तमान में जिएँ और\nभविष्य को ईश्वर के हाथों में छोड़ दें।"
+        }
+      ],
+      "bookBtn": "सल्ला बुक करा",
+      "whatsappLink": "WhatsApp करा"
+    },
+    "rashifal": {
+      "eyebrowText": "मासिक राशिफल",
+      "title": "राशिफल · <em>ऑक्टोबर 2026</em>",
+      "subtitle": "या महिन्यातील सर्वा बारा चंद्र राशींवर तिथीनुसार परिणाम.",
+      "transitsLabel": "ग्रह बदल",
+      "extraTransitsLabel": "चालू ग्रह बदल",
+      "bestDaysLabel": "शुभ काळ",
+      "cautionDaysLabel": "सावधगिरीचा काळ",
+      "pendingLabel": "मजकूर प्रलंबित",
+      "signs": [
+        {
+          "name": "मेष (Aries)",
+          "dates": "21 मार्च – 19 एप्रिल",
+          "overview": "एकंदरीत महिन्याच्या सुरुवातीला कामात स्पर्धा आणि प्रलंबित कामे जास्त असतील, परंतु नंतर तुमचे लक्ष बिझनेस पार्टनरशिप, नेटवर्किंग आणि कुटुंबाच्या मोठ्या निर्णयांवर केंद्रित होईल.",
+          "transits": [
+            {
+              "date": "1 ऑक्टोबर",
+              "effect": "नोकरीत स्पर्धा आणि कामाचा ताण जास्त राहील."
+            },
+            {
+              "date": "17 ऑक्टोबरनंतर",
+              "planet": "सूर्य (Sun)",
+              "planetIcon": "Sun",
+              "house": "7व्या स्थानात",
+              "effect": "बिझनेस पार्टनरशिप, क्लायंट्स आणि डीलिंगवर लक्ष केंद्रित होईल."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "राहू (Rahu)",
+              "position": "11व्या स्थानात",
+              "effect": "नवीन संपर्क आणि नेटवर्किंगमधून उत्पन्नाच्या संधी वाढतील."
+            },
+            {
+              "planet": "शनी (Saturn)",
+              "position": "12व्या स्थानात",
+              "effect": "जुने खर्च, प्रवास किंवा व्यावसायिक वचनबद्धतेवर पैसा खर्च होऊ शकतो."
+            },
+            {
+              "planet": "गुरु (Jupiter) आणि मंगळ (Mars)",
+              "position": "4थ्या स्थानात",
+              "effect": "प्रॉपर्टी, घराचे नूतनीकरण, वाहन किंवा कुटुंबाशी संबंधित कोणतेही मोठे निर्णय घेण्याची शक्यता निर्माण होऊ शकते."
+            },
+            {
+              "planet": "बुध (Mercury), शुक्र (Venus) आणि सूर्य (Sun)",
+              "position": "7व्या स्थानात",
+              "effect": "नातेसंबंधांमधील जुने प्रश्न समोर येऊ शकतात. विवाहित लोकांनी संवादात मवाळपणा ठेवावा."
+            },
+            {
+              "planet": "केतू (Ketu)",
+              "position": "5व्या स्थानात",
+              "effect": "मुलांशी संबंधित बाबींमध्ये अनावश्यक चिंता निर्माण होऊ शकते."
+            }
+          ],
+          "bestDays": {
+            "range": "1 ऑक्टोबर ते 17 ऑक्टोबर",
+            "note": "करिअर, नातेसंबंध, नवीन संपर्क आणि प्रलंबित कामे पूर्ण करण्यासाठी उत्तम काळ आहे."
+          },
+          "cautionDays": {
+            "range": "17 ऑक्टोबरनंतर",
+            "note": "पार्टनरशिप, विवाह, बिझनेस करार आणि संवादात काळजी घ्या."
+          },
+          "pending": false
+        },
+        {
+          "name": "वृषभ (Taurus)",
+          "dates": "20 एप्रिल – 20 मे",
+          "overview": "एकंदरीत हा महिना तुम्हाला रोजची दिनचर्या आणि नोकरीच्या संधींमध्ये खूप व्यस्त ठेवेल. नात्यांमध्ये छोट्या-छोट्या गोष्टींवरून गैरसमज टाळण्यासाठी संवादात संयम बाळगणे आवश्यक आहे.",
+          "transits": [
+            {
+              "date": "1 ऑक्टोबर",
+              "effect": "नोकरीत कामाचा ताण आणि स्पर्धा जास्त राहील."
+            },
+            {
+              "date": "17 ऑक्टोबरनंतर",
+              "planet": "सूर्य (Sun)",
+              "planetIcon": "Sun",
+              "house": "6व्या स्थानात",
+              "effect": "जॉब, स्पर्धा आणि प्रलंबित कामांवर लक्ष वाढेल."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "राहू (Rahu)",
+              "position": "10व्या स्थानात",
+              "effect": "करिअरमध्ये नवीन संधी, अचानक बदल किंवा नवीन प्रोजेक्ट्स मिळू शकतात."
+            },
+            {
+              "planet": "शनी (Saturn)",
+              "position": "11व्या स्थानात",
+              "effect": "उत्पन्न आणि आर्थिक लाभाचे योग येतील, परंतु परिणामांमध्ये विलंब होऊ शकतो."
+            },
+            {
+              "planet": "गुरु (Jupiter) आणि मंगळ (Mars)",
+              "position": "3ऱ्या स्थानात",
+              "effect": "संवाद, प्रवास आणि नवीन काम सुरू करण्याची इच्छा वाढेल. भावंडांशी संबंधित बाबींमध्ये सक्रियता वाढू शकते."
+            },
+            {
+              "planet": "बुध (Mercury), शुक्र (Venus) आणि सूर्य (Sun)",
+              "position": "6व्या स्थानात",
+              "effect": "नोकरी, स्पर्धा आणि दैनंदिन दिनचर्येत व्यस्तता वाढेल. नातेसंबंधात छोट्या गोष्टींवरून गैरसमज होऊ शकतो, त्यामुळे संवाद मवाळ ठेवा."
+            },
+            {
+              "planet": "केतू (Ketu)",
+              "position": "4थ्या स्थानात",
+              "effect": "घर, प्रॉपर्टी, वाहन किंवा कौटुंबिक बाबींवरून मनात अनावश्यक चिंता असू शकते. घरात मोठे निर्णय घेताना घाई करू नका."
+            }
+          ],
+          "bestDays": {
+            "range": "1 ऑक्टोबर ते 17 ऑक्टोबर",
+            "note": "करिअरमधील नवीन संधी, नेटवर्किंग, आर्थिक नियोजन आणि प्रलंबित कामे पूर्ण करण्यासाठी चांगला काळ आहे."
+          },
+          "cautionDays": {
+            "range": "17 ऑक्टोबरनंतर",
+            "note": "नोकरी, स्पर्धा, कामाच्या ठिकाणी वाद, आरोग्याची दिनचर्या, आर्थिक कमिटमेंट आणि संवाद."
+          },
+          "pending": false
+        },
+        {
+          "name": "मिथुन (Gemini)",
+          "dates": "21 मे – 20 जून",
+          "overview": "एकंदरीत या महिन्यात तुमचे विशेष लक्ष पैसा, कुटुंब आणि सर्जनशील (Creative) करिअरवर राहील. व्यावसायिक जबाबदाऱ्या संयमाने पार पाडणे आवश्यक असेल.",
+          "transits": [
+            {
+              "date": "1 ऑक्टोबर",
+              "effect": "करिअरमध्ये कामाचा ताण आणि प्रलंबित कामे जास्त असू शकतात."
+            },
+            {
+              "date": "17 ऑक्टोबरनंतर",
+              "planet": "सूर्य (Sun)",
+              "planetIcon": "Sun",
+              "house": "5व्या स्थानात",
+              "effect": "करिअरमध्ये सर्जनशीलता, निर्णय क्षमता आणि नवीन गोष्टी शिकण्यावर लक्ष केंद्रित होईल."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "शनी (Saturn)",
+              "position": "10व्या स्थानात",
+              "effect": "व्यावसायिक जबाबदाऱ्या वाढतील आणि कामात संयम ठेवणे आवश्यक राहील."
+            },
+            {
+              "planet": "राहू (Rahu)",
+              "position": "8व्या स्थानात",
+              "effect": "अचानक होणारे बदल आणि आर्थिक नियोजनात काळजी घ्या."
+            },
+            {
+              "planet": "केतू (Ketu)",
+              "position": "3ऱ्या स्थानात",
+              "effect": "संवाद आणि छोट्या प्रवासात कधीकधी मनात गोंधळ असू शकतो."
+            },
+            {
+              "planet": "गुरु (Jupiter) आणि मंगळ (Mars)",
+              "position": "2ऱ्या स्थानात",
+              "effect": "पैसा, बचत आणि कौटुंबिक बाबींवर विशेष लक्ष राहील. प्रॉपर्टी, कौटुंबिक गुंतवणूक किंवा एखादा मोठा आर्थिक निर्णय घेण्याची शक्यता निर्माण होऊ शकते."
+            },
+            {
+              "planet": "बुध (Mercury), शुक्र (Venus) आणि सूर्य (Sun)",
+              "position": "5व्या स्थानात",
+              "effect": "प्रेम, नातेसंबंध, सर्जनशीलता आणि शिक्षणाशी संबंधित विषय समोर येऊ शकतात."
+            }
+          ],
+          "bestDays": {
+            "range": "1 ऑक्टोबर ते 17 ऑक्टोबर",
+            "note": "करिअर, नेटवर्किंग, प्रलंबित कामे आणि आर्थिक नियोजनासाठी चांगला काळ राहू शकतो."
+          },
+          "cautionDays": {
+            "range": "17 ऑक्टोबरनंतर",
+            "note": "नातेसंबंध, प्रेमाचे विषय, बिझनेस कम्युनिकेशन आणि मोठ्या आर्थिक निर्णयांमध्ये घाई टाळा."
+          },
+          "pending": false
+        },
+        {
+          "name": "कर्क (Cancer)",
+          "dates": "21 जून – 22 जुलै",
+          "overview": "एकंदरीत महिन्याच्या सुरुवातीला घर-कुटुंब आणि वैयक्तिक जबाबदाऱ्यांवर तुमचे जास्त लक्ष राहील. अचानक येणाऱ्या खर्चापासून वाचण्यासाठी गुंतवणुकीत घाई करू नका.",
+          "transits": [
+            {
+              "date": "1 ऑक्टोबर",
+              "effect": "घर-कुटुंब, करिअर आणि वैयक्तिक जबाबदार्यांवर जास्त लक्ष राहील."
+            },
+            {
+              "date": "17 ऑक्टोबरनंतर",
+              "planet": "सूर्य (Sun)",
+              "planetIcon": "Sun",
+              "house": "4थ्या स्थानात",
+              "effect": "घर-कुटुंब, प्रॉपर्टी, वाहन आणि चैनीच्या वस्तूंवर लक्ष वाढेल."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "गुरु (Jupiter) आणि मंगळ (Mars)",
+              "position": "1ल्या स्थानात (लग्नात)",
+              "effect": "तुमचा आत्मविश्वास, ऊर्जा आणि स्वतःचे निर्णय स्वतः घेण्याची इच्छा वाढेल."
+            },
+            {
+              "planet": "बुध (Mercury) आणि शुक्र (Venus)",
+              "position": "4थ्या स्थानात",
+              "effect": "घराचे नूतनीकरण, प्रॉपर्टी डीलिंग किंवा कुटुंबासोबत महत्त्वाची चर्चा होऊ शकते."
+            },
+            {
+              "planet": "राहू (Rahu)",
+              "position": "8व्या स्थानात",
+              "effect": "अचानक खर्च किंवा अनपेक्षित परिस्थिती समोर येऊ शकते. त्यामुळे गुंतवणूक आणि आर्थिक निर्णयात घाई करू नका."
+            },
+            {
+              "planet": "केतू (Ketu)",
+              "position": "2ऱ्या स्थानात",
+              "effect": "कुटुंबातील संवाद आणि बचतीबद्दल अनिश्चितता असू शकते."
+            },
+            {
+              "planet": "शनी (Saturn)",
+              "position": "9व्या स्थानात",
+              "effect": "नशिबाची साथ हळूहळू मिळेल."
+            }
+          ],
+          "bestDays": {
+            "range": "1 ऑक्टोबर ते 17 ऑक्टोबर",
+            "note": "वैयक्तिक प्रगती, करिअर प्लॅनिंग, नवीन संधी आणि प्रलंबित कामे पूर्ण करण्यासाठी चांगला काळ आहे."
+          },
+          "cautionDays": {
+            "range": "17 ऑक्टोबरनंतर",
+            "note": "आर्थिक निर्णय, भागीदारी, नातेसंबंध आणि गुंतवणुकीत घाई करू नका."
+          },
+          "pending": false
+        },
+        {
+          "name": "सिंह (Leo)",
+          "dates": "23 जुलै – 22 ऑगस्ट",
+          "overview": "एकंदरीत करिअरमध्ये सुरुवातीला कामाचा ताण राहील, परंतु नेटवर्किंग आणि संवादाच्या बाबतीत काळ नंतर चांगला होईल. विचार न करता आर्थिक निर्णय आणि बिझनेस डील करणे टाळा.",
+          "transits": [
+            {
+              "date": "1 ऑक्टोबर",
+              "effect": "करिअरमध्ये स्पर्धा आणि कामाचा ताण जास्त असू शकतो."
+            },
+            {
+              "date": "17 ऑक्टोबरनंतर",
+              "planet": "सूर्य (Sun)",
+              "planetIcon": "Sun",
+              "house": "3ऱ्या स्थानात",
+              "effect": "संवाद, नेटवर्किंग, छोटे प्रवास आणि मार्केटिंगवर लक्ष केंद्रित होईल."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "राहू (Rahu)",
+              "position": "6व्या स्थानात",
+              "effect": "स्पर्धा आणि प्रलंबित कामे तुम्ही उत्तमरीत्या हाताळाल."
+            },
+            {
+              "planet": "शनी (Saturn)",
+              "position": "8व्या स्थानात",
+              "effect": "जुने आर्थिक विषय समोर येतील, कोणत्याही मोठ्या आर्थिक निर्णयात घाई करू नका."
+            },
+            {
+              "planet": "गुरु (Jupiter) आणि मंगळ (Mars)",
+              "position": "12व्या स्थानात",
+              "effect": "कामाशी संबंधित प्रवास, ऑनलाइन परदेशी संपर्क, रुग्णालय, प्रॉपर्टी किंवा इतर कारणांमुळे खर्च वाढू शकतो."
+            },
+            {
+              "planet": "बुध (Mercury) आणि शुक्र (Venus)",
+              "position": "3ऱ्या स्थानात",
+              "effect": "जोडीदाराशी संवाद साधताना गैरसमज होऊ शकतात."
+            },
+            {
+              "planet": "केतू (Ketu)",
+              "position": "1ल्या स्थानात",
+              "effect": "निर्णयांबद्दल गोंधळ असू शकतो."
+            }
+          ],
+          "bestDays": {
+            "range": "1 ऑक्टोबर ते 17 ऑक्टोबर",
+            "note": "प्रलंबित कामे, नवीन संपर्क प्रस्थापित करणे आणि आर्थिक नियोजनासाठी हा उत्तम काळ आहे."
+          },
+          "cautionDays": {
+            "range": "17 ऑक्टोबरनंतर",
+            "note": "संवाद, अनावश्यक वाद, अल्पकालीन आर्थिक निर्णय; बिझनेस डील करताना अटी व शर्ती व्यवस्थित समजून घ्या."
+          },
+          "pending": false
+        },
+        {
+          "name": "कन्या (Virgo)",
+          "dates": "23 ऑगस्ट – 22 सप्टेंबर",
+          "overview": "एकंदरीत पैसा, कुटुंब आणि आर्थिक नियोजनावर तुमचे विशेष लक्ष राहील. विवाह आणि बिझनेस पार्टनरशिपशी संबंधित बाबींमध्ये संयम आणि समजूतदारपणा दाखवावा लागेल.",
+          "transits": [],
+          "extraTransits": [
+            {
+              "planet": "सूर्य (Sun), बुध (Mercury) आणि शुक्र (Venus)",
+              "position": "2ऱ्या स्थानात",
+              "effect": "पैसा, कुटुंब, वाणी आणि आर्थिक नियोजनावर लक्ष वाढेल. तुमचे लक्ष उत्पन्न, बचत आणि कौटुंबिक बाबींवर जास्त असेल."
+            },
+            {
+              "planet": "शनी (Saturn)",
+              "position": "7व्या स्थानात",
+              "effect": "विवाह, बिझनेस पार्टनरशिप आणि क्लायंट्सशी संबंधित प्रकरणांमध्ये संयम ठेवावा लागेल. जुने प्रश्न किंवा नातेसंबंधातील जबाबदाऱ्या समोर येऊ शकतात."
+            },
+            {
+              "planet": "राहू (Rahu)",
+              "position": "5व्या स्थानात",
+              "effect": "शिक्षण, सर्जनशीलता, प्रेमसंबंध आणि मुलांशी संबंधित बाबींमध्ये गोंधळ होऊ शकतो."
+            },
+            {
+              "planet": "गुरु (Jupiter) आणि मंगळ (Mars)",
+              "position": "11व्या स्थानात",
+              "effect": "उत्पन्न, नेटवर्किंग आणि मित्रांसाठी चांगला काळ निर्माण होईल."
+            },
+            {
+              "planet": "केतू (Ketu)",
+              "position": "12व्या स्थानात",
+              "effect": "प्रवास, अध्यात्मिक कार्य आणि अनावश्यक खर्च वाढू शकतात."
+            }
+          ],
+          "bestDays": {
+            "range": "1 ऑक्टोबर ते 17 ऑक्टोबर",
+            "note": "पैसा आणि आर्थिक नियोजन, नवीन संपर्क आणि नेटवर्किंग, उत्पन्नाच्या संधी, कुटुंबाशी संबंधित प्लॅनिंग."
+          },
+          "cautionDays": {
+            "range": "17 ऑक्टोबरनंतर",
+            "note": "कुटुंब, पैसा, वाणी, नातेसंबंध आणि बिझनेस पार्टनरशी संबंधित बाबींवर विचारपूर्वक संवाद साधा."
+          },
+          "pending": false
+        },
+        {
+          "name": "तुळा (Libra)",
+          "dates": "23 सप्टेंबर – 22 ऑक्टोबर",
+          "overview": "एकंदरीत सुरुवातीचे खर्च आणि प्रवासानंतर हा महिना तुमचा आत्मविश्वास, कामावरील लक्ष आणि व्यक्तिमत्त्वात सकारात्मक विकास घेऊन येईल.",
+          "transits": [
+            {
+              "date": "1 ऑक्टोबर",
+              "planet": "सूर्य (Sun)",
+              "planetIcon": "Sun",
+              "house": "12व्या स्थानात",
+              "effect": "खर्च, प्रवास, परदेशाशी संबंधित कामे किंवा व्यावसायिक जबाबदाऱ्या वाढू शकतात."
+            },
+            {
+              "date": "17 ऑक्टोबरनंतर",
+              "planet": "सूर्य (Sun)",
+              "planetIcon": "Sun",
+              "house": "1ल्या स्थानात",
+              "effect": "आत्मविश्वास, निर्णय क्षमता आणि कामावर लक्ष केंद्रित होईल."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "राहू (Rahu)",
+              "position": "4थ्या स्थानात",
+              "effect": "घर-कुटुंब, प्रॉपर्टी, वाहन किंवा घर बदलण्यासारखे विचार वाढू शकतात. प्रॉपर्टीचे निर्णय घाईघाईने घेऊ नका."
+            },
+            {
+              "planet": "गुरु (Jupiter) आणि मंगळ (Mars)",
+              "position": "10व्या स्थानात",
+              "effect": "करिअर आणि बिझनेसमध्ये सक्रियता वाढेल. कामाच्या ठिकाणी आक्रमक संवाद टाळा."
+            },
+            {
+              "planet": "बुध (Mercury), शुक्र (Venus) आणि सूर्य (Sun)",
+              "position": "1ल्या स्थानात",
+              "effect": "व्यक्तिमत्त्व आकर्षक होईल आणि संवादाचा प्रभाव वाढेल."
+            },
+            {
+              "planet": "केतू (Ketu)",
+              "position": "11व्या स्थानात",
+              "effect": "उत्पन्न आणि सामाजिक वर्तुळात थोडी अलिप्तता जाणवू शकते."
+            }
+          ],
+          "bestDays": {
+            "range": "1 ऑक्टोबर ते 17 ऑक्टोबर",
+            "note": "करिअर प्लॅनिंग, प्रलंबित कामе, प्रवास आणि आर्थिक नियोजनासाठी चांगला काळ आहे."
+          },
+          "cautionDays": {
+            "range": "17 ऑक्टोबरनंतर",
+            "note": "नातेसंबंध, विवाह, बिझनेस कम्युनिकेशन आणि महत्त्वाच्या करारांमध्ये काळजी घ्या."
+          },
+          "pending": false
+        },
+        {
+          "name": "वृश्चिक (Scorpio)",
+          "dates": "23 ऑक्टोबर – 21 नोव्हेंबर",
+          "overview": "एकंदरीत करिअर, नेटवर्किंग आणि सर्जनशील (Creative) प्रोजेक्ट्ससाठी उत्तम संधी मिळतील, तरीही दैनंदिन कामे आणि खर्चाच्या बाबतीत थोडा गोंधळ असू शकतो.",
+          "transits": [
+            {
+              "date": "1 ऑक्टोबर",
+              "effect": "करिअर आणि व्यावसायिक जबाबदाऱ्यांवर तुमचे जास्त लक्ष राहील."
+            },
+            {
+              "date": "17 ऑक्टोबरनंतर",
+              "planet": "सूर्य (Sun), बुध (Mercury) आणि शुक्र (Venus)",
+              "planetIcon": "Sun",
+              "house": "12व्या स्थानात",
+              "effect": "बिझनेसचे खर्च, परदेशी संपर्क, ऑनलाइन काम किंवा क्रिएटिव्ह प्रोजेक्ट्समध्ये संधी मिळू शकतात. संवादात मवाळपणा ठेवा."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "केतू (Ketu)",
+              "position": "10व्या स्थानात",
+              "effect": "कामाबाबत कधीकधी गोंधळ असू शकतो."
+            },
+            {
+              "planet": "राहू (Rahu)",
+              "position": "3ऱ्या स्थानात",
+              "effect": "संवाद, नेटवर्किंग आणि छोट्या प्रवासाचे चांगले योग येतील. नवीन संपर्कांच्या माध्यमातून कामाच्या संधी मिळू शकतात."
+            },
+            {
+              "planet": "शनी (Saturn)",
+              "position": "5व्या स्थानात",
+              "effect": "कोणतीही जुनी प्रलंबित कामे पूर्ण करण्यासाठी वेळ लागू शकतो."
+            },
+            {
+              "planet": "गुरु (Jupiter) आणि मंगळ (Mars)",
+              "position": "9व्या स्थानात",
+              "effect": "उच्च शिक्षण, दूरचा प्रवास आणि धार्मिक कार्यात रस वाढू शकतो."
+            }
+          ],
+          "bestDays": {
+            "range": "1 ऑक्टोबर ते 17 ऑक्टोबर",
+            "note": "करिअर, नेटवर्किंग, नवीन प्रोजेक्ट्स, प्रवास, शिक्षण आणि प्रलंबित कामे पुढे नेण्यासाठी उत्तम वेळ आहे."
+          },
+          "cautionDays": {
+            "range": "17 ऑक्टोबरनंतर",
+            "note": "खर्च, परदेशाशी संबंधित बाबी, नातेसंबंधांमधील संवाद आणि करिअरच्या निर्णयांमध्ये काळजी घ्या."
+          },
+          "pending": false
+        },
+        {
+          "name": "धनु (Sagittarius)",
+          "dates": "22 नोव्हेंबर – 21 डिसेंबर",
+          "overview": "एकंदरीत हा महिना संवाद, नातेसंबंध आणि नेटवर्किंगसाठी उत्तम संधी घेऊन येईल. तथापि, अचानक होणारे आर्थिक बदल आणि कौटुंबिक जबाबदाऱ्यांकडे तुम्हाला काळजीपूर्वक लक्ष द्यावे लागेल.",
+          "transits": [
+            {
+              "date": "17 ऑक्टोबरनंतर",
+              "planet": "सूर्य (Sun)",
+              "planetIcon": "Sun",
+              "house": "11व्या स्थानात",
+              "effect": "उत्पन्न, नेटवर्किंग, नवीन संपर्क आणि व्यावसायिक वर्तुळातून (Professional Circle) लाभाच्या संधी वाढू शकतात."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "शनी (Saturn)",
+              "position": "4थ्या स्थानात",
+              "effect": "घर-कुटुंब, प्रॉपर्टी, वाहनाशी संबंधित जबाबदाऱ्यांवर खर्च आणि मानसिक ताण (Mental Pressure) राहू शकतो."
+            },
+            {
+              "planet": "गुरु (Jupiter) आणि मंगळ (Mars)",
+              "position": "8व्या स्थानात",
+              "effect": "अचानक होणारे आर्थिक बदल, संयुक्त वित्त (Joint Finance), गुंतवणूक (Investment) आणि विम्याशी संबंधित बाबींमध्ये सक्रियता वाढू शकते."
+            },
+            {
+              "planet": "राहू (Rahu)",
+              "position": "3ऱ्या स्थानात",
+              "effect": "संवाद, प्रवास, मार्केटिंग, सोशल मीडिया आणि नवीन प्रयत्नांमध्ये पुढाकार (Initiative) वाढेल."
+            },
+            {
+              "planet": "केतू (Ketu)",
+              "position": "9व्या स्थानात",
+              "effect": "धार्मिक श्रद्धा, उच्च शिक्षण, दूरचा प्रवास किंवा वडिलांशी संबंधित बाबींमध्ये अलिप्तता (Detachment) येऊ शकते."
+            },
+            {
+              "planet": "बुध (Mercury) आणि शुक्र (Venus)",
+              "position": "7व्या स्थानात",
+              "effect": "नातेसंबंध आणि बिझनेस डीलिंगसाठी चांगला योग निर्माण होईल."
+            }
+          ],
+          "bestDays": {
+            "range": "1 ऑक्टोबर ते 17 ऑक्टोबर",
+            "note": "करिअर, प्रोफेशनल प्लॅनिंग, संवाद, नवीन सुरुवात, प्रलंबित कामे."
+          },
+          "cautionDays": {
+            "range": "17 ऑक्टोबरनंतर",
+            "note": "उत्पन्नाबद्दल जास्त अपेक्षा ठेवणे, अचानक खर्च, भागीदारीचे आर्थिक व्यवहार, संवाद."
+          },
+          "pending": false
+        },
+        {
+          "name": "मकर (Capricorn)",
+          "dates": "22 डिसेंबर – 19 जानेवारी",
+          "overview": "एकंदरीत तुमचे करिअर आणि व्यवसाय अत्यंत सक्रिय राहील आणि त्यात वाढ व नवीन क्लायंट मिळण्याची प्रबळ शक्यता आहे. परंतु, अचानक होणारे आर्थिक बदल आणि कौटुंबिक बाबींमध्ये बोलताना संयम ठेवावा लागेल.",
+          "transits": [
+            {
+              "date": "17 ऑक्टोबरनंतर",
+              "planet": "सूर्य (Sun)",
+              "planetIcon": "Sun",
+              "house": "10व्या स्थानात",
+              "effect": "करिअर, नोकरी आणि अधिकारावर (Authority) लक्ष केंद्रित होईल. कामाच्या ठिकाणी तुमची दृश्यमानता (Visibility) वाढू शकते."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "राहू (Rahu)",
+              "position": "2ऱ्या स्थानात",
+              "effect": "पैसा, बचत आणि कौटुंबिक बाबींमध्ये अचानक बदल दिसून येऊ शकतो. विचार न करता खर्च किंवा गुंतवणूक करणे टाळा, बोलण्यात काळजी घ्या."
+            },
+            {
+              "planet": "शनी (Saturn)",
+              "position": "3ऱ्या स्थानात",
+              "effect": "मेहनत, संवाद, कागदपत्रांची कामे आणि प्रलंबित कामे पूर्ण करण्यासाठी जास्त वेळ लागेल. छोटे प्रवास आणि व्यावसायिक कमिटमेंट वाढू शकतात."
+            },
+            {
+              "planet": "गुरु (Jupiter) आणि मंगळ (Mars)",
+              "position": "7व्या स्थानात",
+              "effect": "बिझनेस पार्टनरशिप, क्लायंट्स, विवाह आणि डीलिंग्सवर लक्ष राहील. व्यावसायिकांसाठी नवीन क्लायंट्स मिळण्याची किंवा व्यवसायाच्या विस्ताराची (Expansion) शक्यता निर्माण होऊ शकते. वैवाहिक जीवनात संवाद मवाळ ठेवा."
+            },
+            {
+              "planet": "सूर्य (Sun), बुध (Mercury) आणि शुक्र (Venus)",
+              "position": "10व्या स्थानात",
+              "effect": "प्रेझेंटेशन, संवाद, मीटिंग्ज, नेटवर्किंग, बिझनेस डीलिंग आणि सर्जनशील कामात फायदा मिळू शकतो."
+            },
+            {
+              "planet": "केतू (Ketu)",
+              "position": "8व्या स्थानात",
+              "effect": "अचानक संयुक्त आर्थिक बाबी आणि अनावश्यक चिंता टाळा. जुने न सुटलेले प्रश्न (Unresolved matters) पुन्हा समोर येऊ शकतात."
+            }
+          ],
+          "bestDays": {
+            "range": "1 ऑक्टोबर ते 17 ऑक्टोबर",
+            "note": "करिअर प्लॅनिंग, प्रलंबित कामे, नेटवर्किंग, आर्थिक नियोजन, व्यावसायिक संपर्क."
+          },
+          "cautionDays": {
+            "range": "17 ऑक्टोबरनंतर",
+            "note": "भागीदारी, विवाह, बिझनेस करार, आर्थिक निर्णय, संवाद."
+          },
+          "pending": false
+        },
+        {
+          "name": "कुंभ (Aquarius)",
+          "dates": "20 जानेवारी – 18 फेब्रुवारी",
+          "overview": "एकंदरीत हा महिना अचानक होणाऱ्या खर्चापासून सुरू होऊन नंतर नशीब, उच्च शिक्षण आणि प्रवासाकडे वळेल. तुम्हाला कौटुंबिक जबाबदाऱ्या काळजीपूर्वक सांभाळाव्या लागतील आणि बिझनेस करार करताना घाई करणे टाळावे लागेल.",
+          "transits": [
+            {
+              "date": "1 ऑक्टोबर",
+              "effect": "सूर्य (Sun) तुमच्या 8व्या स्थानात असल्यामुळे अचानक येणारे खर्च, प्रलंबित आर्थिक व्यवहार आणि कामात काहीशी अनिश्चितता (Uncertainty) राहू शकते."
+            },
+            {
+              "date": "17 ऑक्टोबरनंतर",
+              "planet": "सूर्य (Sun)",
+              "planetIcon": "Sun",
+              "house": "9व्या स्थानात",
+              "effect": "नशीब, उच्च शिक्षण, प्रवास आणि नवीन संधींवर लक्ष केंद्रित होईल."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "शनी (Saturn)",
+              "position": "2ऱ्या स्थानात",
+              "effect": "पैसा, कौटुंबिक जबाबदाऱ्या आणि आर्थिक नियोजनाकडे लक्ष द्यावे लागेल. कुटुंबाशी संबंधित खर्च समोर येऊ शकतात."
+            },
+            {
+              "planet": "राहू (Rahu)",
+              "position": "12व्या स्थानात",
+              "effect": "परदेशी संपर्क (Foreign Connection), दूरचा प्रवास किंवा परदेशाशी संबंधित संधी मिळू शकतात. अनावश्यक आणि अचानक खर्च वाढू शकतात."
+            },
+            {
+              "planet": "गुरु (Jupiter) आणि मंगळ (Mars)",
+              "position": "6व्या स्थानात",
+              "effect": "नोकरीत स्पर्धा वाढेल, आपले आरोग्य आणि दिनचर्येवर लक्ष द्या."
+            },
+            {
+              "planet": "केतू (Ketu)",
+              "position": "7व्या स्थानात",
+              "effect": "नातेसंबंध आणि भागीदारीत गैरसमज होऊ शकतात. बिझनेसमध्ये कोणताही करार घाईघाईने फायनल करू नका."
+            },
+            {
+              "planet": "सूर्य (Sun), बुध (Mercury) आणि शुक्र (Venus)",
+              "position": "9व्या स्थानात",
+              "effect": "प्रवास, नेटवर्किंग, शिक्षण, सल्लागार (Consulting) आणि संवादासाठी उत्तम वातावरण निर्माण होऊ शकते."
+            }
+          ],
+          "bestDays": {
+            "range": "1 ऑक्टोबर ते 17 ऑक्टोबर",
+            "note": "करिअरच्या संधी, नेटवर्किंग, प्रवास, शिक्षण, नवीन संपर्क आणि प्रलंबित व्यावसायिक प्रकरणे."
+          },
+          "cautionDays": {
+            "range": "17 ऑक्टोबरनंतर",
+            "note": "आर्थिक बाबी, अचानक खर्च, गोपनीय विषय, गुंतवणुकीचे निर्णय."
+          },
+          "pending": false
+        },
+        {
+          "name": "मीन (Pisces)",
+          "dates": "19 फेब्रुवारी – 20 मार्च",
+          "overview": "एकंदरीत या महिन्यात तुमचे लक्ष वैयक्तिक जबाबदाऱ्या, नवीन प्रोजेक्ट्स आणि नेटवर्किंगवर राहील. महिन्याच्या उत्तरार्धात संयुक्त आर्थिक बाबी आणि जुन्या नातेसंबंधातील प्रश्नांबद्दल सतर्क राहणे आवश्यक आहे.",
+          "transits": [
+            {
+              "date": "1 ऑक्टोबर",
+              "effect": "शनी (Saturn) तुमच्या 1ल्या स्थानात असल्यामुळे जबाबदाऱ्या वाढू शकतात आणि कामाबद्दल गांभीर्य (Seriousness) राहील. आरोग्य, दिनचर्या आणि वैयक्तिक निर्णयांवर लक्ष दिले पाहिजे."
+            },
+            {
+              "date": "17 ऑक्टोबरनंतर",
+              "planet": "सूर्य (Sun)",
+              "planetIcon": "Sun",
+              "house": "8व्या स्थानात",
+              "effect": "अचानक होणारे खर्च, संयुक्त वित्त (Joint Finance), टॅक्स, विमा, कर्ज आणि जुन्या आर्थिक बाबींवर लक्ष वाढू शकते."
+            }
+          ],
+          "extraTransits": [
+            {
+              "planet": "राहू (Rahu)",
+              "position": "11व्या स्थानात",
+              "effect": "नवीन संपर्क, नेटवर्किंग आणि व्यावसायिक वर्तुळातून उत्पन्नाच्या नवीन संधी निर्माण होऊ शकतात."
+            },
+            {
+              "planet": "गुरु (Jupiter) आणि मंगळ (Mars)",
+              "position": "5व्या स्थानात",
+              "effect": "शिक्षण, सर्जनशीलता (Creativity), मुले आणि प्रेमसंबंधांशी संबंधित बाबींमध्ये सक्रियता वाढेल. एखादा नवीन प्रोजेक्ट किंवा क्रिएटिव्ह काम सुरू करण्याचा विचार मनात येऊ शकतो."
+            },
+            {
+              "planet": "केतू (Ketu)",
+              "position": "6व्या स्थानात",
+              "effect": "स्पर्धा आणि जुनी प्रलंबित कामे हाताळण्याची तुमची क्षमता उत्तम राहील."
+            },
+            {
+              "planet": "सूर्य (Sun), बुध (Mercury) आणि शुक्र (Venus)",
+              "position": "8व्या स्थानात",
+              "effect": "जुने नातेसंबंधातील प्रश्न पुन्हा समोर येऊ शकतात. बिझनेसमध्ये गोपनीय माहिती (Confidential Information) आणि करार काळजीपूर्वक वाचा."
+            }
+          ],
+          "bestDays": {
+            "range": "1 ऑक्टोबर ते 17 ऑक्टोबर",
+            "note": "करिअर, नेटवर्किंग, उत्पन्नाच्या संधी, प्रेमसंबंध, शिक्षण, नवीन प्रोजेक्ट्स."
+          },
+          "cautionDays": {
+            "range": "17 ऑक्टोबरनंतर",
+            "note": "आर्थिक बाबी, नातेसंबंध, संवाद, महत्त्वाचे करार, अचानक होणारे खर्च."
+          },
+          "pending": false
+        }
+      ]
+    },
+    "products": {
+      "eyebrowText": "विनामूल्य साधने आणि सेवा",
+      "title": "AstroChitra वेब उत्पादने एक्सप्लोर करा",
+      "subtitle": "तुमच्या ज्योतिष प्रवासासाठी आवश्यक सर्वकाही, एकाच ठिकाणी.",
+      "items": [
+        {
+          "name": "कुंडली जनरेटर",
+          "desc": "तुमची विनामूल्य वैदिक जन्मकुंडली, सेकंदात तयार."
+        },
+        {
+          "name": "मॅचमेकिंग टूल",
+          "desc": "दोघांसाठी गुण-मिलान सुसंगतता."
+        },
+        {
+          "name": "AstroChitra Insights",
+          "desc": "तुमच्या कुंडलीसाठी डेटा-आधारित डॅशबोर्ड."
+        },
+        {
+          "name": "AstroChitra Journal",
+          "desc": "आमच्या ज्योतिषींकडून मांडलेले ज्ञान."
+        },
+        {
+          "name": "पंचांग ॲप",
+          "desc": "दैनिक तिथी, नक्षत्र, मुहूर्त आणि बरेच काही."
+        },
+        {
+          "name": "गुरुजींना विचारा",
+          "desc": "ज्येष्ठ ज्योतिषी तुमच्या प्रश्नांची उत्तरे देतात."
+        }
+      ]
+    },
+    "watch": {
+      "eyebrowText": "या महिन्यात पहा",
+      "title": "पहा आणि फॉलो करा",
+      "subtitle": "आमच्या चॅनेलवरील ज्ञान व्हिडिओ आणि दैनिक ब्रह्मांडीय अपडेट.",
+      "youtubeLabel": "YouTube · विशेष व्हिडिओ",
+      "visitChannel": "आमचे चॅनेल पहा",
+      "instagramLabel": "Instagram · विशेष रील्स",
+      "followInsta": "@astrochitra.official फॉलो करा",
+      "reels": [
+        {
+          "url": "https://www.instagram.com/reel/Da7u3wys_Ny/",
+          "video": "../../assets/october_2026/reels/video1.mp4",
+          "thumbnail": "../../assets/october_2026/reels/video1.jpg"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DcY0aPjt_le/",
+          "video": "../../assets/october_2026/reels/video2.mp4",
+          "thumbnail": "../../assets/october_2026/reels/video2.jpg"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DddEO_nD-FZ/",
+          "video": "../../assets/october_2026/reels/video3.mp4",
+          "thumbnail": "../../assets/october_2026/reels/video3.jpg"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DdvF0xHlVcg/",
+          "video": "../../assets/october_2026/reels/video4.mp4",
+          "thumbnail": "../../assets/october_2026/reels/video4.jpg"
+        }
+      ]
+    },
+    "mantra": {
+      "kicker": "महिन्याचा मंत्र",
+      "sanskrit": "सर्व मंगल मांगल्ये, शिवे सर्वार्थ साधिके<br>शरण्ये त्रंबके गौरी, नारायणी नमोस्तुते.",
+      "sections": [
+        {
+          "heading": "मंत्राचा अर्थ",
+          "paras": [
+            "हा पवित्र मंत्र देवीला वंदन करताना तिला सर्व मंगलांमध्ये श्रेष्ठ मंगलस्वरूप, कल्याणमयी, योग्य आणि मंगल संकल्प पूर्ण करणारी, शरण देणारी तसेच गौरी आणि नारायणीच्या दिव्य स्वरूपातील शक्ती म्हणून संबोधतो.",
+            "या मंत्राच्या केंद्रस्थानी देवीला केलेले विनम्र नमन आहे — मंगल, आश्रय, अंतर्गत शक्ती आणि शुभ व योग्य उद्दिष्टांच्या पूर्ततेसाठी तिच्या कृपेचे स्मरण."
+          ]
+        },
+        {
+          "heading": "ऑक्टोबरसाठी हा मंत्र का?",
+          "paras": [
+            "ऑक्टोबर महिन्याला नवरात्रीच्या आध्यात्मिक भावनेची विशेष जोड आहे. नवरात्री हा माँ दुर्गा आणि तिच्या विविध स्वरूपांच्या उपासनेचा पवित्र काळ आहे. हा काळ परंपरेने भक्ती, आत्मचिंतन, नवचैतन्य आणि आपल्या अंतर्गत शक्तीशी पुन्हा जोडले जाण्याची संधी मानला जातो.",
+            "हा मंत्र याच भावनेशी सुंदरपणे जुळतो. यात देवीचे मंगलस्वरूप, शरण देणारी शक्ती आणि सार्थक संकल्प पूर्ण करणारी देवी म्हणून स्मरण केले जाते. नवरात्रीच्या काळात श्रद्धा आणि भक्तीभावाने या मंत्राचा जप केल्याने मनाला स्थिर करण्यासाठी आणि दिवसाची सुरुवात कृतज्ञता, समर्पण व सकारात्मक संकल्पाने करण्यासाठी एक साधी आध्यात्मिक दिनचर्या तयार होऊ शकते."
+          ]
+        },
+        {
+          "heading": "भक्ती आणि आत्मचिंतनाचा महिना",
+          "paras": [
+            "या मंत्राकडे केवळ जप म्हणून न पाहता स्वतःशी पुन्हा जोडण्याची एक संधी म्हणून पाहा. नवरात्री आपल्याला नकारात्मकतेवर मात करून श्रद्धेने पुढे जाण्याची प्रेरणा देते. हा मंत्र त्या भावनेची आठवण आपल्या विचारांमध्ये, निर्णयांमध्ये आणि कृतींमध्ये जपण्याचे एक साधन ठरू शकतो."
+          ]
+        }
+      ]
+    },
+    "transits": {
+      "eyebrowText": "ग्रहगोचर",
+      "title": "ऑक्टोबर ग्रहगोचर आणि सण",
+      "subtitle": "महिन्याभरातील प्रमुख ग्रह हालचाली, तसेच लक्षात ठेवण्यायोग्य पवित्र तिथी.",
+      "planets": [
+        {
+          "name": "चंद्र",
+          "from": "कन्या",
+          "to": "तुळा",
+          "date": "1 ऑक्टोबर, 05:12 सकाळी",
+          "icon": "Moon"
+        },
+        {
+          "name": "चंद्र",
+          "from": "तुळा",
+          "to": "वृश्चिक",
+          "date": "3 ऑक्टोबर, 09:37 सकाळी",
+          "icon": "Moon"
+        },
+        {
+          "name": "शुक्र",
+          "from": "तुळा",
+          "to": "वृश्चिक",
+          "date": "4 ऑक्टोबर, 02:48 दुपारी",
+          "icon": "Venus"
+        },
+        {
+          "name": "चंद्र",
+          "from": "वृश्चिक",
+          "to": "धनु",
+          "date": "5 ऑक्टोबर, 04:26 दुपारी",
+          "icon": "Moon"
+        },
+        {
+          "name": "चंद्र",
+          "from": "धनु",
+          "to": "मकर",
+          "date": "7 ऑक्टोबर, 06:44 सायंकाळी",
+          "icon": "Moon"
+        },
+        {
+          "name": "बुध",
+          "from": "वृश्चिक",
+          "to": "धनु",
+          "date": "8 ऑक्टोबर, 11:15 सकाळी",
+          "icon": "Mercury"
+        },
+        {
+          "name": "चंद्र",
+          "from": "मकर",
+          "to": "कुंभ",
+          "date": "10 ऑक्टोबर, 01:58 सकाळी",
+          "icon": "Moon"
+        },
+        {
+          "name": "चंद्र",
+          "from": "कुंभ",
+          "to": "मीन",
+          "date": "12 ऑक्टोबर, 08:31 सकाळी",
+          "icon": "Moon"
+        },
+        {
+          "name": "चंद्र",
+          "from": "मीन",
+          "to": "मेष",
+          "date": "14 ऑक्टोबर, 10:02 सायंकाळी",
+          "icon": "Moon"
+        },
+        {
+          "name": "मंगळ",
+          "from": "कर्क",
+          "to": "सिंह",
+          "date": "15 ऑक्टोबर, 03:10 दुपारी",
+          "icon": "Mars"
+        },
+        {
+          "name": "चंद्र",
+          "from": "मेष",
+          "to": "वृषभ",
+          "date": "17 ऑक्टोबर, 12:47 दुपारी",
+          "icon": "Moon"
+        },
+        {
+          "name": "सूर्य",
+          "from": "तुळा",
+          "to": "वृश्चिक",
+          "date": "17 ऑक्टोबर, 04:55 दुपारी",
+          "icon": "Sun"
+        },
+        {
+          "name": "चंद्र",
+          "from": "वृषभ",
+          "to": "मिथुन",
+          "date": "19 ऑक्टोबर, 07:23 सायंकाळी",
+          "icon": "Moon"
+        },
+        {
+          "name": "चंद्र",
+          "from": "मिथुन",
+          "to": "कर्क",
+          "date": "22 ऑक्टोबर, 05:11 सकाळी",
+          "icon": "Moon"
+        },
+        {
+          "name": "बुध",
+          "from": "धनु",
+          "to": "मकर",
+          "date": "24 ऑक्टोबर, 09:39 सकाळी",
+          "icon": "Mercury"
+        },
+        {
+          "name": "चंद्र",
+          "from": "कर्क",
+          "to": "सिंह",
+          "date": "24 ऑक्टोबर, 06:58 सायंकाळी",
+          "icon": "Moon"
+        },
+        {
+          "name": "चंद्र",
+          "from": "सिंह",
+          "to": "कन्या",
+          "date": "27 ऑक्टोबर, 01:34 दुपारी",
+          "icon": "Moon"
+        },
+        {
+          "name": "चंद्र",
+          "from": "कन्या",
+          "to": "तुळा",
+          "date": "30 ऑक्टोबर, 04:46 सकाळी",
+          "icon": "Moon"
+        }
+      ],
+      "festivalsLabel": "सण",
+      "festivals": [
+        {
+          "name": "शरद नवरात्री",
+          "date": "11 ते 19 ऑक्टोबर",
+          "desc": "देवीच्या नळ रात्री — उपवास, संकल्प आणि शांत भक्तीसह महिन्याची सुरुवात."
+        },
+        {
+          "name": "दुर्गा अष्टमी व महानवमी",
+          "date": "19 ऑक्टोबर",
+          "desc": "नवरात्रीचा शिखर: कन्या पूजन आणि माँ दुर्गेच्या अंतिम रूपांचे आवाहन."
+        },
+        {
+          "name": "विजयादशमी",
+          "date": "20 ऑक्टोबर",
+          "desc": "धर्माचा विजय आणि नवीन कामे व शुभारंभासाठी शुभ दिवस."
+        },
+        {
+          "name": "शरद पौर्णिमा",
+          "date": "26 ऑक्टोबर",
+          "desc": "समृद्धीची पौर्णिमा, जिची रात्रीचे वातावरण शीतल व आरोग्यमय अमृताने भरलेले मानले जाते."
+        }
+      ],
+      "panchangCtaDesc": "दैनंदिन पंचांग, मुहूर्त आणि गोचर, राहू काळ, अभिजित मुहूर्त आणि बरेच काही पहा.",
+      "panchangCtaBtn": "पंचांग अॅप उघडा"
+    },
+    "myth": {
+      "eyebrowText": "मिथक बनाम तथ्य",
+      "title": "कष्ट की अनुशासन?",
+      "subtitle": "अंधविश्वास दूर करणे, एक-एक विश्वास तोडणे.",
+      "topic": "शनी साडेसाती",
+      "mythLabel": "मिथक",
+      "mythText": [
+        "शनि साडेसाती हा फक्त कष्ट, अडचणी आणि त्रास देणारा काळ असतो."
+      ],
+      "realityLabel": "तथ्य",
+      "realityText": [
+        "पारंपरिक वैदिक ज्योतिषाच्या दृष्टीने साडेसाती हा केवळ कष्टदायक काळ नसून शिस्त, कर्म, जबाबदारी, परिपक्वता आणि वास्तव स्वीकारण्याचा काळ म्हणूनही पाहिला जातो.",
+        "या काळात व्यक्तीला आपल्या कर्मांची अधिक जाणीव होऊन चुकीच्या सवयी आणि निर्णयांचा पुनर्विचार करण्याची संधी मिळू शकते. वेळ, पैसा आणि कामाचे नियोजन अधिक शिस्तबद्ध पद्धतीने करण्याची सवय विकसित होण्यासही हा काळ मदत करू शकतो.",
+        "इतरांवर अवलंबून राहण्यापेक्षा स्वतःच्या क्षमतेवर विश्वास वाढणे आणि आर्थिक बाबतीत अधिक शहाणपण व सावधपणा निर्माण होणे, हेही या काळाशी जोडले जाते. शनीला पारंपरिकरित्या त्वरित यशापेक्षा सातत्यपूर्ण आणि संयमी प्रयत्नांचे प्रतीक मानले जाते; त्यामुळे साडेसाती सातत्य, मेहनत आणि कार्यक्षमतेचा पाया मजबूत करण्यावर भर देऊ शकते.",
+        "कठीण परिस्थितीमधून जाताना व्यक्तीमध्ये नम्रता, धैर्य, सहनशक्ती आणि मानसिक ताकद विकसित होण्याची शक्यता असते. ध्यान, प्रार्थना, सेवा आणि आत्मचिंतन यांसारख्या साधना या काळाचा आध्यात्मिक विकासासाठी उपयोग करण्याचे तसेच दीर्घकालीन प्रगतीची मजबूत पायाभरणी करण्याचे पारंपरिक मार्ग मानले जातात."
+      ]
+    },
+    "know": {
+      "eyebrowText": "ज्योतिष माहिती",
+      "title": "तुम्हाला माहीत आहे का?",
+      "factTitle": "नळ रात्रींचा लय",
+      "factText": "नवरात्री म्हणजेच नळ रात्री. वैदिक मान्यतेनुसार रात्र हा चक्राचा विश्रांतीचा भाग मानला जातो, म्हणून सण देवीचे स्मरण रात्रींत करतात, दिवसात नाही. हेच नळ रात्री वसंतात चैत्र नवरात्री म्हणून परत येतात.",
+      "blogsLabel": "आमचे ब्लॉग · विशेष वाचन",
+      "readArticle": "लेख वाचा",
+      "blogs": [
+        {
+          "category": "Yogas",
+          "title": "Malavya Yoga: Meaning, Benefits, Effects & Formation",
+          "image": "blog1.webp",
+          "url": "https://blogs.astrochitra.com/malavya-yoga-meaning-benefits-effects-formation/"
+        },
+        {
+          "category": "Yogas",
+          "title": "Sunapha Yoga: Meaning, Benefits, Effects & Formation",
+          "image": "blog2.webp",
+          "url": "https://blogs.astrochitra.com/sunapha-yoga/"
+        },
+        {
+          "category": "Yogas",
+          "title": "Anapha Yoga: Meaning, Benefits, Effects, & Remedies",
+          "image": "blog3.webp",
+          "url": "https://blogs.astrochitra.com/anapha-yoga/"
+        },
+        {
+          "category": "Yogas",
+          "title": "Durudhara Yoga: Meaning, Benefits, Effects & Remedies",
+          "image": "blog4.webp",
+          "url": "https://blogs.astrochitra.com/durudhara-yoga/"
+        },
+        {
+          "category": "Yogas",
+          "title": "Chandra Mangal Yoga: Meaning, Benefits & Effects",
+          "image": "blog5.webp",
+          "url": "https://blogs.astrochitra.com/chandra-mangal-yoga/"
+        },
+        {
+          "category": "Yogas",
+          "title": "Rajalakshana Yoga: Meaning, Benefits, Effects & Remedies",
+          "image": "blog6.webp",
+          "url": "https://blogs.astrochitra.com/rajalakshana-yoga/"
+        }
+      ]
+    },
+    "testimonials": {
+      "eyebrowText": "कृपापूर्ण शब्द",
+      "title": "साधक काय म्हणतात"
+    },
+    "share": {
+      "eyebrowText": "तुमचे विचार शेअर करा",
+      "title": "या न्यूजलेटरवर टिप्पणी करा",
+      "subtitle": "आम्हाला तुमचे मत जाणून घेण्याची इच्छा आहे. खाली तुमची टिप्पणी सोडा — गुरुजींची टीम प्रत्येक संदेश वाचेल.",
+      "successMsg": "धन्यवाद! तुमची टिप्पणी प्राप्त झाली आहे.",
+      "emailLabel": "ईमेल पत्ता",
+      "emailPlaceholder": "tumcha.naam@domain.com",
+      "phoneLabel": "फोन / WhatsApp",
+      "phoneOptional": "(पर्यायी)",
+      "phonePlaceholder": "+91 98765 43210",
+      "commentLabel": "टिप्पणी",
+      "commentOptional": "(पर्यायी)",
+      "commentPlaceholder": "आम्हाला सांगा तुम्हाला काय आवडले, किंवा गुरुजींना प्रश्न विचारा...",
+      "submitBtn": "टिप्पणी पाठवा",
+      "privacyNote": "आम्ही तुमच्या गोपनीयतेचा आदर करतो — संपर्क माहिती केवळ तुम्हाला प्रतिसाद देण्यासाठी वापरली जाते."
+    },
+    "final": {
+      "eyebrowText": "या महिन्यात मर्यादित स्लॉट",
+      "title": "तारे तुमचे पुढचे पाऊल<br><em>निर्देशित करतील</em>",
+      "subtitle": "ऑक्टोबरचे स्लॉट भरण्यापूर्वी गुरुजींकडून तुमचा वैयक्तिक सल्ला बुक करा.",
+      "callBtn": "कॉल / आता बुक करा",
+      "shareBtn": "न्यूजलेटर शेअर करा",
+      "footerTag": "AstroChitra",
+      "footerCopy": "© 2026 AstroChitra. सर्व हक्क राखीव.",
+      "footerLinks": [
+        {
+          "text": "कुंडली",
+          "url": "https://astrochitra.com/kundli"
+        },
+        {
+          "text": "पंचांग",
+          "url": "https://panchang.astrochitra.com/"
+        },
+        {
+          "text": "मॅचमेकिंग",
+          "url": "https://astrochitra.com/matchmaking"
+        },
+        {
+          "text": "Insights",
+          "url": "https://astrochitra.com/insights"
+        },
+        {
+          "text": "जर्नल",
+          "url": "https://blogs.astrochitra.com/"
+        }
+      ]
+    },
+    "whatsappModal": {
+      "title": "न्यूजलेटरची सदस्यता घ्या",
+      "text": "आमच्या न्यूजलेटरची सदस्यता घेण्यासाठी, या WhatsApp ग्रुपमध्ये सामील व्हा.",
+      "joinBtn": "WhatsApp ग्रुपमध्ये सामील व्हा"
+    },
+    "shareToast": "लिंक क्लिपबोर्डवर कॉपी झाला",
+    "waPill": "ग्रुपमध्ये सामील व्हा"
+  }
+}
